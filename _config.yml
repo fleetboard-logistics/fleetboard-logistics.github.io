@@ -3,4 +3,4 @@ logo: /img/FleetBoard_banner.png
 description: The Fleetboard logistics technical docs.
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-architect
+theme: jekyll-theme-minimal
