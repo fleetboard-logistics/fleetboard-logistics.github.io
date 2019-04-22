@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
-title: [Fleetboard logistics]
-description: ["img/fleetboard_logistics_logo.png"]
-logo: [Location of the logo]
-show_downloads: ["true"]
+title: "Fleetboard logistics"
+description: "The Fleetboard logistics technical docs"
+logo: "img/fleetboard_logistics_logo.png"
+show_downloads: true
