@@ -14,6 +14,6 @@ How to something with conizi.
 ## Semantic Models
 The semantic models as interface definitions for the conizi platform.
 
-* [The JSON schema definitions]({{ repository_url }}/semantic-model/model)
-* [The C# Models]({{ repository_url }}/semantic-model/src/Conizi.Model)
+* [The JSON schema definitions]({{  site.github.repository_url }}/semantic-model/model)
+* [The C# Models]({{  site.github.repository_url }}/semantic-model/src/Conizi.Model)
 
