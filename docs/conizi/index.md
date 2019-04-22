@@ -14,11 +14,11 @@ How to something with conizi.
 ## Semantic Models
 The semantic models as interface definitions for the conizi platform.
 
-* [The JSON schema definitions](https://{{ hostname }}/fleetboard-logistics/semantic-model/model)
-* [JSON examples](https://{{ hostname }}/fleetboard-logistics/semantic-model/examples)
-* [The C# Models](https://{{ hostname }}/fleetboard-logistics/semantic-model/src/Conizi.Model)
+* [The JSON schema definitions](https://github.comfleetboard-logistics/semantic-model/model)
+* [JSON examples](https://github.com/fleetboard-logistics/semantic-model/examples)
+* [The C# Models](https://github.com/fleetboard-logistics/semantic-model/src/Conizi.Model)
 
 ## Mappings
 Documentation for mappings already created.
 
-* [JSON examples](https://{{ hostname }}/fleetboard-logistics/semantic-model/doc/mapping/README.md)
+* [JSON examples](https://github.com/fleetboard-logistics/semantic-model/doc/mapping/README.md)
