@@ -3,8 +3,8 @@
 You are on the home page of the conizi technical documentation.
 This page is divided into several sections. 
 
-## conizi Architecture
-A short overview of the conizi architecure.
+## Architecture
+A overview of the conizi architecure.
 
 ## How To
 How to something with conizi.
@@ -14,6 +14,11 @@ How to something with conizi.
 ## Semantic Models
 The semantic models as interface definitions for the conizi platform.
 
-* [The JSON schema definitions]({{  site.github.repository_url }}/semantic-model/model)
-* [The C# Models]({{  site.github.repository_url }}/semantic-model/src/Conizi.Model)
+* [The JSON schema definitions]({{ owner_url }}/semantic-model/model)
+* [JSON examples]({{ owner_url }}/semantic-model/examples)
+* [The C# Models]({{ owner_url }}/semantic-model/src/Conizi.Model)
 
+## Mappings
+Documentation for mappings already created.
+
+* [JSON examples]({{ owner_url }}/semantic-model/doc/mapping/README.md)
