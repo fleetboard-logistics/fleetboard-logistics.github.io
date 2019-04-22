@@ -25,7 +25,7 @@ header {
   padding-right: 0.3em;
   margin-left: -0.9em;
   color: $color-link-h;
-//   content: "/";
+  content: "";
 }
 #main-content h2 {
     margin-bottom: 8px;
@@ -39,7 +39,7 @@ header {
 #main-content h2:before {
     padding-right: 0.3em;
     margin-left: -1.5em;
-    // content: "//";
+    content: "";
     color: $color-link-h;
 }
 
@@ -110,7 +110,7 @@ a {
   color: $color-link-h;
 }
 
-footer {
+.footer {
     text-align: center;
     padding: 5px;
     margin: 5px;
