@@ -4,6 +4,8 @@ description: The Fleetboard Logistics technical docs.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-architect
+plugins:
+  - jekyll-relative-links
 relative_links:
   enabled: true
   collections: true
