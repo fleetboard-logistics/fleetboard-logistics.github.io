@@ -1,5 +1,6 @@
-theme: jekyll-theme-minimal
-title: "Fleetboard logistics"
-description: "The Fleetboard logistics technical docs"
-logo: "img/fleetboard_logistics_logo.png"
+title: Fleetboard Logistics
+logo: /img/fleetboard_logistics_logo.png
+description: The Fleetboard logistics technical docs.
 show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal
