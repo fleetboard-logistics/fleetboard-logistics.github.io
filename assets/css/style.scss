@@ -25,7 +25,7 @@ header {
   padding-right: 0.3em;
   margin-left: -0.9em;
   color: $color-link-h;
-  content: "/";
+//   content: "/";
 }
 #main-content h2 {
     margin-bottom: 8px;
@@ -39,7 +39,7 @@ header {
 #main-content h2:before {
     padding-right: 0.3em;
     margin-left: -1.5em;
-    content: "//";
+    // content: "//";
     color: $color-link-h;
 }
 
@@ -56,7 +56,7 @@ header {
 #main-content h3:before {
     padding-right: 0.3em;
     margin-left: -2em;
-    content: "///";
+    // content: "///";
     color: $color-link-h;
 }
 
@@ -72,7 +72,7 @@ header {
 h4:before {
     padding-right: 0.3em;
     margin-left: -2.8em;
-    content: "////";
+    // content: "////";
     color: $color-link-h;
 }
 
@@ -87,7 +87,7 @@ h4:before {
 h5:before {
     padding-right: 0.3em;
     margin-left: -3.2em;
-    content: "/////";
+    // content: "/////";
     color: $color-link-h;
 }
 
@@ -102,10 +102,16 @@ h5:before {
 h6:before {
     padding-right: 0.3em;
     margin-left: -3.7em;
-    content: "//////";
+    // content: "//////";
     color: $color-link-h;
 }
 
 a {
   color: $color-link-h;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
 }
