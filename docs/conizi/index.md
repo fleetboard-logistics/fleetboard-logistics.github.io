@@ -14,11 +14,11 @@ How to something with conizi.
 ## Semantic Models
 The semantic models as interface definitions for the conizi platform.
 
-* [The JSON schema definitions]({{ site.github.owner_url }}../semantic-model/model)
-* [JSON examples]({{ site.github.owner_url }}../semantic-model/examples)
-* [The C# Models]({{ site.github.owner_url }}../semantic-model/src/Conizi.Model)
+* [The JSON schema definitions]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/model)
+* [JSON examples]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/examples)
+* [The C# Models]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/src/Conizi.Model)
 
 ## Mappings
 Documentation for mappings already created.
 
-* [JSON examples]({{ site.github.owner_url }}../semantic-model/doc/mapping/README.md)
+* [JSON examples]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/doc/mapping/README.md)
