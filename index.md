@@ -3,13 +3,21 @@
 
 Welcome to the technical documentation of Fleetboard Logistics. This is the starting point for all documentation stuff. Here you can find documents about the product habbl as well as about the integration platform conizi.
 
-## [conizi](docs/conizi/index.md)
+---
+
+**NOTE**
+
+Attention, the documentation is still under construction. Please be patient.
+
+---
+
+<!-- ## [conizi](docs/conizi/index.md) -->
 <p align="center">
-   <img src="/img/logo_conizi_circle.svg">
+   <a href="docs/conizi/index.md"><img src="/img/logo_conizi_circle.svg"></a>
 </p>
 
-## [habbl](docs/habbl/index.md)
+<!-- ## [habbl](docs/habbl/index.md) -->
 
 <p align="center">
-   <img src="/img/logo_habbl_circle.svg">
+   <a href="docs/habbl/index.md"><img src="/img/logo_habbl_circle.svg"></a>
 </p>
