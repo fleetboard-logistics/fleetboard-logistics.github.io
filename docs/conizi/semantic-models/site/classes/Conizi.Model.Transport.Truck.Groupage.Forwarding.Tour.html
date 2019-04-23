@@ -1,0 +1,627 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Tour
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Tour
+   ">
+    <meta name="generator" content="docfx 2.42.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../fusion/toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour">
+  
+  
+  <h1 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour" class="text-break">Class Tour
+  </h1>
+  <div class="markdown level0 summary"><p>A tour describes a amount of stops given an explicit stop order, containing all information about activities to be done,
+e.g.loading and unloading information about consignments or maintenance stops</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase</span></div>
+    <div class="level2"><span class="xref">Conizi.Model.Shared.Entities.EdiModel</span></div>
+    <div class="level3"><span class="xref">Tour</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.html">Conizi.Model.Transport.Truck.Groupage.Forwarding</a></h6>
+  <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
+  <h5 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConiziSchema(&quot;https://model.conizi.io/v1/transport/truck/groupage/forwarding/tour.json&quot;, &quot;tour.json&quot;)]
+[ConiziAdditionalProperties(false)]
+[ConiziAllowXProperties(true)]
+public class Tour : EdiModel</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_AdditionalLoadingEquipment_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.AdditionalLoadingEquipment*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_AdditionalLoadingEquipment" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.AdditionalLoadingEquipment">AdditionalLoadingEquipment</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiAdditionalLoadingEquipment AdditionalLoadingEquipment { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Conizi.Model.Shared.Entities.EdiAdditionalLoadingEquipment</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Carrier_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Carrier*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Carrier" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Carrier">Carrier</h4>
+  <div class="markdown level1 summary"><p>Company responsible for the actual transport of the goods from the shipping partner to the recipient</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;carrier&quot;, Order = -5)]
+public EdiAddress Carrier { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Conizi.Model.Shared.Entities.EdiAddress</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_CarrierNotes_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.CarrierNotes*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_CarrierNotes" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.CarrierNotes">CarrierNotes</h4>
+  <div class="markdown level1 summary"><p>Carrier Notes. Notes which can be attached by the delivering driver</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;carrierNotes&quot;, Order = -7)]
+public string CarrierNotes { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Consignments_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Consignments*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Consignments" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Consignments">Consignments</h4>
+  <div class="markdown level1 summary"><p>Consignments. Consignments which are delivered while processing the tour</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;consignments&quot;, ReferenceLoopHandling = ReferenceLoopHandling.Ignore, ItemIsReference = false)]
+public List&lt;Consignment&gt; Consignments { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.html">Consignment</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_DangerousGoods_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.DangerousGoods*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_DangerousGoods" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.DangerousGoods">DangerousGoods</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TourDangerousGoods DangerousGoods { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.TourDangerousGoods.html">TourDangerousGoods</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Description_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Description*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Description" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Description">Description</h4>
+  <div class="markdown level1 summary"><p>The Description. A description of the tour, maybe the occasion of the tour</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;description&quot;, Order = -9)]
+public string Description { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Divers_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Divers*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Divers" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Divers">Divers</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;EdiDriver&gt; Divers { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Conizi.Model.Shared.Entities.EdiDriver</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_DriverNotes_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.DriverNotes*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_DriverNotes" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.DriverNotes">DriverNotes</h4>
+  <div class="markdown level1 summary"><p>Driver Notes. Notes which can be attached by the delivering driver</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;driverNotes&quot;, Order = -8)]
+public string DriverNotes { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_LoadUnits_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.LoadUnits*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_LoadUnits" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.LoadUnits">LoadUnits</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;EdiLoadUnit&gt; LoadUnits { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiLoadUnit.html">EdiLoadUnit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_MessageFunctionCode_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.MessageFunctionCode*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_MessageFunctionCode" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.MessageFunctionCode">MessageFunctionCode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonConverter(typeof(StringEnumConverter))]
+[JsonProperty(&quot;messageFunctionCode&quot;, Order = -11)]
+public EdiMessageFunctionCode MessageFunctionCode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Conizi.Model.Shared.Definitions.EdiMessageFunctionCode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_NotificationParties_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.NotificationParties*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_NotificationParties" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.NotificationParties">NotificationParties</h4>
+  <div class="markdown level1 summary"><p>Notification Parties</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;EdiPartnerIdentification&gt; NotificationParties { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Conizi.Model.Shared.Entities.EdiPartnerIdentification</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Route_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Route*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Route" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Route">Route</h4>
+  <div class="markdown level1 summary"><p>The Route. Information about the route to be driven or its identification</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;route&quot;, Order = -8)]
+public string Route { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_ShippingDate_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.ShippingDate*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_ShippingDate" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.ShippingDate">ShippingDate</h4>
+  <div class="markdown level1 summary"><p>Shipping date</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;shippingDate&quot;, Order = -6)]
+[ConiziDateOnly]
+public DateTime ShippingDate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Stops_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Stops*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Stops" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Stops">Stops</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;EdiTourStop&gt; Stops { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">Conizi.Model.Shared.Entities.EdiTourStop</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_TourEndOptions_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.TourEndOptions*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_TourEndOptions" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.TourEndOptions">TourEndOptions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TourEndOptions TourEndOptions { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEndOptions.html">TourEndOptions</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_TourId_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.TourId*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_TourId" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.TourId">TourId</h4>
+  <div class="markdown level1 summary"><p>The Tour Id. A unique identifier assigned to this tour by the devlivering company</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;tourId&quot;, Order = -10)]
+public string TourId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_TourStartOptions_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.TourStartOptions*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_TourStartOptions" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.TourStartOptions">TourStartOptions</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TourStartOptions TourStartOptions { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.TourStartOptions.html">TourStartOptions</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Vehicles_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Vehicles*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Vehicles" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Vehicles">Vehicles</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;EdiVehicle&gt; Vehicles { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiVehicle.html">EdiVehicle</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

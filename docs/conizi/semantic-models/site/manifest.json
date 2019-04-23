@@ -1,0 +1,648 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/src/sematicmodel/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "9eM314ZokLWrdsEGfdt+Zg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Cancellation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Cancellation.html",
+          "hash": "wIIFQIWb/X9d5+qncTswLg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.html",
+          "hash": "lbS5aPJM6B1zeNAg6U9RcA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html",
+          "hash": "/37MXYOxMZJHNCq8b/wpfQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiArchived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiArchived.html",
+          "hash": "0VbnX6R9h1XbeYzB15pdKA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiDataProcessing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiDataProcessing.html",
+          "hash": "+CDlk05GFsyCP7Qqw1q0ZA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiDeliveryPlanning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiDeliveryPlanning.html",
+          "hash": "b8jWUPcfZXcHni8dfzNIXg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiDisposed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiDisposed.html",
+          "hash": "VAxmKOsJXPqeBBhj+/aNVA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventArrivalAtReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventArrivalAtReceiver.html",
+          "hash": "/2mDB/apx7+TU7usjwvQLA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventChangeRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventChangeRequest.html",
+          "hash": "6AvV0Sbtcf/x1rhhp/867A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventCompletion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventCompletion.html",
+          "hash": "r/3eXXgJdr+Co1mzYCPZpg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventDeliveryAttemptFailed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventDeliveryAttemptFailed.html",
+          "hash": "gNklRlFQuIYg3l+jPHE0iA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventDeliveryStarted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventDeliveryStarted.html",
+          "hash": "EjjjA04SJOxypLwQvK7AJw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventDeliverySuccessful.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventDeliverySuccessful.html",
+          "hash": "XMTAdBVWGKoGWqSdf4wpeA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventEstimatedArrivalAtReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventEstimatedArrivalAtReceiver.html",
+          "hash": "1EchvcvLl+I5HgucgkS4aA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventGateway.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventGateway.html",
+          "hash": "Hod+oTNpHo5jr+JHWA+6tA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiEventNotification.html",
+          "hash": "Tu5EasrbdLJVbSkKncNdkA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiGeneralProcessingNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiGeneralProcessingNotification.html",
+          "hash": "iohZxtEClQY3sW6mnZvqpQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiLoadUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiLoadUnit.html",
+          "hash": "NRLJVXQxeyG8f+/3jA+GSg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiManifestLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiManifestLine.html",
+          "hash": "LEIEYqse6KEy5AHQkDMQcA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiRedirectedTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiRedirectedTo.html",
+          "hash": "4pYJJhFshCsvAKfdlM5YSQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiReleaseAuthorizationReceived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiReleaseAuthorizationReceived.html",
+          "hash": "+802zs2CvMHG5dW7tKrbVA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiSeal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiSeal.html",
+          "hash": "r0Ao323ltkpoiOAAHJ7mVA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiSigningInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiSigningInformation.html",
+          "hash": "vnhrWKVo+zMBJlJuvHeSRw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiStopSpecificEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiStopSpecificEvent.html",
+          "hash": "KSrekwvekQqt8pYLe/Ypxw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiTourDocuments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiTourDocuments.html",
+          "hash": "NgDR87x3UdfqCG2pZTBIDA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiTourEventBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiTourEventBase.html",
+          "hash": "VEXMbPXDo6xbeoL2TxmZKA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiTourSpecificEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiTourSpecificEvent.html",
+          "hash": "ofLTG1aQJSTl/YsuRNUwig=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiTrigger.html",
+          "hash": "G1DFbLKwkO8Fr/Y+pid6Bg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiUnloading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiUnloading.html",
+          "hash": "1YbvHMOi1K+oQ2qIlIBzUg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiVehicle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiVehicle.html",
+          "hash": "711/3qlgB2XR2hE3NtRDEw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiVehicleSpecificEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EdiVehicleSpecificEvent.html",
+          "hash": "w4F37cKmh6ZCnNFhJZ0UXw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EventBulk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EventBulk.html",
+          "hash": "3aYWpaz/mk0CqrwmLPRiXw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Manifest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Manifest.html",
+          "hash": "kxep0sbdDBak5hNgiND3bw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html",
+          "hash": "cRhEBgmgzHxQ1mJP5NwS3g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.html",
+          "hash": "I0lAMDQwVjjRo/iBHPU6Qw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderEvent.html",
+          "hash": "wHZSr1Uqs+NtNRBHo7qVyg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html",
+          "hash": "nmGZdfKznKODvvwpQsiUOQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.TourDangerousGoods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.TourDangerousGoods.html",
+          "hash": "OOPHpKcWrghP61dw1pvDwg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEndOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEndOptions.html",
+          "hash": "USsN2Kj5Bq/vAn7mlMOo/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.html",
+          "hash": "4/qhDfRRYTeGkBkB5HO2/g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.TourStartOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.TourStartOptions.html",
+          "hash": "tW2L/YQvrSzXHeGHKXcuhQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.html",
+          "hash": "xdV+TKhJ1XQWxw8T1g3alQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "classes/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "classes/index.html",
+          "hash": "jw+FV7YM/2XhxiApTTcR2g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "examples/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "examples/intro.html",
+          "hash": "HS2Cwjk19gHKUALYNtvvpg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "fusion/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "fusion/toc.html",
+          "hash": "C3xki52ZfsSbwHtO2uTCzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Hl1f/uE6i41T2YVR5Mpxdw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "mtSOJdBcng3u3YAH55aLjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 4
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 42,
+          "skipped_file_count": 42
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

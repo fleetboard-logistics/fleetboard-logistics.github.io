@@ -20,7 +20,8 @@ The semantic models as interface definitions for the conizi platform.
 
 * [The JSON schema definitions]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/model){:target="_blank"}
 * [JSON examples]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/examples){:target="_blank"}
-* [The C# Models]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/src/Conizi.Model){:target="_blank"}
+<!-- * [The C# Models]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/src/Conizi.Model){:target="_blank"} -->
+* [The C# Models](semantic-models/site/index.html)
 
 ## Mappings
 Documentation for mappings already created.
