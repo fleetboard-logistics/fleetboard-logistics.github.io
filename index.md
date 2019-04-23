@@ -5,18 +5,18 @@ Welcome to the technical documentation of Fleetboard Logistics. This is the star
 
 ---
 
-**NOTE**
-
-Attention, the documentation is still under construction. Please be patient.
+***Attention, the documentation is still under construction. Please be patient.***
 
 ---
 
-<!-- ## [conizi](docs/conizi/index.md) -->
+## Select a product
+
+<!-- ## [conizi](docs/conizi/index.html) -->
 <p align="center">
    <a href="docs/conizi/index.md"><img src="/img/logo_conizi_circle.svg"></a>
 </p>
 
-<!-- ## [habbl](docs/habbl/index.md) -->
+<!-- ## [habbl](docs/habbl/index.html) -->
 
 <p align="center">
    <a href="docs/habbl/index.md"><img src="/img/logo_habbl_circle.svg"></a>
