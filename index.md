@@ -13,11 +13,11 @@ Welcome to the technical documentation of Fleetboard Logistics. This is the star
 
 <!-- ## [conizi](docs/conizi/index.html) -->
 <p align="center">
-   <a href="docs/conizi/index.md"><img src="/img/logo_conizi_circle.svg"></a>
+   <a href="docs/conizi/index.html"><img src="/img/logo_conizi_circle.svg"></a>
 </p>
 
 <!-- ## [habbl](docs/habbl/index.html) -->
 
 <p align="center">
-   <a href="docs/habbl/index.md"><img src="/img/logo_habbl_circle.svg"></a>
+   <a href="docs/habbl/index.html"><img src="/img/logo_habbl_circle.svg"></a>
 </p>
