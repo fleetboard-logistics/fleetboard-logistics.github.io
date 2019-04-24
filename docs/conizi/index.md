@@ -3,6 +3,12 @@
 You are on the home page of the conizi technical documentation.
 This page is divided into several sections. 
 
+---
+
+***Attention, the documentation is still under construction. Please be patient.***
+
+---
+
 ## Architecture
 A overview of the conizi architecure.
 

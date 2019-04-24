@@ -128,14 +128,34 @@ a {
 }
 
 .nav-item {
-    font-family: $font-family-code;
-    font-size: 14px;
-    padding: 2px;
-    margin: 2px;
-  }
+  font-family: $font-family-code;
+  font-size: 14px;
+  padding: 2px;
+  margin: 2px;
+}
 
 .footer {
   text-align: center;
   padding: 5px;
   margin: 5px;
+}
+
+body:after {
+  content: "beta";
+  position: fixed;
+  width: 80px;
+  height: 25px;
+  background: #2879d0;
+  top: 7px;
+  left: -20px;
+  text-align: center;
+  font-size: 13px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  line-height: 27px;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
