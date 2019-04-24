@@ -79,9 +79,8 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase.html">EdiPatternPropertiesBase</a></div>
+    <div class="level1"><span class="xref">Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase</span></div>
     <div class="level2"><span class="xref">EdiModel</span></div>
-      <div class="level3"><a class="xref" href="Conizi.Model.Archiving.ProofOfDelivery.html">ProofOfDelivery</a></div>
       <div class="level3"><a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.html">Consignment</a></div>
       <div class="level3"><a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html">ConsignmentEvent</a></div>
       <div class="level3"><a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.EventBulk.html">EventBulk</a></div>
@@ -92,52 +91,23 @@
       <div class="level3"><a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html">Tour</a></div>
       <div class="level3"><a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.html">TourEvent</a></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase.html#Conizi_Model_Shared_Interfaces_EdiPatternPropertiesBase_AddPatternProperty_System_String_System_Object_">EdiPatternPropertiesBase.AddPatternProperty(String, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase.html#Conizi_Model_Shared_Interfaces_EdiPatternPropertiesBase_CreateAndAddPatternProperty__1_System_String_System_Object_">EdiPatternPropertiesBase.CreateAndAddPatternProperty&lt;T&gt;(String, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase.html#Conizi_Model_Shared_Interfaces_EdiPatternPropertiesBase_GetPatternPropertyValue_System_String_">EdiPatternPropertiesBase.GetPatternPropertyValue(String)</a>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetHashCode()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.GetType()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.MemberwiseClone()</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-    </div>
-    <div>
-      <span class="xref">System.Object.ToString()</span>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
   <h5 id="Conizi_Model_Shared_Entities_EdiModel_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class EdiModel : EdiPatternPropertiesBase</code></pre>
   </div>
+  <h5 id="Conizi_Model_Shared_Entities_EdiModel_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Every conizi model must inherit from this class to be serialized correctly</p>
+</div>
   <h3 id="properties">Properties
   </h3>
   
   
   <a id="Conizi_Model_Shared_Entities_EdiModel_Network_" data-uid="Conizi.Model.Shared.Entities.EdiModel.Network*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiModel_Network" data-uid="Conizi.Model.Shared.Entities.EdiModel.Network">Network</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The used network for this message</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -163,7 +133,8 @@ public EdiNetwork Network { get; set; }</code></pre>
   
   <a id="Conizi_Model_Shared_Entities_EdiModel_Receiver_" data-uid="Conizi.Model.Shared.Entities.EdiModel.Receiver*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiModel_Receiver" data-uid="Conizi.Model.Shared.Entities.EdiModel.Receiver">Receiver</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The receiver of this message</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -212,11 +183,17 @@ public string Schema { get; }</code></pre>
       </tr>
     </tbody>
   </table>
+  <h5 id="Conizi_Model_Shared_Entities_EdiModel_Schema_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The production ready models are hosted at <a href="https://model.conizi.io/%5Bversion%5D">https://model.conizi.io/[version]</a>
+The github repository <a href="https://github.com/fleetboard-logistics/semantic-model">https://github.com/fleetboard-logistics/semantic-model</a> contains the models source.
+Please use the production branch to get a stable version.</p>
+</div>
   
   
   <a id="Conizi_Model_Shared_Entities_EdiModel_Sender_" data-uid="Conizi.Model.Shared.Entities.EdiModel.Sender*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiModel_Sender" data-uid="Conizi.Model.Shared.Entities.EdiModel.Sender">Sender</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The sender of this message</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

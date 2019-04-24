@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Getting Started Articles </title>
+    <title>Getting Started with conizi semantic models </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Getting Started Articles ">
+    <meta name="title" content="Getting Started with conizi semantic models ">
     <meta name="generator" content="docfx 2.42.1.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
@@ -67,8 +67,71 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="getting-started-articles">Getting Started Articles</h1>
+<h2 id="getting-started-with-conizi-semantic-models">Getting Started with conizi semantic models</h2>
 
+<p>The conizi semantic models describe all business objects that can be used on the conizi platform.</p>
+<p>The original definition of these objects (models) was implemented with <a href="https://json-schema.org/">JSON Schema</a> (Draft 6) and is still valid. You can get the JSON schema definition via <a href="https://github.com/fleetboard-logistics/semantic-model/tree/production/model">Github</a>.</p>
+<h3 id="the-c-models">The C# Models</h3>
+<p>In the course of the further development of conizi and the takeover of habbl and conizi by <a href="https://www.fleetboard.de">Daimler Fleetboard</a> and the transfer to <a href="https://fleetboard-logistics.com">Fleetboard Logistics GmbH</a>, it was decided to implement the semantic models in C# as well.</p>
+<p>This enables TMS providers and customers, who rely on Microsoft's .NET Framework in their software, to easily integrate the models into their environment.</p>
+<p>The library is divided into two parts:</p>
+<ul>
+<li>The conizi semantic models in C# =&gt; <a class="xref" href="../classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.html">Conizi.Model</a></li>
+<li>A set of tools to deal with the models (generate, serialize, de-serialize...) =&gt; <a href="">Conizi.Model.Core</a></li>
+</ul>
+<p>You can get the library from two different Nuget packages:</p>
+<ul>
+<li><a href="https://nexus.fleetboard-logistics.com/#browse/search/nuget=attributes.nuget.id%3DConizi.Model">Conizi.Model</a> at the moment from FL Nexus <a href="https://nexus.fleetboard-logistics.com/repository/nuget-group/">https://nexus.fleetboard-logistics.com/repository/nuget-group/</a></li>
+<li><a href="https://nexus.fleetboard-logistics.com/#browse/search/nuget=attributes.nuget.id%3DConizi.Model.Core">Conizi.Model.Core</a> at the moment from FL Nexus <a href="https://nexus.fleetboard-logistics.com/repository/nuget-group/">https://nexus.fleetboard-logistics.com/repository/nuget-group/</a></li>
+</ul>
+<p>New models and further developments are carried out exclusively in C#. The C# models can then be converted into JSON schemas or other possible formats.</p>
+<p>It is also possible to generate a message from a C# model, which is then sent directly to conizi. The C# models are not only used to define the message (schema/model), but also as the message itself.</p>
+<h3 id="example-for-a-simple-tour-event">Example for a simple <a class="xref" href="../classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.html">tour-event</a></h3>
+<pre><code class="lang-cs">var m = new TourEvent
+{
+    TourId = &quot;MyTourId&quot;,
+    Receiver = new EdiMessageRouting
+    {
+        EdiId = &quot;DAIMLER&quot;
+    },
+    Network = new EdiNetwork
+    {
+        NetworkId = &quot;FBL&quot;
+    },
+    Tour = new EdiTourSpecificEvent
+    {
+        EventDateTime = DateTime.Now,
+        TourAccepted = true
+    }
+}
+</code></pre>
+<h3 id="serialize-the-tour-event-to-json">Serialize the <a class="xref" href="../classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.html">tour-event</a> to JSON</h3>
+<pre><code class="lang-cs">var result =  Converter.Serialize(m);
+</code></pre>
+<h3 id="serialization-result-of-the--tour-event">Serialization result of the  <a class="xref" href="../classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.html">tour-event</a></h3>
+<pre><code class="lang-json">{
+   &quot;$schema&quot;: &quot;https://model.conizi.io/v1/transport/truck/groupage/forwarding/tour-event.json&quot;,
+   &quot;receiver&quot;: {
+       &quot;ediId&quot;: &quot;DAIMLER&quot;
+   },
+   &quot;network&quot;: {
+       &quot;networkId&quot;: &quot;FBL&quot;
+   },
+   &quot;tourId&quot;: &quot;MyTourId&quot;,
+   &quot;tour&quot;: {
+       &quot;eventDateTime&quot;: &quot;2019-04-24T18:07:05.5784106+02:00&quot;,
+       &quot;tourAccepted&quot;: true
+   }
+}
+</code></pre>
+<p>This serialized tour-event JSON message is ready to send to conizi Input HTTP API. Please have a look <a href="https://fleetboard-logistics.github.io/docs/conizi/howto/howto-conizi-http-input-api.pdf">here</a>, to get further information how the API works.</p>
+<h3 id="further-information">Further information</h3>
+<p>In the following, some scenarios are described, which should help in working with conizi.</p>
+<ul>
+<li>Working with a <a href="consignment.md">consignment</a></li>
+<li>Working with a <a href="tour.md">tour</a></li>
+<li>Working with <a href="events.md">events</a></li>
+</ul>
 </article>
           </div>
           
