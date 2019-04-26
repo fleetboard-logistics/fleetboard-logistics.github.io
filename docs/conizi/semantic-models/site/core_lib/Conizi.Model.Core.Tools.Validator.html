@@ -68,56 +68,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Conizi.Model.Core.Validate.Validator">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Core.Tools.Validator">
   
   
-  <h1 id="Conizi_Model_Core_Validate_Validator" data-uid="Conizi.Model.Core.Validate.Validator" class="text-break">Class Validator
+  <h1 id="Conizi_Model_Core_Tools_Validator" data-uid="Conizi.Model.Core.Tools.Validator" class="text-break">Class Validator
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>The conizi schema validator is used to validate a JSON message against the assigned Schema.
+The validator is build around the C# library <a href="https://www.nuget.org/packages/Newtonsoft.Json.Schema/">Newtonsoft.Json.Schema</a>.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">Validator</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Core.Validate.html">Conizi.Model.Core.Validate</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Core.Tools.html">Conizi.Model.Core.Tools</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.Core.dll</h6>
-  <h5 id="Conizi_Model_Core_Validate_Validator_syntax">Syntax</h5>
+  <h5 id="Conizi_Model_Core_Tools_Validator_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class Validator</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="Conizi_Model_Core_Validate_Validator_ModelCache" data-uid="Conizi.Model.Core.Validate.Validator.ModelCache">ModelCache</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static ConcurrentDictionary&lt;string, EdiModel&gt; ModelCache</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Concurrent.ConcurrentDictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="../classes/Conizi.Model.Shared.Entities.EdiModel.html">EdiModel</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 id="Conizi_Model_Core_Tools_Validator_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>You can use this <a href="https://www.nuget.org/packages/Newtonsoft.Json.Schema/">Newtonsoft.Json.Schema</a> for free in a small context, to validate a huge amount of messages, you must buy a license.</p>
+</div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Conizi_Model_Core_Validate_Validator_RegisterJsonSchemaLicense_" data-uid="Conizi.Model.Core.Validate.Validator.RegisterJsonSchemaLicense*"></a>
-  <h4 id="Conizi_Model_Core_Validate_Validator_RegisterJsonSchemaLicense_System_String_" data-uid="Conizi.Model.Core.Validate.Validator.RegisterJsonSchemaLicense(System.String)">RegisterJsonSchemaLicense(String)</h4>
+  <a id="Conizi_Model_Core_Tools_Validator_RegisterJsonSchemaLicense_" data-uid="Conizi.Model.Core.Tools.Validator.RegisterJsonSchemaLicense*"></a>
+  <h4 id="Conizi_Model_Core_Tools_Validator_RegisterJsonSchemaLicense_System_String_" data-uid="Conizi.Model.Core.Tools.Validator.RegisterJsonSchemaLicense(System.String)">RegisterJsonSchemaLicense(String)</h4>
   <div class="markdown level1 summary"><p>Register a JsonSchema License if available</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -138,15 +117,17 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">license</span></td>
-        <td></td>
+        <td><p><a href="https://www.nuget.org/packages/Newtonsoft.Json.Schema/">Newtonsoft.Json.Schema</a> license as string</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Core_Validate_Validator_ValidateSchema_" data-uid="Conizi.Model.Core.Validate.Validator.ValidateSchema*"></a>
-  <h4 id="Conizi_Model_Core_Validate_Validator_ValidateSchema_System_String_System_Collections_Generic_IList_System_String___" data-uid="Conizi.Model.Core.Validate.Validator.ValidateSchema(System.String,System.Collections.Generic.IList{System.String}@)">ValidateSchema(String, out IList&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Conizi_Model_Core_Tools_Validator_ValidateSchema_" data-uid="Conizi.Model.Core.Tools.Validator.ValidateSchema*"></a>
+  <h4 id="Conizi_Model_Core_Tools_Validator_ValidateSchema_System_String_System_Collections_Generic_IList_System_String___" data-uid="Conizi.Model.Core.Tools.Validator.ValidateSchema(System.String,System.Collections.Generic.IList{System.String}@)">ValidateSchema(String, out IList&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Validate a JSON message vs the specific JSON Schema. The method tries to extract the schema from the message.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -165,12 +146,14 @@
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">jsonMessage</span></td>
-        <td></td>
+        <td><p>JSON message as string</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">validationErrors</span></td>
-        <td></td>
+        <td><p>Possible validation errors as list of strings</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -185,15 +168,16 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Conizi.Model.Core.Entities.ValidationResult.html">ValidationResult</a></td>
-        <td></td>
+        <td><p><a class="xref" href="Conizi.Model.Core.Entities.ValidationResult.html">ValidationResult</a></p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Core_Validate_Validator_ValidateSchema_" data-uid="Conizi.Model.Core.Validate.Validator.ValidateSchema*"></a>
-  <h4 id="Conizi_Model_Core_Validate_Validator_ValidateSchema_System_Type_System_String_System_Collections_Generic_IList_System_String___" data-uid="Conizi.Model.Core.Validate.Validator.ValidateSchema(System.Type,System.String,System.Collections.Generic.IList{System.String}@)">ValidateSchema(Type, String, out IList&lt;String&gt;)</h4>
-  <div class="markdown level1 summary"><p>Validate assigned model vs the specific JSON Schema.</p>
+  <a id="Conizi_Model_Core_Tools_Validator_ValidateSchema_" data-uid="Conizi.Model.Core.Tools.Validator.ValidateSchema*"></a>
+  <h4 id="Conizi_Model_Core_Tools_Validator_ValidateSchema_System_Type_System_String_System_Collections_Generic_IList_System_String___" data-uid="Conizi.Model.Core.Tools.Validator.ValidateSchema(System.Type,System.String,System.Collections.Generic.IList{System.String}@)">ValidateSchema(Type, String, out IList&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Validate a JSON message vs the specific JSON Schema.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -213,18 +197,19 @@
       <tr>
         <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">model</span></td>
-        <td></td>
+        <td><p>Type of the used C# model</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">jsonMessage</span></td>
-        <td><p>The message as IMessage</p>
+        <td><p>JSON message as string</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">validationErrors</span></td>
-        <td><p>IList<string> of possible ValidationErrors</string></p>
+        <td><p>Possible validation errors as list of strings</p>
 </td>
       </tr>
     </tbody>
@@ -240,15 +225,15 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Conizi.Model.Core.Entities.ValidationResult.html">ValidationResult</a></td>
-        <td><p>true/false</p>
+        <td><p><a class="xref" href="Conizi.Model.Core.Entities.ValidationResult.html">ValidationResult</a></p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Core_Validate_Validator_ValidateSchema_" data-uid="Conizi.Model.Core.Validate.Validator.ValidateSchema*"></a>
-  <h4 id="Conizi_Model_Core_Validate_Validator_ValidateSchema__1_System_String_System_Collections_Generic_IList_System_String___" data-uid="Conizi.Model.Core.Validate.Validator.ValidateSchema``1(System.String,System.Collections.Generic.IList{System.String}@)">ValidateSchema&lt;TModel&gt;(String, out IList&lt;String&gt;)</h4>
+  <a id="Conizi_Model_Core_Tools_Validator_ValidateSchema_" data-uid="Conizi.Model.Core.Tools.Validator.ValidateSchema*"></a>
+  <h4 id="Conizi_Model_Core_Tools_Validator_ValidateSchema__1_System_String_System_Collections_Generic_IList_System_String___" data-uid="Conizi.Model.Core.Tools.Validator.ValidateSchema``1(System.String,System.Collections.Generic.IList{System.String}@)">ValidateSchema&lt;TModel&gt;(String, out IList&lt;String&gt;)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

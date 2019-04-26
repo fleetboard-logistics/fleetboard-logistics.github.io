@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/index.html",
-          "hash": "LQRxzxzaU4TimDgLQXhGlg=="
+          "hash": "RLQYfmtyjV67fy+DysjEiA=="
         }
       },
       "is_incremental": true,
@@ -1625,6 +1625,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "core_lib/Conizi.Model.Core.Conversion.Converter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core_lib/Conizi.Model.Core.Conversion.Converter.html",
+          "hash": "rNXciWu3c73mduGOKzGIxA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core_lib/Conizi.Model.Core.Conversion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core_lib/Conizi.Model.Core.Conversion.html",
+          "hash": "TMFsoIVWFQkkx2wGnNhlKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "core_lib/Conizi.Model.Core.Entities.ConverterResult.yml",
       "output": {
         ".html": {
@@ -1641,7 +1665,7 @@
       "output": {
         ".html": {
           "relative_path": "core_lib/Conizi.Model.Core.Entities.GenerationResult.html",
-          "hash": "+4HspY0Zyzo30TnC/6RIiw=="
+          "hash": "hj8tdLyVknDUtPIgz3QFLQ=="
         }
       },
       "is_incremental": true,
@@ -1653,7 +1677,7 @@
       "output": {
         ".html": {
           "relative_path": "core_lib/Conizi.Model.Core.Entities.SerializationResult.html",
-          "hash": "J5POVHEUslgkeP4IQqh7HA=="
+          "hash": "JDV5UNK/kFAg9HXXZWGacQ=="
         }
       },
       "is_incremental": true,
@@ -1665,7 +1689,7 @@
       "output": {
         ".html": {
           "relative_path": "core_lib/Conizi.Model.Core.Entities.ValidationResult.html",
-          "hash": "56OBh4HYZvY+5pyAwlyeXA=="
+          "hash": "fQiWrHV4YBSY5fWIzSgsLA=="
         }
       },
       "is_incremental": true,
@@ -1677,70 +1701,10 @@
       "output": {
         ".html": {
           "relative_path": "core_lib/Conizi.Model.Core.Entities.html",
-          "hash": "u15IiM99/gDPHhCRHQonIw=="
+          "hash": "He4whsOWr0U7USz/KyV4xQ=="
         }
       },
       "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "core_lib/Conizi.Model.Core.Tools.Client.yml",
-      "output": {
-        ".html": {
-          "relative_path": "core_lib/Conizi.Model.Core.Tools.Client.html",
-          "hash": "mkxyYnCIyFcfwUIsYjWmnw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "core_lib/Conizi.Model.Core.Tools.Converter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "core_lib/Conizi.Model.Core.Tools.Converter.html",
-          "hash": "LPuQD4yybTlaim9n9RSEPQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "core_lib/Conizi.Model.Core.Tools.Generator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "core_lib/Conizi.Model.Core.Tools.Generator.html",
-          "hash": "2fBx/me1pBOWSRftdDi20w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "core_lib/Conizi.Model.Core.Tools.Validator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "core_lib/Conizi.Model.Core.Tools.Validator.html",
-          "hash": "uXa1tMnmMVkIYEWh0q80Qg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "core_lib/Conizi.Model.Core.Tools.yml",
-      "output": {
-        ".html": {
-          "relative_path": "core_lib/Conizi.Model.Core.Tools.html",
-          "hash": "TFgHkqdfC+TEnELrl5dNvQ=="
-        }
-      },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -1773,7 +1737,7 @@
       "output": {
         ".html": {
           "relative_path": "fusion/toc.html",
-          "hash": "sLe0DQPPliCUpnb+QNefiQ=="
+          "hash": "vppcgk5zdcVRkLH5bxWzWA=="
         }
       },
       "is_incremental": false,
@@ -1847,8 +1811,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 139,
-          "skipped_file_count": 138
+          "total_file_count": 136,
+          "skipped_file_count": 136
         }
       }
     },

@@ -4,6 +4,50 @@ references:
 - uid: classes_index
   name: PLACEHOLDER
   href: classes/index.html
+- uid: Conizi.Model.Core.Conversion
+  name: Conizi.Model.Core.Conversion
+  href: core_lib/Conizi.Model.Core.Conversion.html
+  commentId: N:Conizi.Model.Core.Conversion
+  fullName: Conizi.Model.Core.Conversion
+  nameWithType: Conizi.Model.Core.Conversion
+- uid: Conizi.Model.Core.Conversion.Converter
+  name: Converter
+  href: core_lib/Conizi.Model.Core.Conversion.Converter.html
+  commentId: T:Conizi.Model.Core.Conversion.Converter
+  fullName: Conizi.Model.Core.Conversion.Converter
+  nameWithType: Converter
+- uid: Conizi.Model.Core.Conversion.Converter.Deserialize*
+  name: Deserialize
+  href: core_lib/Conizi.Model.Core.Conversion.Converter.html#Conizi_Model_Core_Conversion_Converter_Deserialize_
+  commentId: Overload:Conizi.Model.Core.Conversion.Converter.Deserialize
+  isSpec: "True"
+  fullName: Conizi.Model.Core.Conversion.Converter.Deserialize
+  nameWithType: Converter.Deserialize
+- uid: Conizi.Model.Core.Conversion.Converter.Deserialize``1(System.String)
+  name: Deserialize<TModel>(String)
+  href: core_lib/Conizi.Model.Core.Conversion.Converter.html#Conizi_Model_Core_Conversion_Converter_Deserialize__1_System_String_
+  commentId: M:Conizi.Model.Core.Conversion.Converter.Deserialize``1(System.String)
+  name.vb: Deserialize(Of TModel)(String)
+  fullName: Conizi.Model.Core.Conversion.Converter.Deserialize<TModel>(System.String)
+  fullName.vb: Conizi.Model.Core.Conversion.Converter.Deserialize(Of TModel)(System.String)
+  nameWithType: Converter.Deserialize<TModel>(String)
+  nameWithType.vb: Converter.Deserialize(Of TModel)(String)
+- uid: Conizi.Model.Core.Conversion.Converter.Serialize*
+  name: Serialize
+  href: core_lib/Conizi.Model.Core.Conversion.Converter.html#Conizi_Model_Core_Conversion_Converter_Serialize_
+  commentId: Overload:Conizi.Model.Core.Conversion.Converter.Serialize
+  isSpec: "True"
+  fullName: Conizi.Model.Core.Conversion.Converter.Serialize
+  nameWithType: Converter.Serialize
+- uid: Conizi.Model.Core.Conversion.Converter.Serialize``1(``0,System.Boolean,System.Boolean)
+  name: Serialize<TModel>(TModel, Boolean, Boolean)
+  href: core_lib/Conizi.Model.Core.Conversion.Converter.html#Conizi_Model_Core_Conversion_Converter_Serialize__1___0_System_Boolean_System_Boolean_
+  commentId: M:Conizi.Model.Core.Conversion.Converter.Serialize``1(``0,System.Boolean,System.Boolean)
+  name.vb: Serialize(Of TModel)(TModel, Boolean, Boolean)
+  fullName: Conizi.Model.Core.Conversion.Converter.Serialize<TModel>(TModel, System.Boolean, System.Boolean)
+  fullName.vb: Conizi.Model.Core.Conversion.Converter.Serialize(Of TModel)(TModel, System.Boolean, System.Boolean)
+  nameWithType: Converter.Serialize<TModel>(TModel, Boolean, Boolean)
+  nameWithType.vb: Converter.Serialize(Of TModel)(TModel, Boolean, Boolean)
 - uid: Conizi.Model.Core.Entities
   name: Conizi.Model.Core.Entities
   href: core_lib/Conizi.Model.Core.Entities.html
@@ -268,150 +312,6 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Core.Entities.ValidationResult.ToString
   nameWithType: ValidationResult.ToString
-- uid: Conizi.Model.Core.Tools
-  name: Conizi.Model.Core.Tools
-  href: core_lib/Conizi.Model.Core.Tools.html
-  commentId: N:Conizi.Model.Core.Tools
-  fullName: Conizi.Model.Core.Tools
-  nameWithType: Conizi.Model.Core.Tools
-- uid: Conizi.Model.Core.Tools.Client
-  name: Client
-  href: core_lib/Conizi.Model.Core.Tools.Client.html
-  commentId: T:Conizi.Model.Core.Tools.Client
-  fullName: Conizi.Model.Core.Tools.Client
-  nameWithType: Client
-- uid: Conizi.Model.Core.Tools.Converter
-  name: Converter
-  href: core_lib/Conizi.Model.Core.Tools.Converter.html
-  commentId: T:Conizi.Model.Core.Tools.Converter
-  fullName: Conizi.Model.Core.Tools.Converter
-  nameWithType: Converter
-- uid: Conizi.Model.Core.Tools.Converter.Deserialize*
-  name: Deserialize
-  href: core_lib/Conizi.Model.Core.Tools.Converter.html#Conizi_Model_Core_Tools_Converter_Deserialize_
-  commentId: Overload:Conizi.Model.Core.Tools.Converter.Deserialize
-  isSpec: "True"
-  fullName: Conizi.Model.Core.Tools.Converter.Deserialize
-  nameWithType: Converter.Deserialize
-- uid: Conizi.Model.Core.Tools.Converter.Deserialize``1(System.String)
-  name: Deserialize<TModel>(String)
-  href: core_lib/Conizi.Model.Core.Tools.Converter.html#Conizi_Model_Core_Tools_Converter_Deserialize__1_System_String_
-  commentId: M:Conizi.Model.Core.Tools.Converter.Deserialize``1(System.String)
-  name.vb: Deserialize(Of TModel)(String)
-  fullName: Conizi.Model.Core.Tools.Converter.Deserialize<TModel>(System.String)
-  fullName.vb: Conizi.Model.Core.Tools.Converter.Deserialize(Of TModel)(System.String)
-  nameWithType: Converter.Deserialize<TModel>(String)
-  nameWithType.vb: Converter.Deserialize(Of TModel)(String)
-- uid: Conizi.Model.Core.Tools.Converter.Serialize*
-  name: Serialize
-  href: core_lib/Conizi.Model.Core.Tools.Converter.html#Conizi_Model_Core_Tools_Converter_Serialize_
-  commentId: Overload:Conizi.Model.Core.Tools.Converter.Serialize
-  isSpec: "True"
-  fullName: Conizi.Model.Core.Tools.Converter.Serialize
-  nameWithType: Converter.Serialize
-- uid: Conizi.Model.Core.Tools.Converter.Serialize``1(``0,System.Boolean,System.Boolean)
-  name: Serialize<TModel>(TModel, Boolean, Boolean)
-  href: core_lib/Conizi.Model.Core.Tools.Converter.html#Conizi_Model_Core_Tools_Converter_Serialize__1___0_System_Boolean_System_Boolean_
-  commentId: M:Conizi.Model.Core.Tools.Converter.Serialize``1(``0,System.Boolean,System.Boolean)
-  name.vb: Serialize(Of TModel)(TModel, Boolean, Boolean)
-  fullName: Conizi.Model.Core.Tools.Converter.Serialize<TModel>(TModel, System.Boolean, System.Boolean)
-  fullName.vb: Conizi.Model.Core.Tools.Converter.Serialize(Of TModel)(TModel, System.Boolean, System.Boolean)
-  nameWithType: Converter.Serialize<TModel>(TModel, Boolean, Boolean)
-  nameWithType.vb: Converter.Serialize(Of TModel)(TModel, Boolean, Boolean)
-- uid: Conizi.Model.Core.Tools.Generator
-  name: Generator
-  href: core_lib/Conizi.Model.Core.Tools.Generator.html
-  commentId: T:Conizi.Model.Core.Tools.Generator
-  fullName: Conizi.Model.Core.Tools.Generator
-  nameWithType: Generator
-- uid: Conizi.Model.Core.Tools.Generator.Generate(System.Type)
-  name: Generate(Type)
-  href: core_lib/Conizi.Model.Core.Tools.Generator.html#Conizi_Model_Core_Tools_Generator_Generate_System_Type_
-  commentId: M:Conizi.Model.Core.Tools.Generator.Generate(System.Type)
-  fullName: Conizi.Model.Core.Tools.Generator.Generate(System.Type)
-  nameWithType: Generator.Generate(Type)
-- uid: Conizi.Model.Core.Tools.Generator.Generate*
-  name: Generate
-  href: core_lib/Conizi.Model.Core.Tools.Generator.html#Conizi_Model_Core_Tools_Generator_Generate_
-  commentId: Overload:Conizi.Model.Core.Tools.Generator.Generate
-  isSpec: "True"
-  fullName: Conizi.Model.Core.Tools.Generator.Generate
-  nameWithType: Generator.Generate
-- uid: Conizi.Model.Core.Tools.Generator.Generate``1
-  name: Generate<TModel>()
-  href: core_lib/Conizi.Model.Core.Tools.Generator.html#Conizi_Model_Core_Tools_Generator_Generate__1
-  commentId: M:Conizi.Model.Core.Tools.Generator.Generate``1
-  name.vb: Generate(Of TModel)()
-  fullName: Conizi.Model.Core.Tools.Generator.Generate<TModel>()
-  fullName.vb: Conizi.Model.Core.Tools.Generator.Generate(Of TModel)()
-  nameWithType: Generator.Generate<TModel>()
-  nameWithType.vb: Generator.Generate(Of TModel)()
-- uid: Conizi.Model.Core.Tools.Generator.RegisterJsonSchemaLicense(System.String)
-  name: RegisterJsonSchemaLicense(String)
-  href: core_lib/Conizi.Model.Core.Tools.Generator.html#Conizi_Model_Core_Tools_Generator_RegisterJsonSchemaLicense_System_String_
-  commentId: M:Conizi.Model.Core.Tools.Generator.RegisterJsonSchemaLicense(System.String)
-  fullName: Conizi.Model.Core.Tools.Generator.RegisterJsonSchemaLicense(System.String)
-  nameWithType: Generator.RegisterJsonSchemaLicense(String)
-- uid: Conizi.Model.Core.Tools.Generator.RegisterJsonSchemaLicense*
-  name: RegisterJsonSchemaLicense
-  href: core_lib/Conizi.Model.Core.Tools.Generator.html#Conizi_Model_Core_Tools_Generator_RegisterJsonSchemaLicense_
-  commentId: Overload:Conizi.Model.Core.Tools.Generator.RegisterJsonSchemaLicense
-  isSpec: "True"
-  fullName: Conizi.Model.Core.Tools.Generator.RegisterJsonSchemaLicense
-  nameWithType: Generator.RegisterJsonSchemaLicense
-- uid: Conizi.Model.Core.Tools.Validator
-  name: Validator
-  href: core_lib/Conizi.Model.Core.Tools.Validator.html
-  commentId: T:Conizi.Model.Core.Tools.Validator
-  fullName: Conizi.Model.Core.Tools.Validator
-  nameWithType: Validator
-- uid: Conizi.Model.Core.Tools.Validator.RegisterJsonSchemaLicense(System.String)
-  name: RegisterJsonSchemaLicense(String)
-  href: core_lib/Conizi.Model.Core.Tools.Validator.html#Conizi_Model_Core_Tools_Validator_RegisterJsonSchemaLicense_System_String_
-  commentId: M:Conizi.Model.Core.Tools.Validator.RegisterJsonSchemaLicense(System.String)
-  fullName: Conizi.Model.Core.Tools.Validator.RegisterJsonSchemaLicense(System.String)
-  nameWithType: Validator.RegisterJsonSchemaLicense(String)
-- uid: Conizi.Model.Core.Tools.Validator.RegisterJsonSchemaLicense*
-  name: RegisterJsonSchemaLicense
-  href: core_lib/Conizi.Model.Core.Tools.Validator.html#Conizi_Model_Core_Tools_Validator_RegisterJsonSchemaLicense_
-  commentId: Overload:Conizi.Model.Core.Tools.Validator.RegisterJsonSchemaLicense
-  isSpec: "True"
-  fullName: Conizi.Model.Core.Tools.Validator.RegisterJsonSchemaLicense
-  nameWithType: Validator.RegisterJsonSchemaLicense
-- uid: Conizi.Model.Core.Tools.Validator.ValidateSchema(System.String,System.Collections.Generic.IList{System.String}@)
-  name: ValidateSchema(String, out IList<String>)
-  href: core_lib/Conizi.Model.Core.Tools.Validator.html#Conizi_Model_Core_Tools_Validator_ValidateSchema_System_String_System_Collections_Generic_IList_System_String___
-  commentId: M:Conizi.Model.Core.Tools.Validator.ValidateSchema(System.String,System.Collections.Generic.IList{System.String}@)
-  name.vb: ValidateSchema(String, ByRef IList(Of String))
-  fullName: Conizi.Model.Core.Tools.Validator.ValidateSchema(System.String, out System.Collections.Generic.IList<System.String>)
-  fullName.vb: Conizi.Model.Core.Tools.Validator.ValidateSchema(System.String, ByRef System.Collections.Generic.IList(Of System.String))
-  nameWithType: Validator.ValidateSchema(String, out IList<String>)
-  nameWithType.vb: Validator.ValidateSchema(String, ByRef IList(Of String))
-- uid: Conizi.Model.Core.Tools.Validator.ValidateSchema(System.Type,System.String,System.Collections.Generic.IList{System.String}@)
-  name: ValidateSchema(Type, String, out IList<String>)
-  href: core_lib/Conizi.Model.Core.Tools.Validator.html#Conizi_Model_Core_Tools_Validator_ValidateSchema_System_Type_System_String_System_Collections_Generic_IList_System_String___
-  commentId: M:Conizi.Model.Core.Tools.Validator.ValidateSchema(System.Type,System.String,System.Collections.Generic.IList{System.String}@)
-  name.vb: ValidateSchema(Type, String, ByRef IList(Of String))
-  fullName: Conizi.Model.Core.Tools.Validator.ValidateSchema(System.Type, System.String, out System.Collections.Generic.IList<System.String>)
-  fullName.vb: Conizi.Model.Core.Tools.Validator.ValidateSchema(System.Type, System.String, ByRef System.Collections.Generic.IList(Of System.String))
-  nameWithType: Validator.ValidateSchema(Type, String, out IList<String>)
-  nameWithType.vb: Validator.ValidateSchema(Type, String, ByRef IList(Of String))
-- uid: Conizi.Model.Core.Tools.Validator.ValidateSchema*
-  name: ValidateSchema
-  href: core_lib/Conizi.Model.Core.Tools.Validator.html#Conizi_Model_Core_Tools_Validator_ValidateSchema_
-  commentId: Overload:Conizi.Model.Core.Tools.Validator.ValidateSchema
-  isSpec: "True"
-  fullName: Conizi.Model.Core.Tools.Validator.ValidateSchema
-  nameWithType: Validator.ValidateSchema
-- uid: Conizi.Model.Core.Tools.Validator.ValidateSchema``1(System.String,System.Collections.Generic.IList{System.String}@)
-  name: ValidateSchema<TModel>(String, out IList<String>)
-  href: core_lib/Conizi.Model.Core.Tools.Validator.html#Conizi_Model_Core_Tools_Validator_ValidateSchema__1_System_String_System_Collections_Generic_IList_System_String___
-  commentId: M:Conizi.Model.Core.Tools.Validator.ValidateSchema``1(System.String,System.Collections.Generic.IList{System.String}@)
-  name.vb: ValidateSchema(Of TModel)(String, ByRef IList(Of String))
-  fullName: Conizi.Model.Core.Tools.Validator.ValidateSchema<TModel>(System.String, out System.Collections.Generic.IList<System.String>)
-  fullName.vb: Conizi.Model.Core.Tools.Validator.ValidateSchema(Of TModel)(System.String, ByRef System.Collections.Generic.IList(Of System.String))
-  nameWithType: Validator.ValidateSchema<TModel>(String, out IList<String>)
-  nameWithType.vb: Validator.ValidateSchema(Of TModel)(String, ByRef IList(Of String))
 - uid: Conizi.Model.Shared.Entities
   name: Conizi.Model.Shared.Entities
   href: classes/Conizi.Model.Shared.Entities.html
