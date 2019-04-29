@@ -88,7 +88,8 @@
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiAlreadyReceived.html">EdiAlreadyReceived</a></h4>
       <section></section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiAnonymity.html">EdiAnonymity</a></h4>
-      <section></section>
+      <section><p>Neutral addresses which are shown to the shipper or consignee in order to conceal the actual shipper or recipient of the goods</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiArchive.html">EdiArchive</a></h4>
       <section></section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiBarcode.html">EdiBarcode</a></h4>
@@ -99,7 +100,8 @@
       <section><p>The content/data of a file/object</p>
 </section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiCashOnDelivery.html">EdiCashOnDelivery</a></h4>
-      <section></section>
+      <section><p>The goods must only be delivered if the recipient pays the given amount</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiContent.html">EdiContent</a></h4>
       <section></section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.html">EdiContentCustomsInformation</a></h4>
@@ -122,23 +124,29 @@
       <section><p>The consignee has rejected the consignment&quot;</p>
 </section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiDeliveryOptions.html">EdiDeliveryOptions</a></h4>
-      <section></section>
+      <section><p>Requirements for special services or equipment for the delivery</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiDeliveryPlanningExceptions.html">EdiDeliveryPlanningExceptions</a></h4>
-      <section><p>Detailed information about the exceptions that occured while planning the delivery of the consignment.
+      <section><p>Detailed information about the exceptions that occurred while planning the delivery of the consignment.
 Use (null) to report successful processing of the consignment</p>
 </section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiDeliveryStartedExceptions.html">EdiDeliveryStartedExceptions</a></h4>
-      <section><p>Detailed information about the exceptions that occured while starting the delivery of the consignment.
+      <section><p>Detailed information about the exceptions that occurred while starting the delivery of the consignment.
 Use (null) to report successful starting of the consignment delivery</p>
 </section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiDeliverySuccessfulExceptions.html">EdiDeliverySuccessfulExceptions</a></h4>
-      <section><p>Detailed information about the exceptions that occured when consignment was successfully delivered.
+      <section><p>Detailed information about the exceptions that occurred when consignment was successfully delivered.
 Use (null) to report successful processing of the consignment</p>
 </section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiDriver.html">EdiDriver</a></h4>
       <section></section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiEmptyExtendableObject.html">EdiEmptyExtendableObject</a></h4>
+      <section><p>The empty EdiEmptyExtendableObject is used for non yet completed defined objects.
+This EdiEmptyExtendableObject is extendable with PatternProperties</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiEvening.html">EdiEvening</a></h4>
-      <section></section>
+      <section><p>The consignment must be delivered in the evening hours</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiExternalServices.html">EdiExternalServices</a></h4>
       <section></section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiFileContent.html">EdiFileContent</a></h4>
@@ -148,15 +156,17 @@ Use (null) to report successful processing of the consignment</p>
       <section><p>Reference to a file in an online storage</p>
 </section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiFixedDay.html">EdiFixedDay</a></h4>
-      <section></section>
+      <section><p>The consignment must be delivered at the given date (and in the given time window)</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiFixedWeek.html">EdiFixedWeek</a></h4>
-      <section></section>
+      <section><p>The consignment must be delivered within the given week of the year</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiFood.html">EdiFood</a></h4>
       <section></section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiGateway.html">EdiGateway</a></h4>
       <section></section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiGatewayExceptions.html">EdiGatewayExceptions</a></h4>
-      <section><p>Detailed information about the exceptions that occured while processing the consignment.
+      <section><p>Detailed information about the exceptions that occurred while processing the consignment.
 Use (null) to report successful cross dock of the consignment</p>
 </section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoPosition.html">EdiGeoPosition</a></h4>
@@ -174,7 +184,8 @@ Use (null) to report successful cross dock of the consignment</p>
       <section><p>Information about loading equipment exchange</p>
 </section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiLoadingOptions.html">EdiLoadingOptions</a></h4>
-      <section></section>
+      <section><p>Information about the loading of the main haul</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiMeasures.html">EdiMeasures</a></h4>
       <section></section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiMessageRouting.html">EdiMessageRouting</a></h4>
@@ -188,30 +199,84 @@ Use (null) to report successful cross dock of the consignment</p>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiNetwork.html">EdiNetwork</a></h4>
       <section></section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiNextDay.html">EdiNextDay</a></h4>
-      <section></section>
+      <section><p>The consignment must be delivered on the next working day</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiNotAfter.html">EdiNotAfter</a></h4>
-      <section></section>
+      <section><p>The consignment must be delivered until the given date</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiNotBefore.html">EdiNotBefore</a></h4>
-      <section></section>
+      <section><p>The consignment must not be delivered before the given date</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.html">EdiNotificationEventExceptions</a></h4>
-      <section><p>Detailed information about the exceptions that occured while processing the consignment</p>
+      <section><p>Detailed information about the exceptions that occurred while processing the consignment/pickup</p>
 </section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiNotificationExceptions.html">EdiNotificationExceptions</a></h4>
-      <section><p>Detailed information about the exceptions that occured while processing the notification of the consignment</p>
+      <section><p>Detailed information about the exceptions that occurred while processing the notification of the consignment</p>
 </section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiNotifications.html">EdiNotifications</a></h4>
-      <section></section>
+      <section><p>Notifications which should be sent while processing the shipment, e.g. notifications about successful delivery, advance notifications, ...</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiOrientation.html">EdiOrientation</a></h4>
       <section></section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiPackagingOptions.html">EdiPackagingOptions</a></h4>
-      <section></section>
+      <section><p>Packaging Options</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiPartnerIdentification.html">EdiPartnerIdentification</a></h4>
       <section><p>Fields to identify the partner or/and further data routing information</p>
 </section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiPickupArrivalExceptions.html">EdiPickupArrivalExceptions</a></h4>
+      <section><p>Detailed information about the exceptions that occured while arrival at the pickup location
+Use (null) to report successful arrival</p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiPickupAttemptFailedExceptions.html">EdiPickupAttemptFailedExceptions</a></h4>
+      <section><p>Detailed information about the exceptions that caused the pickup to be fail</p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiPickupFinishedAtShipperExceptions.html">EdiPickupFinishedAtShipperExceptions</a></h4>
+      <section><p>Detailed information about the exceptions that occured while the pickup finished at shipper.
+Use (null) to report successful arrival</p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiPickupForwardingExceptions.html">EdiPickupForwardingExceptions</a></h4>
+      <section><p>Detailed information about the exceptions that occured while forwarding the pickup order.
+Use (null) to report successful forwarding the pickup order</p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiPickupLoadingCompletedExceptions.html">EdiPickupLoadingCompletedExceptions</a></h4>
+      <section><p>Detailed information about the exceptions that occured while completing the loading process.
+Use (null) to report successful completion of the loading process</p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiPickupLoadingStartedExceptions.html">EdiPickupLoadingStartedExceptions</a></h4>
+      <section><p>Detailed information about the exceptions that occured while starting the loading process.
+Use (null) to report successful starting the loading process</p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiPickupNotifications.html">EdiPickupNotifications</a></h4>
+      <section><p>Notifications which should be sent while processing the shipment, e.g. notifications about successful delivery, advance notifications for the pickup order</p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiPickupOptions.html">EdiPickupOptions</a></h4>
+      <section><p>Special options needed to process this pickup order</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiPickupOrder.html">EdiPickupOrder</a></h4>
       <section></section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiPickupPlanningExceptions.html">EdiPickupPlanningExceptions</a></h4>
+      <section><p>Detailed information about the exceptions that occured while planning the pickup.
+Use (null) to report successful planning of the pickup</p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiPickupServices.html">EdiPickupServices</a></h4>
+      <section><p>Special services which can be requested by the ordering party (or the shipping partner) for this pickup order</p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiPickupStartedExceptions.html">EdiPickupStartedExceptions</a></h4>
+      <section><p>Detailed information about the exceptions that occured while starting the pickup.
+Use (null) to report successful starting of the pickup</p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiPickupSuccessfulExceptions.html">EdiPickupSuccessfulExceptions</a></h4>
+      <section><p>Detailed information about the exceptions that occured while pickup the pickup order.
+Use (null) to report successful pickup.</p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiPickupUnloadingExceptions.html">EdiPickupUnloadingExceptions</a></h4>
+      <section><p>Detailed information about the exceptions that occured while unloading the pickup order.
+Use (null) to report successful unloading the pickup order</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiPreBookedTimeslot.html">EdiPreBookedTimeslot</a></h4>
-      <section></section>
+      <section><p>A time slot has already been booked for the delivery of this consignment. Delivery must be attempted within this time slot</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiReferences.html">EdiReferences</a></h4>
       <section></section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiReturnOfGoods.html">EdiReturnOfGoods</a></h4>
@@ -219,9 +284,13 @@ Use (null) to report successful cross dock of the consignment</p>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiReturnOfPreviousConsignment.html">EdiReturnOfPreviousConsignment</a></h4>
       <section></section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiRouting.html">EdiRouting</a></h4>
-      <section></section>
+      <section><p>Information about the route take by this consignment/pickup order</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiSameDay.html">EdiSameDay</a></h4>
       <section></section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiSameDayPickup.html">EdiSameDayPickup</a></h4>
+      <section><p>The goods must be picked up on the same day</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiServices.html">EdiServices</a></h4>
       <section></section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiSignature.html">EdiSignature</a></h4>
@@ -233,9 +302,11 @@ Use (null) to report successful cross dock of the consignment</p>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiTemperatureRestrictions.html">EdiTemperatureRestrictions</a></h4>
       <section></section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiTimeOptions.html">EdiTimeOptions</a></h4>
-      <section></section>
+      <section><p>Requirements for the delivery or pickup time</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiTimeSlotBooking.html">EdiTimeSlotBooking</a></h4>
-      <section></section>
+      <section><p>Information about time slots which need to be booked or are already booked for the pickup or the following consignment</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiTimeSpan.html">EdiTimeSpan</a></h4>
       <section><p>The time span for an activity</p>
 </section>
@@ -243,18 +314,21 @@ Use (null) to report successful cross dock of the consignment</p>
       <section><p>Stop for delivering. Stop for delivering the acutal goods</p>
 </section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiUnloadingExceptions.html">EdiUnloadingExceptions</a></h4>
-      <section><p>Detailed information about the exceptions that occured while processing the consignment</p>
+      <section><p>Detailed information about the exceptions that occurred while processing the consignment</p>
 </section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiUnloadingOptions.html">EdiUnloadingOptions</a></h4>
       <section></section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiUseSpecificLastMileProvider.html">EdiUseSpecificLastMileProvider</a></h4>
-      <section></section>
+      <section><p>A given last mile provider must be used</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiValueAtBorderCrossing.html">EdiValueAtBorderCrossing</a></h4>
       <section></section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiWeekendSaturday.html">EdiWeekendSaturday</a></h4>
-      <section></section>
+      <section><p>The consignment should be delivered on a saturday</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiWorkRequest.html">EdiWorkRequest</a></h4>
-      <section></section>
+      <section><p>The receiving partner should perform the action specified</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.TourBookedTimeSlot.html">TourBookedTimeSlot</a></h4>
       <section><p>Booked time slot for the tour</p>
 </section>

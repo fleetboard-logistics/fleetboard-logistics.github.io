@@ -73,13 +73,15 @@
   
   <h1 id="Conizi_Model_Shared_Entities_EdiNotifications" data-uid="Conizi.Model.Shared.Entities.EdiNotifications" class="text-break">Class EdiNotifications
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Notifications which should be sent while processing the shipment, e.g. notifications about successful delivery, advance notifications, ...</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase</span></div>
     <div class="level2"><span class="xref">EdiNotifications</span></div>
+      <div class="level3"><a class="xref" href="Conizi.Model.Shared.Entities.EdiPickupNotifications.html">EdiPickupNotifications</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
@@ -96,7 +98,8 @@ public class EdiNotifications : EdiPatternPropertiesBase</code></pre>
   
   <a id="Conizi_Model_Shared_Entities_EdiNotifications_AfterDelivery_" data-uid="Conizi.Model.Shared.Entities.EdiNotifications.AfterDelivery*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiNotifications_AfterDelivery" data-uid="Conizi.Model.Shared.Entities.EdiNotifications.AfterDelivery">AfterDelivery</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Information about successful delivery should be given to this address</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -121,7 +124,8 @@ public class EdiNotifications : EdiPatternPropertiesBase</code></pre>
   
   <a id="Conizi_Model_Shared_Entities_EdiNotifications_BeforeDelivery_" data-uid="Conizi.Model.Shared.Entities.EdiNotifications.BeforeDelivery*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiNotifications_BeforeDelivery" data-uid="Conizi.Model.Shared.Entities.EdiNotifications.BeforeDelivery">BeforeDelivery</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Before a delivery is attempted the person noted here should be contacted within the given time frame</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -146,7 +150,8 @@ public class EdiNotifications : EdiPatternPropertiesBase</code></pre>
   
   <a id="Conizi_Model_Shared_Entities_EdiNotifications_ByDriver_" data-uid="Conizi.Model.Shared.Entities.EdiNotifications.ByDriver*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiNotifications_ByDriver" data-uid="Conizi.Model.Shared.Entities.EdiNotifications.ByDriver">ByDriver</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The driver should call the given contact before delivery</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -171,11 +176,12 @@ public class EdiNotifications : EdiPatternPropertiesBase</code></pre>
   
   <a id="Conizi_Model_Shared_Entities_EdiNotifications_GeneralNotificationAddress_" data-uid="Conizi.Model.Shared.Entities.EdiNotifications.GeneralNotificationAddress*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiNotifications_GeneralNotificationAddress" data-uid="Conizi.Model.Shared.Entities.EdiNotifications.GeneralNotificationAddress">GeneralNotificationAddress</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>An address and associated contact information which should be kept in the loop</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdiPartnerIdentification GeneralNotificationAddress { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiAddress GeneralNotificationAddress { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -187,7 +193,7 @@ public class EdiNotifications : EdiPatternPropertiesBase</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiPartnerIdentification.html">EdiPartnerIdentification</a></td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiAddress.html">EdiAddress</a></td>
         <td></td>
       </tr>
     </tbody>

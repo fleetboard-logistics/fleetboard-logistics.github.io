@@ -73,7 +73,7 @@
   
   <h1 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent" class="text-break">Class PackageEvent
   </h1>
-  <div class="markdown level0 summary"><p>An event which occured during the processing of the referenced package, which is included in a <a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.html">Consignment</a></p>
+  <div class="markdown level0 summary"><p>An event which occurred during the processing of the referenced package, which is included in a <a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.html">Consignment</a></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -87,6 +87,12 @@
     <h5>Inherited Members</h5>
     <div>
       <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Schema">EdiModel.Schema</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_CreatedAt">EdiModel.CreatedAt</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_CreatedBy">EdiModel.CreatedBy</a>
     </div>
     <div>
       <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Receiver">EdiModel.Receiver</a>
@@ -103,10 +109,773 @@
   <h5 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ConiziSchema(&quot;https://model.conizi.io/v1/transport/truck/groupage/forwarding/package-event.json&quot;, &quot;package-event.json&quot;)]
-[ConiziAdditionalProperties(true)]
+[ConiziAdditionalProperties(false)]
 [ConiziAllowXProperties(true)]
 public class PackageEvent : EdiModel</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ConsignmentNoShippingPartner_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ConsignmentNoShippingPartner*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ConsignmentNoShippingPartner" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ConsignmentNoShippingPartner">ConsignmentNoShippingPartner</h4>
+  <div class="markdown level1 summary"><p>Consignment number of the shipping partner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonRequired]
+public string ConsignmentNoShippingPartner { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_DeliveryReceiver_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.DeliveryReceiver*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_DeliveryReceiver" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.DeliveryReceiver">DeliveryReceiver</h4>
+  <div class="markdown level1 summary"><p>Events occurred while delivery the package</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent DeliveryReceiver { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_EntrySecurityAreaGateway_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.EntrySecurityAreaGateway*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_EntrySecurityAreaGateway" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.EntrySecurityAreaGateway">EntrySecurityAreaGateway</h4>
+  <div class="markdown level1 summary"><p>Events occurred while loading the package by the gateway</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent EntrySecurityAreaGateway { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_EntrySecurityAreaHub_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.EntrySecurityAreaHub*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_EntrySecurityAreaHub" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.EntrySecurityAreaHub">EntrySecurityAreaHub</h4>
+  <div class="markdown level1 summary"><p>Events occured while the package enters the security area of the HUB</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;entrySecurityAreaHUB&quot;)]
+public EdiPackageEvent EntrySecurityAreaHub { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_EntrySecurityAreaReceivingPartner_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.EntrySecurityAreaReceivingPartner*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_EntrySecurityAreaReceivingPartner" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.EntrySecurityAreaReceivingPartner">EntrySecurityAreaReceivingPartner</h4>
+  <div class="markdown level1 summary"><p>Events occurred while the package enters the security area of the receiving partner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent EntrySecurityAreaReceivingPartner { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_EntrySecurityAreaShippingPartner_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.EntrySecurityAreaShippingPartner*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_EntrySecurityAreaShippingPartner" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.EntrySecurityAreaShippingPartner">EntrySecurityAreaShippingPartner</h4>
+  <div class="markdown level1 summary"><p>Events occurred while the package enters the security area of the shipping partner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent EntrySecurityAreaShippingPartner { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ExitSecurityAreaGateway_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ExitSecurityAreaGateway*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ExitSecurityAreaGateway" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ExitSecurityAreaGateway">ExitSecurityAreaGateway</h4>
+  <div class="markdown level1 summary"><p>Events occurred while the package leaves the security area of the gateway</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent ExitSecurityAreaGateway { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ExitSecurityAreaHub_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ExitSecurityAreaHub*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ExitSecurityAreaHub" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ExitSecurityAreaHub">ExitSecurityAreaHub</h4>
+  <div class="markdown level1 summary"><p>Events occured while the package leaves the security area of the HUB</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;exitSecurityAreaHUB&quot;)]
+public EdiPackageEvent ExitSecurityAreaHub { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ExitSecurityAreaReceivingPartner_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ExitSecurityAreaReceivingPartner*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ExitSecurityAreaReceivingPartner" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ExitSecurityAreaReceivingPartner">ExitSecurityAreaReceivingPartner</h4>
+  <div class="markdown level1 summary"><p>Events occured while the package leaves the security area of the receiving partner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent ExitSecurityAreaReceivingPartner { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ExitSecurityAreaShippingPartner_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ExitSecurityAreaShippingPartner*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ExitSecurityAreaShippingPartner" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ExitSecurityAreaShippingPartner">ExitSecurityAreaShippingPartner</h4>
+  <div class="markdown level1 summary"><p>Events occurred while the package leaves the security area of the shipping partner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent ExitSecurityAreaShippingPartner { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_LoadingGateway_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.LoadingGateway*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_LoadingGateway" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.LoadingGateway">LoadingGateway</h4>
+  <div class="markdown level1 summary"><p>Events occurred while loading the package by the gateway</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent LoadingGateway { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_LoadingHub_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.LoadingHub*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_LoadingHub" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.LoadingHub">LoadingHub</h4>
+  <div class="markdown level1 summary"><p>Events occurred while loading the package by the HUB</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;loadingHUB&quot;)]
+public EdiPackageEvent LoadingHub { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_LoadingReceivingPartner_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.LoadingReceivingPartner*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_LoadingReceivingPartner" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.LoadingReceivingPartner">LoadingReceivingPartner</h4>
+  <div class="markdown level1 summary"><p>Events occured while loading the package by the receiving partner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent LoadingReceivingPartner { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_LoadingShippingPartner_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.LoadingShippingPartner*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_LoadingShippingPartner" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.LoadingShippingPartner">LoadingShippingPartner</h4>
+  <div class="markdown level1 summary"><p>Events occurred while loading the package by the shipping partner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent LoadingShippingPartner { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_PackageNo_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.PackageNo*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_PackageNo" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.PackageNo">PackageNo</h4>
+  <div class="markdown level1 summary"><p>Unique identification for the package. This is often an SSCC / NVE barcode number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonRequired]
+public string PackageNo { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_PickupSender_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.PickupSender*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_PickupSender" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.PickupSender">PickupSender</h4>
+  <div class="markdown level1 summary"><p>Events occurred while pickup the package</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent PickupSender { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ReceivingPartner_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ReceivingPartner*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ReceivingPartner" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ReceivingPartner">ReceivingPartner</h4>
+  <div class="markdown level1 summary"><p>The partner which is receiving the goods declared on the manifest from the shipping partner for further delivery</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPartnerIdentification ReceivingPartner { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiPartnerIdentification.html">EdiPartnerIdentification</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ReportingPartner_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ReportingPartner*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ReportingPartner" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ReportingPartner">ReportingPartner</h4>
+  <div class="markdown level1 summary"><p>The partner which is reporting the event</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPartnerIdentification ReportingPartner { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiPartnerIdentification.html">EdiPartnerIdentification</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ShippingPartner_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ShippingPartner*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ShippingPartner" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ShippingPartner">ShippingPartner</h4>
+  <div class="markdown level1 summary"><p>The partner which is sending the consignment to the receiving partner for further delivery</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPartnerIdentification ShippingPartner { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiPartnerIdentification.html">EdiPartnerIdentification</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_StocktakingGateway_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.StocktakingGateway*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_StocktakingGateway" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.StocktakingGateway">StocktakingGateway</h4>
+  <div class="markdown level1 summary"><p>Events occurred while stocktaking the package by the gateway</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent StocktakingGateway { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_StocktakingHub_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.StocktakingHub*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_StocktakingHub" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.StocktakingHub">StocktakingHub</h4>
+  <div class="markdown level1 summary"><p>Events occurred while stocktaking the package by the HUB</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;stocktakingHUB&quot;)]
+public EdiPackageEvent StocktakingHub { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_StocktakingReceivingPartner_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.StocktakingReceivingPartner*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_StocktakingReceivingPartner" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.StocktakingReceivingPartner">StocktakingReceivingPartner</h4>
+  <div class="markdown level1 summary"><p>Events occurred while stocktaking the package by the receiving partner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent StocktakingReceivingPartner { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_StocktakingShippingPartner_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.StocktakingShippingPartner*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_StocktakingShippingPartner" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.StocktakingShippingPartner">StocktakingShippingPartner</h4>
+  <div class="markdown level1 summary"><p>Events occurred while stocktaking the package by the shipping partner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent StocktakingShippingPartner { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_UnloadingAfterDeliveryAttempt_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.UnloadingAfterDeliveryAttempt*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_UnloadingAfterDeliveryAttempt" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.UnloadingAfterDeliveryAttempt">UnloadingAfterDeliveryAttempt</h4>
+  <div class="markdown level1 summary"><p>Events occured while unloading the package by the receiving partner after an unsuccessfully delivery attempt</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent UnloadingAfterDeliveryAttempt { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_UnloadingExternalDeliverer_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.UnloadingExternalDeliverer*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_UnloadingExternalDeliverer" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.UnloadingExternalDeliverer">UnloadingExternalDeliverer</h4>
+  <div class="markdown level1 summary"><p>Events occurred while unloading the package by an external deliverer</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent UnloadingExternalDeliverer { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_UnloadingGateway_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.UnloadingGateway*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_UnloadingGateway" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.UnloadingGateway">UnloadingGateway</h4>
+  <div class="markdown level1 summary"><p>Events occurred while unloading the package by the gateway</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent UnloadingGateway { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_UnloadingHub_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.UnloadingHub*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_UnloadingHub" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.UnloadingHub">UnloadingHub</h4>
+  <div class="markdown level1 summary"><p>Events occurred while unloading the package by the HUB</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;unloadingHUB&quot;)]
+public EdiPackageEvent UnloadingHub { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_UnloadingReceivingPartner_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.UnloadingReceivingPartner*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_UnloadingReceivingPartner" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.UnloadingReceivingPartner">UnloadingReceivingPartner</h4>
+  <div class="markdown level1 summary"><p>Events occurred while unloading the package by the receiving partner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent UnloadingReceivingPartner { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_UnloadingShippingPartner_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.UnloadingShippingPartner*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_UnloadingShippingPartner" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.UnloadingShippingPartner">UnloadingShippingPartner</h4>
+  <div class="markdown level1 summary"><p>Events occurred while unloading the package by the shipping partner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEvent UnloadingShippingPartner { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.Consignment.EdiPackageEvent.html">EdiPackageEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

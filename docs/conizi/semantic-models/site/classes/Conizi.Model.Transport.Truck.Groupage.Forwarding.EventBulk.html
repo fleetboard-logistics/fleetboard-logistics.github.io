@@ -73,7 +73,7 @@
   
   <h1 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_EventBulk" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.EventBulk" class="text-break">Class EventBulk
   </h1>
-  <div class="markdown level0 summary"><p>Events for different consignments, pickup orders or packages, that can be send in bulk, which occured during the processing <a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.html">Consignment</a></p>
+  <div class="markdown level0 summary"><p>Events for different consignments, pickup-orders, packages or tours, which occurred during the processing. The events can be send in bulk. See also <a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.html">Consignment</a>, <a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html">Tour</a>, <a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html">PickupOrder</a></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -87,6 +87,12 @@
     <h5>Inherited Members</h5>
     <div>
       <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Schema">EdiModel.Schema</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_CreatedAt">EdiModel.CreatedAt</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_CreatedBy">EdiModel.CreatedBy</a>
     </div>
     <div>
       <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Receiver">EdiModel.Receiver</a>
@@ -145,7 +151,8 @@ public List&lt;ConsignmentEvent&gt; ConsignmentEvents { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;package-events&quot;)]
+    <pre><code class="lang-csharp hljs">[ConiziHandleExternal(&quot;https://raw.githubusercontent.com/fleetboard-logistics/semantic-model/master/model/transport/truck/groupage/forwarding/package-event.json&quot;)]
+[JsonProperty(&quot;package-events&quot;)]
 public List&lt;PackageEvent&gt; PackageEvents { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
