@@ -73,12 +73,14 @@
   
   <h1 id="Conizi_Model_Shared_Entities_CostsAndCharges" data-uid="Conizi.Model.Shared.Entities.CostsAndCharges" class="text-break">Class CostsAndCharges
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Used to transfer detailed information about the fees</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">CostsAndCharges</span></div>
+    <div class="level1"><span class="xref">Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase</span></div>
+    <div class="level2"><span class="xref">CostsAndCharges</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
@@ -86,7 +88,8 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonObject(&quot;costsAndCharges&quot;)]
 [ConiziAdditionalProperties(false)]
-public class CostsAndCharges</code></pre>
+[ConiziAllowXProperties(true)]
+public class CostsAndCharges : EdiPatternPropertiesBase</code></pre>
   </div>
 </article>
           </div>

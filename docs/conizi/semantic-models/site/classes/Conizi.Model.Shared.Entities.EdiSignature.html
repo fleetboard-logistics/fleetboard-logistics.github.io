@@ -73,7 +73,8 @@
   
   <h1 id="Conizi_Model_Shared_Entities_EdiSignature" data-uid="Conizi.Model.Shared.Entities.EdiSignature" class="text-break">Class EdiSignature
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>The signature of the recipient/person of interest</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -96,11 +97,12 @@ public class EdiSignature : EdiPatternPropertiesBase</code></pre>
   
   <a id="Conizi_Model_Shared_Entities_EdiSignature_SignatureAvailable_" data-uid="Conizi.Model.Shared.Entities.EdiSignature.SignatureAvailable*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiSignature_SignatureAvailable" data-uid="Conizi.Model.Shared.Entities.EdiSignature.SignatureAvailable">SignatureAvailable</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Is a signature available</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(Required = Required.Always)]
+    <pre><code class="lang-csharp hljs">[Required]
 public bool SignatureAvailable { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -122,12 +124,12 @@ public bool SignatureAvailable { get; set; }</code></pre>
   
   <a id="Conizi_Model_Shared_Entities_EdiSignature_SignatureContent_" data-uid="Conizi.Model.Shared.Entities.EdiSignature.SignatureContent*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiSignature_SignatureContent" data-uid="Conizi.Model.Shared.Entities.EdiSignature.SignatureContent">SignatureContent</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The signature as a file (image, reference)</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ConiziAnyOf]
-public EdiFileContent SignatureContent { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiFileContent SignatureContent { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -148,11 +150,12 @@ public EdiFileContent SignatureContent { get; set; }</code></pre>
   
   <a id="Conizi_Model_Shared_Entities_EdiSignature_SignatureDate_" data-uid="Conizi.Model.Shared.Entities.EdiSignature.SignatureDate*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiSignature_SignatureDate" data-uid="Conizi.Model.Shared.Entities.EdiSignature.SignatureDate">SignatureDate</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The date and time of signature</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(Required = Required.Always)]
+    <pre><code class="lang-csharp hljs">[Required]
 public DateTime SignatureDate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -174,7 +177,8 @@ public DateTime SignatureDate { get; set; }</code></pre>
   
   <a id="Conizi_Model_Shared_Entities_EdiSignature_SigneeName_" data-uid="Conizi.Model.Shared.Entities.EdiSignature.SigneeName*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiSignature_SigneeName" data-uid="Conizi.Model.Shared.Entities.EdiSignature.SigneeName">SigneeName</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Name of the signee</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">

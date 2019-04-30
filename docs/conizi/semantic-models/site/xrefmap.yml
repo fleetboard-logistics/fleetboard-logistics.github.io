@@ -4,6 +4,187 @@ references:
 - uid: classes_index
   name: PLACEHOLDER
   href: classes/index.html
+- uid: Conizi.Model.Archiving
+  name: Conizi.Model.Archiving
+  href: classes/Conizi.Model.Archiving.html
+  commentId: N:Conizi.Model.Archiving
+  fullName: Conizi.Model.Archiving
+  nameWithType: Conizi.Model.Archiving
+- uid: Conizi.Model.Archiving.ProofOfDelivery
+  name: ProofOfDelivery
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html
+  commentId: T:Conizi.Model.Archiving.ProofOfDelivery
+  fullName: Conizi.Model.Archiving.ProofOfDelivery
+  nameWithType: ProofOfDelivery
+- uid: Conizi.Model.Archiving.ProofOfDelivery.ArrivalDate
+  name: ArrivalDate
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_ArrivalDate
+  commentId: P:Conizi.Model.Archiving.ProofOfDelivery.ArrivalDate
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.ArrivalDate
+  nameWithType: ProofOfDelivery.ArrivalDate
+- uid: Conizi.Model.Archiving.ProofOfDelivery.ArrivalDate*
+  name: ArrivalDate
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_ArrivalDate_
+  commentId: Overload:Conizi.Model.Archiving.ProofOfDelivery.ArrivalDate
+  isSpec: "True"
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.ArrivalDate
+  nameWithType: ProofOfDelivery.ArrivalDate
+- uid: Conizi.Model.Archiving.ProofOfDelivery.Carrier
+  name: Carrier
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_Carrier
+  commentId: P:Conizi.Model.Archiving.ProofOfDelivery.Carrier
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.Carrier
+  nameWithType: ProofOfDelivery.Carrier
+- uid: Conizi.Model.Archiving.ProofOfDelivery.Carrier*
+  name: Carrier
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_Carrier_
+  commentId: Overload:Conizi.Model.Archiving.ProofOfDelivery.Carrier
+  isSpec: "True"
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.Carrier
+  nameWithType: ProofOfDelivery.Carrier
+- uid: Conizi.Model.Archiving.ProofOfDelivery.Consignee
+  name: Consignee
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_Consignee
+  commentId: P:Conizi.Model.Archiving.ProofOfDelivery.Consignee
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.Consignee
+  nameWithType: ProofOfDelivery.Consignee
+- uid: Conizi.Model.Archiving.ProofOfDelivery.Consignee*
+  name: Consignee
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_Consignee_
+  commentId: Overload:Conizi.Model.Archiving.ProofOfDelivery.Consignee
+  isSpec: "True"
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.Consignee
+  nameWithType: ProofOfDelivery.Consignee
+- uid: Conizi.Model.Archiving.ProofOfDelivery.Content
+  name: Content
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_Content
+  commentId: P:Conizi.Model.Archiving.ProofOfDelivery.Content
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.Content
+  nameWithType: ProofOfDelivery.Content
+- uid: Conizi.Model.Archiving.ProofOfDelivery.Content*
+  name: Content
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_Content_
+  commentId: Overload:Conizi.Model.Archiving.ProofOfDelivery.Content
+  isSpec: "True"
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.Content
+  nameWithType: ProofOfDelivery.Content
+- uid: Conizi.Model.Archiving.ProofOfDelivery.DocumentCreationDate
+  name: DocumentCreationDate
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_DocumentCreationDate
+  commentId: P:Conizi.Model.Archiving.ProofOfDelivery.DocumentCreationDate
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.DocumentCreationDate
+  nameWithType: ProofOfDelivery.DocumentCreationDate
+- uid: Conizi.Model.Archiving.ProofOfDelivery.DocumentCreationDate*
+  name: DocumentCreationDate
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_DocumentCreationDate_
+  commentId: Overload:Conizi.Model.Archiving.ProofOfDelivery.DocumentCreationDate
+  isSpec: "True"
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.DocumentCreationDate
+  nameWithType: ProofOfDelivery.DocumentCreationDate
+- uid: Conizi.Model.Archiving.ProofOfDelivery.Id
+  name: Id
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_Id
+  commentId: P:Conizi.Model.Archiving.ProofOfDelivery.Id
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.Id
+  nameWithType: ProofOfDelivery.Id
+- uid: Conizi.Model.Archiving.ProofOfDelivery.Id*
+  name: Id
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_Id_
+  commentId: Overload:Conizi.Model.Archiving.ProofOfDelivery.Id
+  isSpec: "True"
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.Id
+  nameWithType: ProofOfDelivery.Id
+- uid: Conizi.Model.Archiving.ProofOfDelivery.PlannedShippingDate
+  name: PlannedShippingDate
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_PlannedShippingDate
+  commentId: P:Conizi.Model.Archiving.ProofOfDelivery.PlannedShippingDate
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.PlannedShippingDate
+  nameWithType: ProofOfDelivery.PlannedShippingDate
+- uid: Conizi.Model.Archiving.ProofOfDelivery.PlannedShippingDate*
+  name: PlannedShippingDate
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_PlannedShippingDate_
+  commentId: Overload:Conizi.Model.Archiving.ProofOfDelivery.PlannedShippingDate
+  isSpec: "True"
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.PlannedShippingDate
+  nameWithType: ProofOfDelivery.PlannedShippingDate
+- uid: Conizi.Model.Archiving.ProofOfDelivery.ReceivingPartner
+  name: ReceivingPartner
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_ReceivingPartner
+  commentId: P:Conizi.Model.Archiving.ProofOfDelivery.ReceivingPartner
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.ReceivingPartner
+  nameWithType: ProofOfDelivery.ReceivingPartner
+- uid: Conizi.Model.Archiving.ProofOfDelivery.ReceivingPartner*
+  name: ReceivingPartner
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_ReceivingPartner_
+  commentId: Overload:Conizi.Model.Archiving.ProofOfDelivery.ReceivingPartner
+  isSpec: "True"
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.ReceivingPartner
+  nameWithType: ProofOfDelivery.ReceivingPartner
+- uid: Conizi.Model.Archiving.ProofOfDelivery.RefNo
+  name: RefNo
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_RefNo
+  commentId: P:Conizi.Model.Archiving.ProofOfDelivery.RefNo
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.RefNo
+  nameWithType: ProofOfDelivery.RefNo
+- uid: Conizi.Model.Archiving.ProofOfDelivery.RefNo*
+  name: RefNo
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_RefNo_
+  commentId: Overload:Conizi.Model.Archiving.ProofOfDelivery.RefNo
+  isSpec: "True"
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.RefNo
+  nameWithType: ProofOfDelivery.RefNo
+- uid: Conizi.Model.Archiving.ProofOfDelivery.Shipper
+  name: Shipper
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_Shipper
+  commentId: P:Conizi.Model.Archiving.ProofOfDelivery.Shipper
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.Shipper
+  nameWithType: ProofOfDelivery.Shipper
+- uid: Conizi.Model.Archiving.ProofOfDelivery.Shipper*
+  name: Shipper
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_Shipper_
+  commentId: Overload:Conizi.Model.Archiving.ProofOfDelivery.Shipper
+  isSpec: "True"
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.Shipper
+  nameWithType: ProofOfDelivery.Shipper
+- uid: Conizi.Model.Archiving.ProofOfDelivery.ShippingDate
+  name: ShippingDate
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_ShippingDate
+  commentId: P:Conizi.Model.Archiving.ProofOfDelivery.ShippingDate
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.ShippingDate
+  nameWithType: ProofOfDelivery.ShippingDate
+- uid: Conizi.Model.Archiving.ProofOfDelivery.ShippingDate*
+  name: ShippingDate
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_ShippingDate_
+  commentId: Overload:Conizi.Model.Archiving.ProofOfDelivery.ShippingDate
+  isSpec: "True"
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.ShippingDate
+  nameWithType: ProofOfDelivery.ShippingDate
+- uid: Conizi.Model.Archiving.ProofOfDelivery.ShippingPartner
+  name: ShippingPartner
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_ShippingPartner
+  commentId: P:Conizi.Model.Archiving.ProofOfDelivery.ShippingPartner
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.ShippingPartner
+  nameWithType: ProofOfDelivery.ShippingPartner
+- uid: Conizi.Model.Archiving.ProofOfDelivery.ShippingPartner*
+  name: ShippingPartner
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_ShippingPartner_
+  commentId: Overload:Conizi.Model.Archiving.ProofOfDelivery.ShippingPartner
+  isSpec: "True"
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.ShippingPartner
+  nameWithType: ProofOfDelivery.ShippingPartner
+- uid: Conizi.Model.Archiving.ProofOfDelivery.Signature
+  name: Signature
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_Signature
+  commentId: P:Conizi.Model.Archiving.ProofOfDelivery.Signature
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.Signature
+  nameWithType: ProofOfDelivery.Signature
+- uid: Conizi.Model.Archiving.ProofOfDelivery.Signature*
+  name: Signature
+  href: classes/Conizi.Model.Archiving.ProofOfDelivery.html#Conizi_Model_Archiving_ProofOfDelivery_Signature_
+  commentId: Overload:Conizi.Model.Archiving.ProofOfDelivery.Signature
+  isSpec: "True"
+  fullName: Conizi.Model.Archiving.ProofOfDelivery.Signature
+  nameWithType: ProofOfDelivery.Signature
 - uid: Conizi.Model.Core.Entities
   name: Conizi.Model.Core.Entities
   href: core_lib/Conizi.Model.Core.Entities.html
@@ -1678,6 +1859,19 @@ references:
   commentId: T:Conizi.Model.Shared.Entities.EdiContent
   fullName: Conizi.Model.Shared.Entities.EdiContent
   nameWithType: EdiContent
+- uid: Conizi.Model.Shared.Entities.EdiContent.AdditionalLoadingEquipment
+  name: AdditionalLoadingEquipment
+  href: classes/Conizi.Model.Shared.Entities.EdiContent.html#Conizi_Model_Shared_Entities_EdiContent_AdditionalLoadingEquipment
+  commentId: P:Conizi.Model.Shared.Entities.EdiContent.AdditionalLoadingEquipment
+  fullName: Conizi.Model.Shared.Entities.EdiContent.AdditionalLoadingEquipment
+  nameWithType: EdiContent.AdditionalLoadingEquipment
+- uid: Conizi.Model.Shared.Entities.EdiContent.AdditionalLoadingEquipment*
+  name: AdditionalLoadingEquipment
+  href: classes/Conizi.Model.Shared.Entities.EdiContent.html#Conizi_Model_Shared_Entities_EdiContent_AdditionalLoadingEquipment_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiContent.AdditionalLoadingEquipment
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiContent.AdditionalLoadingEquipment
+  nameWithType: EdiContent.AdditionalLoadingEquipment
 - uid: Conizi.Model.Shared.Entities.EdiContent.HighValueGoods
   name: HighValueGoods
   href: classes/Conizi.Model.Shared.Entities.EdiContent.html#Conizi_Model_Shared_Entities_EdiContent_HighValueGoods
@@ -1788,6 +1982,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.CustomsValue
   nameWithType: EdiContentCustomsInformation.CustomsValue
+- uid: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.Documents
+  name: Documents
+  href: classes/Conizi.Model.Shared.Entities.EdiContentCustomsInformation.html#Conizi_Model_Shared_Entities_EdiContentCustomsInformation_Documents
+  commentId: P:Conizi.Model.Shared.Entities.EdiContentCustomsInformation.Documents
+  fullName: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.Documents
+  nameWithType: EdiContentCustomsInformation.Documents
+- uid: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.Documents*
+  name: Documents
+  href: classes/Conizi.Model.Shared.Entities.EdiContentCustomsInformation.html#Conizi_Model_Shared_Entities_EdiContentCustomsInformation_Documents_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiContentCustomsInformation.Documents
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.Documents
+  nameWithType: EdiContentCustomsInformation.Documents
 - uid: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.GoodsNo
   name: GoodsNo
   href: classes/Conizi.Model.Shared.Entities.EdiContentCustomsInformation.html#Conizi_Model_Shared_Entities_EdiContentCustomsInformation_GoodsNo
@@ -1801,19 +2008,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.GoodsNo
   nameWithType: EdiContentCustomsInformation.GoodsNo
-- uid: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.NetweightKilogram
-  name: NetweightKilogram
-  href: classes/Conizi.Model.Shared.Entities.EdiContentCustomsInformation.html#Conizi_Model_Shared_Entities_EdiContentCustomsInformation_NetweightKilogram
-  commentId: P:Conizi.Model.Shared.Entities.EdiContentCustomsInformation.NetweightKilogram
-  fullName: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.NetweightKilogram
-  nameWithType: EdiContentCustomsInformation.NetweightKilogram
-- uid: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.NetweightKilogram*
-  name: NetweightKilogram
-  href: classes/Conizi.Model.Shared.Entities.EdiContentCustomsInformation.html#Conizi_Model_Shared_Entities_EdiContentCustomsInformation_NetweightKilogram_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiContentCustomsInformation.NetweightKilogram
+- uid: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.NetWeightKilogram
+  name: NetWeightKilogram
+  href: classes/Conizi.Model.Shared.Entities.EdiContentCustomsInformation.html#Conizi_Model_Shared_Entities_EdiContentCustomsInformation_NetWeightKilogram
+  commentId: P:Conizi.Model.Shared.Entities.EdiContentCustomsInformation.NetWeightKilogram
+  fullName: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.NetWeightKilogram
+  nameWithType: EdiContentCustomsInformation.NetWeightKilogram
+- uid: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.NetWeightKilogram*
+  name: NetWeightKilogram
+  href: classes/Conizi.Model.Shared.Entities.EdiContentCustomsInformation.html#Conizi_Model_Shared_Entities_EdiContentCustomsInformation_NetWeightKilogram_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiContentCustomsInformation.NetWeightKilogram
   isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.NetweightKilogram
-  nameWithType: EdiContentCustomsInformation.NetweightKilogram
+  fullName: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.NetWeightKilogram
+  nameWithType: EdiContentCustomsInformation.NetWeightKilogram
 - uid: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.ProcessCode
   name: ProcessCode
   href: classes/Conizi.Model.Shared.Entities.EdiContentCustomsInformation.html#Conizi_Model_Shared_Entities_EdiContentCustomsInformation_ProcessCode
@@ -1840,6 +2047,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.RawWeightKilogram
   nameWithType: EdiContentCustomsInformation.RawWeightKilogram
+- uid: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.StatisticalValue
+  name: StatisticalValue
+  href: classes/Conizi.Model.Shared.Entities.EdiContentCustomsInformation.html#Conizi_Model_Shared_Entities_EdiContentCustomsInformation_StatisticalValue
+  commentId: P:Conizi.Model.Shared.Entities.EdiContentCustomsInformation.StatisticalValue
+  fullName: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.StatisticalValue
+  nameWithType: EdiContentCustomsInformation.StatisticalValue
+- uid: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.StatisticalValue*
+  name: StatisticalValue
+  href: classes/Conizi.Model.Shared.Entities.EdiContentCustomsInformation.html#Conizi_Model_Shared_Entities_EdiContentCustomsInformation_StatisticalValue_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiContentCustomsInformation.StatisticalValue
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.StatisticalValue
+  nameWithType: EdiContentCustomsInformation.StatisticalValue
 - uid: Conizi.Model.Shared.Entities.EdiCustomsDocuments
   name: EdiCustomsDocuments
   href: classes/Conizi.Model.Shared.Entities.EdiCustomsDocuments.html
@@ -1904,19 +2124,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiCustomsInformation.CityUnloading
   nameWithType: EdiCustomsInformation.CityUnloading
-- uid: Conizi.Model.Shared.Entities.EdiCustomsInformation.ClearedForFreeTransitWithinEU
-  name: ClearedForFreeTransitWithinEU
-  href: classes/Conizi.Model.Shared.Entities.EdiCustomsInformation.html#Conizi_Model_Shared_Entities_EdiCustomsInformation_ClearedForFreeTransitWithinEU
-  commentId: P:Conizi.Model.Shared.Entities.EdiCustomsInformation.ClearedForFreeTransitWithinEU
-  fullName: Conizi.Model.Shared.Entities.EdiCustomsInformation.ClearedForFreeTransitWithinEU
-  nameWithType: EdiCustomsInformation.ClearedForFreeTransitWithinEU
-- uid: Conizi.Model.Shared.Entities.EdiCustomsInformation.ClearedForFreeTransitWithinEU*
-  name: ClearedForFreeTransitWithinEU
-  href: classes/Conizi.Model.Shared.Entities.EdiCustomsInformation.html#Conizi_Model_Shared_Entities_EdiCustomsInformation_ClearedForFreeTransitWithinEU_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiCustomsInformation.ClearedForFreeTransitWithinEU
+- uid: Conizi.Model.Shared.Entities.EdiCustomsInformation.ClearedForFreeTransitWithinEu
+  name: ClearedForFreeTransitWithinEu
+  href: classes/Conizi.Model.Shared.Entities.EdiCustomsInformation.html#Conizi_Model_Shared_Entities_EdiCustomsInformation_ClearedForFreeTransitWithinEu
+  commentId: P:Conizi.Model.Shared.Entities.EdiCustomsInformation.ClearedForFreeTransitWithinEu
+  fullName: Conizi.Model.Shared.Entities.EdiCustomsInformation.ClearedForFreeTransitWithinEu
+  nameWithType: EdiCustomsInformation.ClearedForFreeTransitWithinEu
+- uid: Conizi.Model.Shared.Entities.EdiCustomsInformation.ClearedForFreeTransitWithinEu*
+  name: ClearedForFreeTransitWithinEu
+  href: classes/Conizi.Model.Shared.Entities.EdiCustomsInformation.html#Conizi_Model_Shared_Entities_EdiCustomsInformation_ClearedForFreeTransitWithinEu_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiCustomsInformation.ClearedForFreeTransitWithinEu
   isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiCustomsInformation.ClearedForFreeTransitWithinEU
-  nameWithType: EdiCustomsInformation.ClearedForFreeTransitWithinEU
+  fullName: Conizi.Model.Shared.Entities.EdiCustomsInformation.ClearedForFreeTransitWithinEu
+  nameWithType: EdiCustomsInformation.ClearedForFreeTransitWithinEu
 - uid: Conizi.Model.Shared.Entities.EdiCustomsInformation.CountryConsignor
   name: CountryConsignor
   href: classes/Conizi.Model.Shared.Entities.EdiCustomsInformation.html#Conizi_Model_Shared_Entities_EdiCustomsInformation_CountryConsignor
@@ -2469,19 +2689,32 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiDangerousGood.SubstanceName
   nameWithType: EdiDangerousGood.SubstanceName
-- uid: Conizi.Model.Shared.Entities.EdiDangerousGood.TotalPointsADR
-  name: TotalPointsADR
-  href: classes/Conizi.Model.Shared.Entities.EdiDangerousGood.html#Conizi_Model_Shared_Entities_EdiDangerousGood_TotalPointsADR
-  commentId: P:Conizi.Model.Shared.Entities.EdiDangerousGood.TotalPointsADR
-  fullName: Conizi.Model.Shared.Entities.EdiDangerousGood.TotalPointsADR
-  nameWithType: EdiDangerousGood.TotalPointsADR
-- uid: Conizi.Model.Shared.Entities.EdiDangerousGood.TotalPointsADR*
-  name: TotalPointsADR
-  href: classes/Conizi.Model.Shared.Entities.EdiDangerousGood.html#Conizi_Model_Shared_Entities_EdiDangerousGood_TotalPointsADR_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiDangerousGood.TotalPointsADR
+- uid: Conizi.Model.Shared.Entities.EdiDangerousGood.TechnicalNameIfNotOtherwiseSpecified
+  name: TechnicalNameIfNotOtherwiseSpecified
+  href: classes/Conizi.Model.Shared.Entities.EdiDangerousGood.html#Conizi_Model_Shared_Entities_EdiDangerousGood_TechnicalNameIfNotOtherwiseSpecified
+  commentId: P:Conizi.Model.Shared.Entities.EdiDangerousGood.TechnicalNameIfNotOtherwiseSpecified
+  fullName: Conizi.Model.Shared.Entities.EdiDangerousGood.TechnicalNameIfNotOtherwiseSpecified
+  nameWithType: EdiDangerousGood.TechnicalNameIfNotOtherwiseSpecified
+- uid: Conizi.Model.Shared.Entities.EdiDangerousGood.TechnicalNameIfNotOtherwiseSpecified*
+  name: TechnicalNameIfNotOtherwiseSpecified
+  href: classes/Conizi.Model.Shared.Entities.EdiDangerousGood.html#Conizi_Model_Shared_Entities_EdiDangerousGood_TechnicalNameIfNotOtherwiseSpecified_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiDangerousGood.TechnicalNameIfNotOtherwiseSpecified
   isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiDangerousGood.TotalPointsADR
-  nameWithType: EdiDangerousGood.TotalPointsADR
+  fullName: Conizi.Model.Shared.Entities.EdiDangerousGood.TechnicalNameIfNotOtherwiseSpecified
+  nameWithType: EdiDangerousGood.TechnicalNameIfNotOtherwiseSpecified
+- uid: Conizi.Model.Shared.Entities.EdiDangerousGood.TotalPointsAdr
+  name: TotalPointsAdr
+  href: classes/Conizi.Model.Shared.Entities.EdiDangerousGood.html#Conizi_Model_Shared_Entities_EdiDangerousGood_TotalPointsAdr
+  commentId: P:Conizi.Model.Shared.Entities.EdiDangerousGood.TotalPointsAdr
+  fullName: Conizi.Model.Shared.Entities.EdiDangerousGood.TotalPointsAdr
+  nameWithType: EdiDangerousGood.TotalPointsAdr
+- uid: Conizi.Model.Shared.Entities.EdiDangerousGood.TotalPointsAdr*
+  name: TotalPointsAdr
+  href: classes/Conizi.Model.Shared.Entities.EdiDangerousGood.html#Conizi_Model_Shared_Entities_EdiDangerousGood_TotalPointsAdr_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiDangerousGood.TotalPointsAdr
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiDangerousGood.TotalPointsAdr
+  nameWithType: EdiDangerousGood.TotalPointsAdr
 - uid: Conizi.Model.Shared.Entities.EdiDangerousGood.TransportCategory
   name: TransportCategory
   href: classes/Conizi.Model.Shared.Entities.EdiDangerousGood.html#Conizi_Model_Shared_Entities_EdiDangerousGood_TransportCategory
@@ -5464,6 +5697,51 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiPickupAttemptFailedExceptions.WrongAddress
   nameWithType: EdiPickupAttemptFailedExceptions.WrongAddress
+- uid: Conizi.Model.Shared.Entities.EdiPickupDate
+  name: EdiPickupDate
+  href: classes/Conizi.Model.Shared.Entities.EdiPickupDate.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiPickupDate
+  fullName: Conizi.Model.Shared.Entities.EdiPickupDate
+  nameWithType: EdiPickupDate
+- uid: Conizi.Model.Shared.Entities.EdiPickupDate.Date
+  name: Date
+  href: classes/Conizi.Model.Shared.Entities.EdiPickupDate.html#Conizi_Model_Shared_Entities_EdiPickupDate_Date
+  commentId: P:Conizi.Model.Shared.Entities.EdiPickupDate.Date
+  fullName: Conizi.Model.Shared.Entities.EdiPickupDate.Date
+  nameWithType: EdiPickupDate.Date
+- uid: Conizi.Model.Shared.Entities.EdiPickupDate.Date*
+  name: Date
+  href: classes/Conizi.Model.Shared.Entities.EdiPickupDate.html#Conizi_Model_Shared_Entities_EdiPickupDate_Date_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiPickupDate.Date
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiPickupDate.Date
+  nameWithType: EdiPickupDate.Date
+- uid: Conizi.Model.Shared.Entities.EdiPickupDate.TimeFrom
+  name: TimeFrom
+  href: classes/Conizi.Model.Shared.Entities.EdiPickupDate.html#Conizi_Model_Shared_Entities_EdiPickupDate_TimeFrom
+  commentId: P:Conizi.Model.Shared.Entities.EdiPickupDate.TimeFrom
+  fullName: Conizi.Model.Shared.Entities.EdiPickupDate.TimeFrom
+  nameWithType: EdiPickupDate.TimeFrom
+- uid: Conizi.Model.Shared.Entities.EdiPickupDate.TimeFrom*
+  name: TimeFrom
+  href: classes/Conizi.Model.Shared.Entities.EdiPickupDate.html#Conizi_Model_Shared_Entities_EdiPickupDate_TimeFrom_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiPickupDate.TimeFrom
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiPickupDate.TimeFrom
+  nameWithType: EdiPickupDate.TimeFrom
+- uid: Conizi.Model.Shared.Entities.EdiPickupDate.TimeUntil
+  name: TimeUntil
+  href: classes/Conizi.Model.Shared.Entities.EdiPickupDate.html#Conizi_Model_Shared_Entities_EdiPickupDate_TimeUntil
+  commentId: P:Conizi.Model.Shared.Entities.EdiPickupDate.TimeUntil
+  fullName: Conizi.Model.Shared.Entities.EdiPickupDate.TimeUntil
+  nameWithType: EdiPickupDate.TimeUntil
+- uid: Conizi.Model.Shared.Entities.EdiPickupDate.TimeUntil*
+  name: TimeUntil
+  href: classes/Conizi.Model.Shared.Entities.EdiPickupDate.html#Conizi_Model_Shared_Entities_EdiPickupDate_TimeUntil_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiPickupDate.TimeUntil
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiPickupDate.TimeUntil
+  nameWithType: EdiPickupDate.TimeUntil
 - uid: Conizi.Model.Shared.Entities.EdiPickupFinishedAtShipperExceptions
   name: EdiPickupFinishedAtShipperExceptions
   href: classes/Conizi.Model.Shared.Entities.EdiPickupFinishedAtShipperExceptions.html
@@ -7028,6 +7306,38 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiUseSpecificLastMileProvider.Name
   nameWithType: EdiUseSpecificLastMileProvider.Name
+- uid: Conizi.Model.Shared.Entities.EdiValue
+  name: EdiValue
+  href: classes/Conizi.Model.Shared.Entities.EdiValue.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiValue
+  fullName: Conizi.Model.Shared.Entities.EdiValue
+  nameWithType: EdiValue
+- uid: Conizi.Model.Shared.Entities.EdiValue.Amount
+  name: Amount
+  href: classes/Conizi.Model.Shared.Entities.EdiValue.html#Conizi_Model_Shared_Entities_EdiValue_Amount
+  commentId: P:Conizi.Model.Shared.Entities.EdiValue.Amount
+  fullName: Conizi.Model.Shared.Entities.EdiValue.Amount
+  nameWithType: EdiValue.Amount
+- uid: Conizi.Model.Shared.Entities.EdiValue.Amount*
+  name: Amount
+  href: classes/Conizi.Model.Shared.Entities.EdiValue.html#Conizi_Model_Shared_Entities_EdiValue_Amount_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiValue.Amount
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiValue.Amount
+  nameWithType: EdiValue.Amount
+- uid: Conizi.Model.Shared.Entities.EdiValue.Currency
+  name: Currency
+  href: classes/Conizi.Model.Shared.Entities.EdiValue.html#Conizi_Model_Shared_Entities_EdiValue_Currency
+  commentId: P:Conizi.Model.Shared.Entities.EdiValue.Currency
+  fullName: Conizi.Model.Shared.Entities.EdiValue.Currency
+  nameWithType: EdiValue.Currency
+- uid: Conizi.Model.Shared.Entities.EdiValue.Currency*
+  name: Currency
+  href: classes/Conizi.Model.Shared.Entities.EdiValue.html#Conizi_Model_Shared_Entities_EdiValue_Currency_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiValue.Currency
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiValue.Currency
+  nameWithType: EdiValue.Currency
 - uid: Conizi.Model.Shared.Entities.EdiValueAtBorderCrossing
   name: EdiValueAtBorderCrossing
   href: classes/Conizi.Model.Shared.Entities.EdiValueAtBorderCrossing.html
@@ -10032,6 +10342,32 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.AdditionalPartners
   nameWithType: PickupOrder.AdditionalPartners
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Billing
+  name: Billing
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_Billing
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Billing
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Billing
+  nameWithType: PickupOrder.Billing
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Billing*
+  name: Billing
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_Billing_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Billing
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Billing
+  nameWithType: PickupOrder.Billing
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Content
+  name: Content
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_Content
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Content
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Content
+  nameWithType: PickupOrder.Content
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Content*
+  name: Content
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_Content_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Content
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Content
+  nameWithType: PickupOrder.Content
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.ContractedPartner
   name: ContractedPartner
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_ContractedPartner
@@ -10045,6 +10381,45 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.ContractedPartner
   nameWithType: PickupOrder.ContractedPartner
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.CustomsInformation
+  name: CustomsInformation
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_CustomsInformation
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.CustomsInformation
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.CustomsInformation
+  nameWithType: PickupOrder.CustomsInformation
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.CustomsInformation*
+  name: CustomsInformation
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_CustomsInformation_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.CustomsInformation
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.CustomsInformation
+  nameWithType: PickupOrder.CustomsInformation
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.ExternalServices
+  name: ExternalServices
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_ExternalServices
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.ExternalServices
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.ExternalServices
+  nameWithType: PickupOrder.ExternalServices
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.ExternalServices*
+  name: ExternalServices
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_ExternalServices_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.ExternalServices
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.ExternalServices
+  nameWithType: PickupOrder.ExternalServices
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Information
+  name: Information
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_Information
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Information
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Information
+  nameWithType: PickupOrder.Information
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Information*
+  name: Information
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_Information_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Information
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Information
+  nameWithType: PickupOrder.Information
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.OrderingPartner
   name: OrderingPartner
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_OrderingPartner
@@ -10110,6 +10485,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.PickupOrderNo
   nameWithType: PickupOrder.PickupOrderNo
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.References
+  name: References
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_References
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.References
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.References
+  nameWithType: PickupOrder.References
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.References*
+  name: References
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_References_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.References
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.References
+  nameWithType: PickupOrder.References
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Routing
   name: Routing
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_Routing
@@ -10136,12 +10524,6 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Services
   nameWithType: PickupOrder.Services
-- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk
-  name: PickupOrderBulk
-  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.html
-  commentId: T:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk
-  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk
-  nameWithType: PickupOrderBulk
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderEvent
   name: PickupOrderEvent
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderEvent.html

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EdiSameDayPickup
+    <title>Class EdiPickupDate
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EdiSameDayPickup
+    <meta name="title" content="Class EdiPickupDate
    ">
     <meta name="generator" content="docfx 2.42.1.0">
     
@@ -68,35 +68,34 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiSameDayPickup">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiPickupDate">
   
   
-  <h1 id="Conizi_Model_Shared_Entities_EdiSameDayPickup" data-uid="Conizi.Model.Shared.Entities.EdiSameDayPickup" class="text-break">Class EdiSameDayPickup
+  <h1 id="Conizi_Model_Shared_Entities_EdiPickupDate" data-uid="Conizi.Model.Shared.Entities.EdiPickupDate" class="text-break">Class EdiPickupDate
   </h1>
-  <div class="markdown level0 summary"><p>The goods must be picked up on the same day</p>
+  <div class="markdown level0 summary"><p>The date on which the pickup order should be processed by the contracted partner</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase</span></div>
-    <div class="level2"><span class="xref">EdiSameDayPickup</span></div>
+    <div class="level1"><span class="xref">EdiPickupDate</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
-  <h5 id="Conizi_Model_Shared_Entities_EdiSameDayPickup_syntax">Syntax</h5>
+  <h5 id="Conizi_Model_Shared_Entities_EdiPickupDate_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonObject(&quot;sameDayPickup&quot;)]
-[ConiziAdditionalProperties(false)]
+    <pre><code class="lang-csharp hljs">[ConiziAdditionalProperties(false)]
 [ConiziAllowXProperties(true)]
-public class EdiSameDayPickup : EdiPatternPropertiesBase</code></pre>
+[JsonObject(&quot;pickupDate&quot;)]
+public class EdiPickupDate</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiSameDayPickup_Date_" data-uid="Conizi.Model.Shared.Entities.EdiSameDayPickup.Date*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiSameDayPickup_Date" data-uid="Conizi.Model.Shared.Entities.EdiSameDayPickup.Date">Date</h4>
+  <a id="Conizi_Model_Shared_Entities_EdiPickupDate_Date_" data-uid="Conizi.Model.Shared.Entities.EdiPickupDate.Date*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiPickupDate_Date" data-uid="Conizi.Model.Shared.Entities.EdiPickupDate.Date">Date</h4>
   <div class="markdown level1 summary"><p>Date (Day)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -122,8 +121,8 @@ public DateTime Date { get; set; }</code></pre>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiSameDayPickup_TimeFrom_" data-uid="Conizi.Model.Shared.Entities.EdiSameDayPickup.TimeFrom*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiSameDayPickup_TimeFrom" data-uid="Conizi.Model.Shared.Entities.EdiSameDayPickup.TimeFrom">TimeFrom</h4>
+  <a id="Conizi_Model_Shared_Entities_EdiPickupDate_TimeFrom_" data-uid="Conizi.Model.Shared.Entities.EdiPickupDate.TimeFrom*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiPickupDate_TimeFrom" data-uid="Conizi.Model.Shared.Entities.EdiPickupDate.TimeFrom">TimeFrom</h4>
   <div class="markdown level1 summary"><p>From time (HH:mm:ss)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -149,8 +148,8 @@ public string TimeFrom { get; set; }</code></pre>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiSameDayPickup_TimeUntil_" data-uid="Conizi.Model.Shared.Entities.EdiSameDayPickup.TimeUntil*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiSameDayPickup_TimeUntil" data-uid="Conizi.Model.Shared.Entities.EdiSameDayPickup.TimeUntil">TimeUntil</h4>
+  <a id="Conizi_Model_Shared_Entities_EdiPickupDate_TimeUntil_" data-uid="Conizi.Model.Shared.Entities.EdiPickupDate.TimeUntil*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiPickupDate_TimeUntil" data-uid="Conizi.Model.Shared.Entities.EdiPickupDate.TimeUntil">TimeUntil</h4>
   <div class="markdown level1 summary"><p>From time (HH:mm:ss)</p>
 </div>
   <div class="markdown level1 conceptual"></div>

@@ -73,7 +73,8 @@
   
   <h1 id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation" class="text-break">Class EdiContentCustomsInformation
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Used to specify information necessary in the customs process</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -87,6 +88,7 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonObject(&quot;contentCustomsInformation&quot;)]
 [ConiziAdditionalProperties(false)]
+[ConiziAllowXProperties(true)]
 public class EdiContentCustomsInformation : EdiPatternPropertiesBase</code></pre>
   </div>
   <h3 id="properties">Properties
@@ -95,11 +97,12 @@ public class EdiContentCustomsInformation : EdiPatternPropertiesBase</code></pre
   
   <a id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_CountryOfOrigin_" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.CountryOfOrigin*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_CountryOfOrigin" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.CountryOfOrigin">CountryOfOrigin</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The Country of origin</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CountryOfOrigin { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiValue CountryOfOrigin { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -111,7 +114,7 @@ public class EdiContentCustomsInformation : EdiPatternPropertiesBase</code></pre
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiValue.html">EdiValue</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -120,11 +123,12 @@ public class EdiContentCustomsInformation : EdiPatternPropertiesBase</code></pre
   
   <a id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_CustomsValue_" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.CustomsValue*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_CustomsValue" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.CustomsValue">CustomsValue</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The customs value</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CustomsValue { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiValue CustomsValue { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,7 +140,33 @@ public class EdiContentCustomsInformation : EdiPatternPropertiesBase</code></pre
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiValue.html">EdiValue</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_Documents_" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.Documents*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_Documents" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.Documents">Documents</h4>
+  <div class="markdown level1 summary"><p>Customs documents</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiCustomsDocuments Documents { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiCustomsDocuments.html">EdiCustomsDocuments</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -145,7 +175,8 @@ public class EdiContentCustomsInformation : EdiPatternPropertiesBase</code></pre
   
   <a id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_GoodsNo_" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.GoodsNo*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_GoodsNo" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.GoodsNo">GoodsNo</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Goods number</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -168,13 +199,14 @@ public class EdiContentCustomsInformation : EdiPatternPropertiesBase</code></pre
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_NetweightKilogram_" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.NetweightKilogram*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_NetweightKilogram" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.NetweightKilogram">NetweightKilogram</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_NetWeightKilogram_" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.NetWeightKilogram*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_NetWeightKilogram" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.NetWeightKilogram">NetWeightKilogram</h4>
+  <div class="markdown level1 summary"><p>The net weight in kilogram</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public decimal NetweightKilogram { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public decimal NetWeightKilogram { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -195,7 +227,8 @@ public class EdiContentCustomsInformation : EdiPatternPropertiesBase</code></pre
   
   <a id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_ProcessCode_" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.ProcessCode*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_ProcessCode" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.ProcessCode">ProcessCode</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The Process cod</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -220,7 +253,8 @@ public class EdiContentCustomsInformation : EdiPatternPropertiesBase</code></pre
   
   <a id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_RawWeightKilogram_" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.RawWeightKilogram*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_RawWeightKilogram" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.RawWeightKilogram">RawWeightKilogram</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The raw weight in kilogram</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -237,6 +271,32 @@ public class EdiContentCustomsInformation : EdiPatternPropertiesBase</code></pre
     <tbody>
       <tr>
         <td><span class="xref">System.Decimal</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_StatisticalValue_" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.StatisticalValue*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiContentCustomsInformation_StatisticalValue" data-uid="Conizi.Model.Shared.Entities.EdiContentCustomsInformation.StatisticalValue">StatisticalValue</h4>
+  <div class="markdown level1 summary"><p>The statistical value</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiValue StatisticalValue { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiValue.html">EdiValue</a></td>
         <td></td>
       </tr>
     </tbody>

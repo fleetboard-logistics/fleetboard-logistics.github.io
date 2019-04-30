@@ -143,6 +143,58 @@ public class PickupOrder : EdiModel</code></pre>
   </table>
   
   
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_Billing_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Billing*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_Billing" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Billing">Billing</h4>
+  <div class="markdown level1 summary"><p>Information for invoicing and clearing</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiBilling Billing { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiBilling.html">EdiBilling</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_Content_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Content*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_Content" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Content">Content</h4>
+  <div class="markdown level1 summary"><p>Describes the nature and quantity of the goods in this pickup order</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiContent Content { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiContent.html">EdiContent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_ContractedPartner_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.ContractedPartner*"></a>
   <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_ContractedPartner" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.ContractedPartner">ContractedPartner</h4>
   <div class="markdown level1 summary"><p>The partner which is contracted for processing the pickup order</p>
@@ -165,6 +217,84 @@ public EdiPartnerIdentification ContractedPartner { get; set; }</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiPartnerIdentification.html">EdiPartnerIdentification</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_CustomsInformation_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.CustomsInformation*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_CustomsInformation" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.CustomsInformation">CustomsInformation</h4>
+  <div class="markdown level1 summary"><p>Used to specify information necessary in the customs process</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiCustomsInformation CustomsInformation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiCustomsInformation.html">EdiCustomsInformation</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_ExternalServices_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.ExternalServices*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_ExternalServices" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.ExternalServices">ExternalServices</h4>
+  <div class="markdown level1 summary"><p>Services that are not provided by the parties involved in the physical transport but by external service providers (e.g. central services by the networks)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiExternalServices ExternalServices { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiExternalServices.html">EdiExternalServices</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_Information_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Information*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_Information" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Information">Information</h4>
+  <div class="markdown level1 summary"><p>General information about the pickup order</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiInformation Information { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiInformation.html">EdiInformation</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -233,10 +363,7 @@ public EdiAddress OrderingParty { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;pickupDate&quot;, Order = -8)]
-[ConiziDateOnly]
-[Required]
-public DateTime PickupDate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiPickupDate PickupDate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -248,7 +375,7 @@ public DateTime PickupDate { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiPickupDate.html">EdiPickupDate</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -306,6 +433,32 @@ public string PickupOrderNo { get; set; }</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_References_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.References*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_References" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.References">References</h4>
+  <div class="markdown level1 summary"><p>Numbers of various sources identifying this pickup order or references from this pickup to other business processes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiReferences References { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiReferences.html">EdiReferences</a></td>
         <td></td>
       </tr>
     </tbody>
