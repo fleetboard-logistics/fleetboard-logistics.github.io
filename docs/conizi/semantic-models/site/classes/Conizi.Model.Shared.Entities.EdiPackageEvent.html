@@ -1,0 +1,419 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class EdiPackageEvent
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class EdiPackageEvent
+   ">
+    <meta name="generator" content="docfx 2.42.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../fusion/toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent">
+  
+  
+  <h1 id="Conizi_Model_Shared_Entities_EdiPackageEvent" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent" class="text-break">Class EdiPackageEvent
+  </h1>
+  <div class="markdown level0 summary"><p>Event to notify about package specific incidents</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase</span></div>
+    <div class="level2"><span class="xref">Conizi.Model.Shared.Interfaces.EdiEventBase</span></div>
+    <div class="level3"><span class="xref">EdiPackageEvent</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
+  <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
+  <h5 id="Conizi_Model_Shared_Entities_EdiPackageEvent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConiziAdditionalProperties(false)]
+[ConiziAllowXProperties(true)]
+[JsonObject(&quot;packageEvent&quot;)]
+public class EdiPackageEvent : EdiEventBase</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiPackageEvent_BestBeforeDate_" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.BestBeforeDate*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiPackageEvent_BestBeforeDate" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.BestBeforeDate">BestBeforeDate</h4>
+  <div class="markdown level1 summary"><p>Best before date</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConiziDateOnly]
+public DateTime BestBeforeDate { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiPackageEvent_Bulkiness_" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.Bulkiness*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiPackageEvent_Bulkiness" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.Bulkiness">Bulkiness</h4>
+  <div class="markdown level1 summary"><p>Bulkiness of the package</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageBulkiness Bulkiness { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiPackageBulkiness.html">EdiPackageBulkiness</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiPackageEvent_BulkinessCategory_" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.BulkinessCategory*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiPackageEvent_BulkinessCategory" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.BulkinessCategory">BulkinessCategory</h4>
+  <div class="markdown level1 summary"><p>Package Bulkiness category</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BulkinessCategory { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiPackageEvent_Exceptions_" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.Exceptions*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiPackageEvent_Exceptions" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.Exceptions">Exceptions</h4>
+  <div class="markdown level1 summary"><p>Detailed information about the exceptions that occured while processing / scanning the package</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPackageEventExceptions Exceptions { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiPackageEventExceptions.html">EdiPackageEventExceptions</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiPackageEvent_GateNo_" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.GateNo*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiPackageEvent_GateNo" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.GateNo">GateNo</h4>
+  <div class="markdown level1 summary"><p>Gate</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GateNo { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiPackageEvent_LotNo_" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.LotNo*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiPackageEvent_LotNo" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.LotNo">LotNo</h4>
+  <div class="markdown level1 summary"><p>Lot number</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string LotNo { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiPackageEvent_MasterBarcode_" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.MasterBarcode*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiPackageEvent_MasterBarcode" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.MasterBarcode">MasterBarcode</h4>
+  <div class="markdown level1 summary"><p>Master barcode (i.e. Master colli)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string MasterBarcode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiPackageEvent_PackageType_" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.PackageType*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiPackageEvent_PackageType" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.PackageType">PackageType</h4>
+  <div class="markdown level1 summary"><p>Type of the package that is being reported</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PackageType { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiPackageEvent_ScanUser_" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.ScanUser*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiPackageEvent_ScanUser" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.ScanUser">ScanUser</h4>
+  <div class="markdown level1 summary"><p>Scan user</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ScanUser { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiPackageEvent_TerminalNo_" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.TerminalNo*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiPackageEvent_TerminalNo" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.TerminalNo">TerminalNo</h4>
+  <div class="markdown level1 summary"><p>Terminal number</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TerminalNo { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiPackageEvent_TransportUnitNo_" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.TransportUnitNo*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiPackageEvent_TransportUnitNo" data-uid="Conizi.Model.Shared.Entities.EdiPackageEvent.TransportUnitNo">TransportUnitNo</h4>
+  <div class="markdown level1 summary"><p>Transport Unit Number</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TransportUnitNo { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
