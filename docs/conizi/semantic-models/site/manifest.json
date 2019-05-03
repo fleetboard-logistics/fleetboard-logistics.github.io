@@ -36,7 +36,7 @@
           "hash": "LQRxzxzaU4TimDgLQXhGlg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -72,7 +72,7 @@
           "hash": "Ji8NTBEdmVyfVC1zO4hwZA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -84,7 +84,7 @@
           "hash": "4i1iMl6tNCK19ZwlmtjB/g=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -96,7 +96,7 @@
           "hash": "rxD5zYB5G99qKB7gt5iYEw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -108,7 +108,7 @@
           "hash": "Ske5ygWRqzgXjRGuW72JSg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -849,10 +849,10 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiModel.html",
-          "hash": "/J5Aoy7LNYrC46b2sKFKqQ=="
+          "hash": "LCSbhNQC/jTMNQGzB7KLlQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1884,7 +1884,7 @@
           "hash": "i6MFE/xNihHllFJb48kzxw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1896,7 +1896,7 @@
           "hash": "1B5lkUVKc66tZ2g4WeCL9A=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1908,7 +1908,7 @@
           "hash": "vvZKshVnYEW4zxu3wtaIXA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1920,7 +1920,7 @@
           "hash": "iuvEVUrmc9l+w4raGHpugA=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1932,7 +1932,7 @@
           "hash": "WKjbOanvH6vUc5Rooxmqyg=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1944,7 +1944,7 @@
           "hash": "Pi9h8ZZpb6w643Vfpep4QQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1956,7 +1956,19 @@
           "hash": "1IQCIbf1r0qg9erPq6cJ/Q=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.html",
+          "hash": "B0Gc95O+ZKciYlgzpcRh6A=="
+        }
+      },
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1968,7 +1980,7 @@
           "hash": "zGMFI4lG1Pa5Knp9g/lNMw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1980,7 +1992,7 @@
           "hash": "xiABwfMczJY9lQRxFok5yw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -1992,7 +2004,7 @@
           "hash": "E/IaoG8flEsDEnCxnv77zQ=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2001,10 +2013,10 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.html",
-          "hash": "YLDo5af6nSQ+dyVrDaD/4A=="
+          "hash": "OXfxIeLrC6Skl3fyQl2xqw=="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -2169,7 +2181,7 @@
       "output": {
         ".html": {
           "relative_path": "fusion/toc.html",
-          "hash": "KiDW4m3wX+p5RBi1tCg3hg=="
+          "hash": "DUhiVLIRrvCKnu/IKChHsg=="
         }
       },
       "is_incremental": false,
@@ -2220,13 +2232,6 @@
         "skipped_file_count": 0
       },
       "processors": {
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -2234,17 +2239,24 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 172,
-          "skipped_file_count": 172
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 9,
           "skipped_file_count": 9
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 173,
+          "skipped_file_count": 170
         }
       }
     },

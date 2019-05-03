@@ -10661,6 +10661,25 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.Services
   nameWithType: PickupOrder.Services
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk
+  name: PickupOrderBulk
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.html
+  commentId: T:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk
+  nameWithType: PickupOrderBulk
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOfOrders
+  name: PickupOfOrders
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrderBulk_PickupOfOrders
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOfOrders
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOfOrders
+  nameWithType: PickupOrderBulk.PickupOfOrders
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOfOrders*
+  name: PickupOfOrders
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrderBulk_PickupOfOrders_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOfOrders
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOfOrders
+  nameWithType: PickupOrderBulk.PickupOfOrders
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderEvent
   name: PickupOrderEvent
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderEvent.html
