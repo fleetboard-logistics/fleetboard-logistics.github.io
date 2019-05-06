@@ -856,6 +856,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiAddress.FaxNumber
   nameWithType: EdiAddress.FaxNumber
+- uid: Conizi.Model.Shared.Entities.EdiAddress.GeoPosition
+  name: GeoPosition
+  href: classes/Conizi.Model.Shared.Entities.EdiAddress.html#Conizi_Model_Shared_Entities_EdiAddress_GeoPosition
+  commentId: P:Conizi.Model.Shared.Entities.EdiAddress.GeoPosition
+  fullName: Conizi.Model.Shared.Entities.EdiAddress.GeoPosition
+  nameWithType: EdiAddress.GeoPosition
+- uid: Conizi.Model.Shared.Entities.EdiAddress.GeoPosition*
+  name: GeoPosition
+  href: classes/Conizi.Model.Shared.Entities.EdiAddress.html#Conizi_Model_Shared_Entities_EdiAddress_GeoPosition_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiAddress.GeoPosition
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiAddress.GeoPosition
+  nameWithType: EdiAddress.GeoPosition
 - uid: Conizi.Model.Shared.Entities.EdiAddress.HouseNumber
   name: HouseNumber
   href: classes/Conizi.Model.Shared.Entities.EdiAddress.html#Conizi_Model_Shared_Entities_EdiAddress_HouseNumber
@@ -895,19 +908,6 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiAddress.PhoneNumber
   nameWithType: EdiAddress.PhoneNumber
-- uid: Conizi.Model.Shared.Entities.EdiAddress.Reference
-  name: Reference
-  href: classes/Conizi.Model.Shared.Entities.EdiAddress.html#Conizi_Model_Shared_Entities_EdiAddress_Reference
-  commentId: P:Conizi.Model.Shared.Entities.EdiAddress.Reference
-  fullName: Conizi.Model.Shared.Entities.EdiAddress.Reference
-  nameWithType: EdiAddress.Reference
-- uid: Conizi.Model.Shared.Entities.EdiAddress.Reference*
-  name: Reference
-  href: classes/Conizi.Model.Shared.Entities.EdiAddress.html#Conizi_Model_Shared_Entities_EdiAddress_Reference_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiAddress.Reference
-  isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiAddress.Reference
-  nameWithType: EdiAddress.Reference
 - uid: Conizi.Model.Shared.Entities.EdiAddress.ReferenceNumber
   name: ReferenceNumber
   href: classes/Conizi.Model.Shared.Entities.EdiAddress.html#Conizi_Model_Shared_Entities_EdiAddress_ReferenceNumber
@@ -5793,6 +5793,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiPartnerIdentification.FaxNumber
   nameWithType: EdiPartnerIdentification.FaxNumber
+- uid: Conizi.Model.Shared.Entities.EdiPartnerIdentification.GeoPosition
+  name: GeoPosition
+  href: classes/Conizi.Model.Shared.Entities.EdiPartnerIdentification.html#Conizi_Model_Shared_Entities_EdiPartnerIdentification_GeoPosition
+  commentId: P:Conizi.Model.Shared.Entities.EdiPartnerIdentification.GeoPosition
+  fullName: Conizi.Model.Shared.Entities.EdiPartnerIdentification.GeoPosition
+  nameWithType: EdiPartnerIdentification.GeoPosition
+- uid: Conizi.Model.Shared.Entities.EdiPartnerIdentification.GeoPosition*
+  name: GeoPosition
+  href: classes/Conizi.Model.Shared.Entities.EdiPartnerIdentification.html#Conizi_Model_Shared_Entities_EdiPartnerIdentification_GeoPosition_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiPartnerIdentification.GeoPosition
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiPartnerIdentification.GeoPosition
+  nameWithType: EdiPartnerIdentification.GeoPosition
 - uid: Conizi.Model.Shared.Entities.EdiPartnerIdentification.HouseNumber
   name: HouseNumber
   href: classes/Conizi.Model.Shared.Entities.EdiPartnerIdentification.html#Conizi_Model_Shared_Entities_EdiPartnerIdentification_HouseNumber
@@ -10667,19 +10680,19 @@ references:
   commentId: T:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk
   nameWithType: PickupOrderBulk
-- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOfOrders
-  name: PickupOfOrders
-  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrderBulk_PickupOfOrders
-  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOfOrders
-  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOfOrders
-  nameWithType: PickupOrderBulk.PickupOfOrders
-- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOfOrders*
-  name: PickupOfOrders
-  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrderBulk_PickupOfOrders_
-  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOfOrders
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOrders
+  name: PickupOrders
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrderBulk_PickupOrders
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOrders
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOrders
+  nameWithType: PickupOrderBulk.PickupOrders
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOrders*
+  name: PickupOrders
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrderBulk_PickupOrders_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOrders
   isSpec: "True"
-  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOfOrders
-  nameWithType: PickupOrderBulk.PickupOfOrders
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.PickupOrders
+  nameWithType: PickupOrderBulk.PickupOrders
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderEvent
   name: PickupOrderEvent
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderEvent.html
