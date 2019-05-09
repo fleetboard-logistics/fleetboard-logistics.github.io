@@ -2285,6 +2285,19 @@ references:
   commentId: T:Conizi.Model.Shared.Entities.EdiDataProcessing
   fullName: Conizi.Model.Shared.Entities.EdiDataProcessing
   nameWithType: EdiDataProcessing
+- uid: Conizi.Model.Shared.Entities.EdiDataProcessing.Exceptions
+  name: Exceptions
+  href: classes/Conizi.Model.Shared.Entities.EdiDataProcessing.html#Conizi_Model_Shared_Entities_EdiDataProcessing_Exceptions
+  commentId: P:Conizi.Model.Shared.Entities.EdiDataProcessing.Exceptions
+  fullName: Conizi.Model.Shared.Entities.EdiDataProcessing.Exceptions
+  nameWithType: EdiDataProcessing.Exceptions
+- uid: Conizi.Model.Shared.Entities.EdiDataProcessing.Exceptions*
+  name: Exceptions
+  href: classes/Conizi.Model.Shared.Entities.EdiDataProcessing.html#Conizi_Model_Shared_Entities_EdiDataProcessing_Exceptions_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiDataProcessing.Exceptions
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiDataProcessing.Exceptions
+  nameWithType: EdiDataProcessing.Exceptions
 - uid: Conizi.Model.Shared.Entities.EdiDataProcessing.InvalidDangerousGoodInformation
   name: InvalidDangerousGoodInformation
   href: classes/Conizi.Model.Shared.Entities.EdiDataProcessing.html#Conizi_Model_Shared_Entities_EdiDataProcessing_InvalidDangerousGoodInformation
@@ -2324,6 +2337,51 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiDataProcessing.InvalidPackageType
   nameWithType: EdiDataProcessing.InvalidPackageType
+- uid: Conizi.Model.Shared.Entities.EdiDataProcessingExceptions
+  name: EdiDataProcessingExceptions
+  href: classes/Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiDataProcessingExceptions
+  fullName: Conizi.Model.Shared.Entities.EdiDataProcessingExceptions
+  nameWithType: EdiDataProcessingExceptions
+- uid: Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidDangerousGoodInformation
+  name: InvalidDangerousGoodInformation
+  href: classes/Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.html#Conizi_Model_Shared_Entities_EdiDataProcessingExceptions_InvalidDangerousGoodInformation
+  commentId: P:Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidDangerousGoodInformation
+  fullName: Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidDangerousGoodInformation
+  nameWithType: EdiDataProcessingExceptions.InvalidDangerousGoodInformation
+- uid: Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidDangerousGoodInformation*
+  name: InvalidDangerousGoodInformation
+  href: classes/Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.html#Conizi_Model_Shared_Entities_EdiDataProcessingExceptions_InvalidDangerousGoodInformation_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidDangerousGoodInformation
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidDangerousGoodInformation
+  nameWithType: EdiDataProcessingExceptions.InvalidDangerousGoodInformation
+- uid: Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidData
+  name: InvalidData
+  href: classes/Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.html#Conizi_Model_Shared_Entities_EdiDataProcessingExceptions_InvalidData
+  commentId: P:Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidData
+  fullName: Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidData
+  nameWithType: EdiDataProcessingExceptions.InvalidData
+- uid: Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidData*
+  name: InvalidData
+  href: classes/Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.html#Conizi_Model_Shared_Entities_EdiDataProcessingExceptions_InvalidData_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidData
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidData
+  nameWithType: EdiDataProcessingExceptions.InvalidData
+- uid: Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidPackageType
+  name: InvalidPackageType
+  href: classes/Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.html#Conizi_Model_Shared_Entities_EdiDataProcessingExceptions_InvalidPackageType
+  commentId: P:Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidPackageType
+  fullName: Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidPackageType
+  nameWithType: EdiDataProcessingExceptions.InvalidPackageType
+- uid: Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidPackageType*
+  name: InvalidPackageType
+  href: classes/Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.html#Conizi_Model_Shared_Entities_EdiDataProcessingExceptions_InvalidPackageType_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidPackageType
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.InvalidPackageType
+  nameWithType: EdiDataProcessingExceptions.InvalidPackageType
 - uid: Conizi.Model.Shared.Entities.EdiDeliveryAttemptDifficulties
   name: EdiDeliveryAttemptDifficulties
   href: classes/Conizi.Model.Shared.Entities.EdiDeliveryAttemptDifficulties.html
