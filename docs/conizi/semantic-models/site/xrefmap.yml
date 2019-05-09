@@ -908,19 +908,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiAddress.PhoneNumber
   nameWithType: EdiAddress.PhoneNumber
-- uid: Conizi.Model.Shared.Entities.EdiAddress.ReferenceNumber
-  name: ReferenceNumber
-  href: classes/Conizi.Model.Shared.Entities.EdiAddress.html#Conizi_Model_Shared_Entities_EdiAddress_ReferenceNumber
-  commentId: P:Conizi.Model.Shared.Entities.EdiAddress.ReferenceNumber
-  fullName: Conizi.Model.Shared.Entities.EdiAddress.ReferenceNumber
-  nameWithType: EdiAddress.ReferenceNumber
-- uid: Conizi.Model.Shared.Entities.EdiAddress.ReferenceNumber*
-  name: ReferenceNumber
-  href: classes/Conizi.Model.Shared.Entities.EdiAddress.html#Conizi_Model_Shared_Entities_EdiAddress_ReferenceNumber_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiAddress.ReferenceNumber
+- uid: Conizi.Model.Shared.Entities.EdiAddress.Reference
+  name: Reference
+  href: classes/Conizi.Model.Shared.Entities.EdiAddress.html#Conizi_Model_Shared_Entities_EdiAddress_Reference
+  commentId: P:Conizi.Model.Shared.Entities.EdiAddress.Reference
+  fullName: Conizi.Model.Shared.Entities.EdiAddress.Reference
+  nameWithType: EdiAddress.Reference
+- uid: Conizi.Model.Shared.Entities.EdiAddress.Reference*
+  name: Reference
+  href: classes/Conizi.Model.Shared.Entities.EdiAddress.html#Conizi_Model_Shared_Entities_EdiAddress_Reference_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiAddress.Reference
   isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiAddress.ReferenceNumber
-  nameWithType: EdiAddress.ReferenceNumber
+  fullName: Conizi.Model.Shared.Entities.EdiAddress.Reference
+  nameWithType: EdiAddress.Reference
 - uid: Conizi.Model.Shared.Entities.EdiAddress.Street
   name: Street
   href: classes/Conizi.Model.Shared.Entities.EdiAddress.html#Conizi_Model_Shared_Entities_EdiAddress_Street
@@ -5845,19 +5845,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiPartnerIdentification.PhoneNumber
   nameWithType: EdiPartnerIdentification.PhoneNumber
-- uid: Conizi.Model.Shared.Entities.EdiPartnerIdentification.ReferenceNumber
-  name: ReferenceNumber
-  href: classes/Conizi.Model.Shared.Entities.EdiPartnerIdentification.html#Conizi_Model_Shared_Entities_EdiPartnerIdentification_ReferenceNumber
-  commentId: P:Conizi.Model.Shared.Entities.EdiPartnerIdentification.ReferenceNumber
-  fullName: Conizi.Model.Shared.Entities.EdiPartnerIdentification.ReferenceNumber
-  nameWithType: EdiPartnerIdentification.ReferenceNumber
-- uid: Conizi.Model.Shared.Entities.EdiPartnerIdentification.ReferenceNumber*
-  name: ReferenceNumber
-  href: classes/Conizi.Model.Shared.Entities.EdiPartnerIdentification.html#Conizi_Model_Shared_Entities_EdiPartnerIdentification_ReferenceNumber_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiPartnerIdentification.ReferenceNumber
+- uid: Conizi.Model.Shared.Entities.EdiPartnerIdentification.Reference
+  name: Reference
+  href: classes/Conizi.Model.Shared.Entities.EdiPartnerIdentification.html#Conizi_Model_Shared_Entities_EdiPartnerIdentification_Reference
+  commentId: P:Conizi.Model.Shared.Entities.EdiPartnerIdentification.Reference
+  fullName: Conizi.Model.Shared.Entities.EdiPartnerIdentification.Reference
+  nameWithType: EdiPartnerIdentification.Reference
+- uid: Conizi.Model.Shared.Entities.EdiPartnerIdentification.Reference*
+  name: Reference
+  href: classes/Conizi.Model.Shared.Entities.EdiPartnerIdentification.html#Conizi_Model_Shared_Entities_EdiPartnerIdentification_Reference_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiPartnerIdentification.Reference
   isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiPartnerIdentification.ReferenceNumber
-  nameWithType: EdiPartnerIdentification.ReferenceNumber
+  fullName: Conizi.Model.Shared.Entities.EdiPartnerIdentification.Reference
+  nameWithType: EdiPartnerIdentification.Reference
 - uid: Conizi.Model.Shared.Entities.EdiPartnerIdentification.Street
   name: Street
   href: classes/Conizi.Model.Shared.Entities.EdiPartnerIdentification.html#Conizi_Model_Shared_Entities_EdiPartnerIdentification_Street

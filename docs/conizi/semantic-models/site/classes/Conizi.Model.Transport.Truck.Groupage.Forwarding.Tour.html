@@ -205,7 +205,7 @@ public string CarrierNotes { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;consignments&quot;, ReferenceLoopHandling = ReferenceLoopHandling.Ignore, ItemIsReference = false)]
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;consignments&quot;, ReferenceLoopHandling = ReferenceLoopHandling.Ignore, IsReference = false, ItemIsReference = true)]
 public List&lt;Consignment&gt; Consignments { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
