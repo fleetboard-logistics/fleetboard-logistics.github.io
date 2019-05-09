@@ -447,6 +447,7 @@ public string Route { get; set; }</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonProperty(&quot;shippingDate&quot;, Order = -6)]
 [ConiziDateOnly]
+[JsonConverter(typeof(ConiziDateConverter))]
 [Required]
 public DateTime ShippingDate { get; set; }</code></pre>
   </div>

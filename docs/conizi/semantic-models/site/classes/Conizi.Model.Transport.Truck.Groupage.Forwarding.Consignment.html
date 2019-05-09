@@ -551,6 +551,7 @@ public EdiPartnerIdentification ReceivingPartner { get; set; }</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonProperty(Order = -7)]
 [ConiziDateOnly]
+[JsonConverter(typeof(ConiziDateConverter))]
 [Required]
 public DateTime ShippingDate { get; set; }</code></pre>
   </div>

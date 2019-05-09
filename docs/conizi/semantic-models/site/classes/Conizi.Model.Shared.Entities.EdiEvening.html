@@ -103,6 +103,7 @@ public class EdiEvening : EdiPatternPropertiesBase</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ConiziDateOnly]
+[JsonConverter(typeof(ConiziDateConverter))]
 public DateTime Date { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>

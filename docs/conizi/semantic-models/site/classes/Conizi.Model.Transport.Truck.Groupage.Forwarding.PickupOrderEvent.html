@@ -490,6 +490,7 @@ public class PickupOrderEvent : EdiModel</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonProperty(&quot;pickupOrderDate&quot;, Order = -9)]
 [ConiziDateOnly]
+[JsonConverter(typeof(ConiziDateConverter))]
 public DateTime PickupOrderDate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
