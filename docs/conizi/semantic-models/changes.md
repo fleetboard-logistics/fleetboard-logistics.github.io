@@ -1,13 +1,15 @@
 # Changes with new conizi models (Version 1)
 
 * The $schema tag is now mandatory:
-  * For example: "\$schema": "https://model.conizi.io/v1/transport/truck/groupage/forwarding/consignment.json" 
-  * The schema definition could now found under https://model.conizi.io/
-    * For example https://model.conizi.io/v1/transport/truck/groupage/forwarding/tour.json
+  * For example: "\$schema": "https://model.conizi.io/v1/transport/truck/groupage/forwarding/consignment.json"
+* The primary Github repo is now [https://github.com/fleetboard-logistics/semantic-model/tree/production]() 
+* The schema definitions could now also be found under [https://model.conizi.io/]()
+    * For example [https://model.conizi.io/v1/transport/truck/groupage/forwarding/tour.json]()
   * The version is mandatory!
-  * The schema tag must be included for any child's like tour=>consignment
-    * For example [simple-tour.json]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}examples/transport/truck/groupage/forwarding/tour/simple-tour.json){:target="_blank"}
-  * The Address element contains now a "reference" property for all models, "referenceNumber" is not longer supported.
+* The schema tag must be included for any child's like tour=>consignment
+    * For example [simple-tour.json]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/examples/transport/truck/groupage/forwarding/tour/simple-tour.json){:target="_blank"}
+* The Address element contains now a "reference" property for all models, "referenceNumber" is not longer supported.
+    * For example [simple-tour.json]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/examples/transport/truck/groupage/forwarding/tour/simple-tour.json#L16){:target="_blank"}
 
 * A format "time" was added => time relevant values must be formated as "HH:mm:ss" => "14:30:00"
 
