@@ -728,12 +728,6 @@ references:
   commentId: N:Conizi.Model.Shared.Entities
   fullName: Conizi.Model.Shared.Entities
   nameWithType: Conizi.Model.Shared.Entities
-- uid: Conizi.Model.Shared.Entities.Cancellation
-  name: Cancellation
-  href: classes/Conizi.Model.Shared.Entities.Cancellation.html
-  commentId: T:Conizi.Model.Shared.Entities.Cancellation
-  fullName: Conizi.Model.Shared.Entities.Cancellation
-  nameWithType: Cancellation
 - uid: Conizi.Model.Shared.Entities.CostsAndCharges
   name: CostsAndCharges
   href: classes/Conizi.Model.Shared.Entities.CostsAndCharges.html
@@ -3357,6 +3351,12 @@ references:
   commentId: T:Conizi.Model.Shared.Entities.EdiEventArrivalAtReceiver
   fullName: Conizi.Model.Shared.Entities.EdiEventArrivalAtReceiver
   nameWithType: EdiEventArrivalAtReceiver
+- uid: Conizi.Model.Shared.Entities.EdiEventCancellation
+  name: EdiEventCancellation
+  href: classes/Conizi.Model.Shared.Entities.EdiEventCancellation.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiEventCancellation
+  fullName: Conizi.Model.Shared.Entities.EdiEventCancellation
+  nameWithType: EdiEventCancellation
 - uid: Conizi.Model.Shared.Entities.EdiEventChangeRequest
   name: EdiEventChangeRequest
   href: classes/Conizi.Model.Shared.Entities.EdiEventChangeRequest.html
@@ -5282,6 +5282,38 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiNotifications.GeneralNotificationAddress
   nameWithType: EdiNotifications.GeneralNotificationAddress
+- uid: Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver
+  name: EdiNotifyBeforePickupDeliver
+  href: classes/Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver
+  fullName: Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver
+  nameWithType: EdiNotifyBeforePickupDeliver
+- uid: Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.LeadTimeSecondsMaximum
+  name: LeadTimeSecondsMaximum
+  href: classes/Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.html#Conizi_Model_Shared_Entities_EdiNotifyBeforePickupDeliver_LeadTimeSecondsMaximum
+  commentId: P:Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.LeadTimeSecondsMaximum
+  fullName: Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.LeadTimeSecondsMaximum
+  nameWithType: EdiNotifyBeforePickupDeliver.LeadTimeSecondsMaximum
+- uid: Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.LeadTimeSecondsMaximum*
+  name: LeadTimeSecondsMaximum
+  href: classes/Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.html#Conizi_Model_Shared_Entities_EdiNotifyBeforePickupDeliver_LeadTimeSecondsMaximum_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.LeadTimeSecondsMaximum
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.LeadTimeSecondsMaximum
+  nameWithType: EdiNotifyBeforePickupDeliver.LeadTimeSecondsMaximum
+- uid: Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.LeadTimeSecondsMinimum
+  name: LeadTimeSecondsMinimum
+  href: classes/Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.html#Conizi_Model_Shared_Entities_EdiNotifyBeforePickupDeliver_LeadTimeSecondsMinimum
+  commentId: P:Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.LeadTimeSecondsMinimum
+  fullName: Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.LeadTimeSecondsMinimum
+  nameWithType: EdiNotifyBeforePickupDeliver.LeadTimeSecondsMinimum
+- uid: Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.LeadTimeSecondsMinimum*
+  name: LeadTimeSecondsMinimum
+  href: classes/Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.html#Conizi_Model_Shared_Entities_EdiNotifyBeforePickupDeliver_LeadTimeSecondsMinimum_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.LeadTimeSecondsMinimum
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.LeadTimeSecondsMinimum
+  nameWithType: EdiNotifyBeforePickupDeliver.LeadTimeSecondsMinimum
 - uid: Conizi.Model.Shared.Entities.EdiOrientation
   name: EdiOrientation
   href: classes/Conizi.Model.Shared.Entities.EdiOrientation.html
@@ -7928,6 +7960,25 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiTimeSlotBooking.PreBookedTimeslot
   nameWithType: EdiTimeSlotBooking.PreBookedTimeslot
+- uid: Conizi.Model.Shared.Entities.EdiTimeSlotConsignee
+  name: EdiTimeSlotConsignee
+  href: classes/Conizi.Model.Shared.Entities.EdiTimeSlotConsignee.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiTimeSlotConsignee
+  fullName: Conizi.Model.Shared.Entities.EdiTimeSlotConsignee
+  nameWithType: EdiTimeSlotConsignee
+- uid: Conizi.Model.Shared.Entities.EdiTimeSlotConsignee.NewDeliveryDate
+  name: NewDeliveryDate
+  href: classes/Conizi.Model.Shared.Entities.EdiTimeSlotConsignee.html#Conizi_Model_Shared_Entities_EdiTimeSlotConsignee_NewDeliveryDate
+  commentId: P:Conizi.Model.Shared.Entities.EdiTimeSlotConsignee.NewDeliveryDate
+  fullName: Conizi.Model.Shared.Entities.EdiTimeSlotConsignee.NewDeliveryDate
+  nameWithType: EdiTimeSlotConsignee.NewDeliveryDate
+- uid: Conizi.Model.Shared.Entities.EdiTimeSlotConsignee.NewDeliveryDate*
+  name: NewDeliveryDate
+  href: classes/Conizi.Model.Shared.Entities.EdiTimeSlotConsignee.html#Conizi_Model_Shared_Entities_EdiTimeSlotConsignee_NewDeliveryDate_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiTimeSlotConsignee.NewDeliveryDate
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiTimeSlotConsignee.NewDeliveryDate
+  nameWithType: EdiTimeSlotConsignee.NewDeliveryDate
 - uid: Conizi.Model.Shared.Entities.EdiTimeSpan
   name: EdiTimeSpan
   href: classes/Conizi.Model.Shared.Entities.EdiTimeSpan.html
@@ -9616,6 +9667,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.ArrivalAtReceiver
   nameWithType: ConsignmentEvent.ArrivalAtReceiver
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Cancellation
+  name: Cancellation
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_Cancellation
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Cancellation
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Cancellation
+  nameWithType: ConsignmentEvent.Cancellation
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Cancellation*
+  name: Cancellation
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_Cancellation_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Cancellation
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Cancellation
+  nameWithType: ConsignmentEvent.Cancellation
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.ChangeRequest
   name: ChangeRequest
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_ChangeRequest

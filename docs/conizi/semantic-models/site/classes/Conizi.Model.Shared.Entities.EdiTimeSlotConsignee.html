@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EdiNotifications
+    <title>Class EdiTimeSlotConsignee
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EdiNotifications
+    <meta name="title" content="Class EdiTimeSlotConsignee
    ">
     <meta name="generator" content="docfx 2.42.1.0">
     
@@ -68,41 +68,42 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiNotifications">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiTimeSlotConsignee">
   
   
-  <h1 id="Conizi_Model_Shared_Entities_EdiNotifications" data-uid="Conizi.Model.Shared.Entities.EdiNotifications" class="text-break">Class EdiNotifications
+  <h1 id="Conizi_Model_Shared_Entities_EdiTimeSlotConsignee" data-uid="Conizi.Model.Shared.Entities.EdiTimeSlotConsignee" class="text-break">Class EdiTimeSlotConsignee
   </h1>
-  <div class="markdown level0 summary"><p>Notifications which should be sent while processing the shipment, e.g. notifications about successful delivery, advance notifications, ...</p>
+  <div class="markdown level0 summary"><p>The consignee has provided a time slot for delivery</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase</span></div>
-    <div class="level2"><span class="xref">EdiNotifications</span></div>
-      <div class="level3"><a class="xref" href="Conizi.Model.Shared.Entities.EdiPickupNotifications.html">EdiPickupNotifications</a></div>
+    <div class="level2"><span class="xref">EdiTimeSlotConsignee</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
-  <h5 id="Conizi_Model_Shared_Entities_EdiNotifications_syntax">Syntax</h5>
+  <h5 id="Conizi_Model_Shared_Entities_EdiTimeSlotConsignee_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ConiziAdditionalProperties(false)]
 [ConiziAllowXProperties(true)]
-public class EdiNotifications : EdiPatternPropertiesBase</code></pre>
+public class EdiTimeSlotConsignee : EdiPatternPropertiesBase</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiNotifications_AfterDelivery_" data-uid="Conizi.Model.Shared.Entities.EdiNotifications.AfterDelivery*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiNotifications_AfterDelivery" data-uid="Conizi.Model.Shared.Entities.EdiNotifications.AfterDelivery">AfterDelivery</h4>
-  <div class="markdown level1 summary"><p>Information about successful delivery should be given to this address</p>
+  <a id="Conizi_Model_Shared_Entities_EdiTimeSlotConsignee_NewDeliveryDate_" data-uid="Conizi.Model.Shared.Entities.EdiTimeSlotConsignee.NewDeliveryDate*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiTimeSlotConsignee_NewDeliveryDate" data-uid="Conizi.Model.Shared.Entities.EdiTimeSlotConsignee.NewDeliveryDate">NewDeliveryDate</h4>
+  <div class="markdown level1 summary"><p>The new date / time when the delivery will be performed</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdiAddress AfterDelivery { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[ConiziDateOnly]
+[JsonConverter(typeof(ConiziDateConverter))]
+public DateTime NewDeliveryDate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -114,85 +115,7 @@ public class EdiNotifications : EdiPatternPropertiesBase</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiAddress.html">EdiAddress</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Conizi_Model_Shared_Entities_EdiNotifications_BeforeDelivery_" data-uid="Conizi.Model.Shared.Entities.EdiNotifications.BeforeDelivery*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiNotifications_BeforeDelivery" data-uid="Conizi.Model.Shared.Entities.EdiNotifications.BeforeDelivery">BeforeDelivery</h4>
-  <div class="markdown level1 summary"><p>Before a delivery is attempted the person noted here should be contacted within the given time frame</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdiNotifyBeforePickupDeliver BeforeDelivery { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.html">EdiNotifyBeforePickupDeliver</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Conizi_Model_Shared_Entities_EdiNotifications_ByDriver_" data-uid="Conizi.Model.Shared.Entities.EdiNotifications.ByDriver*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiNotifications_ByDriver" data-uid="Conizi.Model.Shared.Entities.EdiNotifications.ByDriver">ByDriver</h4>
-  <div class="markdown level1 summary"><p>The driver should call the given contact before delivery</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdiAddress ByDriver { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiAddress.html">EdiAddress</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Conizi_Model_Shared_Entities_EdiNotifications_GeneralNotificationAddress_" data-uid="Conizi.Model.Shared.Entities.EdiNotifications.GeneralNotificationAddress*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiNotifications_GeneralNotificationAddress" data-uid="Conizi.Model.Shared.Entities.EdiNotifications.GeneralNotificationAddress">GeneralNotificationAddress</h4>
-  <div class="markdown level1 summary"><p>An address and associated contact information which should be kept in the loop</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdiAddress GeneralNotificationAddress { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiAddress.html">EdiAddress</a></td>
+        <td><span class="xref">System.DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
