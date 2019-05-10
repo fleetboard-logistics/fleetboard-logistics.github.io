@@ -2,10 +2,12 @@
 
 * The $schema tag is now mandatory:
   * For example: "\$schema": "https://model.conizi.io/v1/transport/truck/groupage/forwarding/consignment.json"
-* The primary Github repo is now [https://github.com/fleetboard-logistics/semantic-model/tree/production]() 
+* The primary Github repo is now [https://github.com/fleetboard-logistics/semantic-model]()
+* The branch master, preproduction, production depends on the system is used for dev, test or produciton purposes. Please keep that in mind.
 * The schema definitions could now also be found under [https://model.conizi.io/]()
     * For example [https://model.conizi.io/v1/transport/truck/groupage/forwarding/tour.json]()
   * The version is mandatory!
+  * When a message is sent, please use this address [https://model.conizi.io/]() + the model id as $schema tag, please have a look at [simple-tour.json]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/examples/transport/truck/groupage/forwarding/tour/simple-tour.json){:target="_blank"}
 * The schema tag must be included for any child's like tour=>consignment
     * For example [simple-tour.json]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/examples/transport/truck/groupage/forwarding/tour/simple-tour.json){:target="_blank"}
 * The Address element contains now a "reference" property for all models, "referenceNumber" is not longer supported.
