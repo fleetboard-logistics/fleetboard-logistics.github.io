@@ -10,6 +10,7 @@
     * For example [simple-tour.json]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/examples/transport/truck/groupage/forwarding/tour/simple-tour.json){:target="_blank"}
 * The Address element contains now a "reference" property for all models, "referenceNumber" is not longer supported.
     * For example [simple-tour.json]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/examples/transport/truck/groupage/forwarding/tour/simple-tour.json#L16){:target="_blank"}
+    * Furhter examples of new models, could be found [here]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/examples/transport/truck/groupage/forwarding){:target="_blank"} or under [JSON Examples](examples/index.html).
 
 * A format "time" was added => time relevant values must be formated as "HH:mm:ss" => "14:30:00"
 
