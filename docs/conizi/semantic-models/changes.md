@@ -14,6 +14,16 @@
     * For example [simple-tour.json]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/examples/transport/truck/groupage/forwarding/tour/simple-tour.json#L16){:target="_blank"}
     * Furhter examples of new models, could be found [here]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/examples/transport/truck/groupage/forwarding){:target="_blank"} or under [JSON Examples](examples/index.html).
 
+* The sender, receiver for routing information has changed, so no address information should be provided any longer. Please use the ediId, partnerId, or coniziId see [EdiMessageRouting](https://fleetboard-logistics.github.io/docs/conizi/semantic-models/site/classes/Conizi.Model.Shared.Entities.EdiMessageRouting.html){:target="_blank"}.
+```json
+"sender": {
+    "ediId": "FLELO"
+},
+"receiver": {
+    "ediId": "EIKONA"
+}
+```
+
 * A format "time" was added => time relevant values must be formated as "HH:mm:ss" => "14:30:00"
 
 ```json
