@@ -178,7 +178,7 @@ public class EdiTourStop</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required]
+    <pre><code class="lang-csharp hljs">[JsonProperty(Required = Required.DisallowNull)]
 public TourLoadingInformation LoadingInformation { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -258,7 +258,7 @@ public string StopId { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required]
+    <pre><code class="lang-csharp hljs">[JsonProperty(Required = Required.DisallowNull)]
 public TourUnloadingInformation UnloadingInformation { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
