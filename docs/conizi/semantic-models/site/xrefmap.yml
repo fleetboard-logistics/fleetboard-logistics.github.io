@@ -1,6 +1,12 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
+- uid: articles.consignment
+  name: The consignment stuff...
+  href: articles/consignment.html
+- uid: articles.index
+  name: Getting Started with conizi semantic models
+  href: articles/index.html
 - uid: classes_index
   name: PLACEHOLDER
   href: classes/index.html
@@ -5023,19 +5029,6 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.Disposed
   nameWithType: EdiNotificationEventExceptions.Disposed
-- uid: Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.EdiRedirectedTo
-  name: EdiRedirectedTo
-  href: classes/Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.html#Conizi_Model_Shared_Entities_EdiNotificationEventExceptions_EdiRedirectedTo
-  commentId: P:Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.EdiRedirectedTo
-  fullName: Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.EdiRedirectedTo
-  nameWithType: EdiNotificationEventExceptions.EdiRedirectedTo
-- uid: Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.EdiRedirectedTo*
-  name: EdiRedirectedTo
-  href: classes/Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.html#Conizi_Model_Shared_Entities_EdiNotificationEventExceptions_EdiRedirectedTo_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.EdiRedirectedTo
-  isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.EdiRedirectedTo
-  nameWithType: EdiNotificationEventExceptions.EdiRedirectedTo
 - uid: Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.Incompatible
   name: Incompatible
   href: classes/Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.html#Conizi_Model_Shared_Entities_EdiNotificationEventExceptions_Incompatible
@@ -5062,6 +5055,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.Incomplete
   nameWithType: EdiNotificationEventExceptions.Incomplete
+- uid: Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.RedirectedTo
+  name: RedirectedTo
+  href: classes/Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.html#Conizi_Model_Shared_Entities_EdiNotificationEventExceptions_RedirectedTo
+  commentId: P:Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.RedirectedTo
+  fullName: Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.RedirectedTo
+  nameWithType: EdiNotificationEventExceptions.RedirectedTo
+- uid: Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.RedirectedTo*
+  name: RedirectedTo
+  href: classes/Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.html#Conizi_Model_Shared_Entities_EdiNotificationEventExceptions_RedirectedTo_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.RedirectedTo
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.RedirectedTo
+  nameWithType: EdiNotificationEventExceptions.RedirectedTo
 - uid: Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.ReleaseAuthorizationReceived
   name: ReleaseAuthorizationReceived
   href: classes/Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.html#Conizi_Model_Shared_Entities_EdiNotificationEventExceptions_ReleaseAuthorizationReceived
@@ -11435,5 +11441,5 @@ references:
   name: The core libs
   href: core_lib/index.html
 - uid: examples.index
-  name: Add your examples here!
+  name: Examples of C# models
   href: examples/index.html
