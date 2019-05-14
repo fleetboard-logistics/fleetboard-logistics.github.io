@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TourEvent
+    <title>Class EdiMetadata
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TourEvent
+    <meta name="title" content="Class EdiMetadata
    ">
     <meta name="generator" content="docfx 2.42.1.0">
     
@@ -68,60 +68,38 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiMetadata">
   
   
-  <h1 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_TourEvent" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent" class="text-break">Class TourEvent
+  <h1 id="Conizi_Model_Shared_Entities_EdiMetadata" data-uid="Conizi.Model.Shared.Entities.EdiMetadata" class="text-break">Class EdiMetadata
   </h1>
-  <div class="markdown level0 summary"><p>An event which occurred during the processing of the referenced <a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_TourEvent_Tour">Tour</a></p>
+  <div class="markdown level0 summary"><p>Addition conizi metadata for Routing purposes</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase</span></div>
-    <div class="level2"><a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html">EdiModel</a></div>
-    <div class="level3"><span class="xref">TourEvent</span></div>
+    <div class="level1"><span class="xref">EdiMetadata</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Schema">EdiModel.Schema</a>
-    </div>
-    <div>
-      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Receiver">EdiModel.Receiver</a>
-    </div>
-    <div>
-      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Sender">EdiModel.Sender</a>
-    </div>
-    <div>
-      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Network">EdiModel.Network</a>
-    </div>
-    <div>
-      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Metadata">EdiModel.Metadata</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.html">Conizi.Model.Transport.Truck.Groupage.Forwarding</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
-  <h5 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_TourEvent_syntax">Syntax</h5>
+  <h5 id="Conizi_Model_Shared_Entities_EdiMetadata_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ConiziSchema(&quot;https://model.conizi.io/v1/transport/truck/groupage/forwarding/tour-event.json&quot;, &quot;tour-event.json&quot;)]
-[ConiziAdditionalProperties(false)]
-[ConiziAllowXProperties(true)]
-public class TourEvent : EdiModel</code></pre>
+    <pre><code class="lang-csharp hljs">public class EdiMetadata</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_TourEvent_Documents_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.Documents*"></a>
-  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_TourEvent_Documents" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.Documents">Documents</h4>
-  <div class="markdown level1 summary"><p>Event to notify about tour specific documents</p>
+  <a id="Conizi_Model_Shared_Entities_EdiMetadata_CreatedAt_" data-uid="Conizi.Model.Shared.Entities.EdiMetadata.CreatedAt*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiMetadata_CreatedAt" data-uid="Conizi.Model.Shared.Entities.EdiMetadata.CreatedAt">CreatedAt</h4>
+  <div class="markdown level1 summary"><p>The message was created at date</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdiTourDocuments Documents { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;$createdAt&quot;, Required = Required.DisallowNull, Order = -997)]
+public DateTime? CreatedAt { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -133,74 +111,22 @@ public class TourEvent : EdiModel</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiTourDocuments.html">EdiTourDocuments</a></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTime</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_TourEvent_Stop_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.Stop*"></a>
-  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_TourEvent_Stop" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.Stop">Stop</h4>
-  <div class="markdown level1 summary"><p>Event to notify about stop specific incidents</p>
+  <a id="Conizi_Model_Shared_Entities_EdiMetadata_CreatedBy_" data-uid="Conizi.Model.Shared.Entities.EdiMetadata.CreatedBy*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiMetadata_CreatedBy" data-uid="Conizi.Model.Shared.Entities.EdiMetadata.CreatedBy">CreatedBy</h4>
+  <div class="markdown level1 summary"><p>The message was created by</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdiStopSpecificEvent Stop { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html">EdiStopSpecificEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_TourEvent_Tour_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.Tour*"></a>
-  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_TourEvent_Tour" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.Tour">Tour</h4>
-  <div class="markdown level1 summary"><p>Event to notify about tour specific incidents</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdiTourSpecificEvent Tour { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiTourSpecificEvent.html">EdiTourSpecificEvent</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_TourEvent_TourId_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.TourId*"></a>
-  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_TourEvent_TourId" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.TourId">TourId</h4>
-  <div class="markdown level1 summary"><p>The referenced Tour Id. A unique identifier assigned to this tour by the devlivering company</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;tourId&quot;, Order = -10, Required = Required.Always)]
-public string TourId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;$createdBy&quot;, Required = Required.DisallowNull, Order = -995)]
+public string CreatedBy { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -219,14 +145,14 @@ public string TourId { get; set; }</code></pre>
   </table>
   
   
-  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_TourEvent_Vehicle_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.Vehicle*"></a>
-  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_TourEvent_Vehicle" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.Vehicle">Vehicle</h4>
-  <div class="markdown level1 summary"><p>Event to notify about vehicle specific incidents</p>
+  <a id="Conizi_Model_Shared_Entities_EdiMetadata_Receiver_" data-uid="Conizi.Model.Shared.Entities.EdiMetadata.Receiver*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiMetadata_Receiver" data-uid="Conizi.Model.Shared.Entities.EdiMetadata.Receiver">Receiver</h4>
+  <div class="markdown level1 summary"><p>The main receiver</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdiVehicleSpecificEvent Vehicle { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiMetadataEntity Receiver { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -238,7 +164,59 @@ public string TourId { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiVehicleSpecificEvent.html">EdiVehicleSpecificEvent</a></td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiMetadataEntity.html">EdiMetadataEntity</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiMetadata_Sender_" data-uid="Conizi.Model.Shared.Entities.EdiMetadata.Sender*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiMetadata_Sender" data-uid="Conizi.Model.Shared.Entities.EdiMetadata.Sender">Sender</h4>
+  <div class="markdown level1 summary"><p>The main sender</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiMetadataEntity Sender { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiMetadataEntity.html">EdiMetadataEntity</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiMetadata_TechnicalSender_" data-uid="Conizi.Model.Shared.Entities.EdiMetadata.TechnicalSender*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiMetadata_TechnicalSender" data-uid="Conizi.Model.Shared.Entities.EdiMetadata.TechnicalSender">TechnicalSender</h4>
+  <div class="markdown level1 summary"><p>The forwarder (Customer of App or Service)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiMetadataEntity TechnicalSender { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiMetadataEntity.html">EdiMetadataEntity</a></td>
         <td></td>
       </tr>
     </tbody>
