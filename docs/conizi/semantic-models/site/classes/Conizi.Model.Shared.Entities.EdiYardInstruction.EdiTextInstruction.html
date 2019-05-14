@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EdiGeoPosition
+    <title>Class EdiYardInstruction.EdiTextInstruction
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EdiGeoPosition
+    <meta name="title" content="Class EdiYardInstruction.EdiTextInstruction
    ">
     <meta name="generator" content="docfx 2.42.1.0">
     
@@ -68,38 +68,39 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction">
   
   
-  <h1 id="Conizi_Model_Shared_Entities_EdiGeoPosition" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition" class="text-break">Class EdiGeoPosition
+  <h1 id="Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction" class="text-break">Class EdiYardInstruction.EdiTextInstruction
   </h1>
-  <div class="markdown level0 summary"><p>Data about the current geo position</p>
+  <div class="markdown level0 summary"><p>A Text Instruction to describe the driver specific instructions eg. Report to Gate 4. Usually part of a <span class="xref">Conizi.Model.Shared.Entities.EdiTextInstruction</span></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">EdiGeoPosition</span></div>
+    <div class="level1"><span class="xref">EdiYardInstruction.EdiTextInstruction</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
-  <h5 id="Conizi_Model_Shared_Entities_EdiGeoPosition_syntax">Syntax</h5>
+  <h5 id="Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ConiziAdditionalProperties(false)]
-public class EdiGeoPosition</code></pre>
+[ConiziAllowXProperties(false)]
+public class EdiTextInstruction</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiGeoPosition_GeoRadius_" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.GeoRadius*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiGeoPosition_GeoRadius" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.GeoRadius">GeoRadius</h4>
-  <div class="markdown level1 summary"><p>GeoRadius on which this GeoPosition is considered as in range</p>
+  <a id="Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_Attachments_" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.Attachments*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_Attachments" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.Attachments">Attachments</h4>
+  <div class="markdown level1 summary"><p>Attachments that can be added to the Instruction, can only contain references</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdiGeoPosition.EdiGeoRadius GeoRadius { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;EdiFileReference&gt; Attachments { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -111,22 +112,21 @@ public class EdiGeoPosition</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoPosition.EdiGeoRadius.html">EdiGeoPosition.EdiGeoRadius</a></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiFileReference.html">EdiFileReference</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiGeoPosition_Latitude_" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.Latitude*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiGeoPosition_Latitude" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.Latitude">Latitude</h4>
-  <div class="markdown level1 summary"><p>North–south position of a point on the Earth's surface</p>
+  <a id="Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_Contact_" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.Contact*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_Contact" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.Contact">Contact</h4>
+  <div class="markdown level1 summary"><p>The Address of a contact</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonRequired]
-public decimal? Latitude { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiAddress Contact { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,22 +138,21 @@ public decimal? Latitude { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Decimal</span>&gt;</td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiAddress.html">EdiAddress</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiGeoPosition_Longitude_" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.Longitude*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiGeoPosition_Longitude" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.Longitude">Longitude</h4>
-  <div class="markdown level1 summary"><p>East–west position of a point on the Earth's surface</p>
+  <a id="Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_FreeText_" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.FreeText*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_FreeText" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.FreeText">FreeText</h4>
+  <div class="markdown level1 summary"><p>FreeText that contains remarks (free form)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonRequired]
-public decimal? Longitude { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiFreeText FreeText { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -165,21 +164,21 @@ public decimal? Longitude { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Decimal</span>&gt;</td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiFreeText.html">EdiFreeText</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiGeoPosition_PlaceName_" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.PlaceName*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiGeoPosition_PlaceName" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.PlaceName">PlaceName</h4>
-  <div class="markdown level1 summary"><p>The place name of the current geo position</p>
+  <a id="Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_ReportingPoint_" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.ReportingPoint*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_ReportingPoint" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.ReportingPoint">ReportingPoint</h4>
+  <div class="markdown level1 summary"><p>The ReportingPoint where the driver has to report on arrival</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string PlaceName { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiYardInstruction.EdiReportingPoint ReportingPoint { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -191,21 +190,21 @@ public decimal? Longitude { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiReportingPoint.html">EdiYardInstruction.EdiReportingPoint</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiGeoPosition_RecordTime_" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.RecordTime*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiGeoPosition_RecordTime" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.RecordTime">RecordTime</h4>
-  <div class="markdown level1 summary"><p>Time the GPS record was created</p>
+  <a id="Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_StandardText_" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.StandardText*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_StandardText" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.StandardText">StandardText</h4>
+  <div class="markdown level1 summary"><p>Standard text that is used to fill predefined text-snippets</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTimeOffset RecordTime { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiYardInstruction.EdiStandardText StandardText { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -217,21 +216,21 @@ public decimal? Longitude { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTimeOffset</span></td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiStandardText.html">EdiYardInstruction.EdiStandardText</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiGeoPosition_W3WCoordinate_" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.W3WCoordinate*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiGeoPosition_W3WCoordinate" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.W3WCoordinate">W3WCoordinate</h4>
-  <div class="markdown level1 summary"><p>A coordinate for the What3Words service like index.home.raft</p>
+  <a id="Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_Urgency_" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.Urgency*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_Urgency" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.Urgency">Urgency</h4>
+  <div class="markdown level1 summary"><p>Urgency Code that can be used to signalize high-priority deliveries</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string W3WCoordinate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public UrgencyCode? Urgency { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -243,7 +242,7 @@ public decimal? Longitude { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="Conizi.Model.Shared.Definitions.UrgencyCode.html">UrgencyCode</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

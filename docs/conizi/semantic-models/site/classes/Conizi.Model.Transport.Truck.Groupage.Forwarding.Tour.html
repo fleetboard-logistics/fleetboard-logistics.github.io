@@ -366,7 +366,7 @@ public string DriverNotes { get; set; }</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonConverter(typeof(StringEnumConverter))]
 [JsonProperty(&quot;messageFunctionCode&quot;, Order = -11)]
-public EdiMessageFunctionCode MessageFunctionCode { get; set; }</code></pre>
+public EdiMessageFunctionCode? MessageFunctionCode { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -378,7 +378,7 @@ public EdiMessageFunctionCode MessageFunctionCode { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Conizi.Model.Shared.Definitions.EdiMessageFunctionCode</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="Conizi.Model.Shared.Definitions.EdiMessageFunctionCode.html">EdiMessageFunctionCode</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

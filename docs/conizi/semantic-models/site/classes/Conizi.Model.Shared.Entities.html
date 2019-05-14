@@ -223,6 +223,9 @@ This EdiEmptyExtendableObject is extendable with PatternProperties</p>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiFood.html">EdiFood</a></h4>
       <section><p>Special requirements for transporting food</p>
 </section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiFreeText.html">EdiFreeText</a></h4>
+      <section><p>Free Text with a optional category</p>
+</section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiGateway.html">EdiGateway</a></h4>
       <section><p>Special requirements for the handling of the goods at intermediate hubs / gateways</p>
 </section>
@@ -235,6 +238,9 @@ Use (null) to report successful cross dock of the consignment</p>
 </section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoPosition.html">EdiGeoPosition</a></h4>
       <section><p>Data about the current geo position</p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoPosition.EdiGeoRadius.html">EdiGeoPosition.EdiGeoRadius</a></h4>
+      <section><p>GeoRadius on which this GeoPosition is considered as in range containing measurement unit an the distance</p>
 </section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiHandlingInstructions.html">EdiHandlingInstructions</a></h4>
       <section><p>Handling instructions for the goods, e.g. to prevent damage</p>
@@ -506,6 +512,27 @@ Use (null) to report successful unloading the pickup order</p>
 </section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiWorkRequest.html">EdiWorkRequest</a></h4>
       <section><p>The receiving partner should perform the action specified</p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiYardInstruction.html">EdiYardInstruction</a></h4>
+      <section><p>An Instruction for the driver. Usually part of a <a class="xref" href="Conizi.Model.Shared.Entities.EdiYardNavigationInformation.html">EdiYardNavigationInformation</a></p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiGpxFile.html">EdiYardInstruction.EdiGpxFile</a></h4>
+      <section><p>Gpx File for a route that contains multiple checkpoints and a destination</p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiReportingPoint.html">EdiYardInstruction.EdiReportingPoint</a></h4>
+      <section><p>Reporting point, usually used in a <span class="xref">Conizi.Model.Shared.Entities.EdiTextInstruction</span></p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiStandardText.html">EdiYardInstruction.EdiStandardText</a></h4>
+      <section><p>Standard Text contains predefined Text snippets that can be filled with parameters</p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.html">EdiYardInstruction.EdiTextInstruction</a></h4>
+      <section><p>A Text Instruction to describe the driver specific instructions eg. Report to Gate 4. Usually part of a <span class="xref">Conizi.Model.Shared.Entities.EdiTextInstruction</span></p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiYardNavigationInformation.html">EdiYardNavigationInformation</a></h4>
+      <section><p>A single Navigation between two partners. Usually used in a <a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html">Tour</a> to extend the stops in a <a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html">Tour</a> with necessary information for the navigation on the yard (last mile)</p>
+</section>
+      <h4><a class="xref" href="Conizi.Model.Shared.Entities.EdiYardStatus.html">EdiYardStatus</a></h4>
+      <section><p>Status that gets sent back, usually with a <a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html">Tour</a></p>
 </section>
       <h4><a class="xref" href="Conizi.Model.Shared.Entities.TourBookedTimeSlot.html">TourBookedTimeSlot</a></h4>
       <section><p>Booked time slot for the tour</p>
