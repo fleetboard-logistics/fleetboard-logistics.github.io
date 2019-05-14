@@ -72,7 +72,81 @@
 <p>To assist you in integrating your software into the conizi Fleetboard world, we have created some examples for you. Furthermore, <a href="">JSON examples</a> are available if you do not want to use C# directly.</p>
 <p>The example project is structured in the same way as the models. It is therefore structured according to traffic type land, sea, air or application area, such as archiving or accounting.</p>
 <p>An example for archiving would be the PoD (<a class="xref" href="../classes/Conizi.Model.Archiving.ProofOfDelivery.html">Proof of Delivery</a>)</p>
-[!include[test](https://git.fleetboard-logistics.com/conizi/plattform/semanticmodel/raw/master/src/Conizi.Model.Examples/Archiving/ProofOfDeliverySimpleExample.cs)]</article>
+<p>We create a proof of delivery by inheriting from the ProofOfDelivery model and overwriting the public properties of the base class in the constructor with our desired values.</p>
+<pre><code class="lang-cs">    public class ProofOfDeliverySimpleExample : ProofOfDelivery
+    {
+        public ProofOfDeliverySimpleExample()
+        {
+            this.Id = &quot;12345678&quot;;
+            this.DocumentCreationDate = DateTime.Now.AddHours(-2);
+            this.ArrivalDate = DateTime.Now.AddDays(-1);
+            this.PlannedShippingDate = DateTime.Now.AddDays(-1);
+            this.ShippingDate = DateTime.Now;
+            // The receiver of data and this message
+            this.Receiver = new EdiMessageRouting
+            {
+                ConiziId = &quot;4545454545454545454&quot;
+            };
+            this.RefNo = &quot;12312313&quot;;
+            // Shipping partner of the goods, Sender
+            this.ShippingPartner = new EdiPartnerIdentification
+            {
+                PartnerId = &quot;MAINP&quot;,
+                Name = &quot;My Shipping Partner&quot;
+            };
+            // Receiver of the goods for further delivery
+            this.ReceivingPartner = new EdiPartnerIdentification
+            {
+                Name = &quot;Max Mustermann&quot;,
+                Street = &quot;Musterstraße 1&quot;,
+                ZipCode = &quot;97082&quot;,
+                City = &quot;Würzburg&quot;,
+                CountryCode = &quot;DE&quot;
+            };
+            // The client, sender of the goods
+            this.Shipper = new EdiAddress
+            {
+                Name = &quot;Zombie Inc.&quot;,
+                Street = &quot;Am düsteren Weg&quot;,
+                HouseNumber = &quot;3a&quot;,
+                ZipCode = &quot;97424&quot;,
+                City = &quot;Würzburg&quot;,
+                CountryCode = &quot;DE&quot;,
+                AdditionalAddressLines = new List&lt;string&gt;
+                {
+                    &quot;Gate 2&quot;
+                },
+                TownArea = &quot;Hafen West&quot;,
+            };
+            // Receiver of the goods
+            this.Consignee = new EdiAddress
+            {
+                Name = &quot;Umbrella Corp.&quot;,
+                City = &quot;Racoon City&quot;,
+                Street = &quot;Umbrella Str.&quot;,
+                HouseNumber = &quot;1-20&quot;
+            };
+            this.Content = new EdiFileContent
+            {
+                ContentType = &quot;image/png&quot;,
+                FileName = &quot;test-pod.png&quot;,
+                BinaryData = new EdiBinaryData
+                {
+                    Data = new byte[]
+                    {
+                        1, 0, 0, 1
+                    }
+                }
+            };
+        }
+    }
+}
+</code></pre>
+<p>After the class has been created and filled with values, it can be serialized.</p>
+<pre><code class="lang-cs">var m = new ProofOfDeliverySimpleExample();
+var result =  Converter.Serialize(m);
+</code></pre>
+</article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">
