@@ -5067,6 +5067,19 @@ references:
   commentId: T:Conizi.Model.Shared.Entities.EdiModel
   fullName: Conizi.Model.Shared.Entities.EdiModel
   nameWithType: EdiModel
+- uid: Conizi.Model.Shared.Entities.EdiModel.#ctor
+  name: EdiModel()
+  href: classes/Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel__ctor
+  commentId: M:Conizi.Model.Shared.Entities.EdiModel.#ctor
+  fullName: Conizi.Model.Shared.Entities.EdiModel.EdiModel()
+  nameWithType: EdiModel.EdiModel()
+- uid: Conizi.Model.Shared.Entities.EdiModel.#ctor*
+  name: EdiModel
+  href: classes/Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel__ctor_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiModel.#ctor
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiModel.EdiModel
+  nameWithType: EdiModel.EdiModel
 - uid: Conizi.Model.Shared.Entities.EdiModel.Metadata
   name: Metadata
   href: classes/Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Metadata
@@ -9492,19 +9505,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.FreeText
   nameWithType: EdiYardInstruction.EdiTextInstruction.FreeText
-- uid: Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.ReportingPoint
-  name: ReportingPoint
-  href: classes/Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.html#Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_ReportingPoint
-  commentId: P:Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.ReportingPoint
-  fullName: Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.ReportingPoint
-  nameWithType: EdiYardInstruction.EdiTextInstruction.ReportingPoint
-- uid: Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.ReportingPoint*
-  name: ReportingPoint
-  href: classes/Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.html#Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_ReportingPoint_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.ReportingPoint
+- uid: Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.ReportingPoints
+  name: ReportingPoints
+  href: classes/Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.html#Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_ReportingPoints
+  commentId: P:Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.ReportingPoints
+  fullName: Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.ReportingPoints
+  nameWithType: EdiYardInstruction.EdiTextInstruction.ReportingPoints
+- uid: Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.ReportingPoints*
+  name: ReportingPoints
+  href: classes/Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.html#Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_ReportingPoints_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.ReportingPoints
   isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.ReportingPoint
-  nameWithType: EdiYardInstruction.EdiTextInstruction.ReportingPoint
+  fullName: Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.ReportingPoints
+  nameWithType: EdiYardInstruction.EdiTextInstruction.ReportingPoints
 - uid: Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.StandardText
   name: StandardText
   href: classes/Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.html#Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_StandardText
@@ -9518,19 +9531,6 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.StandardText
   nameWithType: EdiYardInstruction.EdiTextInstruction.StandardText
-- uid: Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.Urgency
-  name: Urgency
-  href: classes/Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.html#Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_Urgency
-  commentId: P:Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.Urgency
-  fullName: Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.Urgency
-  nameWithType: EdiYardInstruction.EdiTextInstruction.Urgency
-- uid: Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.Urgency*
-  name: Urgency
-  href: classes/Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.html#Conizi_Model_Shared_Entities_EdiYardInstruction_EdiTextInstruction_Urgency_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.Urgency
-  isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.Urgency
-  nameWithType: EdiYardInstruction.EdiTextInstruction.Urgency
 - uid: Conizi.Model.Shared.Entities.EdiYardInstruction.Route
   name: Route
   href: classes/Conizi.Model.Shared.Entities.EdiYardInstruction.html#Conizi_Model_Shared_Entities_EdiYardInstruction_Route
@@ -9557,6 +9557,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiYardInstruction.TextInstruction
   nameWithType: EdiYardInstruction.TextInstruction
+- uid: Conizi.Model.Shared.Entities.EdiYardInstruction.Urgency
+  name: Urgency
+  href: classes/Conizi.Model.Shared.Entities.EdiYardInstruction.html#Conizi_Model_Shared_Entities_EdiYardInstruction_Urgency
+  commentId: P:Conizi.Model.Shared.Entities.EdiYardInstruction.Urgency
+  fullName: Conizi.Model.Shared.Entities.EdiYardInstruction.Urgency
+  nameWithType: EdiYardInstruction.Urgency
+- uid: Conizi.Model.Shared.Entities.EdiYardInstruction.Urgency*
+  name: Urgency
+  href: classes/Conizi.Model.Shared.Entities.EdiYardInstruction.html#Conizi_Model_Shared_Entities_EdiYardInstruction_Urgency_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiYardInstruction.Urgency
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiYardInstruction.Urgency
+  nameWithType: EdiYardInstruction.Urgency
 - uid: Conizi.Model.Shared.Entities.EdiYardNavigationInformation
   name: EdiYardNavigationInformation
   href: classes/Conizi.Model.Shared.Entities.EdiYardNavigationInformation.html
