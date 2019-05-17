@@ -93,14 +93,14 @@ public class EdiYardInstruction</code></pre>
   </h3>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiYardInstruction_Route_" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.Route*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiYardInstruction_Route" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.Route">Route</h4>
-  <div class="markdown level1 summary"><p>A Route that contains a gpx byte array and a destination</p>
+  <a id="Conizi_Model_Shared_Entities_EdiYardInstruction_FileContents_" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.FileContents*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiYardInstruction_FileContents" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.FileContents">FileContents</h4>
+  <div class="markdown level1 summary"><p>File can be attached here</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdiYardInstruction.EdiGpxFile Route { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;EdiFileContent&gt; FileContents { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -112,7 +112,59 @@ public class EdiYardInstruction</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiGpxFile.html">EdiYardInstruction.EdiGpxFile</a></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiFileContent.html">EdiFileContent</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiYardInstruction_FileReferences_" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.FileReferences*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiYardInstruction_FileReferences" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.FileReferences">FileReferences</h4>
+  <div class="markdown level1 summary"><p>Links to Files can be attached here</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;EdiFileReference&gt; FileReferences { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiFileReference.html">EdiFileReference</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiYardInstruction_Route_" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.Route*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiYardInstruction_Route" data-uid="Conizi.Model.Shared.Entities.EdiYardInstruction.Route">Route</h4>
+  <div class="markdown level1 summary"><p>A Route that contains a gpx byte array and a destination</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiGpxFile Route { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiGpxFile.html">EdiGpxFile</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -126,7 +178,7 @@ public class EdiYardInstruction</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdiYardInstruction.EdiTextInstruction TextInstruction { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiTextInstruction TextInstruction { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,7 +190,7 @@ public class EdiYardInstruction</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiYardInstruction.EdiTextInstruction.html">EdiYardInstruction.EdiTextInstruction</a></td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiTextInstruction.html">EdiTextInstruction</a></td>
         <td></td>
       </tr>
     </tbody>

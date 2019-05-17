@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EdiDisposed
+    <title>Class EdiGpxFile
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EdiDisposed
+    <meta name="title" content="Class EdiGpxFile
    ">
     <meta name="generator" content="docfx 2.42.1.0">
     
@@ -68,27 +68,81 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.Tour.EdiDisposed">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiGpxFile">
   
   
-  <h1 id="Conizi_Model_Shared_Entities_Tour_EdiDisposed" data-uid="Conizi.Model.Shared.Entities.Tour.EdiDisposed" class="text-break">Class EdiDisposed
+  <h1 id="Conizi_Model_Shared_Entities_EdiGpxFile" data-uid="Conizi.Model.Shared.Entities.EdiGpxFile" class="text-break">Class EdiGpxFile
   </h1>
-  <div class="markdown level0 summary"><p>Consignment was disposed</p>
+  <div class="markdown level0 summary"><p>Gpx File for a route that contains multiple checkpoints and a destination</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">EdiDisposed</span></div>
+    <div class="level1"><span class="xref">EdiGpxFile</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.Tour.html">Conizi.Model.Shared.Entities.Tour</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
-  <h5 id="Conizi_Model_Shared_Entities_Tour_EdiDisposed_syntax">Syntax</h5>
+  <h5 id="Conizi_Model_Shared_Entities_EdiGpxFile_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ConiziAdditionalProperties(false)]
-[ConiziAllowXProperties(true)]
-public class EdiDisposed</code></pre>
+[ConiziAllowXProperties(false)]
+public class EdiGpxFile</code></pre>
   </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiGpxFile_Data_" data-uid="Conizi.Model.Shared.Entities.EdiGpxFile.Data*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiGpxFile_Data" data-uid="Conizi.Model.Shared.Entities.EdiGpxFile.Data">Data</h4>
+  <div class="markdown level1 summary"><p>Data of the GpxFile as a byte-array</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] Data { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiGpxFile_Destination_" data-uid="Conizi.Model.Shared.Entities.EdiGpxFile.Destination*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiGpxFile_Destination" data-uid="Conizi.Model.Shared.Entities.EdiGpxFile.Destination">Destination</h4>
+  <div class="markdown level1 summary"><p>GeoPosition of the Destination Point of the route</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiGeoPosition Destination { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoPosition.html">EdiGeoPosition</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

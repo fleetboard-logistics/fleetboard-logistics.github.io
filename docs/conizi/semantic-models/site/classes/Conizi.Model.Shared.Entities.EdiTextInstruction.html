@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EdiEventCompletion
+    <title>Class EdiTextInstruction
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EdiEventCompletion
+    <meta name="title" content="Class EdiTextInstruction
    ">
     <meta name="generator" content="docfx 2.42.1.0">
     
@@ -68,41 +68,39 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.Tour.EdiEventCompletion">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiTextInstruction">
   
   
-  <h1 id="Conizi_Model_Shared_Entities_Tour_EdiEventCompletion" data-uid="Conizi.Model.Shared.Entities.Tour.EdiEventCompletion" class="text-break">Class EdiEventCompletion
+  <h1 id="Conizi_Model_Shared_Entities_EdiTextInstruction" data-uid="Conizi.Model.Shared.Entities.EdiTextInstruction" class="text-break">Class EdiTextInstruction
   </h1>
-  <div class="markdown level0 summary"><p>Events indicating successful completion of a task, consignment has been forwarded</p>
+  <div class="markdown level0 summary"><p>A Text Instruction to describe the driver specific instructions eg. Report to Gate 4. Usually part of a <a class="xref" href="Conizi.Model.Shared.Entities.EdiTextInstruction.html">EdiTextInstruction</a></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase</span></div>
-    <div class="level2"><span class="xref">Conizi.Model.Shared.Interfaces.EdiEventBase</span></div>
-    <div class="level3"><span class="xref">EdiEventCompletion</span></div>
+    <div class="level1"><span class="xref">EdiTextInstruction</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.Tour.html">Conizi.Model.Shared.Entities.Tour</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
-  <h5 id="Conizi_Model_Shared_Entities_Tour_EdiEventCompletion_syntax">Syntax</h5>
+  <h5 id="Conizi_Model_Shared_Entities_EdiTextInstruction_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[ConiziAdditionalProperties(false)]
-[ConiziAllowXProperties(true)]
-public class EdiEventCompletion : EdiEventBase</code></pre>
+[ConiziAllowXProperties(false)]
+public class EdiTextInstruction</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Conizi_Model_Shared_Entities_Tour_EdiEventCompletion_CompletedBy_" data-uid="Conizi.Model.Shared.Entities.Tour.EdiEventCompletion.CompletedBy*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_Tour_EdiEventCompletion_CompletedBy" data-uid="Conizi.Model.Shared.Entities.Tour.EdiEventCompletion.CompletedBy">CompletedBy</h4>
-  <div class="markdown level1 summary"><p>Completed by another party</p>
+  <a id="Conizi_Model_Shared_Entities_EdiTextInstruction_Contact_" data-uid="Conizi.Model.Shared.Entities.EdiTextInstruction.Contact*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiTextInstruction_Contact" data-uid="Conizi.Model.Shared.Entities.EdiTextInstruction.Contact">Contact</h4>
+  <div class="markdown level1 summary"><p>The Address of a contact</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool CompletedBy { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiAddress Contact { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -114,21 +112,21 @@ public class EdiEventCompletion : EdiEventBase</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiAddress.html">EdiAddress</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_Tour_EdiEventCompletion_Forwarded_" data-uid="Conizi.Model.Shared.Entities.Tour.EdiEventCompletion.Forwarded*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_Tour_EdiEventCompletion_Forwarded" data-uid="Conizi.Model.Shared.Entities.Tour.EdiEventCompletion.Forwarded">Forwarded</h4>
-  <div class="markdown level1 summary"><p>Consignment was forwarded</p>
+  <a id="Conizi_Model_Shared_Entities_EdiTextInstruction_FileContents_" data-uid="Conizi.Model.Shared.Entities.EdiTextInstruction.FileContents*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiTextInstruction_FileContents" data-uid="Conizi.Model.Shared.Entities.EdiTextInstruction.FileContents">FileContents</h4>
+  <div class="markdown level1 summary"><p>File can be attached here</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Forwarded { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;EdiFileContent&gt; FileContents { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -140,21 +138,21 @@ public class EdiEventCompletion : EdiEventBase</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiFileContent.html">EdiFileContent</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_Tour_EdiEventCompletion_Signee_" data-uid="Conizi.Model.Shared.Entities.Tour.EdiEventCompletion.Signee*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_Tour_EdiEventCompletion_Signee" data-uid="Conizi.Model.Shared.Entities.Tour.EdiEventCompletion.Signee">Signee</h4>
-  <div class="markdown level1 summary"><p>Name of the person which rejected the consignment</p>
+  <a id="Conizi_Model_Shared_Entities_EdiTextInstruction_FileReferences_" data-uid="Conizi.Model.Shared.Entities.EdiTextInstruction.FileReferences*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiTextInstruction_FileReferences" data-uid="Conizi.Model.Shared.Entities.EdiTextInstruction.FileReferences">FileReferences</h4>
+  <div class="markdown level1 summary"><p>Links to Files can be attached here</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Signee { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;EdiFileReference&gt; FileReferences { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -166,21 +164,21 @@ public class EdiEventCompletion : EdiEventBase</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiFileReference.html">EdiFileReference</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_Tour_EdiEventCompletion_WaitTime_" data-uid="Conizi.Model.Shared.Entities.Tour.EdiEventCompletion.WaitTime*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_Tour_EdiEventCompletion_WaitTime" data-uid="Conizi.Model.Shared.Entities.Tour.EdiEventCompletion.WaitTime">WaitTime</h4>
-  <div class="markdown level1 summary"><p>Time spent waiting during delivery</p>
+  <a id="Conizi_Model_Shared_Entities_EdiTextInstruction_FreeText_" data-uid="Conizi.Model.Shared.Entities.EdiTextInstruction.FreeText*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiTextInstruction_FreeText" data-uid="Conizi.Model.Shared.Entities.EdiTextInstruction.FreeText">FreeText</h4>
+  <div class="markdown level1 summary"><p>FreeText that contains remarks (free form)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string WaitTime { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiFreeText FreeText { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -192,7 +190,59 @@ public class EdiEventCompletion : EdiEventBase</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiFreeText.html">EdiFreeText</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiTextInstruction_ReportingPoints_" data-uid="Conizi.Model.Shared.Entities.EdiTextInstruction.ReportingPoints*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiTextInstruction_ReportingPoints" data-uid="Conizi.Model.Shared.Entities.EdiTextInstruction.ReportingPoints">ReportingPoints</h4>
+  <div class="markdown level1 summary"><p>The ReportingPoint where the driver has to report on arrival</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;EdiReportingPoint&gt; ReportingPoints { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiReportingPoint.html">EdiReportingPoint</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiTextInstruction_StandardText_" data-uid="Conizi.Model.Shared.Entities.EdiTextInstruction.StandardText*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiTextInstruction_StandardText" data-uid="Conizi.Model.Shared.Entities.EdiTextInstruction.StandardText">StandardText</h4>
+  <div class="markdown level1 summary"><p>Standard text that is used to fill predefined text-snippets</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiStandardText StandardText { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiStandardText.html">EdiStandardText</a></td>
         <td></td>
       </tr>
     </tbody>
