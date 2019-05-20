@@ -4152,12 +4152,109 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiGeneralProcessingNotification.Exceptions
   nameWithType: EdiGeneralProcessingNotification.Exceptions
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta
+  name: EdiGeoEta
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiGeoEta
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta
+  nameWithType: EdiGeoEta
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.DistanceMeasurementUnitCode
+  name: DistanceMeasurementUnitCode
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_DistanceMeasurementUnitCode
+  commentId: P:Conizi.Model.Shared.Entities.EdiGeoEta.DistanceMeasurementUnitCode
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.DistanceMeasurementUnitCode
+  nameWithType: EdiGeoEta.DistanceMeasurementUnitCode
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.DistanceMeasurementUnitCode*
+  name: DistanceMeasurementUnitCode
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_DistanceMeasurementUnitCode_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiGeoEta.DistanceMeasurementUnitCode
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.DistanceMeasurementUnitCode
+  nameWithType: EdiGeoEta.DistanceMeasurementUnitCode
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.DistanceToDestination
+  name: DistanceToDestination
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_DistanceToDestination
+  commentId: P:Conizi.Model.Shared.Entities.EdiGeoEta.DistanceToDestination
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.DistanceToDestination
+  nameWithType: EdiGeoEta.DistanceToDestination
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.DistanceToDestination*
+  name: DistanceToDestination
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_DistanceToDestination_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiGeoEta.DistanceToDestination
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.DistanceToDestination
+  nameWithType: EdiGeoEta.DistanceToDestination
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateAbsolute
+  name: EtaDateAbsolute
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_EtaDateAbsolute
+  commentId: P:Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateAbsolute
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateAbsolute
+  nameWithType: EdiGeoEta.EtaDateAbsolute
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateAbsolute*
+  name: EtaDateAbsolute
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_EtaDateAbsolute_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateAbsolute
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateAbsolute
+  nameWithType: EdiGeoEta.EtaDateAbsolute
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimeAbsolute
+  name: EtaTimeAbsolute
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_EtaTimeAbsolute
+  commentId: P:Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimeAbsolute
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimeAbsolute
+  nameWithType: EdiGeoEta.EtaTimeAbsolute
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimeAbsolute*
+  name: EtaTimeAbsolute
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_EtaTimeAbsolute_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimeAbsolute
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimeAbsolute
+  nameWithType: EdiGeoEta.EtaTimeAbsolute
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.Ete
+  name: Ete
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_Ete
+  commentId: P:Conizi.Model.Shared.Entities.EdiGeoEta.Ete
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.Ete
+  nameWithType: EdiGeoEta.Ete
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.Ete*
+  name: Ete
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_Ete_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiGeoEta.Ete
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.Ete
+  nameWithType: EdiGeoEta.Ete
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.StopsToDestination
+  name: StopsToDestination
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_StopsToDestination
+  commentId: P:Conizi.Model.Shared.Entities.EdiGeoEta.StopsToDestination
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.StopsToDestination
+  nameWithType: EdiGeoEta.StopsToDestination
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.StopsToDestination*
+  name: StopsToDestination
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_StopsToDestination_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiGeoEta.StopsToDestination
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.StopsToDestination
+  nameWithType: EdiGeoEta.StopsToDestination
 - uid: Conizi.Model.Shared.Entities.EdiGeoPosition
   name: EdiGeoPosition
   href: classes/Conizi.Model.Shared.Entities.EdiGeoPosition.html
   commentId: T:Conizi.Model.Shared.Entities.EdiGeoPosition
   fullName: Conizi.Model.Shared.Entities.EdiGeoPosition
   nameWithType: EdiGeoPosition
+- uid: Conizi.Model.Shared.Entities.EdiGeoPosition.Angle
+  name: Angle
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoPosition.html#Conizi_Model_Shared_Entities_EdiGeoPosition_Angle
+  commentId: P:Conizi.Model.Shared.Entities.EdiGeoPosition.Angle
+  fullName: Conizi.Model.Shared.Entities.EdiGeoPosition.Angle
+  nameWithType: EdiGeoPosition.Angle
+- uid: Conizi.Model.Shared.Entities.EdiGeoPosition.Angle*
+  name: Angle
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoPosition.html#Conizi_Model_Shared_Entities_EdiGeoPosition_Angle_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiGeoPosition.Angle
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiGeoPosition.Angle
+  nameWithType: EdiGeoPosition.Angle
 - uid: Conizi.Model.Shared.Entities.EdiGeoPosition.GeoRadius
   name: GeoRadius
   href: classes/Conizi.Model.Shared.Entities.EdiGeoPosition.html#Conizi_Model_Shared_Entities_EdiGeoPosition_GeoRadius
@@ -4223,6 +4320,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiGeoPosition.RecordTime
   nameWithType: EdiGeoPosition.RecordTime
+- uid: Conizi.Model.Shared.Entities.EdiGeoPosition.Speed
+  name: Speed
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoPosition.html#Conizi_Model_Shared_Entities_EdiGeoPosition_Speed
+  commentId: P:Conizi.Model.Shared.Entities.EdiGeoPosition.Speed
+  fullName: Conizi.Model.Shared.Entities.EdiGeoPosition.Speed
+  nameWithType: EdiGeoPosition.Speed
+- uid: Conizi.Model.Shared.Entities.EdiGeoPosition.Speed*
+  name: Speed
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoPosition.html#Conizi_Model_Shared_Entities_EdiGeoPosition_Speed_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiGeoPosition.Speed
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiGeoPosition.Speed
+  nameWithType: EdiGeoPosition.Speed
 - uid: Conizi.Model.Shared.Entities.EdiGeoPosition.W3WCoordinate
   name: W3WCoordinate
   href: classes/Conizi.Model.Shared.Entities.EdiGeoPosition.html#Conizi_Model_Shared_Entities_EdiGeoPosition_W3WCoordinate
@@ -4268,6 +4378,38 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiGeoRadius.RadiusMeasurementUnitCode
   nameWithType: EdiGeoRadius.RadiusMeasurementUnitCode
+- uid: Conizi.Model.Shared.Entities.EdiGeoSpeed
+  name: EdiGeoSpeed
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoSpeed.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiGeoSpeed
+  fullName: Conizi.Model.Shared.Entities.EdiGeoSpeed
+  nameWithType: EdiGeoSpeed
+- uid: Conizi.Model.Shared.Entities.EdiGeoSpeed.Speed
+  name: Speed
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoSpeed.html#Conizi_Model_Shared_Entities_EdiGeoSpeed_Speed
+  commentId: P:Conizi.Model.Shared.Entities.EdiGeoSpeed.Speed
+  fullName: Conizi.Model.Shared.Entities.EdiGeoSpeed.Speed
+  nameWithType: EdiGeoSpeed.Speed
+- uid: Conizi.Model.Shared.Entities.EdiGeoSpeed.Speed*
+  name: Speed
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoSpeed.html#Conizi_Model_Shared_Entities_EdiGeoSpeed_Speed_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiGeoSpeed.Speed
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiGeoSpeed.Speed
+  nameWithType: EdiGeoSpeed.Speed
+- uid: Conizi.Model.Shared.Entities.EdiGeoSpeed.SpeedMeasurementUnitCode
+  name: SpeedMeasurementUnitCode
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoSpeed.html#Conizi_Model_Shared_Entities_EdiGeoSpeed_SpeedMeasurementUnitCode
+  commentId: P:Conizi.Model.Shared.Entities.EdiGeoSpeed.SpeedMeasurementUnitCode
+  fullName: Conizi.Model.Shared.Entities.EdiGeoSpeed.SpeedMeasurementUnitCode
+  nameWithType: EdiGeoSpeed.SpeedMeasurementUnitCode
+- uid: Conizi.Model.Shared.Entities.EdiGeoSpeed.SpeedMeasurementUnitCode*
+  name: SpeedMeasurementUnitCode
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoSpeed.html#Conizi_Model_Shared_Entities_EdiGeoSpeed_SpeedMeasurementUnitCode_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiGeoSpeed.SpeedMeasurementUnitCode
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiGeoSpeed.SpeedMeasurementUnitCode
+  nameWithType: EdiGeoSpeed.SpeedMeasurementUnitCode
 - uid: Conizi.Model.Shared.Entities.EdiGpxFile
   name: EdiGpxFile
   href: classes/Conizi.Model.Shared.Entities.EdiGpxFile.html
@@ -8015,6 +8157,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.DocumentsReceived
   nameWithType: EdiStopSpecificEvent.DocumentsReceived
+- uid: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Eta
+  name: Eta
+  href: classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html#Conizi_Model_Shared_Entities_EdiStopSpecificEvent_Eta
+  commentId: P:Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Eta
+  fullName: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Eta
+  nameWithType: EdiStopSpecificEvent.Eta
+- uid: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Eta*
+  name: Eta
+  href: classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html#Conizi_Model_Shared_Entities_EdiStopSpecificEvent_Eta_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Eta
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Eta
+  nameWithType: EdiStopSpecificEvent.Eta
 - uid: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.LoadingCompleted
   name: LoadingCompleted
   href: classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html#Conizi_Model_Shared_Entities_EdiStopSpecificEvent_LoadingCompleted
@@ -9299,6 +9454,19 @@ references:
   commentId: T:Conizi.Model.Shared.Entities.EdiVehicle
   fullName: Conizi.Model.Shared.Entities.EdiVehicle
   nameWithType: EdiVehicle
+- uid: Conizi.Model.Shared.Entities.EdiVehicle.IsTrailer
+  name: IsTrailer
+  href: classes/Conizi.Model.Shared.Entities.EdiVehicle.html#Conizi_Model_Shared_Entities_EdiVehicle_IsTrailer
+  commentId: P:Conizi.Model.Shared.Entities.EdiVehicle.IsTrailer
+  fullName: Conizi.Model.Shared.Entities.EdiVehicle.IsTrailer
+  nameWithType: EdiVehicle.IsTrailer
+- uid: Conizi.Model.Shared.Entities.EdiVehicle.IsTrailer*
+  name: IsTrailer
+  href: classes/Conizi.Model.Shared.Entities.EdiVehicle.html#Conizi_Model_Shared_Entities_EdiVehicle_IsTrailer_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiVehicle.IsTrailer
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiVehicle.IsTrailer
+  nameWithType: EdiVehicle.IsTrailer
 - uid: Conizi.Model.Shared.Entities.EdiVehicle.Registration
   name: Registration
   href: classes/Conizi.Model.Shared.Entities.EdiVehicle.html#Conizi_Model_Shared_Entities_EdiVehicle_Registration
@@ -9312,6 +9480,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiVehicle.Registration
   nameWithType: EdiVehicle.Registration
+- uid: Conizi.Model.Shared.Entities.EdiVehicle.SendTelematics
+  name: SendTelematics
+  href: classes/Conizi.Model.Shared.Entities.EdiVehicle.html#Conizi_Model_Shared_Entities_EdiVehicle_SendTelematics
+  commentId: P:Conizi.Model.Shared.Entities.EdiVehicle.SendTelematics
+  fullName: Conizi.Model.Shared.Entities.EdiVehicle.SendTelematics
+  nameWithType: EdiVehicle.SendTelematics
+- uid: Conizi.Model.Shared.Entities.EdiVehicle.SendTelematics*
+  name: SendTelematics
+  href: classes/Conizi.Model.Shared.Entities.EdiVehicle.html#Conizi_Model_Shared_Entities_EdiVehicle_SendTelematics_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiVehicle.SendTelematics
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiVehicle.SendTelematics
+  nameWithType: EdiVehicle.SendTelematics
 - uid: Conizi.Model.Shared.Entities.EdiVehicle.TruckType
   name: TruckType
   href: classes/Conizi.Model.Shared.Entities.EdiVehicle.html#Conizi_Model_Shared_Entities_EdiVehicle_TruckType
@@ -10025,6 +10206,63 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.TourWorkingHours.UntilDateTime
   nameWithType: TourWorkingHours.UntilDateTime
+- uid: Conizi.Model.Telematics
+  name: Conizi.Model.Telematics
+  href: classes/Conizi.Model.Telematics.html
+  commentId: N:Conizi.Model.Telematics
+  fullName: Conizi.Model.Telematics
+  nameWithType: Conizi.Model.Telematics
+- uid: Conizi.Model.Telematics.GeoLocation
+  name: GeoLocation
+  href: classes/Conizi.Model.Telematics.GeoLocation.html
+  commentId: T:Conizi.Model.Telematics.GeoLocation
+  fullName: Conizi.Model.Telematics.GeoLocation
+  nameWithType: GeoLocation
+- uid: Conizi.Model.Telematics.GeoLocation.Driver
+  name: Driver
+  href: classes/Conizi.Model.Telematics.GeoLocation.html#Conizi_Model_Telematics_GeoLocation_Driver
+  commentId: P:Conizi.Model.Telematics.GeoLocation.Driver
+  fullName: Conizi.Model.Telematics.GeoLocation.Driver
+  nameWithType: GeoLocation.Driver
+- uid: Conizi.Model.Telematics.GeoLocation.Driver*
+  name: Driver
+  href: classes/Conizi.Model.Telematics.GeoLocation.html#Conizi_Model_Telematics_GeoLocation_Driver_
+  commentId: Overload:Conizi.Model.Telematics.GeoLocation.Driver
+  isSpec: "True"
+  fullName: Conizi.Model.Telematics.GeoLocation.Driver
+  nameWithType: GeoLocation.Driver
+- uid: Conizi.Model.Telematics.GeoLocation.GeoPosition
+  name: GeoPosition
+  href: classes/Conizi.Model.Telematics.GeoLocation.html#Conizi_Model_Telematics_GeoLocation_GeoPosition
+  commentId: P:Conizi.Model.Telematics.GeoLocation.GeoPosition
+  fullName: Conizi.Model.Telematics.GeoLocation.GeoPosition
+  nameWithType: GeoLocation.GeoPosition
+- uid: Conizi.Model.Telematics.GeoLocation.GeoPosition*
+  name: GeoPosition
+  href: classes/Conizi.Model.Telematics.GeoLocation.html#Conizi_Model_Telematics_GeoLocation_GeoPosition_
+  commentId: Overload:Conizi.Model.Telematics.GeoLocation.GeoPosition
+  isSpec: "True"
+  fullName: Conizi.Model.Telematics.GeoLocation.GeoPosition
+  nameWithType: GeoLocation.GeoPosition
+- uid: Conizi.Model.Telematics.GeoLocation.Vehicle
+  name: Vehicle
+  href: classes/Conizi.Model.Telematics.GeoLocation.html#Conizi_Model_Telematics_GeoLocation_Vehicle
+  commentId: P:Conizi.Model.Telematics.GeoLocation.Vehicle
+  fullName: Conizi.Model.Telematics.GeoLocation.Vehicle
+  nameWithType: GeoLocation.Vehicle
+- uid: Conizi.Model.Telematics.GeoLocation.Vehicle*
+  name: Vehicle
+  href: classes/Conizi.Model.Telematics.GeoLocation.html#Conizi_Model_Telematics_GeoLocation_Vehicle_
+  commentId: Overload:Conizi.Model.Telematics.GeoLocation.Vehicle
+  isSpec: "True"
+  fullName: Conizi.Model.Telematics.GeoLocation.Vehicle
+  nameWithType: GeoLocation.Vehicle
+- uid: Conizi.Model.Telematics.GroundTelematics
+  name: GroundTelematics
+  href: classes/Conizi.Model.Telematics.GroundTelematics.html
+  commentId: T:Conizi.Model.Telematics.GroundTelematics
+  fullName: Conizi.Model.Telematics.GroundTelematics
+  nameWithType: GroundTelematics
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding
   name: Conizi.Model.Transport.Truck.Groupage.Forwarding
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.html
@@ -10271,6 +10509,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.ShippingPartner
   nameWithType: Consignment.ShippingPartner
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.ToString
+  name: ToString()
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Consignment_ToString
+  commentId: M:Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.ToString
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.ToString()
+  nameWithType: Consignment.ToString()
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.ToString*
+  name: ToString
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Consignment_ToString_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.ToString
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.ToString
+  nameWithType: Consignment.ToString
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.TourNumber
   name: TourNumber
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Consignment_TourNumber

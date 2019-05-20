@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EdiVehicle
+    <title>Class GeoLocation
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EdiVehicle
+    <meta name="title" content="Class GeoLocation
    ">
     <meta name="generator" content="docfx 2.42.1.0">
     
@@ -68,40 +68,64 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiVehicle">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Telematics.GeoLocation">
   
   
-  <h1 id="Conizi_Model_Shared_Entities_EdiVehicle" data-uid="Conizi.Model.Shared.Entities.EdiVehicle" class="text-break">Class EdiVehicle
+  <h1 id="Conizi_Model_Telematics_GeoLocation" data-uid="Conizi.Model.Telematics.GeoLocation" class="text-break">Class GeoLocation
   </h1>
-  <div class="markdown level0 summary"><p>Information about the vehicles used in the transport</p>
+  <div class="markdown level0 summary"><p>A single geo location which is transferred between two partners. Also vehicle and driver data could be included</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase</span></div>
-    <div class="level2"><span class="xref">EdiVehicle</span></div>
+    <div class="level2"><a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html">EdiModel</a></div>
+    <div class="level3"><span class="xref">GeoLocation</span></div>
+      <div class="level4"><a class="xref" href="Conizi.Model.Telematics.GroundTelematics.html">GroundTelematics</a></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Schema">EdiModel.Schema</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Receiver">EdiModel.Receiver</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Sender">EdiModel.Sender</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Network">EdiModel.Network</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Metadata">EdiModel.Metadata</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Telematics.html">Conizi.Model.Telematics</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
-  <h5 id="Conizi_Model_Shared_Entities_EdiVehicle_syntax">Syntax</h5>
+  <h5 id="Conizi_Model_Telematics_GeoLocation_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ConiziAdditionalProperties(false)]
+    <pre><code class="lang-csharp hljs">[ConiziSchema(&quot;https://model.conizi.io/v1/telematics/geolocation.json&quot;, &quot;geolocation.json&quot;)]
+[ConiziAdditionalProperties(false)]
 [ConiziAllowXProperties(true)]
-public class EdiVehicle : EdiPatternPropertiesBase</code></pre>
+public class GeoLocation : EdiModel</code></pre>
   </div>
+  <h5 id="Conizi_Model_Telematics_GeoLocation_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>The geo location is the basic conizi object for geo location and telematics.</p>
+</div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiVehicle_IsTrailer_" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.IsTrailer*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiVehicle_IsTrailer" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.IsTrailer">IsTrailer</h4>
-  <div class="markdown level1 summary"><p>The vehicle is classified as trailer</p>
+  <a id="Conizi_Model_Telematics_GeoLocation_Driver_" data-uid="Conizi.Model.Telematics.GeoLocation.Driver*"></a>
+  <h4 id="Conizi_Model_Telematics_GeoLocation_Driver" data-uid="Conizi.Model.Telematics.GeoLocation.Driver">Driver</h4>
+  <div class="markdown level1 summary"><p>Information about the driver</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? IsTrailer { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiDriver Driver { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -113,21 +137,22 @@ public class EdiVehicle : EdiPatternPropertiesBase</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiDriver.html">EdiDriver</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiVehicle_Registration_" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.Registration*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiVehicle_Registration" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.Registration">Registration</h4>
-  <div class="markdown level1 summary"><p>Official registration of the vehicle (e.g. license plate number</p>
+  <a id="Conizi_Model_Telematics_GeoLocation_GeoPosition_" data-uid="Conizi.Model.Telematics.GeoLocation.GeoPosition*"></a>
+  <h4 id="Conizi_Model_Telematics_GeoLocation_GeoPosition" data-uid="Conizi.Model.Telematics.GeoLocation.GeoPosition">GeoPosition</h4>
+  <div class="markdown level1 summary"><p>Data about the current geo position</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Registration { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required]
+public EdiGeoPosition GeoPosition { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -139,21 +164,22 @@ public class EdiVehicle : EdiPatternPropertiesBase</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoPosition.html">EdiGeoPosition</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiVehicle_SendTelematics_" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.SendTelematics*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiVehicle_SendTelematics" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.SendTelematics">SendTelematics</h4>
-  <div class="markdown level1 summary"><p>The vehicle sends telematics data to a central instance</p>
+  <a id="Conizi_Model_Telematics_GeoLocation_Vehicle_" data-uid="Conizi.Model.Telematics.GeoLocation.Vehicle*"></a>
+  <h4 id="Conizi_Model_Telematics_GeoLocation_Vehicle" data-uid="Conizi.Model.Telematics.GeoLocation.Vehicle">Vehicle</h4>
+  <div class="markdown level1 summary"><p>Information about the vehicle</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? SendTelematics { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Required]
+public EdiVehicle Vehicle { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -165,59 +191,7 @@ public class EdiVehicle : EdiPatternPropertiesBase</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Conizi_Model_Shared_Entities_EdiVehicle_TruckType_" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.TruckType*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiVehicle_TruckType" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.TruckType">TruckType</h4>
-  <div class="markdown level1 summary"><p>The truck type</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string TruckType { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Conizi_Model_Shared_Entities_EdiVehicle_VehicleId_" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.VehicleId*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiVehicle_VehicleId" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.VehicleId">VehicleId</h4>
-  <div class="markdown level1 summary"><p>The Id of the vehicle</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string VehicleId { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiVehicle.html">EdiVehicle</a></td>
         <td></td>
       </tr>
     </tbody>

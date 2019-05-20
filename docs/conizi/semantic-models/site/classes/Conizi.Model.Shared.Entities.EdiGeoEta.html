@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EdiVehicle
+    <title>Class EdiGeoEta
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EdiVehicle
+    <meta name="title" content="Class EdiGeoEta
    ">
     <meta name="generator" content="docfx 2.42.1.0">
     
@@ -68,40 +68,42 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiVehicle">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiGeoEta">
   
   
-  <h1 id="Conizi_Model_Shared_Entities_EdiVehicle" data-uid="Conizi.Model.Shared.Entities.EdiVehicle" class="text-break">Class EdiVehicle
+  <h1 id="Conizi_Model_Shared_Entities_EdiGeoEta" data-uid="Conizi.Model.Shared.Entities.EdiGeoEta" class="text-break">Class EdiGeoEta
   </h1>
-  <div class="markdown level0 summary"><p>Information about the vehicles used in the transport</p>
+  <div class="markdown level0 summary"><p>The estimated time of arrival (ETA) is the time when a ship, vehicle, aircraft, cargo, emergency service or person is expected to arrive at a certain place</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase</span></div>
-    <div class="level2"><span class="xref">EdiVehicle</span></div>
+    <div class="level1"><span class="xref">EdiGeoEta</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
-  <h5 id="Conizi_Model_Shared_Entities_EdiVehicle_syntax">Syntax</h5>
+  <h5 id="Conizi_Model_Shared_Entities_EdiGeoEta_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ConiziAdditionalProperties(false)]
-[ConiziAllowXProperties(true)]
-public class EdiVehicle : EdiPatternPropertiesBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class EdiGeoEta</code></pre>
   </div>
+  <h5 id="Conizi_Model_Shared_Entities_EdiGeoEta_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>The ETA should always be used in conjunction with a GPS position <a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoPosition.html">EdiGeoPosition</a>.</p>
+</div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiVehicle_IsTrailer_" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.IsTrailer*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiVehicle_IsTrailer" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.IsTrailer">IsTrailer</h4>
-  <div class="markdown level1 summary"><p>The vehicle is classified as trailer</p>
+  <a id="Conizi_Model_Shared_Entities_EdiGeoEta_DistanceMeasurementUnitCode_" data-uid="Conizi.Model.Shared.Entities.EdiGeoEta.DistanceMeasurementUnitCode*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiGeoEta_DistanceMeasurementUnitCode" data-uid="Conizi.Model.Shared.Entities.EdiGeoEta.DistanceMeasurementUnitCode">DistanceMeasurementUnitCode</h4>
+  <div class="markdown level1 summary"><p>Code that describes the unit in which the distance is measured
+Default kilometers (KMT)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? IsTrailer { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonConverter(typeof(StringEnumConverter))]
+public MeasurementUnitCode? DistanceMeasurementUnitCode { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -113,21 +115,79 @@ public class EdiVehicle : EdiPatternPropertiesBase</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="Conizi.Model.Shared.Definitions.MeasurementUnitCode.html">MeasurementUnitCode</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiVehicle_Registration_" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.Registration*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiVehicle_Registration" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.Registration">Registration</h4>
-  <div class="markdown level1 summary"><p>Official registration of the vehicle (e.g. license plate number</p>
+  <a id="Conizi_Model_Shared_Entities_EdiGeoEta_DistanceToDestination_" data-uid="Conizi.Model.Shared.Entities.EdiGeoEta.DistanceToDestination*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiGeoEta_DistanceToDestination" data-uid="Conizi.Model.Shared.Entities.EdiGeoEta.DistanceToDestination">DistanceToDestination</h4>
+  <div class="markdown level1 summary"><p>The distance to destination</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Registration { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public decimal? DistanceToDestination { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Decimal</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiGeoEta_EtaDateAbsolute_" data-uid="Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateAbsolute*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiGeoEta_EtaDateAbsolute" data-uid="Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateAbsolute">EtaDateAbsolute</h4>
+  <div class="markdown level1 summary"><p>ETA (Estimated time of arrival) date component date (e.g. 2019-05-17)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[ConiziDateOnly]
+public DateTime EtaDateAbsolute { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Conizi_Model_Shared_Entities_EdiGeoEta_EtaDateAbsolute_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The date component is only required if it is not the current day.</p>
+</div>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiGeoEta_EtaTimeAbsolute_" data-uid="Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimeAbsolute*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiGeoEta_EtaTimeAbsolute" data-uid="Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimeAbsolute">EtaTimeAbsolute</h4>
+  <div class="markdown level1 summary"><p>ETA (Estimated time of arrival) absolute as time string (e.g. 14:12:33)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Required]
+[ConiziTimeOnly]
+public string EtaTimeAbsolute { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -144,16 +204,19 @@ public class EdiVehicle : EdiPatternPropertiesBase</code></pre>
       </tr>
     </tbody>
   </table>
+  <h5 id="Conizi_Model_Shared_Entities_EdiGeoEta_EtaTimeAbsolute_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If no date component is specified <a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_EtaDateAbsolute">EtaDateAbsolute</a>, the current day applies.</p>
+</div>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiVehicle_SendTelematics_" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.SendTelematics*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiVehicle_SendTelematics" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.SendTelematics">SendTelematics</h4>
-  <div class="markdown level1 summary"><p>The vehicle sends telematics data to a central instance</p>
+  <a id="Conizi_Model_Shared_Entities_EdiGeoEta_Ete_" data-uid="Conizi.Model.Shared.Entities.EdiGeoEta.Ete*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiGeoEta_Ete" data-uid="Conizi.Model.Shared.Entities.EdiGeoEta.Ete">Ete</h4>
+  <div class="markdown level1 summary"><p>ETE (estimated time enroute, estimated time elapsed) in seconds</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? SendTelematics { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int? Ete { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -165,21 +228,21 @@ public class EdiVehicle : EdiPatternPropertiesBase</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiVehicle_TruckType_" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.TruckType*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiVehicle_TruckType" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.TruckType">TruckType</h4>
-  <div class="markdown level1 summary"><p>The truck type</p>
+  <a id="Conizi_Model_Shared_Entities_EdiGeoEta_StopsToDestination_" data-uid="Conizi.Model.Shared.Entities.EdiGeoEta.StopsToDestination*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiGeoEta_StopsToDestination" data-uid="Conizi.Model.Shared.Entities.EdiGeoEta.StopsToDestination">StopsToDestination</h4>
+  <div class="markdown level1 summary"><p>The number of stops <a class="xref" href="Conizi.Model.Shared.Entities.EdiTourStop.html">EdiTourStop</a> to destination</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string TruckType { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int? StopsToDestination { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -191,33 +254,7 @@ public class EdiVehicle : EdiPatternPropertiesBase</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Conizi_Model_Shared_Entities_EdiVehicle_VehicleId_" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.VehicleId*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiVehicle_VehicleId" data-uid="Conizi.Model.Shared.Entities.EdiVehicle.VehicleId">VehicleId</h4>
-  <div class="markdown level1 summary"><p>The Id of the vehicle</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string VehicleId { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>

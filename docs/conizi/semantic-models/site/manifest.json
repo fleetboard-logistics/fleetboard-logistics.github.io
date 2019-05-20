@@ -12,7 +12,7 @@
           "hash": "FllTGEsQ6EuYnnwGqXqp3A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -24,7 +24,7 @@
           "hash": "HND5XvGM+UC1rfKFuCBgjA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -36,7 +36,7 @@
           "hash": "+JHJ44igK2weLRp+Fl6RDQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -48,7 +48,7 @@
           "hash": "aWEnhMX7ZNWRzHHRMNzq1w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -60,7 +60,7 @@
           "hash": "0raxg5/xAVtD3+dGVifaRw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -120,7 +120,7 @@
           "hash": "pJfayFVgjAtOFDRviuBAfg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Definitions.MeasurementUnitCode.html",
-          "hash": "LP7vYKBc9VyTB859TJMG4g=="
+          "hash": "0Uh+lnleUDfsYcz0Hn4//A=="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Definitions.html",
-          "hash": "uHhbs0Ovdkf/BSHB4r3dxA=="
+          "hash": "Jd3L2qVaHF+EBs+5YsIRZw=="
         }
       },
       "is_incremental": false,
@@ -513,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiEmptyExtendableObject.html",
-          "hash": "zty+EpVFEGsSiPpQfugpFg=="
+          "hash": "TnSxdnw7L0DRdfPvmOo9SA=="
         }
       },
       "is_incremental": false,
@@ -773,11 +773,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoEta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoEta.html",
+          "hash": "/on9bgWVXPj7YpYXWn2tjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoPosition.yml",
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoPosition.html",
-          "hash": "7eNLPYozaR2V31LUO7fx6g=="
+          "hash": "mpNBA6KEqhKyq1TA0znu/w=="
         }
       },
       "is_incremental": false,
@@ -789,7 +801,19 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoRadius.html",
-          "hash": "lIrnnlTVH6UKrGPe7iV4Ew=="
+          "hash": "8jyRmSyzoR3DwfQ8A6ns5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoSpeed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoSpeed.html",
+          "hash": "AFYbS+0+Fcm5EU52RexraA=="
         }
       },
       "is_incremental": false,
@@ -969,7 +993,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiModel.html",
-          "hash": "x+px9nrkqtXgLGwaGgHkKA=="
+          "hash": "7asj0OCV0sGy0dOBnyYDHA=="
         }
       },
       "is_incremental": false,
@@ -981,7 +1005,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiNetwork.html",
-          "hash": "f/BvANbgtqZ72arxSWr6cg=="
+          "hash": "lstZawK3GlQJ79c64IyDNQ=="
         }
       },
       "is_incremental": false,
@@ -1653,7 +1677,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html",
-          "hash": "NYqccMHL1PJzRcFLhRxBZA=="
+          "hash": "ealZihKv3XCB6DuChvz4MQ=="
         }
       },
       "is_incremental": false,
@@ -1881,7 +1905,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiVehicle.html",
-          "hash": "42DUSuHkMPsDi+w4u1Y3JQ=="
+          "hash": "3ihDJFL/PydWojn85qzapg=="
         }
       },
       "is_incremental": false,
@@ -2097,7 +2121,43 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.html",
-          "hash": "q4Z9TtEN9DPOohyZjdk1ZQ=="
+          "hash": "duGfZiW7Hrs+RNkAptg2ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Telematics.GeoLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Telematics.GeoLocation.html",
+          "hash": "qr8Ozuf5jiNvK9W7ndKZ8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Telematics.GroundTelematics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Telematics.GroundTelematics.html",
+          "hash": "d8T4kgFTuHDa+7dfuE6tLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Telematics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Telematics.html",
+          "hash": "P2Dc7imam67YdDboQ5EAEw=="
         }
       },
       "is_incremental": false,
@@ -2109,7 +2169,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.html",
-          "hash": "0hzqolTKj7/leOAjGqHSNQ=="
+          "hash": "y1vlNoYvVLi9et0jH4aY+w=="
         }
       },
       "is_incremental": false,
@@ -2205,7 +2265,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html",
-          "hash": "k/6iZVpdk4gAxnEeYr1QoQ=="
+          "hash": "DiCUVoaDVJbCpJG7N27SZg=="
         }
       },
       "is_incremental": false,
@@ -2229,7 +2289,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.html",
-          "hash": "OXfxIeLrC6Skl3fyQl2xqw=="
+          "hash": "WriYa5fA8mTLVmmE5GZ7BA=="
         }
       },
       "is_incremental": false,
@@ -2244,7 +2304,7 @@
           "hash": "lbbW8mzBSxsJfqMCqL2vhw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2256,7 +2316,7 @@
           "hash": "vw3nN4u65DUktR/QXGPN4g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2268,7 +2328,7 @@
           "hash": "+4HspY0Zyzo30TnC/6RIiw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2280,7 +2340,7 @@
           "hash": "J5POVHEUslgkeP4IQqh7HA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2292,7 +2352,7 @@
           "hash": "56OBh4HYZvY+5pyAwlyeXA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2304,7 +2364,7 @@
           "hash": "u15IiM99/gDPHhCRHQonIw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2316,7 +2376,7 @@
           "hash": "mkxyYnCIyFcfwUIsYjWmnw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2328,7 +2388,7 @@
           "hash": "LPuQD4yybTlaim9n9RSEPQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2340,7 +2400,7 @@
           "hash": "2fBx/me1pBOWSRftdDi20w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2352,7 +2412,7 @@
           "hash": "RCeB6r08vK+OV6rABjWofQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2364,7 +2424,7 @@
           "hash": "TFgHkqdfC+TEnELrl5dNvQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2376,7 +2436,7 @@
           "hash": "sEpVElL+7H0R1v1/qg5kbw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2388,7 +2448,7 @@
           "hash": "6Ek8yGQYTtAD2ydbrDfeGQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2397,7 +2457,7 @@
       "output": {
         ".html": {
           "relative_path": "fusion/toc.html",
-          "hash": "wKpziQrs8O1KINYWIxRVMg=="
+          "hash": "04AWJaGKWbBEdCo26wzTOA=="
         }
       },
       "is_incremental": false,
@@ -2423,7 +2483,7 @@
           "hash": "cdbQdRn2fZUxIQS64UKOeg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -2442,14 +2502,19 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -2457,31 +2522,24 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 196,
+          "skipped_file_count": 178
+        },
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 9,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 191,
-          "skipped_file_count": 0
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
+          "skipped_file_count": 9
         }
       }
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

@@ -92,6 +92,32 @@ public class EdiGeoPosition</code></pre>
   </h3>
   
   
+  <a id="Conizi_Model_Shared_Entities_EdiGeoPosition_Angle_" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.Angle*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiGeoPosition_Angle" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.Angle">Angle</h4>
+  <div class="markdown level1 summary"><p>The angle is the direction that the vehicle is moving in</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal? Angle { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Decimal</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Conizi_Model_Shared_Entities_EdiGeoPosition_GeoRadius_" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.GeoRadius*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiGeoPosition_GeoRadius" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.GeoRadius">GeoRadius</h4>
   <div class="markdown level1 summary"><p>GeoRadius on which this GeoPosition is considered as in range</p>
@@ -125,7 +151,7 @@ public class EdiGeoPosition</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonRequired]
+    <pre><code class="lang-csharp hljs">[JsonProperty(Required = Required.DisallowNull, Order = -10)]
 public decimal? Latitude { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -152,7 +178,7 @@ public decimal? Latitude { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonRequired]
+    <pre><code class="lang-csharp hljs">[JsonProperty(Required = Required.DisallowNull, Order = -9)]
 public decimal? Longitude { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
@@ -205,7 +231,7 @@ public decimal? Longitude { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTimeOffset RecordTime { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? RecordTime { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -217,7 +243,33 @@ public decimal? Longitude { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTimeOffset</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTimeOffset</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiGeoPosition_Speed_" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.Speed*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiGeoPosition_Speed" data-uid="Conizi.Model.Shared.Entities.EdiGeoPosition.Speed">Speed</h4>
+  <div class="markdown level1 summary"><p>The current speed of the vehicle in a defined measurement</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiGeoSpeed Speed { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoSpeed.html">EdiGeoSpeed</a></td>
         <td></td>
       </tr>
     </tbody>
