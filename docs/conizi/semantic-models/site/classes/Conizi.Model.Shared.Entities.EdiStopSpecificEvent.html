@@ -102,6 +102,32 @@ public class EdiStopSpecificEvent : EdiTourEventBase</code></pre>
   </h3>
   
   
+  <a id="Conizi_Model_Shared_Entities_EdiStopSpecificEvent_Address_" data-uid="Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Address*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiStopSpecificEvent_Address" data-uid="Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Address">Address</h4>
+  <div class="markdown level1 summary"><p>The address of the stop, if differs from <a class="xref" href="Conizi.Model.Shared.Entities.EdiTourStop.html">EdiTourStop</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiAddress Address { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiAddress.html">EdiAddress</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Conizi_Model_Shared_Entities_EdiStopSpecificEvent_ArrivedAtLoadingPoint_" data-uid="Conizi.Model.Shared.Entities.EdiStopSpecificEvent.ArrivedAtLoadingPoint*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiStopSpecificEvent_ArrivedAtLoadingPoint" data-uid="Conizi.Model.Shared.Entities.EdiStopSpecificEvent.ArrivedAtLoadingPoint">ArrivedAtLoadingPoint</h4>
   <div class="markdown level1 summary"><p>Arrived at loading point</p>
@@ -370,6 +396,7 @@ public class EdiStopSpecificEvent : EdiTourEventBase</code></pre>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[JsonRequired]
+[JsonProperty(Order = -20)]
 public string StopId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>

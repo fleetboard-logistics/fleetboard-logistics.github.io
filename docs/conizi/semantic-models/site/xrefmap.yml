@@ -8105,6 +8105,19 @@ references:
   commentId: T:Conizi.Model.Shared.Entities.EdiStopSpecificEvent
   fullName: Conizi.Model.Shared.Entities.EdiStopSpecificEvent
   nameWithType: EdiStopSpecificEvent
+- uid: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Address
+  name: Address
+  href: classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html#Conizi_Model_Shared_Entities_EdiStopSpecificEvent_Address
+  commentId: P:Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Address
+  fullName: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Address
+  nameWithType: EdiStopSpecificEvent.Address
+- uid: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Address*
+  name: Address
+  href: classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html#Conizi_Model_Shared_Entities_EdiStopSpecificEvent_Address_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Address
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Address
+  nameWithType: EdiStopSpecificEvent.Address
 - uid: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.ArrivedAtLoadingPoint
   name: ArrivedAtLoadingPoint
   href: classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html#Conizi_Model_Shared_Entities_EdiStopSpecificEvent_ArrivedAtLoadingPoint
@@ -9551,19 +9564,6 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiVehicleSpecificEvent.DriverName
   nameWithType: EdiVehicleSpecificEvent.DriverName
-- uid: Conizi.Model.Shared.Entities.EdiVehicleSpecificEvent.EstimatedArrivalTime
-  name: EstimatedArrivalTime
-  href: classes/Conizi.Model.Shared.Entities.EdiVehicleSpecificEvent.html#Conizi_Model_Shared_Entities_EdiVehicleSpecificEvent_EstimatedArrivalTime
-  commentId: P:Conizi.Model.Shared.Entities.EdiVehicleSpecificEvent.EstimatedArrivalTime
-  fullName: Conizi.Model.Shared.Entities.EdiVehicleSpecificEvent.EstimatedArrivalTime
-  nameWithType: EdiVehicleSpecificEvent.EstimatedArrivalTime
-- uid: Conizi.Model.Shared.Entities.EdiVehicleSpecificEvent.EstimatedArrivalTime*
-  name: EstimatedArrivalTime
-  href: classes/Conizi.Model.Shared.Entities.EdiVehicleSpecificEvent.html#Conizi_Model_Shared_Entities_EdiVehicleSpecificEvent_EstimatedArrivalTime_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiVehicleSpecificEvent.EstimatedArrivalTime
-  isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiVehicleSpecificEvent.EstimatedArrivalTime
-  nameWithType: EdiVehicleSpecificEvent.EstimatedArrivalTime
 - uid: Conizi.Model.Shared.Entities.EdiVehicleSpecificEvent.LoadingMeter
   name: LoadingMeter
   href: classes/Conizi.Model.Shared.Entities.EdiVehicleSpecificEvent.html#Conizi_Model_Shared_Entities_EdiVehicleSpecificEvent_LoadingMeter
