@@ -1,0 +1,2570 @@
+{
+  "homepages": [],
+  "source_base_path": "/srv/gitlab-runner/builds/conizi/plattform/semanticmodel/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/consignment.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/consignment.html",
+          "hash": "kpGvUt0AkO/rsA7Y4d3XFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/events.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/events.html",
+          "hash": "iXG+mkS7EMCkVnFxA54nXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/index.html",
+          "hash": "5ewHtPd8ORhYv325BGefgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/send.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/send.html",
+          "hash": "stH/WkLuseWKn9WSv+swQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/tour.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/tour.html",
+          "hash": "npb/63EpB6eNd3wouN/Ptw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Accounting.Material.MaterialTransaction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Accounting.Material.MaterialTransaction.html",
+          "hash": "c3LQz1KeqsR5SfuaOlbInA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Accounting.Material.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Accounting.Material.html",
+          "hash": "inSNsjD33Ps6IMyG0S73tQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Archiving.ProofOfDelivery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Archiving.ProofOfDelivery.html",
+          "hash": "6GwvICXyAKNHPjKBWeKmTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Archiving.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Archiving.html",
+          "hash": "Fre6vtsLskc5fCOByi23IQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Definitions.EdiMessageFunctionCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Definitions.EdiMessageFunctionCode.html",
+          "hash": "HBRbXiHRl0cudKOFz6q2sA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Definitions.MeasurementUnitCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Definitions.MeasurementUnitCode.html",
+          "hash": "gfCbkApYhoDkT7Z3YZHJxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Definitions.UrgencyCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Definitions.UrgencyCode.html",
+          "hash": "DPOSZiW9EMWMoXAzQmxUdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Definitions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Definitions.html",
+          "hash": "wpMV7vfP5Uwo/WrPOBHpLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.CostsAndCharges.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.CostsAndCharges.html",
+          "hash": "yE9Ij8RZAH5bDcmcRIq91A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiAdditionalLoadingEquipment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiAdditionalLoadingEquipment.html",
+          "hash": "hSdjVGy4HvfBDbeCCW10PA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiAddress.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiAddress.html",
+          "hash": "7TjQ9e9InlWgHv6+5zH82w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiAlreadyReceived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiAlreadyReceived.html",
+          "hash": "JenifQ+HsQxIlnPc8s2Zfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiAnonymity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiAnonymity.html",
+          "hash": "fvlAxXd6LCHP0mfa6FIxTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiArchive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiArchive.html",
+          "hash": "G5lSml8WIcX3wF+RsD3S0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiArchived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiArchived.html",
+          "hash": "gi1tBj9mV08HLYJioWXhLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiBarcode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiBarcode.html",
+          "hash": "+8x6VQB6DJZ1lSku7wNhaw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiBilling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiBilling.html",
+          "hash": "o7/QNgJgAJwOmSfG+yzcOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiBinaryData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiBinaryData.html",
+          "hash": "S7sfRSNOC5LeybaZ55RkAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiCashOnDelivery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiCashOnDelivery.html",
+          "hash": "qV0apUe43Hrlm8iPbZVztw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiContent.html",
+          "hash": "dX315LHHRdtmtVdl5/Z1vA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiContentCustomsInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiContentCustomsInformation.html",
+          "hash": "Fh1lNzbyBZkQ8kcpoYZ3+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiCustomsDocuments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiCustomsDocuments.html",
+          "hash": "hoDYk5BOPyDIcEF4YgnXKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiCustomsInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiCustomsInformation.html",
+          "hash": "bZxrAKX7GWKWDgdOC8xSsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDangerousGood.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDangerousGood.html",
+          "hash": "QdecUWn7xSnzle7ctlZegg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDangerousGoodsReferences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDangerousGoodsReferences.html",
+          "hash": "Vla3SvtsD+LxiEcCisoWFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDataProcessing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDataProcessing.html",
+          "hash": "zQuzi4erYPQ7HT4gcecINQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDataProcessingExceptions.html",
+          "hash": "BYl1UGtAuH391TphcAcOkw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDeliveryAttemptDifficulties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDeliveryAttemptDifficulties.html",
+          "hash": "tjHnu4ZSLsyRP8llzkWsXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDeliveryAttemptFailedExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDeliveryAttemptFailedExceptions.html",
+          "hash": "Imz5GPdWdK80LXOBlKuTWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDeliveryAttemptRejected.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDeliveryAttemptRejected.html",
+          "hash": "ysamvruv0L7aQkqHuP/Ybg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDeliveryOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDeliveryOptions.html",
+          "hash": "9gC+9oZKIXmpRa5GZ3mTdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDeliveryPlanning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDeliveryPlanning.html",
+          "hash": "+DCblffvRlKJph9ChHU2Ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDeliveryPlanningExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDeliveryPlanningExceptions.html",
+          "hash": "E2kdHLwTHd0dwPO6wdnk5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDeliveryStartedExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDeliveryStartedExceptions.html",
+          "hash": "WyOCf0ooj8xN3jujJ1rKjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDeliverySuccessfulExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDeliverySuccessfulExceptions.html",
+          "hash": "LQQea/nqKxQXVPSmWRLhcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDisposed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDisposed.html",
+          "hash": "uOcxVf1zQ6lrWObJ1wI0jQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDriver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDriver.html",
+          "hash": "qAu7VmJlLczJtADE8Vu3hg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiEmptyExtendableObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiEmptyExtendableObject.html",
+          "hash": "4euN4RrQY5/R9gKi2OCBaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiEvening.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiEvening.html",
+          "hash": "ca8S2uAZ3su7JYsJ3MyDIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventArrivalAtReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventArrivalAtReceiver.html",
+          "hash": "2Su1aEUnstSCONmO7Pisgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventCancellation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventCancellation.html",
+          "hash": "0welXtJLfT2QiaImfH4jlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventChangeRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventChangeRequest.html",
+          "hash": "eOuAS+8nnCsUbroeQJYkxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventCompletion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventCompletion.html",
+          "hash": "8SS3p2ESfyn+OD0L2lNn+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventDeliveryAttemptFailed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventDeliveryAttemptFailed.html",
+          "hash": "iYVfC3oUiO7Z9kImsGxq8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventDeliveryStarted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventDeliveryStarted.html",
+          "hash": "NjsCTT3hQXmmxdCNKQt+YQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventDeliverySuccessful.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventDeliverySuccessful.html",
+          "hash": "0Z1JWVbKZZRTKOpgTl6mWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventEstimatedArrivalAtReceiver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventEstimatedArrivalAtReceiver.html",
+          "hash": "IKGonvu7JDYjzIMdbvOUHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventGateway.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventGateway.html",
+          "hash": "w+t4z3zfqViz0JLoTjrjWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiEventNotification.html",
+          "hash": "OFBOu/migBD8Ca121f71SA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiExternalServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiExternalServices.html",
+          "hash": "XJP6b1pTXg6lRzfR9Ngojw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiFileContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiFileContent.html",
+          "hash": "zk0R+hwX/cbxhlDh7WTLog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiFileReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiFileReference.html",
+          "hash": "bNqIMisss0CLtSuaC7uNXg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiFixedDay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiFixedDay.html",
+          "hash": "6ObKATZF2rMULlo+doIfRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiFixedWeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiFixedWeek.html",
+          "hash": "AhnZVEwNwTGNFj4DoiV7Pw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiFood.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiFood.html",
+          "hash": "qRpEvuu6PAlfcuRzvyDfpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiFreeText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiFreeText.html",
+          "hash": "NoNipK4BPihXooSwsY2m+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiGateway.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiGateway.html",
+          "hash": "75Alx0Pz8ujPqPegctGhbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiGatewayExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiGatewayExceptions.html",
+          "hash": "PFUryeq/JIEi7dfze/tnfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeneralProcessingNotification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeneralProcessingNotification.html",
+          "hash": "qi+D5pXBB20JnWOZYrVf2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoEta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoEta.html",
+          "hash": "RBnJsgUZOEUoVHAoTZ80bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoPosition.html",
+          "hash": "nqYwpaKdBFOiWy4Kisqttw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoRadius.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoRadius.html",
+          "hash": "wvqGHD8KV/wNHDUTUcY4Ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoSpeed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoSpeed.html",
+          "hash": "btVi9Gl86IDb3mJTEVvo8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiGpxFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiGpxFile.html",
+          "hash": "wHDhC8ZtHmkuTgRhDBuNbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiHandlingInstructions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiHandlingInstructions.html",
+          "hash": "ErxLR0V50XafgvJQIwkfMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiInformation.html",
+          "hash": "q+y8JuRIiASP2/ez551BBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiInsuranceValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiInsuranceValue.html",
+          "hash": "jcYpzGe3fdJ0TdEOFsxkYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiLine.html",
+          "hash": "NMQtxH3UU+XMvUNJziN5yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiLoadUnit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiLoadUnit.html",
+          "hash": "zq+B5Rctd6FfYZbpjrb+aw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.html",
+          "hash": "TT+YJqyDDV0X3h7zZXm7HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiLoadingOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiLoadingOptions.html",
+          "hash": "SiHrIUgvZ7rRiDWZFB/PhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiManifestLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiManifestLine.html",
+          "hash": "B7zOZG7hWwzfOJ2XrAHSjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiMeasures.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiMeasures.html",
+          "hash": "JMs/Zy6HS2FmE8SmuVNhDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiMessageRouting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiMessageRouting.html",
+          "hash": "+/fi5sL9NCNis3N2kA0mLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiMetadata.html",
+          "hash": "eEb/4b1Z8nxbm8z8QZyKBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiMetadataEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiMetadataEntity.html",
+          "hash": "tbopgBeo/xyI/4T/h8QAow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiMissingFromPreviousManifest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiMissingFromPreviousManifest.html",
+          "hash": "5yt8y+usEtjkahJ2mnNcdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiModel.html",
+          "hash": "moWExmd1L2iLKpu7ymNJdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiNetwork.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiNetwork.html",
+          "hash": "iTUrPvkZE6TySfm6o2kyUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiNextDay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiNextDay.html",
+          "hash": "900YnuwF/5cO6ur6wXrADA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiNotAfter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiNotAfter.html",
+          "hash": "8LbiXFG0TeMLGjhD1k710w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiNotBefore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiNotBefore.html",
+          "hash": "dnJheHd9UxW07Hyig9KoxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiNotificationEventExceptions.html",
+          "hash": "5hO84IdA3FDyPk0aGlMtPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiNotificationExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiNotificationExceptions.html",
+          "hash": "mu5MXN8CV0ZK9Uohy9AvVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiNotifications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiNotifications.html",
+          "hash": "b24Ux7gRZShk4lgTYOrdGA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiNotifyBeforePickupDeliver.html",
+          "hash": "fss5SbBRNlRcd9dPEPC/Nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiOrientation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiOrientation.html",
+          "hash": "yew6ZrUKURDepwEL/p5G6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPackageBulkiness.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPackageBulkiness.html",
+          "hash": "MPv6Fp5Fk/VSQ7daLHm2PA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPackageEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPackageEvent.html",
+          "hash": "6PTZjWHeyJDc0chK7nbAYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPackageEventExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPackageEventExceptions.html",
+          "hash": "aiRK1hibimjPjK2pDRiSeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPackagingOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPackagingOptions.html",
+          "hash": "9ntA9n8j3+NlTwRZqPJrJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPartnerIdentification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPartnerIdentification.html",
+          "hash": "ueVEDqEnSo6/dou137qlUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupArrival.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupArrival.html",
+          "hash": "87BGh9B4PsAunkplEyu+Pg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupArrivalExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupArrivalExceptions.html",
+          "hash": "NFnat9bOC3wlWFZple15OA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupAttemptFailed.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupAttemptFailed.html",
+          "hash": "2hPE2ixaS7uXC4N31DMSXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupAttemptFailedExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupAttemptFailedExceptions.html",
+          "hash": "qKKSmKidXbMSzAiMtN+XKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupCancellation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupCancellation.html",
+          "hash": "478ytbqkZ+yfwhk4mZFclw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupDate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupDate.html",
+          "hash": "hPkUqD4BgqWIUC7AiWkhRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupFinishedAtShipper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupFinishedAtShipper.html",
+          "hash": "FRr/e426hCzfCNz+nrxSCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupFinishedAtShipperExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupFinishedAtShipperExceptions.html",
+          "hash": "YWVuLAPGh4S0vKg6KbNDoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupForwarding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupForwarding.html",
+          "hash": "zgpjMaO/WaUYmWtrxdcXvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupForwardingExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupForwardingExceptions.html",
+          "hash": "1S7IqSUO//0fjA10nn5SvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupLoadingCompleted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupLoadingCompleted.html",
+          "hash": "ZyMPqBeF/J9tnw34znR7ig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupLoadingCompletedExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupLoadingCompletedExceptions.html",
+          "hash": "epXKl7CrKBR8F5Nzz0fTBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupLoadingStarted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupLoadingStarted.html",
+          "hash": "bXCf2gTfPfkq6K6Wq3Wfhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupLoadingStartedExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupLoadingStartedExceptions.html",
+          "hash": "BVR5maxXqZDLWtSm3s8+CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupNotifications.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupNotifications.html",
+          "hash": "mR3PLYSX08+zzbJAuEDt0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupOptions.html",
+          "hash": "tDgXmlvVkXiB0WFvb+oZHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupOrder.html",
+          "hash": "ox8rilCPmL+CofWWRxtXUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupPlanning.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupPlanning.html",
+          "hash": "cX7rfqY76hoft5CDkwZCCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupPlanningExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupPlanningExceptions.html",
+          "hash": "TV7O64UiyLnGUdeX18v77g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupServices.html",
+          "hash": "sDTD1tXmEFtO5IE7lBx6/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupStarted.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupStarted.html",
+          "hash": "GDEgNaGEddV9b7IoR6TWbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupStartedExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupStartedExceptions.html",
+          "hash": "5e2tD6rU0ijkRZOgoQoZbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupSuccessful.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupSuccessful.html",
+          "hash": "koWey+suYM1kn33KqNmdLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupSuccessfulExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupSuccessfulExceptions.html",
+          "hash": "2Gog1dBGL695rHZ0YhJuRQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupUnloading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupUnloading.html",
+          "hash": "zQPIeyiQVwsnQRGuXGGlWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupUnloadingExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPickupUnloadingExceptions.html",
+          "hash": "502WZbTc7uPxwLjVYn4kmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiPreBookedTimeslot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiPreBookedTimeslot.html",
+          "hash": "Q4IzlcBtFtVz8pa3+mNbUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiRedirectedTo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiRedirectedTo.html",
+          "hash": "d4uopLYHY2nwUatrm9rmkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiReferences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiReferences.html",
+          "hash": "L5pH68xGO9IMGslJgCERnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiReleaseAuthorizationReceived.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiReleaseAuthorizationReceived.html",
+          "hash": "ZbP0LeUXSh7E3Hh3bzLFsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiReportingPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiReportingPoint.html",
+          "hash": "zwx7RR2PUwM+nH6n2wo/vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiReturnOfGoods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiReturnOfGoods.html",
+          "hash": "JpSwJJ1AwDmzQxjyAJ4PEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiReturnOfPreviousConsignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiReturnOfPreviousConsignment.html",
+          "hash": "UUAnG7sXZ2F55MebdDObig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiRouting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiRouting.html",
+          "hash": "AAKXr5zPa89SUrl7q4t9Ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiSameDay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiSameDay.html",
+          "hash": "pg9h6DV+aZIVGfaBe7Z7Ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiSameDayPickup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiSameDayPickup.html",
+          "hash": "FVbR6E3UQJ2MlOo4UWD/Kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiSeal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiSeal.html",
+          "hash": "J37NlVt9DShrqSq9FPhlkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiServices.html",
+          "hash": "WKAaMJ2HEhDcsLBWXScGEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiSignature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiSignature.html",
+          "hash": "Zvi8Fvo8yOZ1eWKofsm1bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiSigningInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiSigningInformation.html",
+          "hash": "ogVhfyAQSlonJPvu4RqQgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiStacking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiStacking.html",
+          "hash": "KHxy08TziAZZb2kvD5hRhw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiStandardText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiStandardText.html",
+          "hash": "pB71oEcoXBfj1+2D5n0pjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html",
+          "hash": "qFkMVGzuFZQtpBCNbYczsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiSubsequentDelivery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiSubsequentDelivery.html",
+          "hash": "MDnrty6nbD3e5sTdjCXspw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiTemperatureRestrictions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTemperatureRestrictions.html",
+          "hash": "khk2mdZihZTrvgXwv/t2Sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiTextInstruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTextInstruction.html",
+          "hash": "ghk1kwOGOcGLpNrDIHFw2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiTimeOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTimeOptions.html",
+          "hash": "ZCnJ5SP+FYN7yHXRef2BPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiTimeSlotBooking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTimeSlotBooking.html",
+          "hash": "C3RVFYZkjxURepsQ1mE1YQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiTimeSlotConsignee.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTimeSlotConsignee.html",
+          "hash": "fYEkjO6lwTVgmOSgtgwtfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiTimeSpan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTimeSpan.html",
+          "hash": "FUHLp+Qm0vSkQzED1tZNYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiTourDocuments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTourDocuments.html",
+          "hash": "K/weII15gayRVt/oZQpVeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiTourEventBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTourEventBase.html",
+          "hash": "ZsXliDC3QuhPWanwQffbdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiTourSpecificEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTourSpecificEvent.html",
+          "hash": "wBumNkXeEBfQkYfPZ2I3/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiTourStop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTourStop.html",
+          "hash": "DQT4d1UtUeXwvvXV4xsLPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiTrigger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTrigger.html",
+          "hash": "hAAa5QerEClV5lACY3bp+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiUnloading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiUnloading.html",
+          "hash": "64bw5S522HTWe2aCWquXLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiUnloadingExceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiUnloadingExceptions.html",
+          "hash": "Ho1Td8hrFZfPJVEwONrBmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiUnloadingOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiUnloadingOptions.html",
+          "hash": "EC2IfaWfUrPMFaWtkA+oZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiUseSpecificLastMileProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiUseSpecificLastMileProvider.html",
+          "hash": "jrNNBs6r3EGhuQVlB4zBcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiValue.html",
+          "hash": "IJdZWWLYMCEFpckuv5Rt4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiValueAtBorderCrossing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiValueAtBorderCrossing.html",
+          "hash": "KzGYzgENAZiIs4sgMX2GMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiVehicle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiVehicle.html",
+          "hash": "SShP1d6Brlpy1ioaQGVcpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiVehicleSpecificEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiVehicleSpecificEvent.html",
+          "hash": "unX0R/rq5t4KR9Y4n5a8yQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiWeekendSaturday.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiWeekendSaturday.html",
+          "hash": "yu9tZ29rN6zLn7iDAiIV3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiWorkRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiWorkRequest.html",
+          "hash": "FX7zbYsEFtmryoTdsLaOFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiYardInstruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiYardInstruction.html",
+          "hash": "XqIVOGZ4MAAr/JyZvvP1ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiYardNavigationInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiYardNavigationInformation.html",
+          "hash": "Dsvbmq+WSObabQ3hO9QlnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiYardStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiYardStatus.html",
+          "hash": "EL3LoPf/l+eoMWZiAf/3sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.TourBookedTimeSlot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.TourBookedTimeSlot.html",
+          "hash": "TTj4NC/nif1sie7z2g68Ng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.TourBorderCrossInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.TourBorderCrossInformation.html",
+          "hash": "JwpFhRP+8RLG9POL+pHgrA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.TourDangerousGoods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.TourDangerousGoods.html",
+          "hash": "RsaICiv7VhlMqXVcLjTXPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.TourEndOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.TourEndOptions.html",
+          "hash": "4LZvpoYfEZwwNYZEPyGXdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.TourFuelStopInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.TourFuelStopInformation.html",
+          "hash": "oqjMZxwrVQWQyYLs0cqQ/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.TourInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.TourInformation.html",
+          "hash": "U1T9GWpJrhOnuIaBFcCfJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.TourLoadingInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.TourLoadingInformation.html",
+          "hash": "qcOpwPJ1jWHOo1+af+oLCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.TourStartOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.TourStartOptions.html",
+          "hash": "gs/UrY3/thOY+W2YpJy6NA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.TourUnloadingInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.TourUnloadingInformation.html",
+          "hash": "gqapPvFg0gQxFqHaXhc3Lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.TourWayPointInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.TourWayPointInformation.html",
+          "hash": "aa8j5sndpRJ5K9NofEqntA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.TourWorkingHours.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.TourWorkingHours.html",
+          "hash": "wG3KzBeRJgbxYO+qLljggA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.html",
+          "hash": "XzDr7JSVVLBuZ0ZFf9XEcA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Telematics.GeoLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Telematics.GeoLocation.html",
+          "hash": "3UjDwh1q3yApPZa1MXTYTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Telematics.GroundTelematics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Telematics.GroundTelematics.html",
+          "hash": "4RdDkC5rgQmJ+9xZJTGB+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Telematics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Telematics.html",
+          "hash": "HdDQ0ORZMNLtBRovITacmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.html",
+          "hash": "dRskC3F1JVQDZdNps7xdYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html",
+          "hash": "jqaOmw4WT24FDPflwv7KCw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EventBulk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.EventBulk.html",
+          "hash": "VFyOv2o0n28xKJHZ7zHN4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Manifest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Manifest.html",
+          "hash": "Qw4thsQuY0zImnoM705BkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html",
+          "hash": "DeB/mqFzf+6GZTnTq/KR5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html",
+          "hash": "3ngv8SuI5dI0nCypJtqDZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderBulk.html",
+          "hash": "yikTUwmAImR77kNrIeyQ9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderEvent.html",
+          "hash": "1v9rlJvFy4Be/bIKVeGjZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html",
+          "hash": "IsqTGo9rN/+l8vGcK0J4FQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.html",
+          "hash": "JFnGo+U4byEI8vWkPFQT1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.html",
+          "hash": "AAhFdZV9R5co4LZR6YecmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "classes/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "classes/index.html",
+          "hash": "yg2A7Ll/l1UHr6Kh5rPzyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core_lib/Conizi.Model.Core.Entities.ConverterResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core_lib/Conizi.Model.Core.Entities.ConverterResult.html",
+          "hash": "hpFjcjQQfQHxvU9aW5ROLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core_lib/Conizi.Model.Core.Entities.GenerationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core_lib/Conizi.Model.Core.Entities.GenerationResult.html",
+          "hash": "0pEZH6stHiTz4xt6YilNRw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core_lib/Conizi.Model.Core.Entities.SerializationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core_lib/Conizi.Model.Core.Entities.SerializationResult.html",
+          "hash": "Mp7RVXTSPwinOqAUMHWSOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core_lib/Conizi.Model.Core.Entities.ValidationResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core_lib/Conizi.Model.Core.Entities.ValidationResult.html",
+          "hash": "Fo5YjYaPtCO9009ZaELS0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core_lib/Conizi.Model.Core.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core_lib/Conizi.Model.Core.Entities.html",
+          "hash": "lpEkKQvGJiVLel+NP5e0mA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core_lib/Conizi.Model.Core.Tools.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core_lib/Conizi.Model.Core.Tools.Client.html",
+          "hash": "UFriasi3mwzaFnAOMs2unA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core_lib/Conizi.Model.Core.Tools.ClientConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core_lib/Conizi.Model.Core.Tools.ClientConfig.html",
+          "hash": "B7BQpUhXQTMnltVkPQEkXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core_lib/Conizi.Model.Core.Tools.Converter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core_lib/Conizi.Model.Core.Tools.Converter.html",
+          "hash": "qZo3TGaoIdqTd7iSe45M1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core_lib/Conizi.Model.Core.Tools.Generator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core_lib/Conizi.Model.Core.Tools.Generator.html",
+          "hash": "YnYaVfHWs2IHkjjjOxHtug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core_lib/Conizi.Model.Core.Tools.Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core_lib/Conizi.Model.Core.Tools.Validator.html",
+          "hash": "VPLYn1vjAb6liBs1JJ7RWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "core_lib/Conizi.Model.Core.Tools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "core_lib/Conizi.Model.Core.Tools.html",
+          "hash": "y3FcvJlRFOW6c/EdARW4rA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "core_lib/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "core_lib/index.html",
+          "hash": "PbDbYJCtCG90F7Kc6+fsjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "examples/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "examples/index.html",
+          "hash": "LRxI+TCqjME1aySlLrVsVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "fusion/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "fusion/toc.html",
+          "hash": "+Po2FXcE9VniZ8rsr/8wsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "eJ3tm0jlBKsiTdEHmQm8YQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "ktLcYQnoeEC+Krv2XiU0FQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 197,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

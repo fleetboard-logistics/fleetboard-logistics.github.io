@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Examples of C# models </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Examples of C# models ">
+    <meta name="generator" content="docfx 2.42.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="../fusion/toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="examples.index">
+<h2 id="examples-of-c-models">Examples of C# models</h2>
+
+<p>To assist you in integrating your software into the conizi Fleetboard world, we have created some examples for you. Furthermore, <a href="">JSON examples</a> are available if you do not want to use C# directly.</p>
+<p>The example project is structured in the same way as the models. It is therefore structured according to traffic type land, sea, air or application area, such as archiving or accounting.</p>
+<p>An example for archiving would be the PoD (<a class="xref" href="../classes/Conizi.Model.Archiving.ProofOfDelivery.html">Proof of Delivery</a>)</p>
+<p>We create a proof of delivery by inheriting from the ProofOfDelivery model and overwriting the public properties of the base class in the constructor with our desired values.</p>
+<pre><code class="lang-cs">    public class ProofOfDeliverySimpleExample : ProofOfDelivery
+    {
+        public ProofOfDeliverySimpleExample()
+        {
+            this.Id = &quot;12345678&quot;;
+            this.DocumentCreationDate = DateTime.Now.AddHours(-2);
+            this.ArrivalDate = DateTime.Now.AddDays(-1);
+            this.PlannedShippingDate = DateTime.Now.AddDays(-1);
+            this.ShippingDate = DateTime.Now;
+            // The receiver of data and this message
+            this.Receiver = new EdiMessageRouting
+            {
+                ConiziId = &quot;4545454545454545454&quot;
+            };
+            this.RefNo = &quot;12312313&quot;;
+            // Shipping partner of the goods, Sender
+            this.ShippingPartner = new EdiPartnerIdentification
+            {
+                PartnerId = &quot;MAINP&quot;,
+                Name = &quot;My Shipping Partner&quot;
+            };
+            // Receiver of the goods for further delivery
+            this.ReceivingPartner = new EdiPartnerIdentification
+            {
+                Name = &quot;Max Mustermann&quot;,
+                Street = &quot;Musterstraße 1&quot;,
+                ZipCode = &quot;97082&quot;,
+                City = &quot;Würzburg&quot;,
+                CountryCode = &quot;DE&quot;
+            };
+            // The client, sender of the goods
+            this.Shipper = new EdiAddress
+            {
+                Name = &quot;Zombie Inc.&quot;,
+                Street = &quot;Am düsteren Weg&quot;,
+                HouseNumber = &quot;3a&quot;,
+                ZipCode = &quot;97424&quot;,
+                City = &quot;Würzburg&quot;,
+                CountryCode = &quot;DE&quot;,
+                AdditionalAddressLines = new List&lt;string&gt;
+                {
+                    &quot;Gate 2&quot;
+                },
+                TownArea = &quot;Hafen West&quot;,
+            };
+            // Receiver of the goods
+            this.Consignee = new EdiAddress
+            {
+                Name = &quot;Umbrella Corp.&quot;,
+                City = &quot;Racoon City&quot;,
+                Street = &quot;Umbrella Str.&quot;,
+                HouseNumber = &quot;1-20&quot;
+            };
+            this.Content = new EdiFileContent
+            {
+                ContentType = &quot;image/png&quot;,
+                FileName = &quot;test-pod.png&quot;,
+                BinaryData = new EdiBinaryData
+                {
+                    Data = new byte[]
+                    {
+                        1, 0, 0, 1
+                    }
+                }
+            };
+        }
+    }
+}
+</code></pre>
+<p>After the class has been created and filled with values, it can be serialized.</p>
+<pre><code class="lang-cs">var m = new ProofOfDeliverySimpleExample();
+var result =  Converter.Serialize(m);
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
