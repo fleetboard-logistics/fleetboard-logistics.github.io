@@ -33,4 +33,4 @@ The semantic models as interface definitions for the conizi platform.
 ## Mappings
 Documentation for mappings already created.
 
-* [FORTRAS REL100 to conizi guideline]({{ site.github.owner_url }}/semantic-model/tree/{{ site.branch }}/docs/mapping/README.md){:target="_blank"}
+* [FORTRAS REL100 to conizi guideline](mapping/index.md)
