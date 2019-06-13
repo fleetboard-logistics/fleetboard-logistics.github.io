@@ -12136,19 +12136,6 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Description
   nameWithType: Tour.Description
-- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Divers
-  name: Divers
-  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Divers
-  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Divers
-  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Divers
-  nameWithType: Tour.Divers
-- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Divers*
-  name: Divers
-  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Divers_
-  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Divers
-  isSpec: "True"
-  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Divers
-  nameWithType: Tour.Divers
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.DriverNotes
   name: DriverNotes
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_DriverNotes
@@ -12162,6 +12149,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.DriverNotes
   nameWithType: Tour.DriverNotes
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Drivers
+  name: Drivers
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Drivers
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Drivers
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Drivers
+  nameWithType: Tour.Drivers
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Drivers*
+  name: Drivers
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Drivers_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Drivers
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Drivers
+  nameWithType: Tour.Drivers
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.LoadUnits
   name: LoadUnits
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_LoadUnits
@@ -12266,6 +12266,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.TourId
   nameWithType: Tour.TourId
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.TourReference
+  name: TourReference
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_TourReference
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.TourReference
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.TourReference
+  nameWithType: Tour.TourReference
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.TourReference*
+  name: TourReference
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_TourReference_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.TourReference
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.TourReference
+  nameWithType: Tour.TourReference
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.TourStartOptions
   name: TourStartOptions
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_TourStartOptions
