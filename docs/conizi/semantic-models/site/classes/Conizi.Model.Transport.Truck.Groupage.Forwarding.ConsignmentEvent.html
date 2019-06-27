@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ConsignmentEvent
    ">
-    <meta name="generator" content="docfx 2.42.1.0">
+    <meta name="generator" content="docfx 2.42.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -105,10 +105,7 @@
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
   <h5 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ConiziSchema(&quot;https://model.conizi.io/v1/transport/truck/groupage/forwarding/consignment-event.json&quot;, &quot;consignment-event.json&quot;)]
-[ConiziAdditionalProperties(false)]
-[ConiziAllowXProperties(true)]
-public class ConsignmentEvent : EdiModel</code></pre>
+    <pre><code class="lang-csharp hljs">public class ConsignmentEvent : EdiModel</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -133,7 +130,7 @@ public class ConsignmentEvent : EdiModel</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -303,8 +300,7 @@ public class ConsignmentEvent : EdiModel</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonRequired]
-public string ConsignmentNoShippingPartner { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string ConsignmentNoShippingPartner { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -694,10 +690,7 @@ public string ConsignmentNoShippingPartner { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(PropertyName = &quot;shippingDate&quot;)]
-[ConiziDateOnly]
-[JsonConverter(typeof(ConiziDateConverter))]
-public DateTime ShippingDate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime ShippingDate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -709,7 +702,7 @@ public DateTime ShippingDate { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>

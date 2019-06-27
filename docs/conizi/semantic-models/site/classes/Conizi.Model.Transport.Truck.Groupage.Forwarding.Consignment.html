@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Consignment
    ">
-    <meta name="generator" content="docfx 2.42.1.0">
+    <meta name="generator" content="docfx 2.42.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -105,10 +105,7 @@
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
   <h5 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Consignment_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ConiziSchema(&quot;https://model.conizi.io/v1/transport/truck/groupage/forwarding/consignment.json&quot;, &quot;consignment.json&quot;)]
-[ConiziAdditionalProperties(false)]
-[ConiziAllowXProperties(true)]
-public class Consignment : EdiModel</code></pre>
+    <pre><code class="lang-csharp hljs">public class Consignment : EdiModel</code></pre>
   </div>
   <h5 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Consignment_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>The consignment is the basic business object for conizi. Other objects like <a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.Manifest.html">Manifest</a>, <a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html">Tour</a>
@@ -137,7 +134,7 @@ uses the consignment for additional business processes.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiPartnerIdentification.html">EdiPartnerIdentification</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiPartnerIdentification.html">EdiPartnerIdentification</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -177,8 +174,7 @@ uses the consignment for additional business processes.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(Order = -8)]
-public string ConsignmentNoReceivingPartner { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string ConsignmentNoReceivingPartner { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -204,8 +200,7 @@ public string ConsignmentNoReceivingPartner { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(Order = -9)]
-public string ConsignmentNoShippingPartner { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string ConsignmentNoShippingPartner { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -231,8 +226,7 @@ public string ConsignmentNoShippingPartner { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(Order = -10)]
-public string ConsignmentObjectId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string ConsignmentObjectId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -388,8 +382,7 @@ public string ConsignmentObjectId { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(Order = -6)]
-public string ManifestId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string ManifestId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -441,8 +434,7 @@ public string ManifestId { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required]
-public EdiPartnerIdentification ReceivingPartner { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiPartnerIdentification ReceivingPartner { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -546,11 +538,7 @@ public EdiPartnerIdentification ReceivingPartner { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(Order = -7)]
-[ConiziDateOnly]
-[JsonConverter(typeof(ConiziDateConverter))]
-[Required]
-public DateTime ShippingDate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime ShippingDate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -562,7 +550,7 @@ public DateTime ShippingDate { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -576,8 +564,7 @@ public DateTime ShippingDate { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required]
-public EdiPartnerIdentification ShippingPartner { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiPartnerIdentification ShippingPartner { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -603,8 +590,7 @@ public EdiPartnerIdentification ShippingPartner { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(Order = -5)]
-public string TourNumber { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string TourNumber { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -648,8 +634,6 @@ public string TourNumber { get; set; }</code></pre>
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Object.ToString()</span></div>
 </article>
           </div>
           

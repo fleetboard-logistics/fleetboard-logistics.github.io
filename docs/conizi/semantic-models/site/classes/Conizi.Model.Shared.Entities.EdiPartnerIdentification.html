@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class EdiPartnerIdentification
    ">
-    <meta name="generator" content="docfx 2.42.1.0">
+    <meta name="generator" content="docfx 2.42.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -99,9 +99,7 @@
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
   <h5 id="Conizi_Model_Shared_Entities_EdiPartnerIdentification_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ConiziAdditionalProperties(false)]
-[ConiziAllowXProperties(true)]
-public class EdiPartnerIdentification : EdiMessageRouting, IAddress</code></pre>
+    <pre><code class="lang-csharp hljs">public class EdiPartnerIdentification : EdiMessageRouting, IAddress</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -126,7 +124,7 @@ public class EdiPartnerIdentification : EdiMessageRouting, IAddress</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -218,8 +216,7 @@ public class EdiPartnerIdentification : EdiMessageRouting, IAddress</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[EmailAddress]
-public string EmailAddress { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string EmailAddress { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -245,8 +242,7 @@ public string EmailAddress { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Phone]
-public string FaxNumber { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string FaxNumber { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -272,8 +268,7 @@ public string FaxNumber { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;geoPosition&quot;, Order = -9, Required = Required.DisallowNull)]
-public EdiGeoPosition GeoPosition { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiGeoPosition GeoPosition { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -351,8 +346,7 @@ public EdiGeoPosition GeoPosition { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Phone]
-public string PhoneNumber { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string PhoneNumber { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

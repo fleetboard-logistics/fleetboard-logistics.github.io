@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class PickupOrder
    ">
-    <meta name="generator" content="docfx 2.42.1.0">
+    <meta name="generator" content="docfx 2.42.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -105,10 +105,7 @@
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
   <h5 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrder_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ConiziSchema(&quot;https://model.conizi.io/v1/transport/truck/groupage/forwarding/pickuporder.json&quot;, &quot;pickuporder.json&quot;)]
-[ConiziAdditionalProperties(false)]
-[ConiziAllowXProperties(true)]
-public class PickupOrder : EdiModel</code></pre>
+    <pre><code class="lang-csharp hljs">public class PickupOrder : EdiModel</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -133,7 +130,7 @@ public class PickupOrder : EdiModel</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiPartnerIdentification.html">EdiPartnerIdentification</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiPartnerIdentification.html">EdiPartnerIdentification</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -199,9 +196,7 @@ public class PickupOrder : EdiModel</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;contractedPartner&quot;, Order = -5)]
-[Required]
-public EdiPartnerIdentification ContractedPartner { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiPartnerIdentification ContractedPartner { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -305,9 +300,7 @@ public EdiPartnerIdentification ContractedPartner { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;orderingPartner&quot;, Order = -7)]
-[Required]
-public EdiPartnerIdentification OrderingPartner { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiPartnerIdentification OrderingPartner { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -333,8 +326,7 @@ public EdiPartnerIdentification OrderingPartner { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;orderingParty&quot;, Order = -6)]
-public EdiAddress OrderingParty { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiAddress OrderingParty { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -386,11 +378,7 @@ public EdiAddress OrderingParty { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;pickupOrderDate&quot;, Order = -9)]
-[ConiziDateOnly]
-[JsonConverter(typeof(ConiziDateConverter))]
-[Required]
-public DateTime PickupOrderDate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime PickupOrderDate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -402,7 +390,7 @@ public DateTime PickupOrderDate { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -416,9 +404,7 @@ public DateTime PickupOrderDate { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;pickupOrderNo&quot;, Order = -10)]
-[Required]
-public string PickupOrderNo { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string PickupOrderNo { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

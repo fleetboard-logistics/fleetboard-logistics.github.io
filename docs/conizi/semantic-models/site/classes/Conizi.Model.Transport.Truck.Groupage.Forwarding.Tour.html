@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Tour
    ">
-    <meta name="generator" content="docfx 2.42.1.0">
+    <meta name="generator" content="docfx 2.42.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -106,10 +106,7 @@ e.g. loading and unloading information about <a class="xref" href="Conizi.Model.
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
   <h5 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ConiziSchema(&quot;https://model.conizi.io/v1/transport/truck/groupage/forwarding/tour.json&quot;, &quot;tour.json&quot;)]
-[ConiziAdditionalProperties(false)]
-[ConiziAllowXProperties(true)]
-public class Tour : EdiModel</code></pre>
+    <pre><code class="lang-csharp hljs">public class Tour : EdiModel</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -148,8 +145,7 @@ public class Tour : EdiModel</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;carrier&quot;, Order = -5)]
-public EdiAddress Carrier { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiAddress Carrier { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -175,8 +171,7 @@ public EdiAddress Carrier { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;carrierNotes&quot;, Order = -7)]
-public string CarrierNotes { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string CarrierNotes { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -202,8 +197,7 @@ public string CarrierNotes { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;consignments&quot;, ReferenceLoopHandling = ReferenceLoopHandling.Ignore, IsReference = false, ItemIsReference = true)]
-public List&lt;Consignment&gt; Consignments { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;Consignment&gt; Consignments { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -215,7 +209,7 @@ public List&lt;Consignment&gt; Consignments { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.html">Consignment</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.Consignment.html">Consignment</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -255,8 +249,7 @@ public List&lt;Consignment&gt; Consignments { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;description&quot;, Order = -9)]
-public string Description { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Description { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -269,32 +262,6 @@ public string Description { get; set; }</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Divers_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Divers*"></a>
-  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Divers" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Divers">Divers</h4>
-  <div class="markdown level1 summary"><p>Information about the drivers of the vehicles</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;EdiDriver&gt; Divers { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiDriver.html">EdiDriver</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -308,8 +275,7 @@ public string Description { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;driverNotes&quot;, Order = -8)]
-public string DriverNotes { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string DriverNotes { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -322,6 +288,32 @@ public string DriverNotes { get; set; }</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Drivers_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Drivers*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Drivers" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Drivers">Drivers</h4>
+  <div class="markdown level1 summary"><p>Information about the drivers of the vehicles</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;EdiDriver&gt; Drivers { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiDriver.html">EdiDriver</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -347,7 +339,7 @@ public string DriverNotes { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiLoadUnit.html">EdiLoadUnit</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiLoadUnit.html">EdiLoadUnit</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -361,9 +353,7 @@ public string DriverNotes { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonConverter(typeof(StringEnumConverter))]
-[JsonProperty(&quot;messageFunctionCode&quot;, Order = -11)]
-public EdiMessageFunctionCode? MessageFunctionCode { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiMessageFunctionCode? MessageFunctionCode { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -401,7 +391,7 @@ public EdiMessageFunctionCode? MessageFunctionCode { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiPartnerIdentification.html">EdiPartnerIdentification</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiPartnerIdentification.html">EdiPartnerIdentification</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -415,8 +405,7 @@ public EdiMessageFunctionCode? MessageFunctionCode { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;route&quot;, Order = -8)]
-public string Route { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Route { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -442,11 +431,7 @@ public string Route { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;shippingDate&quot;, Order = -6)]
-[ConiziDateOnly]
-[JsonConverter(typeof(ConiziDateConverter))]
-[Required]
-public DateTime ShippingDate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime ShippingDate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -458,7 +443,7 @@ public DateTime ShippingDate { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -484,7 +469,7 @@ public DateTime ShippingDate { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiTourStop.html">EdiTourStop</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiTourStop.html">EdiTourStop</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -524,9 +509,33 @@ public DateTime ShippingDate { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;tourId&quot;, Order = -10)]
-[Required]
-public string TourId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string TourId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_TourReference_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.TourReference*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_TourReference" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.TourReference">TourReference</h4>
+  <div class="markdown level1 summary"><p>A unique identifier for dispatching purposes (Communication between dispatcher and driver)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string TourReference { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -590,7 +599,33 @@ public string TourId { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiVehicle.html">EdiVehicle</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiVehicle.html">EdiVehicle</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_WorkflowId_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.WorkflowId*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_WorkflowId" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.WorkflowId">WorkflowId</h4>
+  <div class="markdown level1 summary"><p>Identifies the workflow to be used for this tour</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string WorkflowId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
