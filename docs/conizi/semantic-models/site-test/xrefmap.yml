@@ -795,6 +795,54 @@ references:
   commentId: F:Conizi.Model.Shared.Definitions.EdiMessageFunctionCode.UpdatePartial
   fullName: Conizi.Model.Shared.Definitions.EdiMessageFunctionCode.UpdatePartial
   nameWithType: EdiMessageFunctionCode.UpdatePartial
+- uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType
+  name: LoadingEquipmentType
+  href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html
+  commentId: T:Conizi.Model.Shared.Definitions.LoadingEquipmentType
+  fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType
+  nameWithType: LoadingEquipmentType
+- uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.DuesseldorferPallets
+  name: DuesseldorferPallets
+  href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_DuesseldorferPallets
+  commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.DuesseldorferPallets
+  fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.DuesseldorferPallets
+  nameWithType: LoadingEquipmentType.DuesseldorferPallets
+- uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.E2Pallets
+  name: E2Pallets
+  href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_E2Pallets
+  commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.E2Pallets
+  fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.E2Pallets
+  nameWithType: LoadingEquipmentType.E2Pallets
+- uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.EurBoxes
+  name: EurBoxes
+  href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_EurBoxes
+  commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.EurBoxes
+  fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.EurBoxes
+  nameWithType: LoadingEquipmentType.EurBoxes
+- uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.EurPallets
+  name: EurPallets
+  href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_EurPallets
+  commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.EurPallets
+  fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.EurPallets
+  nameWithType: LoadingEquipmentType.EurPallets
+- uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.H1Pallets
+  name: H1Pallets
+  href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_H1Pallets
+  commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.H1Pallets
+  fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.H1Pallets
+  nameWithType: LoadingEquipmentType.H1Pallets
+- uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.KnaufPallets
+  name: KnaufPallets
+  href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_KnaufPallets
+  commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.KnaufPallets
+  fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.KnaufPallets
+  nameWithType: LoadingEquipmentType.KnaufPallets
+- uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.OneWayPallets
+  name: OneWayPallets
+  href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_OneWayPallets
+  commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.OneWayPallets
+  fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.OneWayPallets
+  nameWithType: LoadingEquipmentType.OneWayPallets
 - uid: Conizi.Model.Shared.Definitions.MeasurementUnitCode
   name: MeasurementUnitCode
   href: classes/Conizi.Model.Shared.Definitions.MeasurementUnitCode.html
@@ -4797,38 +4845,70 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiLine.RefNo
   nameWithType: EdiLine.RefNo
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipment
+  name: EdiLoadingEquipment
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipment.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiLoadingEquipment
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment
+  nameWithType: EdiLoadingEquipment
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountLoaded
+  name: AmountLoaded
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipment.html#Conizi_Model_Shared_Entities_EdiLoadingEquipment_AmountLoaded
+  commentId: P:Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountLoaded
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountLoaded
+  nameWithType: EdiLoadingEquipment.AmountLoaded
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountLoaded*
+  name: AmountLoaded
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipment.html#Conizi_Model_Shared_Entities_EdiLoadingEquipment_AmountLoaded_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountLoaded
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountLoaded
+  nameWithType: EdiLoadingEquipment.AmountLoaded
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountUnloaded
+  name: AmountUnloaded
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipment.html#Conizi_Model_Shared_Entities_EdiLoadingEquipment_AmountUnloaded
+  commentId: P:Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountUnloaded
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountUnloaded
+  nameWithType: EdiLoadingEquipment.AmountUnloaded
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountUnloaded*
+  name: AmountUnloaded
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipment.html#Conizi_Model_Shared_Entities_EdiLoadingEquipment_AmountUnloaded_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountUnloaded
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountUnloaded
+  nameWithType: EdiLoadingEquipment.AmountUnloaded
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipment.EquipmentType
+  name: EquipmentType
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipment.html#Conizi_Model_Shared_Entities_EdiLoadingEquipment_EquipmentType
+  commentId: P:Conizi.Model.Shared.Entities.EdiLoadingEquipment.EquipmentType
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment.EquipmentType
+  nameWithType: EdiLoadingEquipment.EquipmentType
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipment.EquipmentType*
+  name: EquipmentType
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipment.html#Conizi_Model_Shared_Entities_EdiLoadingEquipment_EquipmentType_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiLoadingEquipment.EquipmentType
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment.EquipmentType
+  nameWithType: EdiLoadingEquipment.EquipmentType
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipment.Remarks
+  name: Remarks
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipment.html#Conizi_Model_Shared_Entities_EdiLoadingEquipment_Remarks
+  commentId: P:Conizi.Model.Shared.Entities.EdiLoadingEquipment.Remarks
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment.Remarks
+  nameWithType: EdiLoadingEquipment.Remarks
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipment.Remarks*
+  name: Remarks
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipment.html#Conizi_Model_Shared_Entities_EdiLoadingEquipment_Remarks_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiLoadingEquipment.Remarks
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment.Remarks
+  nameWithType: EdiLoadingEquipment.Remarks
 - uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange
   name: EdiLoadingEquipmentExchange
   href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.html
   commentId: T:Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange
   fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange
   nameWithType: EdiLoadingEquipmentExchange
-- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.AmountEurBoxes
-  name: AmountEurBoxes
-  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.html#Conizi_Model_Shared_Entities_EdiLoadingEquipmentExchange_AmountEurBoxes
-  commentId: P:Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.AmountEurBoxes
-  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.AmountEurBoxes
-  nameWithType: EdiLoadingEquipmentExchange.AmountEurBoxes
-- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.AmountEurBoxes*
-  name: AmountEurBoxes
-  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.html#Conizi_Model_Shared_Entities_EdiLoadingEquipmentExchange_AmountEurBoxes_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.AmountEurBoxes
-  isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.AmountEurBoxes
-  nameWithType: EdiLoadingEquipmentExchange.AmountEurBoxes
-- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.AmountEurPallets
-  name: AmountEurPallets
-  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.html#Conizi_Model_Shared_Entities_EdiLoadingEquipmentExchange_AmountEurPallets
-  commentId: P:Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.AmountEurPallets
-  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.AmountEurPallets
-  nameWithType: EdiLoadingEquipmentExchange.AmountEurPallets
-- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.AmountEurPallets*
-  name: AmountEurPallets
-  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.html#Conizi_Model_Shared_Entities_EdiLoadingEquipmentExchange_AmountEurPallets_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.AmountEurPallets
-  isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.AmountEurPallets
-  nameWithType: EdiLoadingEquipmentExchange.AmountEurPallets
 - uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.Exchanged
   name: Exchanged
   href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.html#Conizi_Model_Shared_Entities_EdiLoadingEquipmentExchange_Exchanged
@@ -4842,6 +4922,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.Exchanged
   nameWithType: EdiLoadingEquipmentExchange.Exchanged
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.LoadingEquipment
+  name: LoadingEquipment
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.html#Conizi_Model_Shared_Entities_EdiLoadingEquipmentExchange_LoadingEquipment
+  commentId: P:Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.LoadingEquipment
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.LoadingEquipment
+  nameWithType: EdiLoadingEquipmentExchange.LoadingEquipment
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.LoadingEquipment*
+  name: LoadingEquipment
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.html#Conizi_Model_Shared_Entities_EdiLoadingEquipmentExchange_LoadingEquipment_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.LoadingEquipment
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.LoadingEquipment
+  nameWithType: EdiLoadingEquipmentExchange.LoadingEquipment
 - uid: Conizi.Model.Shared.Entities.EdiLoadingOptions
   name: EdiLoadingOptions
   href: classes/Conizi.Model.Shared.Entities.EdiLoadingOptions.html
