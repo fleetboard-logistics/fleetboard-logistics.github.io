@@ -10757,6 +10757,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.ConsignmentNoShippingPartner
   nameWithType: ConsignmentEvent.ConsignmentNoShippingPartner
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.ConsignmentObjectId
+  name: ConsignmentObjectId
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_ConsignmentObjectId
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.ConsignmentObjectId
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.ConsignmentObjectId
+  nameWithType: ConsignmentEvent.ConsignmentObjectId
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.ConsignmentObjectId*
+  name: ConsignmentObjectId
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_ConsignmentObjectId_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.ConsignmentObjectId
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.ConsignmentObjectId
+  nameWithType: ConsignmentEvent.ConsignmentObjectId
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.DataProcessing
   name: DataProcessing
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_DataProcessing
@@ -11243,6 +11256,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ConsignmentNoShippingPartner
   nameWithType: PackageEvent.ConsignmentNoShippingPartner
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ConsignmentObjectId
+  name: ConsignmentObjectId
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ConsignmentObjectId
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ConsignmentObjectId
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ConsignmentObjectId
+  nameWithType: PackageEvent.ConsignmentObjectId
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ConsignmentObjectId*
+  name: ConsignmentObjectId
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ConsignmentObjectId_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ConsignmentObjectId
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ConsignmentObjectId
+  nameWithType: PackageEvent.ConsignmentObjectId
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.DeliveryReceiver
   name: DeliveryReceiver
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_DeliveryReceiver
