@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class PickupOrderEvent
    ">
-    <meta name="generator" content="docfx 2.42.1.0">
+    <meta name="generator" content="docfx 2.42.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -105,10 +105,7 @@
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
   <h5 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrderEvent_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ConiziSchema(&quot;https://model.conizi.io/v1/transport/truck/groupage/forwarding/pickuporder-event.json&quot;, &quot;pickuporder-event.json&quot;)]
-[ConiziAdditionalProperties(false)]
-[ConiziAllowXProperties(true)]
-public class PickupOrderEvent : EdiModel</code></pre>
+    <pre><code class="lang-csharp hljs">public class PickupOrderEvent : EdiModel</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -133,7 +130,7 @@ public class PickupOrderEvent : EdiModel</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -485,10 +482,7 @@ public class PickupOrderEvent : EdiModel</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;pickupOrderDate&quot;, Order = -9)]
-[ConiziDateOnly]
-[JsonConverter(typeof(ConiziDateConverter))]
-public DateTime PickupOrderDate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime PickupOrderDate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -500,7 +494,7 @@ public DateTime PickupOrderDate { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -514,8 +508,7 @@ public DateTime PickupOrderDate { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;pickupOrderNo&quot;, Order = -10, Required = Required.Always)]
-public string PickupOrderNo { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string PickupOrderNo { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -632,6 +625,32 @@ public string PickupOrderNo { get; set; }</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiPartnerIdentification.html">EdiPartnerIdentification</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrderEvent_ReferenceNumber_" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderEvent.ReferenceNumber*"></a>
+  <h4 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_PickupOrderEvent_ReferenceNumber" data-uid="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrderEvent.ReferenceNumber">ReferenceNumber</h4>
+  <div class="markdown level1 summary"><p>Reference number of the parent <a class="xref" href="Conizi.Model.Transport.Truck.Groupage.Forwarding.PickupOrder.html">PickupOrder</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string ReferenceNumber { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>

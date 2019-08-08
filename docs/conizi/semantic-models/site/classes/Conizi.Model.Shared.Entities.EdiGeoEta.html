@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class EdiGeoEta
    ">
-    <meta name="generator" content="docfx 2.42.1.0">
+    <meta name="generator" content="docfx 2.42.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -85,7 +85,7 @@
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
   <h5 id="Conizi_Model_Shared_Entities_EdiGeoEta_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EdiGeoEta</code></pre>
+    <pre><code class="lang-csharp hljs">public class EdiGeoEta : object</code></pre>
   </div>
   <h5 id="Conizi_Model_Shared_Entities_EdiGeoEta_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>The ETA should always be used in conjunction with a GPS position <a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoPosition.html">EdiGeoPosition</a>.</p>
@@ -102,8 +102,7 @@ Default kilometers (KMT)</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonConverter(typeof(StringEnumConverter))]
-public MeasurementUnitCode? DistanceMeasurementUnitCode { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public MeasurementUnitCode? DistanceMeasurementUnitCode { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -155,8 +154,7 @@ public MeasurementUnitCode? DistanceMeasurementUnitCode { get; set; }</code></pr
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ConiziDateOnly]
-public DateTime EtaDateAbsolute { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime EtaDateAbsolute { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -168,7 +166,7 @@ public DateTime EtaDateAbsolute { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -185,9 +183,7 @@ public DateTime EtaDateAbsolute { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required]
-[ConiziTimeOnly]
-public string EtaTimeAbsolute { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string EtaTimeAbsolute { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

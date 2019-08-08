@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class EdiYardInstruction
    ">
-    <meta name="generator" content="docfx 2.42.1.0">
+    <meta name="generator" content="docfx 2.42.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -85,9 +85,7 @@
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
   <h5 id="Conizi_Model_Shared_Entities_EdiYardInstruction_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ConiziAdditionalProperties(false)]
-[ConiziAllowXProperties(false)]
-public class EdiYardInstruction</code></pre>
+    <pre><code class="lang-csharp hljs">public class EdiYardInstruction : object</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -112,7 +110,7 @@ public class EdiYardInstruction</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiFileContent.html">EdiFileContent</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiFileContent.html">EdiFileContent</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -138,7 +136,7 @@ public class EdiYardInstruction</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiFileReference.html">EdiFileReference</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiFileReference.html">EdiFileReference</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -204,8 +202,7 @@ public class EdiYardInstruction</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonConverter(typeof(StringEnumConverter))]
-public UrgencyCode? Urgency { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public UrgencyCode? Urgency { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Manifest
    ">
-    <meta name="generator" content="docfx 2.42.1.0">
+    <meta name="generator" content="docfx 2.42.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -105,10 +105,7 @@
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
   <h5 id="Conizi_Model_Transport_Truck_Groupage_Forwarding_Manifest_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ConiziSchema(&quot;https://model.conizi.io/v1/transport/truck/groupage/forwarding/manifest.json&quot;, &quot;manifest.json&quot;)]
-[ConiziAdditionalProperties(false)]
-[ConiziAllowXProperties(true)]
-public class Manifest : EdiModel</code></pre>
+    <pre><code class="lang-csharp hljs">public class Manifest : EdiModel</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -159,7 +156,7 @@ public class Manifest : EdiModel</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiPartnerIdentification.html">EdiPartnerIdentification</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiPartnerIdentification.html">EdiPartnerIdentification</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -237,7 +234,7 @@ public class Manifest : EdiModel</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiManifestLine.html">EdiManifestLine</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiManifestLine.html">EdiManifestLine</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -263,7 +260,7 @@ public class Manifest : EdiModel</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiLoadUnit.html">EdiLoadUnit</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiLoadUnit.html">EdiLoadUnit</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -277,8 +274,7 @@ public class Manifest : EdiModel</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(PropertyName = &quot;manifestId&quot;, Required = Required.Always)]
-public string ManifestId { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string ManifestId { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -304,8 +300,7 @@ public string ManifestId { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(PropertyName = &quot;manifestType&quot;, Required = Required.Always)]
-public string ManifestType { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string ManifestType { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -357,10 +352,7 @@ public string ManifestType { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(PropertyName = &quot;shippingDate&quot;, Required = Required.Always)]
-[ConiziDateOnly]
-[JsonConverter(typeof(ConiziDateConverter))]
-public DateTime ShippingDate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime ShippingDate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -372,7 +364,7 @@ public DateTime ShippingDate { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -450,7 +442,7 @@ public DateTime ShippingDate { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiVehicle.html">EdiVehicle</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiVehicle.html">EdiVehicle</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

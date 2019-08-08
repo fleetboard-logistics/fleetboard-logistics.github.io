@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ProofOfDelivery
    ">
-    <meta name="generator" content="docfx 2.42.1.0">
+    <meta name="generator" content="docfx 2.42.3.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -106,8 +106,7 @@ The POD is usually generated after the delivery of an <a class="xref" href="Coni
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
   <h5 id="Conizi_Model_Archiving_ProofOfDelivery_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[ConiziSchema(&quot;https://model.conizi.io/v1/archiving/proof-of-delivery.json&quot;, &quot;proof-of-delivery.json&quot;)]
-public class ProofOfDelivery : EdiModel</code></pre>
+    <pre><code class="lang-csharp hljs">public class ProofOfDelivery : EdiModel</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
@@ -132,7 +131,7 @@ public class ProofOfDelivery : EdiModel</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -146,8 +145,7 @@ public class ProofOfDelivery : EdiModel</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(Order = -5)]
-public EdiAddress Carrier { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiAddress Carrier { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -173,9 +171,7 @@ public EdiAddress Carrier { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required]
-[JsonProperty(Order = -6)]
-public EdiAddress Consignee { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiAddress Consignee { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -201,8 +197,7 @@ public EdiAddress Consignee { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(&quot;content&quot;)]
-public EdiFileContent Content { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiFileContent Content { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -228,8 +223,7 @@ public EdiFileContent Content { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required]
-public DateTime DocumentCreationDate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime DocumentCreationDate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -241,7 +235,7 @@ public DateTime DocumentCreationDate { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -255,9 +249,7 @@ public DateTime DocumentCreationDate { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required]
-[JsonProperty(Order = -11)]
-public string Id { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Id { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -283,9 +275,7 @@ public string Id { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonConverter(typeof(ConiziDateConverter))]
-[ConiziDateOnly]
-public DateTime PlannedShippingDate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime PlannedShippingDate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -297,7 +287,7 @@ public DateTime PlannedShippingDate { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -311,8 +301,7 @@ public DateTime PlannedShippingDate { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required]
-public EdiPartnerIdentification ReceivingPartner { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiPartnerIdentification ReceivingPartner { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -338,9 +327,7 @@ public EdiPartnerIdentification ReceivingPartner { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required]
-[JsonProperty(Order = -10)]
-public string RefNo { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string RefNo { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -366,9 +353,7 @@ public string RefNo { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required]
-[JsonProperty(Order = -8)]
-public EdiAddress Shipper { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiAddress Shipper { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -394,11 +379,7 @@ public EdiAddress Shipper { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonProperty(Order = -4)]
-[ConiziDateOnly]
-[JsonConverter(typeof(ConiziDateConverter))]
-[Required]
-public DateTime ShippingDate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime ShippingDate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -410,7 +391,7 @@ public DateTime ShippingDate { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -424,8 +405,7 @@ public DateTime ShippingDate { get; set; }</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Required]
-public EdiPartnerIdentification ShippingPartner { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiPartnerIdentification ShippingPartner { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
