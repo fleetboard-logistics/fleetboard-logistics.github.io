@@ -18,7 +18,7 @@ A overview of the conizi architecure.
 ## How To
 How to something with conizi.
 
-* [Access the conizi http input API](howto/index.md)
+* [Access conizi via http APIs](howto/index.md)
 
 
 ## Semantic Models
