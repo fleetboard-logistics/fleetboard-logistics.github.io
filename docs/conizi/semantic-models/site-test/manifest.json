@@ -89,11 +89,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "classes/Conizi.Model.Archiving.ProofOfDelivery.yml",
+      "source_relative_path": "classes/Conizi.Model.Shared.Definitions.EdiDocumentType.yml",
       "output": {
         ".html": {
-          "relative_path": "classes/Conizi.Model.Archiving.ProofOfDelivery.html",
-          "hash": "6GwvICXyAKNHPjKBWeKmTA=="
+          "relative_path": "classes/Conizi.Model.Shared.Definitions.EdiDocumentType.html",
+          "hash": "bbc7uRzey4xham3XuW2U3Q=="
         }
       },
       "is_incremental": false,
@@ -101,11 +101,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "classes/Conizi.Model.Archiving.yml",
+      "source_relative_path": "classes/Conizi.Model.Shared.Definitions.EdiImageType.yml",
       "output": {
         ".html": {
-          "relative_path": "classes/Conizi.Model.Archiving.html",
-          "hash": "Fre6vtsLskc5fCOByi23IQ=="
+          "relative_path": "classes/Conizi.Model.Shared.Definitions.EdiImageType.html",
+          "hash": "gMKOSZWg3afwqx1V79B7Iw=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Definitions.html",
-          "hash": "HLengBkdyilVY3DzsOJYJg=="
+          "hash": "SVuzEuqLs2yN3aji5182Rg=="
         }
       },
       "is_incremental": false,
@@ -509,6 +509,54 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDocument.html",
+          "hash": "mN9+Jeumvpdej+IZvIjLgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDocumentArchive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDocumentArchive.html",
+          "hash": "E7aNd5C+wi4mW91rRuhXLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDocumentItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDocumentItem.html",
+          "hash": "I2Hcad0U6+3mSdi19Kcvlg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html",
+          "hash": "UQGwrHxh9ccbAQ1SPC3dLQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiDriver.yml",
       "output": {
         ".html": {
@@ -801,7 +849,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoPosition.html",
-          "hash": "nqYwpaKdBFOiWy4Kisqttw=="
+          "hash": "McWMlb5VwxUAKfAVX02rUg=="
         }
       },
       "is_incremental": false,
@@ -1017,7 +1065,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiModel.html",
-          "hash": "moWExmd1L2iLKpu7ymNJdA=="
+          "hash": "T1UZzq9r+Bul4TmdsuGtlw=="
         }
       },
       "is_incremental": false,
@@ -1653,7 +1701,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiSignature.html",
-          "hash": "Zvi8Fvo8yOZ1eWKofsm1bw=="
+          "hash": "sguqxGNu2Sf/39okvnsZ2A=="
         }
       },
       "is_incremental": false,
@@ -1690,6 +1738,18 @@
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiStandardText.html",
           "hash": "pB71oEcoXBfj1+2D5n0pjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiStatusImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiStatusImage.html",
+          "hash": "6C0lOdI5F1vfRCh1QINs+Q=="
         }
       },
       "is_incremental": false,
@@ -2145,7 +2205,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.html",
-          "hash": "a+cmG0XdOrBdsJk6X9k+aA=="
+          "hash": "m0TxCTOBIGIgKh5LAo9r9g=="
         }
       },
       "is_incremental": false,
@@ -2476,12 +2536,15 @@
       "version": ""
     },
     {
+      "log_codes": [
+        "UidNotFound"
+      ],
       "type": "Conceptual",
       "source_relative_path": "examples/index.md",
       "output": {
         ".html": {
           "relative_path": "examples/index.html",
-          "hash": "LRxI+TCqjME1aySlLrVsVA=="
+          "hash": "9I/KYjRsxB+IEWbBapTEnw=="
         }
       },
       "is_incremental": false,
@@ -2493,7 +2556,7 @@
       "output": {
         ".html": {
           "relative_path": "fusion/toc.html",
-          "hash": "joPt4GG6eyJRAunDK9S7VA=="
+          "hash": "TZlOLqUuQyiQRr2C89p5oQ=="
         }
       },
       "is_incremental": false,
@@ -2546,17 +2609,11 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "TocDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 199,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -2565,9 +2622,15 @@
           "total_file_count": 9,
           "skipped_file_count": 0
         },
-        "ResourceDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 204,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0

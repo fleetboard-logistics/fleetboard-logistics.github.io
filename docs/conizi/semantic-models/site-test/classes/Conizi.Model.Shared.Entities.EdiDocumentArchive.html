@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EdiSignature
+    <title>Class EdiDocumentArchive
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EdiSignature
+    <meta name="title" content="Class EdiDocumentArchive
    ">
     <meta name="generator" content="docfx 2.42.3.0">
     
@@ -68,38 +68,37 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiSignature">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiDocumentArchive">
   
   
-  <h1 id="Conizi_Model_Shared_Entities_EdiSignature" data-uid="Conizi.Model.Shared.Entities.EdiSignature" class="text-break">Class EdiSignature
+  <h1 id="Conizi_Model_Shared_Entities_EdiDocumentArchive" data-uid="Conizi.Model.Shared.Entities.EdiDocumentArchive" class="text-break">Class EdiDocumentArchive
   </h1>
-  <div class="markdown level0 summary"><p>The signature of the recipient/person of interest</p>
+  <div class="markdown level0 summary"><p>All object to archive the document</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase</span></div>
-    <div class="level2"><span class="xref">EdiSignature</span></div>
+    <div class="level1"><span class="xref">EdiDocumentArchive</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
-  <h5 id="Conizi_Model_Shared_Entities_EdiSignature_syntax">Syntax</h5>
+  <h5 id="Conizi_Model_Shared_Entities_EdiDocumentArchive_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EdiSignature : EdiPatternPropertiesBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class EdiDocumentArchive : object</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiSignature_SignatureContent_" data-uid="Conizi.Model.Shared.Entities.EdiSignature.SignatureContent*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiSignature_SignatureContent" data-uid="Conizi.Model.Shared.Entities.EdiSignature.SignatureContent">SignatureContent</h4>
-  <div class="markdown level1 summary"><p>The signature as a file (image, reference)</p>
+  <a id="Conizi_Model_Shared_Entities_EdiDocumentArchive_Consignee_" data-uid="Conizi.Model.Shared.Entities.EdiDocumentArchive.Consignee*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiDocumentArchive_Consignee" data-uid="Conizi.Model.Shared.Entities.EdiDocumentArchive.Consignee">Consignee</h4>
+  <div class="markdown level1 summary"><p>The address of the good's recipient</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdiFileContent SignatureContent { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiAddress Consignee { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -111,21 +110,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiFileContent.html">EdiFileContent</a></td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiAddress.html">EdiAddress</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiSignature_SignatureDateTime_" data-uid="Conizi.Model.Shared.Entities.EdiSignature.SignatureDateTime*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiSignature_SignatureDateTime" data-uid="Conizi.Model.Shared.Entities.EdiSignature.SignatureDateTime">SignatureDateTime</h4>
-  <div class="markdown level1 summary"><p>The date and time of signature</p>
+  <a id="Conizi_Model_Shared_Entities_EdiDocumentArchive_ReceivingPartner_" data-uid="Conizi.Model.Shared.Entities.EdiDocumentArchive.ReceivingPartner*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiDocumentArchive_ReceivingPartner" data-uid="Conizi.Model.Shared.Entities.EdiDocumentArchive.ReceivingPartner">ReceivingPartner</h4>
+  <div class="markdown level1 summary"><p>The partner which is receiving the goods declared on the manifest from the shipping partner for further delivery</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTime SignatureDateTime { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiPartnerIdentification ReceivingPartner { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -137,21 +136,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DateTime</span></td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiPartnerIdentification.html">EdiPartnerIdentification</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiSignature_SigneeName_" data-uid="Conizi.Model.Shared.Entities.EdiSignature.SigneeName*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiSignature_SigneeName" data-uid="Conizi.Model.Shared.Entities.EdiSignature.SigneeName">SigneeName</h4>
-  <div class="markdown level1 summary"><p>Name of the signee</p>
+  <a id="Conizi_Model_Shared_Entities_EdiDocumentArchive_Shipper_" data-uid="Conizi.Model.Shared.Entities.EdiDocumentArchive.Shipper*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiDocumentArchive_Shipper" data-uid="Conizi.Model.Shared.Entities.EdiDocumentArchive.Shipper">Shipper</h4>
+  <div class="markdown level1 summary"><p>The address of the party which is sending the goods. This is usually the place where the pickup originated</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string SigneeName { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public EdiAddress Shipper { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -163,7 +162,33 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiAddress.html">EdiAddress</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiDocumentArchive_ShippingPartner_" data-uid="Conizi.Model.Shared.Entities.EdiDocumentArchive.ShippingPartner*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiDocumentArchive_ShippingPartner" data-uid="Conizi.Model.Shared.Entities.EdiDocumentArchive.ShippingPartner">ShippingPartner</h4>
+  <div class="markdown level1 summary"><p>The partner which is sending the consignment to the receiving partner for further delivery</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public EdiPartnerIdentification ShippingPartner { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiPartnerIdentification.html">EdiPartnerIdentification</a></td>
         <td></td>
       </tr>
     </tbody>
