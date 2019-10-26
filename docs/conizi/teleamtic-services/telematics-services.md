@@ -1,5 +1,11 @@
 # conizi telematic services 🛰️📍
 
+---
+
+***Attention, the documentation is still under construction. Please be patient.***
+
+---
+
 The conizi Telematics Services are a collection of services that make it possible to retrieve and process telematics data for various devices that are available on the conizi platform.
 
 A smart and process driven data integration service connects the shippers, LSP and IT service providers along the supply chain with one connection. The key to reach this stretch goal is the automation of interfaces between companies and IT solutions. Therefore the platform receives data, converts this data into the conizi format (basis: business objects like consignment) and distributes the converted data based on customer specific business rules. Step by step bilateral interfaces can be eliminated with this smart integration service.
