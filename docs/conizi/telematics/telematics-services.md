@@ -6,11 +6,20 @@
 
 ---
 
-The conizi Telematics Services are a collection of services that make it possible to retrieve and process telematics data for various devices that are available on the conizi platform.
+The conizi Telematics Services are a collection of services that make it possible to retrieve and process telematics data for various devices that are available on the conizi platform. 
 
-A smart and process driven data integration service connects the shippers, LSP and IT service providers along the supply chain with one connection. The key to reach this stretch goal is the automation of interfaces between companies and IT solutions. Therefore the platform receives data, converts this data into the conizi format (basis: business objects like consignment) and distributes the converted data based on customer specific business rules. Step by step bilateral interfaces can be eliminated with this smart integration service.
+The services have been developed primarily for companies and IT service providers operating in the logistics market. But also new products and business models should be supported.
 
-![whats-conizi](docs/conizi/architecture/../../../img/conizi_interface_struktur.png)
+--
+The following types of data are available:
+
+* GPS Position
+* Vehicle Information
+* Driver Information
+
+
+
+[//] #![whats-conizi](docs/conizi/architecture/../../../img/conizi_interface_struktur.png)
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. 
 
