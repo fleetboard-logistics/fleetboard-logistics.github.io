@@ -566,6 +566,50 @@ references:
   fullName.vb: Conizi.Model.Core.Tools.Validator.ValidateSchema(Of TModel)(System.String, ByRef IList(Of System.String))
   nameWithType: Validator.ValidateSchema<TModel>(String, out IList<String>)
   nameWithType.vb: Validator.ValidateSchema(Of TModel)(String, ByRef IList(Of String))
+- uid: Conizi.Model.Documents
+  name: Conizi.Model.Documents
+  href: classes/Conizi.Model.Documents.html
+  commentId: N:Conizi.Model.Documents
+  fullName: Conizi.Model.Documents
+  nameWithType: Conizi.Model.Documents
+- uid: Conizi.Model.Documents.StatusImage
+  name: StatusImage
+  href: classes/Conizi.Model.Documents.StatusImage.html
+  commentId: T:Conizi.Model.Documents.StatusImage
+  fullName: Conizi.Model.Documents.StatusImage
+  nameWithType: StatusImage
+- uid: Conizi.Model.Documents.StatusImage.Images
+  name: Images
+  href: classes/Conizi.Model.Documents.StatusImage.html#Conizi_Model_Documents_StatusImage_Images
+  commentId: P:Conizi.Model.Documents.StatusImage.Images
+  fullName: Conizi.Model.Documents.StatusImage.Images
+  nameWithType: StatusImage.Images
+- uid: Conizi.Model.Documents.StatusImage.Images*
+  name: Images
+  href: classes/Conizi.Model.Documents.StatusImage.html#Conizi_Model_Documents_StatusImage_Images_
+  commentId: Overload:Conizi.Model.Documents.StatusImage.Images
+  isSpec: "True"
+  fullName: Conizi.Model.Documents.StatusImage.Images
+  nameWithType: StatusImage.Images
+- uid: Conizi.Model.Documents.TransportDocument
+  name: TransportDocument
+  href: classes/Conizi.Model.Documents.TransportDocument.html
+  commentId: T:Conizi.Model.Documents.TransportDocument
+  fullName: Conizi.Model.Documents.TransportDocument
+  nameWithType: TransportDocument
+- uid: Conizi.Model.Documents.TransportDocument.Documents
+  name: Documents
+  href: classes/Conizi.Model.Documents.TransportDocument.html#Conizi_Model_Documents_TransportDocument_Documents
+  commentId: P:Conizi.Model.Documents.TransportDocument.Documents
+  fullName: Conizi.Model.Documents.TransportDocument.Documents
+  nameWithType: TransportDocument.Documents
+- uid: Conizi.Model.Documents.TransportDocument.Documents*
+  name: Documents
+  href: classes/Conizi.Model.Documents.TransportDocument.html#Conizi_Model_Documents_TransportDocument_Documents_
+  commentId: Overload:Conizi.Model.Documents.TransportDocument.Documents
+  isSpec: "True"
+  fullName: Conizi.Model.Documents.TransportDocument.Documents
+  nameWithType: TransportDocument.Documents
 - uid: Conizi.Model.Shared.Definitions
   name: Conizi.Model.Shared.Definitions
   href: classes/Conizi.Model.Shared.Definitions.html

@@ -89,6 +89,42 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Documents.StatusImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Documents.StatusImage.html",
+          "hash": "VgW7dG1xJ0Xjq5oKHAqKkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Documents.TransportDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Documents.TransportDocument.html",
+          "hash": "BTUSzaW31WO+eT/gywSCvg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Documents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Documents.html",
+          "hash": "1t/EpVLJFYxQkvSGDOvogg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "classes/Conizi.Model.Shared.Definitions.EdiDocumentType.yml",
       "output": {
         ".html": {
@@ -513,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDocument.html",
-          "hash": "bbrfknUFSfVHRjAXVEfWEA=="
+          "hash": "q5vFqLhWjoK2ENPtbXwosg=="
         }
       },
       "is_incremental": false,
@@ -2568,7 +2604,7 @@
       "output": {
         ".html": {
           "relative_path": "fusion/toc.html",
-          "hash": "KOjvn06eqjwv9q1fzhxDqQ=="
+          "hash": "uNrdkUESCyzcSdsZ2aLn0g=="
         }
       },
       "is_incremental": false,
@@ -2621,19 +2657,6 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 9,
-          "skipped_file_count": 0
-        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -2644,7 +2667,20 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 205,
+          "total_file_count": 208,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
           "skipped_file_count": 0
         }
       }
