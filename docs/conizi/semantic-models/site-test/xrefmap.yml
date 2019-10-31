@@ -3308,19 +3308,6 @@ references:
   commentId: T:Conizi.Model.Shared.Entities.EdiDocument
   fullName: Conizi.Model.Shared.Entities.EdiDocument
   nameWithType: EdiDocument
-- uid: Conizi.Model.Shared.Entities.EdiDocument.#ctor
-  name: EdiDocument()
-  href: classes/Conizi.Model.Shared.Entities.EdiDocument.html#Conizi_Model_Shared_Entities_EdiDocument__ctor
-  commentId: M:Conizi.Model.Shared.Entities.EdiDocument.#ctor
-  fullName: Conizi.Model.Shared.Entities.EdiDocument.EdiDocument()
-  nameWithType: EdiDocument.EdiDocument()
-- uid: Conizi.Model.Shared.Entities.EdiDocument.#ctor*
-  name: EdiDocument
-  href: classes/Conizi.Model.Shared.Entities.EdiDocument.html#Conizi_Model_Shared_Entities_EdiDocument__ctor_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiDocument.#ctor
-  isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiDocument.EdiDocument
-  nameWithType: EdiDocument.EdiDocument
 - uid: Conizi.Model.Shared.Entities.EdiDocument.Archive
   name: Archive
   href: classes/Conizi.Model.Shared.Entities.EdiDocument.html#Conizi_Model_Shared_Entities_EdiDocument_Archive
@@ -3547,19 +3534,6 @@ references:
   commentId: T:Conizi.Model.Shared.Entities.EdiDocumentReferences
   fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences
   nameWithType: EdiDocumentReferences
-- uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.Carrier
-  name: Carrier
-  href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_Carrier
-  commentId: P:Conizi.Model.Shared.Entities.EdiDocumentReferences.Carrier
-  fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences.Carrier
-  nameWithType: EdiDocumentReferences.Carrier
-- uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.Carrier*
-  name: Carrier
-  href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_Carrier_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiDocumentReferences.Carrier
-  isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences.Carrier
-  nameWithType: EdiDocumentReferences.Carrier
 - uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.ConsignmentNoReceivingPartner
   name: ConsignmentNoReceivingPartner
   href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_ConsignmentNoReceivingPartner
@@ -3664,6 +3638,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences.StopId
   nameWithType: EdiDocumentReferences.StopId
+- uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.SystemReferences
+  name: SystemReferences
+  href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_SystemReferences
+  commentId: P:Conizi.Model.Shared.Entities.EdiDocumentReferences.SystemReferences
+  fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences.SystemReferences
+  nameWithType: EdiDocumentReferences.SystemReferences
+- uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.SystemReferences*
+  name: SystemReferences
+  href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_SystemReferences_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiDocumentReferences.SystemReferences
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences.SystemReferences
+  nameWithType: EdiDocumentReferences.SystemReferences
 - uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.TourId
   name: TourId
   href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_TourId
@@ -3690,6 +3677,25 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences.VehicleId
   nameWithType: EdiDocumentReferences.VehicleId
+- uid: Conizi.Model.Shared.Entities.EdiDocumentReferencesExtended
+  name: EdiDocumentReferencesExtended
+  href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferencesExtended.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiDocumentReferencesExtended
+  fullName: Conizi.Model.Shared.Entities.EdiDocumentReferencesExtended
+  nameWithType: EdiDocumentReferencesExtended
+- uid: Conizi.Model.Shared.Entities.EdiDocumentReferencesExtended.Carrier
+  name: Carrier
+  href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferencesExtended.html#Conizi_Model_Shared_Entities_EdiDocumentReferencesExtended_Carrier
+  commentId: P:Conizi.Model.Shared.Entities.EdiDocumentReferencesExtended.Carrier
+  fullName: Conizi.Model.Shared.Entities.EdiDocumentReferencesExtended.Carrier
+  nameWithType: EdiDocumentReferencesExtended.Carrier
+- uid: Conizi.Model.Shared.Entities.EdiDocumentReferencesExtended.Carrier*
+  name: Carrier
+  href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferencesExtended.html#Conizi_Model_Shared_Entities_EdiDocumentReferencesExtended_Carrier_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiDocumentReferencesExtended.Carrier
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiDocumentReferencesExtended.Carrier
+  nameWithType: EdiDocumentReferencesExtended.Carrier
 - uid: Conizi.Model.Shared.Entities.EdiDriver
   name: EdiDriver
   href: classes/Conizi.Model.Shared.Entities.EdiDriver.html
@@ -5677,6 +5683,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiModel.Receiver
   nameWithType: EdiModel.Receiver
+- uid: Conizi.Model.Shared.Entities.EdiModel.References
+  name: References
+  href: classes/Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_References
+  commentId: P:Conizi.Model.Shared.Entities.EdiModel.References
+  fullName: Conizi.Model.Shared.Entities.EdiModel.References
+  nameWithType: EdiModel.References
+- uid: Conizi.Model.Shared.Entities.EdiModel.References*
+  name: References
+  href: classes/Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_References_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiModel.References
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiModel.References
+  nameWithType: EdiModel.References
 - uid: Conizi.Model.Shared.Entities.EdiModel.Schema
   name: Schema
   href: classes/Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Schema
@@ -7859,6 +7878,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiReferences.DeliveryNote
   nameWithType: EdiReferences.DeliveryNote
+- uid: Conizi.Model.Shared.Entities.EdiReferences.DocumentReferences
+  name: DocumentReferences
+  href: classes/Conizi.Model.Shared.Entities.EdiReferences.html#Conizi_Model_Shared_Entities_EdiReferences_DocumentReferences
+  commentId: P:Conizi.Model.Shared.Entities.EdiReferences.DocumentReferences
+  fullName: Conizi.Model.Shared.Entities.EdiReferences.DocumentReferences
+  nameWithType: EdiReferences.DocumentReferences
+- uid: Conizi.Model.Shared.Entities.EdiReferences.DocumentReferences*
+  name: DocumentReferences
+  href: classes/Conizi.Model.Shared.Entities.EdiReferences.html#Conizi_Model_Shared_Entities_EdiReferences_DocumentReferences_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiReferences.DocumentReferences
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiReferences.DocumentReferences
+  nameWithType: EdiReferences.DocumentReferences
 - uid: Conizi.Model.Shared.Entities.EdiReferences.ForwardedFor
   name: ForwardedFor
   href: classes/Conizi.Model.Shared.Entities.EdiReferences.html#Conizi_Model_Shared_Entities_EdiReferences_ForwardedFor
@@ -11243,6 +11275,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.GeneralProcessingNotification
   nameWithType: ConsignmentEvent.GeneralProcessingNotification
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.GeoPosition
+  name: GeoPosition
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_GeoPosition
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.GeoPosition
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.GeoPosition
+  nameWithType: ConsignmentEvent.GeoPosition
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.GeoPosition*
+  name: GeoPosition
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_GeoPosition_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.GeoPosition
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.GeoPosition
+  nameWithType: ConsignmentEvent.GeoPosition
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Notification
   name: Notification
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_Notification
@@ -11755,6 +11800,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ExitSecurityAreaShippingPartner
   nameWithType: PackageEvent.ExitSecurityAreaShippingPartner
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.GeoPosition
+  name: GeoPosition
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_GeoPosition
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.GeoPosition
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.GeoPosition
+  nameWithType: PackageEvent.GeoPosition
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.GeoPosition*
+  name: GeoPosition
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_GeoPosition_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.GeoPosition
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.GeoPosition
+  nameWithType: PackageEvent.GeoPosition
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.LoadingGateway
   name: LoadingGateway
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_LoadingGateway
