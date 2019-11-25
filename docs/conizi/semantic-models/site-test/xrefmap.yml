@@ -3656,6 +3656,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences.Id
   nameWithType: EdiDocumentReferences.Id
+- uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.PackageNo
+  name: PackageNo
+  href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_PackageNo
+  commentId: P:Conizi.Model.Shared.Entities.EdiDocumentReferences.PackageNo
+  fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences.PackageNo
+  nameWithType: EdiDocumentReferences.PackageNo
+- uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.PackageNo*
+  name: PackageNo
+  href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_PackageNo_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiDocumentReferences.PackageNo
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences.PackageNo
+  nameWithType: EdiDocumentReferences.PackageNo
 - uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.ReferenceNumber
   name: ReferenceNumber
   href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_ReferenceNumber
