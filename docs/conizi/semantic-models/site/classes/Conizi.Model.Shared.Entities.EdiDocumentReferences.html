@@ -80,6 +80,7 @@
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">EdiDocumentReferences</span></div>
+      <div class="level2"><a class="xref" href="Conizi.Model.Shared.Entities.EdiDocumentReferencesExtended.html">EdiDocumentReferencesExtended</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
@@ -89,32 +90,6 @@
   </div>
   <h3 id="properties">Properties
   </h3>
-  
-  
-  <a id="Conizi_Model_Shared_Entities_EdiDocumentReferences_Carrier_" data-uid="Conizi.Model.Shared.Entities.EdiDocumentReferences.Carrier*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiDocumentReferences_Carrier" data-uid="Conizi.Model.Shared.Entities.EdiDocumentReferences.Carrier">Carrier</h4>
-  <div class="markdown level1 summary"><p>Company responsible for the actual transport of the goods from the shipping partner to the recipient</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EdiAddress Carrier { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Conizi.Model.Shared.Entities.EdiAddress.html">EdiAddress</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="Conizi_Model_Shared_Entities_EdiDocumentReferences_ConsignmentNoReceivingPartner_" data-uid="Conizi.Model.Shared.Entities.EdiDocumentReferences.ConsignmentNoReceivingPartner*"></a>
@@ -273,6 +248,32 @@
   </table>
   
   
+  <a id="Conizi_Model_Shared_Entities_EdiDocumentReferences_PackageNo_" data-uid="Conizi.Model.Shared.Entities.EdiDocumentReferences.PackageNo*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiDocumentReferences_PackageNo" data-uid="Conizi.Model.Shared.Entities.EdiDocumentReferences.PackageNo">PackageNo</h4>
+  <div class="markdown level1 summary"><p>Unique identification for the package. This is often an SSCC / NVE barcode number.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PackageNo { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Conizi_Model_Shared_Entities_EdiDocumentReferences_ReferenceNumber_" data-uid="Conizi.Model.Shared.Entities.EdiDocumentReferences.ReferenceNumber*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiDocumentReferences_ReferenceNumber" data-uid="Conizi.Model.Shared.Entities.EdiDocumentReferences.ReferenceNumber">ReferenceNumber</h4>
   <div class="markdown level1 summary"><p>The reference number (e.g. delivery note&quot;)</p>
@@ -307,6 +308,32 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string StopId { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiDocumentReferences_SystemReferences_" data-uid="Conizi.Model.Shared.Entities.EdiDocumentReferences.SystemReferences*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiDocumentReferences_SystemReferences" data-uid="Conizi.Model.Shared.Entities.EdiDocumentReferences.SystemReferences">SystemReferences</h4>
+  <div class="markdown level1 summary"><p>A reference to an IT system</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SystemReferences { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
