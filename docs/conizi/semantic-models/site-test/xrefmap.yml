@@ -999,6 +999,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiAddress.Name
   nameWithType: EdiAddress.Name
+- uid: Conizi.Model.Shared.Entities.EdiAddress.Name2
+  name: Name2
+  href: classes/Conizi.Model.Shared.Entities.EdiAddress.html#Conizi_Model_Shared_Entities_EdiAddress_Name2
+  commentId: P:Conizi.Model.Shared.Entities.EdiAddress.Name2
+  fullName: Conizi.Model.Shared.Entities.EdiAddress.Name2
+  nameWithType: EdiAddress.Name2
+- uid: Conizi.Model.Shared.Entities.EdiAddress.Name2*
+  name: Name2
+  href: classes/Conizi.Model.Shared.Entities.EdiAddress.html#Conizi_Model_Shared_Entities_EdiAddress_Name2_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiAddress.Name2
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiAddress.Name2
+  nameWithType: EdiAddress.Name2
 - uid: Conizi.Model.Shared.Entities.EdiAddress.PhoneNumber
   name: PhoneNumber
   href: classes/Conizi.Model.Shared.Entities.EdiAddress.html#Conizi_Model_Shared_Entities_EdiAddress_PhoneNumber
@@ -5180,6 +5193,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiLine.LineNo
   nameWithType: EdiLine.LineNo
+- uid: Conizi.Model.Shared.Entities.EdiLine.Packages
+  name: Packages
+  href: classes/Conizi.Model.Shared.Entities.EdiLine.html#Conizi_Model_Shared_Entities_EdiLine_Packages
+  commentId: P:Conizi.Model.Shared.Entities.EdiLine.Packages
+  fullName: Conizi.Model.Shared.Entities.EdiLine.Packages
+  nameWithType: EdiLine.Packages
+- uid: Conizi.Model.Shared.Entities.EdiLine.Packages*
+  name: Packages
+  href: classes/Conizi.Model.Shared.Entities.EdiLine.html#Conizi_Model_Shared_Entities_EdiLine_Packages_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiLine.Packages
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiLine.Packages
+  nameWithType: EdiLine.Packages
 - uid: Conizi.Model.Shared.Entities.EdiLine.RefNo
   name: RefNo
   href: classes/Conizi.Model.Shared.Entities.EdiLine.html#Conizi_Model_Shared_Entities_EdiLine_RefNo
@@ -6275,6 +6301,116 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiOrientation.Vertical
   nameWithType: EdiOrientation.Vertical
+- uid: Conizi.Model.Shared.Entities.EdiPackage
+  name: EdiPackage
+  href: classes/Conizi.Model.Shared.Entities.EdiPackage.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiPackage
+  fullName: Conizi.Model.Shared.Entities.EdiPackage
+  nameWithType: EdiPackage
+- uid: Conizi.Model.Shared.Entities.EdiPackage.Barcode
+  name: Barcode
+  href: classes/Conizi.Model.Shared.Entities.EdiPackage.html#Conizi_Model_Shared_Entities_EdiPackage_Barcode
+  commentId: P:Conizi.Model.Shared.Entities.EdiPackage.Barcode
+  fullName: Conizi.Model.Shared.Entities.EdiPackage.Barcode
+  nameWithType: EdiPackage.Barcode
+- uid: Conizi.Model.Shared.Entities.EdiPackage.Barcode*
+  name: Barcode
+  href: classes/Conizi.Model.Shared.Entities.EdiPackage.html#Conizi_Model_Shared_Entities_EdiPackage_Barcode_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiPackage.Barcode
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiPackage.Barcode
+  nameWithType: EdiPackage.Barcode
+- uid: Conizi.Model.Shared.Entities.EdiPackage.Height
+  name: Height
+  href: classes/Conizi.Model.Shared.Entities.EdiPackage.html#Conizi_Model_Shared_Entities_EdiPackage_Height
+  commentId: P:Conizi.Model.Shared.Entities.EdiPackage.Height
+  fullName: Conizi.Model.Shared.Entities.EdiPackage.Height
+  nameWithType: EdiPackage.Height
+- uid: Conizi.Model.Shared.Entities.EdiPackage.Height*
+  name: Height
+  href: classes/Conizi.Model.Shared.Entities.EdiPackage.html#Conizi_Model_Shared_Entities_EdiPackage_Height_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiPackage.Height
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiPackage.Height
+  nameWithType: EdiPackage.Height
+- uid: Conizi.Model.Shared.Entities.EdiPackage.Length
+  name: Length
+  href: classes/Conizi.Model.Shared.Entities.EdiPackage.html#Conizi_Model_Shared_Entities_EdiPackage_Length
+  commentId: P:Conizi.Model.Shared.Entities.EdiPackage.Length
+  fullName: Conizi.Model.Shared.Entities.EdiPackage.Length
+  nameWithType: EdiPackage.Length
+- uid: Conizi.Model.Shared.Entities.EdiPackage.Length*
+  name: Length
+  href: classes/Conizi.Model.Shared.Entities.EdiPackage.html#Conizi_Model_Shared_Entities_EdiPackage_Length_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiPackage.Length
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiPackage.Length
+  nameWithType: EdiPackage.Length
+- uid: Conizi.Model.Shared.Entities.EdiPackage.PackagingType
+  name: PackagingType
+  href: classes/Conizi.Model.Shared.Entities.EdiPackage.html#Conizi_Model_Shared_Entities_EdiPackage_PackagingType
+  commentId: P:Conizi.Model.Shared.Entities.EdiPackage.PackagingType
+  fullName: Conizi.Model.Shared.Entities.EdiPackage.PackagingType
+  nameWithType: EdiPackage.PackagingType
+- uid: Conizi.Model.Shared.Entities.EdiPackage.PackagingType*
+  name: PackagingType
+  href: classes/Conizi.Model.Shared.Entities.EdiPackage.html#Conizi_Model_Shared_Entities_EdiPackage_PackagingType_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiPackage.PackagingType
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiPackage.PackagingType
+  nameWithType: EdiPackage.PackagingType
+- uid: Conizi.Model.Shared.Entities.EdiPackage.ReferenceNumber
+  name: ReferenceNumber
+  href: classes/Conizi.Model.Shared.Entities.EdiPackage.html#Conizi_Model_Shared_Entities_EdiPackage_ReferenceNumber
+  commentId: P:Conizi.Model.Shared.Entities.EdiPackage.ReferenceNumber
+  fullName: Conizi.Model.Shared.Entities.EdiPackage.ReferenceNumber
+  nameWithType: EdiPackage.ReferenceNumber
+- uid: Conizi.Model.Shared.Entities.EdiPackage.ReferenceNumber*
+  name: ReferenceNumber
+  href: classes/Conizi.Model.Shared.Entities.EdiPackage.html#Conizi_Model_Shared_Entities_EdiPackage_ReferenceNumber_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiPackage.ReferenceNumber
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiPackage.ReferenceNumber
+  nameWithType: EdiPackage.ReferenceNumber
+- uid: Conizi.Model.Shared.Entities.EdiPackage.Volume
+  name: Volume
+  href: classes/Conizi.Model.Shared.Entities.EdiPackage.html#Conizi_Model_Shared_Entities_EdiPackage_Volume
+  commentId: P:Conizi.Model.Shared.Entities.EdiPackage.Volume
+  fullName: Conizi.Model.Shared.Entities.EdiPackage.Volume
+  nameWithType: EdiPackage.Volume
+- uid: Conizi.Model.Shared.Entities.EdiPackage.Volume*
+  name: Volume
+  href: classes/Conizi.Model.Shared.Entities.EdiPackage.html#Conizi_Model_Shared_Entities_EdiPackage_Volume_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiPackage.Volume
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiPackage.Volume
+  nameWithType: EdiPackage.Volume
+- uid: Conizi.Model.Shared.Entities.EdiPackage.Weight
+  name: Weight
+  href: classes/Conizi.Model.Shared.Entities.EdiPackage.html#Conizi_Model_Shared_Entities_EdiPackage_Weight
+  commentId: P:Conizi.Model.Shared.Entities.EdiPackage.Weight
+  fullName: Conizi.Model.Shared.Entities.EdiPackage.Weight
+  nameWithType: EdiPackage.Weight
+- uid: Conizi.Model.Shared.Entities.EdiPackage.Weight*
+  name: Weight
+  href: classes/Conizi.Model.Shared.Entities.EdiPackage.html#Conizi_Model_Shared_Entities_EdiPackage_Weight_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiPackage.Weight
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiPackage.Weight
+  nameWithType: EdiPackage.Weight
+- uid: Conizi.Model.Shared.Entities.EdiPackage.Width
+  name: Width
+  href: classes/Conizi.Model.Shared.Entities.EdiPackage.html#Conizi_Model_Shared_Entities_EdiPackage_Width
+  commentId: P:Conizi.Model.Shared.Entities.EdiPackage.Width
+  fullName: Conizi.Model.Shared.Entities.EdiPackage.Width
+  nameWithType: EdiPackage.Width
+- uid: Conizi.Model.Shared.Entities.EdiPackage.Width*
+  name: Width
+  href: classes/Conizi.Model.Shared.Entities.EdiPackage.html#Conizi_Model_Shared_Entities_EdiPackage_Width_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiPackage.Width
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiPackage.Width
+  nameWithType: EdiPackage.Width
 - uid: Conizi.Model.Shared.Entities.EdiPackageBulkiness
   name: EdiPackageBulkiness
   href: classes/Conizi.Model.Shared.Entities.EdiPackageBulkiness.html
@@ -6864,6 +7000,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiPartnerIdentification.Name
   nameWithType: EdiPartnerIdentification.Name
+- uid: Conizi.Model.Shared.Entities.EdiPartnerIdentification.Name2
+  name: Name2
+  href: classes/Conizi.Model.Shared.Entities.EdiPartnerIdentification.html#Conizi_Model_Shared_Entities_EdiPartnerIdentification_Name2
+  commentId: P:Conizi.Model.Shared.Entities.EdiPartnerIdentification.Name2
+  fullName: Conizi.Model.Shared.Entities.EdiPartnerIdentification.Name2
+  nameWithType: EdiPartnerIdentification.Name2
+- uid: Conizi.Model.Shared.Entities.EdiPartnerIdentification.Name2*
+  name: Name2
+  href: classes/Conizi.Model.Shared.Entities.EdiPartnerIdentification.html#Conizi_Model_Shared_Entities_EdiPartnerIdentification_Name2_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiPartnerIdentification.Name2
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiPartnerIdentification.Name2
+  nameWithType: EdiPartnerIdentification.Name2
 - uid: Conizi.Model.Shared.Entities.EdiPartnerIdentification.PhoneNumber
   name: PhoneNumber
   href: classes/Conizi.Model.Shared.Entities.EdiPartnerIdentification.html#Conizi_Model_Shared_Entities_EdiPartnerIdentification_PhoneNumber
@@ -12739,6 +12888,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Description
   nameWithType: Tour.Description
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Dispatcher
+  name: Dispatcher
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Dispatcher
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Dispatcher
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Dispatcher
+  nameWithType: Tour.Dispatcher
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Dispatcher*
+  name: Dispatcher
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Dispatcher_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Dispatcher
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Dispatcher
+  nameWithType: Tour.Dispatcher
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.DriverNotes
   name: DriverNotes
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_DriverNotes
@@ -12804,6 +12966,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.NotificationParties
   nameWithType: Tour.NotificationParties
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Remarks
+  name: Remarks
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Remarks
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Remarks
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Remarks
+  nameWithType: Tour.Remarks
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Remarks*
+  name: Remarks
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Remarks_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Remarks
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Remarks
+  nameWithType: Tour.Remarks
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Route
   name: Route
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_Route
