@@ -24,6 +24,62 @@ This describes how to connect a system to the conizi HTTP Poll API using the HTT
 
 There are some requirements to be fulfilled in order to be able to connect to the conizi platform. Please have a look at [Access the conizi HTTP input API](https://git.fleetboard-logistics.com/snippets/14){:target="_blank"}.
 
-A detailed tutorial can be found under the following [link](https://git.fleetboard-logistics.com/snippets/14){:target="_blank"}.
+<!-- A detailed tutorial can be found under the following [link](https://git.fleetboard-logistics.com/snippets/14){:target="_blank"}. -->
 
-<script src="https://git.fleetboard-logistics.com/snippets/14.js"></script>
+# Conizi HTTP Poll Endpoint (v1)
+The Conizi HTTP Poll endpoint will listen to https://conizi.io/api/output  
+Preproduction: https://preproduction.dev.conizi.io/api/output  
+Staging: https://staging.dev.conizi.io/api/output  
+
+### Documentation
+Production: https://conizi.io/api/output/swagger  
+Preproduction: https://preproduction.dev.conizi.io/api/output/swagger  
+Staging: https://staging.dev.conizi.io/api/output/swagger  
+
+### GET /api/output/v1/{continuationToken}
+Gets a list of available items/files for the EDI Connection determined by the Api Key.
+The order of files can't be guaranteed but we try to maintain FIFO order.
+- Client-Header
+  - X-Api-Key: Configuration via Conizi Edi Connection.
+- Parameter:
+  - continuationToken (required): Continuation Token that will get the next available messages
+  - maxItems: Maximum number of events to return. (1-1000, default: 100)
+- Response:
+```
+{
+  "next": "string", // URL to request the next files
+  "count": 0, // Number of files returned
+  "continuationToken": "string", // Currently used continuation token
+  "nextContinuationToken": "string", // Next continuation token
+  "items": [
+    {
+      "name": "string", // Name of the file/item
+      "model": "string", // Model of the file/item (e.g. transport/truck...)
+      "file": "string", // URL of the file (valid for 5 minutes)
+      "correlationId": "string", // Correlation Id of the item
+      "messageId": "string", // Message Id of the item
+      "dateTimeUtc": "2019-07-15T13:33:07.038Z" // Date of the item
+    }
+  ]
+}
+```
+
+### GET /api/output/v1/requestToken
+Requests a token for a specific timestamp
+- Client-Header
+  - X-Api-Key: Configuration via Conizi Edi Connection.
+- Parameter:
+  - timestamp: Timestamp in millseconds for which to create a token. If empty the token is created for the current time.
+- Response:
+```
+Token
+```
+
+## Possible implementations
+1. Request a token for now or a specific timestamp
+2. Request all items with the token and maxItem = 100
+3. Download all items
+4. Use nextContinuationToken as next token
+5. If response count is 100 restart from 2. after 10 Seconds
+6. Wait 10 Minutes and then restart from 2.
+
