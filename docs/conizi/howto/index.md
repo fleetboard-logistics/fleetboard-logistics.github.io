@@ -22,6 +22,8 @@ Further documentation on the C# models and properties, can be obtained [here](..
 
 This describes how to connect a system to the conizi HTTP Poll API using the HTTP protocol.
 
-There are some requirements to be fulfilled in order to be able to connect to the conizi platform. Please have a look at [Access the conizi HTTP input API](#Access-the-conizi-HTTP-input-API).
+There are some requirements to be fulfilled in order to be able to connect to the conizi platform. Please have a look at [Access the conizi HTTP input API](https://git.fleetboard-logistics.com/snippets/14){:target="_blank"}.
 
 A detailed tutorial can be found under the following [link](https://git.fleetboard-logistics.com/snippets/14){:target="_blank"}.
+
+<script src="https://git.fleetboard-logistics.com/snippets/14.js"></script>
