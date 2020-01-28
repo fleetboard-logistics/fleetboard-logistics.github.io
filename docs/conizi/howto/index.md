@@ -32,11 +32,12 @@ There are some requirements to be fulfilled in order to be able to connect to th
 
 ## conizi HTTP Poll Endpoint Description (v1)
 
-The conizi HTTP Poll endpoint will listen to https://conizi.io/api/output  
-Preproduction: https://preproduction.dev.conizi.io/api/output  
-Staging: https://staging.dev.conizi.io/api/output  
+The conizi HTTP Poll endpoint will listen to 
+* Production: https://conizi.io/api/output
+* Preproduction: https://preproduction.dev.conizi.io/api/output  
+* Staging: https://staging.dev.conizi.io/api/output  
 
-## Documentation
+## API Documentation
 * Production: https://conizi.io/api/output/swagger  
 * Preproduction: https://preproduction.dev.conizi.io/api/output/swagger  
 * Staging: https://staging.dev.conizi.io/api/output/swagger  
@@ -72,11 +73,11 @@ The order of files can't be guaranteed but we try to maintain FIFO order.
 
 ## GET /api/output/v1/requestToken
 Requests a token for a specific timestamp
-- Client-Header
-  - X-Api-Key: Configuration via conizi Edi Connection.
-- Parameter:
-  - timestamp: Timestamp in milliseconds for which to create a token. If empty the token is created for the current time.
-- Response: Token as string
+* Client-Header
+  * X-Api-Key: Configuration via conizi Edi Connection.
+* Parameter:
+  * timestamp: Timestamp in milliseconds for which to create a token. If empty the token is created for the current time.
+* Response: Token as string
 
 ## Possible implementations
 1. Request a token for now or a specific timestamp
