@@ -32,10 +32,10 @@ There are some requirements to be fulfilled in order to be able to connect to th
 
 ## conizi HTTP Poll Endpoint Description (v1)
 
-The conizi HTTP Poll endpoint will listen to 
-* Production: [https://conizi.io/api/output](https://conizi.io/api/output)
-* Preproduction: [https://preproduction.dev.conizi.io/api/output](https://preproduction.dev.conizi.io/api/outpu)
-* Staging: [https://staging.dev.conizi.io/api/output](https://staging.dev.conizi.io/api/output)  
+The conizi HTTP Poll endpoint will listen to: 
+* Production: https://conizi.io/api/output
+* Preproduction: https://preproduction.dev.conizi.io/api/output
+* Staging: https://staging.dev.conizi.io/api/output
 
 ## API Documentation
 * Production: [https://conizi.io/api/output/swagger](https://conizi.io/api/output/swagger)
