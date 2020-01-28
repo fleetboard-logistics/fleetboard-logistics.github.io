@@ -33,14 +33,14 @@ There are some requirements to be fulfilled in order to be able to connect to th
 ## conizi HTTP Poll Endpoint Description (v1)
 
 The conizi HTTP Poll endpoint will listen to 
-* Production: https://conizi.io/api/output
-* Preproduction: https://preproduction.dev.conizi.io/api/output  
-* Staging: https://staging.dev.conizi.io/api/output  
+* Production: [https://conizi.io/api/output](https://conizi.io/api/output)
+* Preproduction: [https://preproduction.dev.conizi.io/api/output](https://preproduction.dev.conizi.io/api/outpu)
+* Staging: [https://staging.dev.conizi.io/api/output](https://staging.dev.conizi.io/api/output)  
 
 ## API Documentation
-* Production: https://conizi.io/api/output/swagger  
-* Preproduction: https://preproduction.dev.conizi.io/api/output/swagger  
-* Staging: https://staging.dev.conizi.io/api/output/swagger  
+* Production: [https://conizi.io/api/output/swagger](https://conizi.io/api/output/swagger)
+* Preproduction: [https://preproduction.dev.conizi.io/api/output/swagger](https://preproduction.dev.conizi.io/api/output/swagger)  
+* Staging: [https://staging.dev.conizi.io/api/output/swagger](https://staging.dev.conizi.io/api/output/swagger)
 
 ## GET /api/output/v1/{continuationToken}
 Gets a list of available items/files for the EDI Connection determined by the Api Key.
