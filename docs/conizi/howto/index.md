@@ -1,4 +1,4 @@
-## Access the conizi HTTP input API
+# Access the conizi HTTP input API
 
 This describes how to connect a system to the conizi HTTP Input API using the HTTP protocol.
 
@@ -30,27 +30,28 @@ There are some requirements to be fulfilled in order to be able to connect to th
 
 <!-- A detailed tutorial can be found under the following [link](https://git.fleetboard-logistics.com/snippets/14){:target="_blank"}. -->
 
-## conizi HTTP Poll Endpoint Description (v1)
+# conizi HTTP Poll Endpoint Description (v1)
+
 The conizi HTTP Poll endpoint will listen to https://conizi.io/api/output  
 Preproduction: https://preproduction.dev.conizi.io/api/output  
 Staging: https://staging.dev.conizi.io/api/output  
 
-### Documentation
-Production: https://conizi.io/api/output/swagger  
-Preproduction: https://preproduction.dev.conizi.io/api/output/swagger  
-Staging: https://staging.dev.conizi.io/api/output/swagger  
+## Documentation
+* Production: https://conizi.io/api/output/swagger  
+* Preproduction: https://preproduction.dev.conizi.io/api/output/swagger  
+* Staging: https://staging.dev.conizi.io/api/output/swagger  
 
-### GET /api/output/v1/{continuationToken}
+## GET /api/output/v1/{continuationToken}
 Gets a list of available items/files for the EDI Connection determined by the Api Key.
 The order of files can't be guaranteed but we try to maintain FIFO order.
-- Client-Header
-  - X-Api-Key: Configuration via conizi Edi Connection.
-- Parameter:
-  - continuationToken (required): Continuation Token that will get the next available messages
-  - maxItems: Maximum number of events to return. (1-1000, default: 100)
-- Response:
+* Client-Header
+  * X-Api-Key: Configuration via conizi Edi Connection.
+* Parameter:
+  * continuationToken (required): Continuation Token that will get the next available messages
+  * maxItems: Maximum number of events to return. (1-1000, default: 100)
+* Response:
 
-```json
+```JSONC
 {
   "next": "string", // URL to request the next files
   "count": 0, // Number of files returned
@@ -69,7 +70,7 @@ The order of files can't be guaranteed but we try to maintain FIFO order.
 }
 ```
 
-### GET /api/output/v1/requestToken
+## GET /api/output/v1/requestToken
 Requests a token for a specific timestamp
 - Client-Header
   - X-Api-Key: Configuration via conizi Edi Connection.
