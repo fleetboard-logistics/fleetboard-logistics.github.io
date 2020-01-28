@@ -18,7 +18,7 @@ Examples for the messages to be transmitted can be found in the [JSON examples](
 
 Further documentation on the C# models and properties, can be obtained [here](../semantic-models/site/index.html).
 
-## Access the conizi HTTP Poll API Endpoint
+# Access the conizi HTTP Poll API Endpoint
 
 This describes how to connect a system to the conizi HTTP Poll API using the HTTP protocol.
 
@@ -30,7 +30,7 @@ There are some requirements to be fulfilled in order to be able to connect to th
 
 <!-- A detailed tutorial can be found under the following [link](https://git.fleetboard-logistics.com/snippets/14){:target="_blank"}. -->
 
-# conizi HTTP Poll Endpoint Description (v1)
+## conizi HTTP Poll Endpoint Description (v1)
 
 The conizi HTTP Poll endpoint will listen to https://conizi.io/api/output  
 Preproduction: https://preproduction.dev.conizi.io/api/output  
@@ -78,7 +78,7 @@ Requests a token for a specific timestamp
   - timestamp: Timestamp in milliseconds for which to create a token. If empty the token is created for the current time.
 - Response: Token as string
 
-### Possible implementations
+## Possible implementations
 1. Request a token for now or a specific timestamp
 2. Request all items with the token and maxItem = 100
 3. Download all items
