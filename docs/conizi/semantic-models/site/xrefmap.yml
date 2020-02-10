@@ -742,6 +742,12 @@ references:
   commentId: T:Conizi.Model.Shared.Definitions.LoadingEquipmentType
   fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType
   nameWithType: LoadingEquipmentType
+- uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.CustomLoadingEquipment
+  name: CustomLoadingEquipment
+  href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_CustomLoadingEquipment
+  commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.CustomLoadingEquipment
+  fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.CustomLoadingEquipment
+  nameWithType: LoadingEquipmentType.CustomLoadingEquipment
 - uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.DuesseldorferPallets
   name: DuesseldorferPallets
   href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_DuesseldorferPallets
@@ -4625,6 +4631,32 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimeAbsolute
   nameWithType: EdiGeoEta.EtaTimeAbsolute
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimePeriodEnd
+  name: EtaTimePeriodEnd
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_EtaTimePeriodEnd
+  commentId: P:Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimePeriodEnd
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimePeriodEnd
+  nameWithType: EdiGeoEta.EtaTimePeriodEnd
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimePeriodEnd*
+  name: EtaTimePeriodEnd
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_EtaTimePeriodEnd_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimePeriodEnd
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimePeriodEnd
+  nameWithType: EdiGeoEta.EtaTimePeriodEnd
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimePeriodStart
+  name: EtaTimePeriodStart
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_EtaTimePeriodStart
+  commentId: P:Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimePeriodStart
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimePeriodStart
+  nameWithType: EdiGeoEta.EtaTimePeriodStart
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimePeriodStart*
+  name: EtaTimePeriodStart
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_EtaTimePeriodStart_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimePeriodStart
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimePeriodStart
+  nameWithType: EdiGeoEta.EtaTimePeriodStart
 - uid: Conizi.Model.Shared.Entities.EdiGeoEta.Ete
   name: Ete
   href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_Ete
@@ -5251,6 +5283,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountUnloaded
   nameWithType: EdiLoadingEquipment.AmountUnloaded
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipment.CustomLoadingEquipmentName
+  name: CustomLoadingEquipmentName
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipment.html#Conizi_Model_Shared_Entities_EdiLoadingEquipment_CustomLoadingEquipmentName
+  commentId: P:Conizi.Model.Shared.Entities.EdiLoadingEquipment.CustomLoadingEquipmentName
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment.CustomLoadingEquipmentName
+  nameWithType: EdiLoadingEquipment.CustomLoadingEquipmentName
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipment.CustomLoadingEquipmentName*
+  name: CustomLoadingEquipmentName
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipment.html#Conizi_Model_Shared_Entities_EdiLoadingEquipment_CustomLoadingEquipmentName_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiLoadingEquipment.CustomLoadingEquipmentName
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment.CustomLoadingEquipmentName
+  nameWithType: EdiLoadingEquipment.CustomLoadingEquipmentName
 - uid: Conizi.Model.Shared.Entities.EdiLoadingEquipment.EquipmentType
   name: EquipmentType
   href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipment.html#Conizi_Model_Shared_Entities_EdiLoadingEquipment_EquipmentType
@@ -9470,6 +9515,32 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiTourDocuments.LoadSecuring
   nameWithType: EdiTourDocuments.LoadSecuring
+- uid: Conizi.Model.Shared.Entities.EdiTourDocuments.OtherDocuments
+  name: OtherDocuments
+  href: classes/Conizi.Model.Shared.Entities.EdiTourDocuments.html#Conizi_Model_Shared_Entities_EdiTourDocuments_OtherDocuments
+  commentId: P:Conizi.Model.Shared.Entities.EdiTourDocuments.OtherDocuments
+  fullName: Conizi.Model.Shared.Entities.EdiTourDocuments.OtherDocuments
+  nameWithType: EdiTourDocuments.OtherDocuments
+- uid: Conizi.Model.Shared.Entities.EdiTourDocuments.OtherDocuments*
+  name: OtherDocuments
+  href: classes/Conizi.Model.Shared.Entities.EdiTourDocuments.html#Conizi_Model_Shared_Entities_EdiTourDocuments_OtherDocuments_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiTourDocuments.OtherDocuments
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiTourDocuments.OtherDocuments
+  nameWithType: EdiTourDocuments.OtherDocuments
+- uid: Conizi.Model.Shared.Entities.EdiTourDocuments.OtherImages
+  name: OtherImages
+  href: classes/Conizi.Model.Shared.Entities.EdiTourDocuments.html#Conizi_Model_Shared_Entities_EdiTourDocuments_OtherImages
+  commentId: P:Conizi.Model.Shared.Entities.EdiTourDocuments.OtherImages
+  fullName: Conizi.Model.Shared.Entities.EdiTourDocuments.OtherImages
+  nameWithType: EdiTourDocuments.OtherImages
+- uid: Conizi.Model.Shared.Entities.EdiTourDocuments.OtherImages*
+  name: OtherImages
+  href: classes/Conizi.Model.Shared.Entities.EdiTourDocuments.html#Conizi_Model_Shared_Entities_EdiTourDocuments_OtherImages_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiTourDocuments.OtherImages
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiTourDocuments.OtherImages
+  nameWithType: EdiTourDocuments.OtherImages
 - uid: Conizi.Model.Shared.Entities.EdiTourDocuments.Signature
   name: Signature
   href: classes/Conizi.Model.Shared.Entities.EdiTourDocuments.html#Conizi_Model_Shared_Entities_EdiTourDocuments_Signature
@@ -10251,6 +10322,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiVehicle.VehicleId
   nameWithType: EdiVehicle.VehicleId
+- uid: Conizi.Model.Shared.Entities.EdiVehicle.VehicleIdentificationNumber
+  name: VehicleIdentificationNumber
+  href: classes/Conizi.Model.Shared.Entities.EdiVehicle.html#Conizi_Model_Shared_Entities_EdiVehicle_VehicleIdentificationNumber
+  commentId: P:Conizi.Model.Shared.Entities.EdiVehicle.VehicleIdentificationNumber
+  fullName: Conizi.Model.Shared.Entities.EdiVehicle.VehicleIdentificationNumber
+  nameWithType: EdiVehicle.VehicleIdentificationNumber
+- uid: Conizi.Model.Shared.Entities.EdiVehicle.VehicleIdentificationNumber*
+  name: VehicleIdentificationNumber
+  href: classes/Conizi.Model.Shared.Entities.EdiVehicle.html#Conizi_Model_Shared_Entities_EdiVehicle_VehicleIdentificationNumber_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiVehicle.VehicleIdentificationNumber
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiVehicle.VehicleIdentificationNumber
+  nameWithType: EdiVehicle.VehicleIdentificationNumber
 - uid: Conizi.Model.Shared.Entities.EdiVehicleSpecificEvent
   name: EdiVehicleSpecificEvent
   href: classes/Conizi.Model.Shared.Entities.EdiVehicleSpecificEvent.html
@@ -11442,6 +11526,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.DeliverySuccessful
   nameWithType: ConsignmentEvent.DeliverySuccessful
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Documents
+  name: Documents
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_Documents
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Documents
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Documents
+  nameWithType: ConsignmentEvent.Documents
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Documents*
+  name: Documents
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_Documents_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Documents
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Documents
+  nameWithType: ConsignmentEvent.Documents
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.EstimatedArrivalAtReceiver
   name: EstimatedArrivalAtReceiver
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_EstimatedArrivalAtReceiver
@@ -11494,6 +11591,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.GeoPosition
   nameWithType: ConsignmentEvent.GeoPosition
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Images
+  name: Images
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_Images
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Images
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Images
+  nameWithType: ConsignmentEvent.Images
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Images*
+  name: Images
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_Images_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Images
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Images
+  nameWithType: ConsignmentEvent.Images
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Notification
   name: Notification
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_Notification
@@ -11902,6 +12012,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.DeliveryReceiver
   nameWithType: PackageEvent.DeliveryReceiver
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.Documents
+  name: Documents
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_Documents
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.Documents
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.Documents
+  nameWithType: PackageEvent.Documents
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.Documents*
+  name: Documents
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_Documents_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.Documents
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.Documents
+  nameWithType: PackageEvent.Documents
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.EntrySecurityAreaGateway
   name: EntrySecurityAreaGateway
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_EntrySecurityAreaGateway
@@ -12019,6 +12142,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.GeoPosition
   nameWithType: PackageEvent.GeoPosition
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.Images
+  name: Images
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_Images
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.Images
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.Images
+  nameWithType: PackageEvent.Images
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.Images*
+  name: Images
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_Images_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.Images
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.Images
+  nameWithType: PackageEvent.Images
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.LoadingGateway
   name: LoadingGateway
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_LoadingGateway
