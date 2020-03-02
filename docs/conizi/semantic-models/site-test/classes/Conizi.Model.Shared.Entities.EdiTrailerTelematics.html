@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum MeasurementUnitCode
+    <title>Class EdiTrailerTelematics
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum MeasurementUnitCode
+    <meta name="title" content="Class EdiTrailerTelematics
    ">
     <meta name="generator" content="docfx 2.42.3.0">
     
@@ -68,48 +68,79 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Definitions.MeasurementUnitCode">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiTrailerTelematics">
   
   
-  <h1 id="Conizi_Model_Shared_Definitions_MeasurementUnitCode" data-uid="Conizi.Model.Shared.Definitions.MeasurementUnitCode" class="text-break">Enum MeasurementUnitCode
+  <h1 id="Conizi_Model_Shared_Entities_EdiTrailerTelematics" data-uid="Conizi.Model.Shared.Entities.EdiTrailerTelematics" class="text-break">Class EdiTrailerTelematics
   </h1>
-  <div class="markdown level0 summary"><p>Determines the unit in which a given property is measured
-Default kilometers per hour</p>
+  <div class="markdown level0 summary"><p>Telematics data about the trailer</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Definitions.html">Conizi.Model.Shared.Definitions</a></h6>
-  <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
-  <h5 id="Conizi_Model_Shared_Definitions_MeasurementUnitCode_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public enum MeasurementUnitCode : int</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">EdiTrailerTelematics</span></div>
   </div>
-  <h3 id="fields">Fields
+  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
+  <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
+  <h5 id="Conizi_Model_Shared_Entities_EdiTrailerTelematics_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EdiTrailerTelematics : object</code></pre>
+  </div>
+  <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiTrailerTelematics_RecordTime_" data-uid="Conizi.Model.Shared.Entities.EdiTrailerTelematics.RecordTime*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiTrailerTelematics_RecordTime" data-uid="Conizi.Model.Shared.Entities.EdiTrailerTelematics.RecordTime">RecordTime</h4>
+  <div class="markdown level1 summary"><p>Time the measurement was created</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset RecordTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
-    <thead>
+    </thead>
     <tbody>
       <tr>
-        <td id="Conizi_Model_Shared_Definitions_MeasurementUnitCode_Kilometer">Kilometer</td>
-        <td><p>Values are measured in kilometers / Speed in Kilometers per Hour</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Conizi_Model_Shared_Definitions_MeasurementUnitCode_NauticalMile">NauticalMile</td>
-        <td><p>Values are measured in nautical miles / Speed in nautical miles per Hour</p>
-</td>
-      </tr>
-      <tr>
-        <td id="Conizi_Model_Shared_Definitions_MeasurementUnitCode_StatuteMile">StatuteMile</td>
-        <td><p>Values are measured in miles / Speed in miles per Hour</p>
-</td>
+        <td><span class="xref">DateTimeOffset</span></td>
+        <td></td>
       </tr>
     </tbody>
-  </thead></thead></table>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiTrailerTelematics_Temperature_" data-uid="Conizi.Model.Shared.Entities.EdiTrailerTelematics.Temperature*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiTrailerTelematics_Temperature" data-uid="Conizi.Model.Shared.Entities.EdiTrailerTelematics.Temperature">Temperature</h4>
+  <div class="markdown level1 summary"><p>The trailer temperature in degree Celsius</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public decimal? Temperature { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Decimal</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
