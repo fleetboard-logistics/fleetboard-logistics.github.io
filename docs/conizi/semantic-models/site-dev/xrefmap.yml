@@ -2847,6 +2847,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiDeliveryOptions.PointOfUseDelivery2Persons
   nameWithType: EdiDeliveryOptions.PointOfUseDelivery2Persons
+- uid: Conizi.Model.Shared.Entities.EdiDeliveryOptions.ReturnOriginalDeliveryNote
+  name: ReturnOriginalDeliveryNote
+  href: classes/Conizi.Model.Shared.Entities.EdiDeliveryOptions.html#Conizi_Model_Shared_Entities_EdiDeliveryOptions_ReturnOriginalDeliveryNote
+  commentId: P:Conizi.Model.Shared.Entities.EdiDeliveryOptions.ReturnOriginalDeliveryNote
+  fullName: Conizi.Model.Shared.Entities.EdiDeliveryOptions.ReturnOriginalDeliveryNote
+  nameWithType: EdiDeliveryOptions.ReturnOriginalDeliveryNote
+- uid: Conizi.Model.Shared.Entities.EdiDeliveryOptions.ReturnOriginalDeliveryNote*
+  name: ReturnOriginalDeliveryNote
+  href: classes/Conizi.Model.Shared.Entities.EdiDeliveryOptions.html#Conizi_Model_Shared_Entities_EdiDeliveryOptions_ReturnOriginalDeliveryNote_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiDeliveryOptions.ReturnOriginalDeliveryNote
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiDeliveryOptions.ReturnOriginalDeliveryNote
+  nameWithType: EdiDeliveryOptions.ReturnOriginalDeliveryNote
 - uid: Conizi.Model.Shared.Entities.EdiDeliveryOptions.ShelfService
   name: ShelfService
   href: classes/Conizi.Model.Shared.Entities.EdiDeliveryOptions.html#Conizi_Model_Shared_Entities_EdiDeliveryOptions_ShelfService
