@@ -427,6 +427,12 @@ references:
   commentId: T:Conizi.Model.Core.Tools.Converter
   fullName: Conizi.Model.Core.Tools.Converter
   nameWithType: Converter
+- uid: Conizi.Model.Core.Tools.Converter.Deserialize(System.String)
+  name: Deserialize(String)
+  href: core_lib/Conizi.Model.Core.Tools.Converter.html#Conizi_Model_Core_Tools_Converter_Deserialize_System_String_
+  commentId: M:Conizi.Model.Core.Tools.Converter.Deserialize(System.String)
+  fullName: Conizi.Model.Core.Tools.Converter.Deserialize(System.String)
+  nameWithType: Converter.Deserialize(String)
 - uid: Conizi.Model.Core.Tools.Converter.Deserialize*
   name: Deserialize
   href: core_lib/Conizi.Model.Core.Tools.Converter.html#Conizi_Model_Core_Tools_Converter_Deserialize_
@@ -3597,6 +3603,19 @@ references:
   commentId: T:Conizi.Model.Shared.Entities.EdiDocumentReferences
   fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences
   nameWithType: EdiDocumentReferences
+- uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.CommissionNo
+  name: CommissionNo
+  href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_CommissionNo
+  commentId: P:Conizi.Model.Shared.Entities.EdiDocumentReferences.CommissionNo
+  fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences.CommissionNo
+  nameWithType: EdiDocumentReferences.CommissionNo
+- uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.CommissionNo*
+  name: CommissionNo
+  href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_CommissionNo_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiDocumentReferences.CommissionNo
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences.CommissionNo
+  nameWithType: EdiDocumentReferences.CommissionNo
 - uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.ConsignmentNoReceivingPartner
   name: ConsignmentNoReceivingPartner
   href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_ConsignmentNoReceivingPartner
@@ -5817,6 +5836,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiModel.Metadata
   nameWithType: EdiModel.Metadata
+- uid: Conizi.Model.Shared.Entities.EdiModel.ModelType
+  name: ModelType
+  href: classes/Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_ModelType
+  commentId: P:Conizi.Model.Shared.Entities.EdiModel.ModelType
+  fullName: Conizi.Model.Shared.Entities.EdiModel.ModelType
+  nameWithType: EdiModel.ModelType
+- uid: Conizi.Model.Shared.Entities.EdiModel.ModelType*
+  name: ModelType
+  href: classes/Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_ModelType_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiModel.ModelType
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiModel.ModelType
+  nameWithType: EdiModel.ModelType
 - uid: Conizi.Model.Shared.Entities.EdiModel.Network
   name: Network
   href: classes/Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Network
