@@ -1629,19 +1629,32 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiContent.AdditionalLoadingEquipment
   nameWithType: EdiContent.AdditionalLoadingEquipment
-- uid: Conizi.Model.Shared.Entities.EdiContent.ContentFlag
-  name: ContentFlag
-  href: classes/Conizi.Model.Shared.Entities.EdiContent.html#Conizi_Model_Shared_Entities_EdiContent_ContentFlag
-  commentId: P:Conizi.Model.Shared.Entities.EdiContent.ContentFlag
-  fullName: Conizi.Model.Shared.Entities.EdiContent.ContentFlag
-  nameWithType: EdiContent.ContentFlag
-- uid: Conizi.Model.Shared.Entities.EdiContent.ContentFlag*
-  name: ContentFlag
-  href: classes/Conizi.Model.Shared.Entities.EdiContent.html#Conizi_Model_Shared_Entities_EdiContent_ContentFlag_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiContent.ContentFlag
+- uid: Conizi.Model.Shared.Entities.EdiContent.CustomsGoods
+  name: CustomsGoods
+  href: classes/Conizi.Model.Shared.Entities.EdiContent.html#Conizi_Model_Shared_Entities_EdiContent_CustomsGoods
+  commentId: P:Conizi.Model.Shared.Entities.EdiContent.CustomsGoods
+  fullName: Conizi.Model.Shared.Entities.EdiContent.CustomsGoods
+  nameWithType: EdiContent.CustomsGoods
+- uid: Conizi.Model.Shared.Entities.EdiContent.CustomsGoods*
+  name: CustomsGoods
+  href: classes/Conizi.Model.Shared.Entities.EdiContent.html#Conizi_Model_Shared_Entities_EdiContent_CustomsGoods_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiContent.CustomsGoods
   isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiContent.ContentFlag
-  nameWithType: EdiContent.ContentFlag
+  fullName: Conizi.Model.Shared.Entities.EdiContent.CustomsGoods
+  nameWithType: EdiContent.CustomsGoods
+- uid: Conizi.Model.Shared.Entities.EdiContent.DangerousGoods
+  name: DangerousGoods
+  href: classes/Conizi.Model.Shared.Entities.EdiContent.html#Conizi_Model_Shared_Entities_EdiContent_DangerousGoods
+  commentId: P:Conizi.Model.Shared.Entities.EdiContent.DangerousGoods
+  fullName: Conizi.Model.Shared.Entities.EdiContent.DangerousGoods
+  nameWithType: EdiContent.DangerousGoods
+- uid: Conizi.Model.Shared.Entities.EdiContent.DangerousGoods*
+  name: DangerousGoods
+  href: classes/Conizi.Model.Shared.Entities.EdiContent.html#Conizi_Model_Shared_Entities_EdiContent_DangerousGoods_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiContent.DangerousGoods
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiContent.DangerousGoods
+  nameWithType: EdiContent.DangerousGoods
 - uid: Conizi.Model.Shared.Entities.EdiContent.HighValueGoods
   name: HighValueGoods
   href: classes/Conizi.Model.Shared.Entities.EdiContent.html#Conizi_Model_Shared_Entities_EdiContent_HighValueGoods
@@ -1830,38 +1843,6 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiContentCustomsInformation.StatisticalValue
   nameWithType: EdiContentCustomsInformation.StatisticalValue
-- uid: Conizi.Model.Shared.Entities.EdiContentFlag
-  name: EdiContentFlag
-  href: classes/Conizi.Model.Shared.Entities.EdiContentFlag.html
-  commentId: T:Conizi.Model.Shared.Entities.EdiContentFlag
-  fullName: Conizi.Model.Shared.Entities.EdiContentFlag
-  nameWithType: EdiContentFlag
-- uid: Conizi.Model.Shared.Entities.EdiContentFlag.CustomsGoods
-  name: CustomsGoods
-  href: classes/Conizi.Model.Shared.Entities.EdiContentFlag.html#Conizi_Model_Shared_Entities_EdiContentFlag_CustomsGoods
-  commentId: P:Conizi.Model.Shared.Entities.EdiContentFlag.CustomsGoods
-  fullName: Conizi.Model.Shared.Entities.EdiContentFlag.CustomsGoods
-  nameWithType: EdiContentFlag.CustomsGoods
-- uid: Conizi.Model.Shared.Entities.EdiContentFlag.CustomsGoods*
-  name: CustomsGoods
-  href: classes/Conizi.Model.Shared.Entities.EdiContentFlag.html#Conizi_Model_Shared_Entities_EdiContentFlag_CustomsGoods_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiContentFlag.CustomsGoods
-  isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiContentFlag.CustomsGoods
-  nameWithType: EdiContentFlag.CustomsGoods
-- uid: Conizi.Model.Shared.Entities.EdiContentFlag.DangerousGoods
-  name: DangerousGoods
-  href: classes/Conizi.Model.Shared.Entities.EdiContentFlag.html#Conizi_Model_Shared_Entities_EdiContentFlag_DangerousGoods
-  commentId: P:Conizi.Model.Shared.Entities.EdiContentFlag.DangerousGoods
-  fullName: Conizi.Model.Shared.Entities.EdiContentFlag.DangerousGoods
-  nameWithType: EdiContentFlag.DangerousGoods
-- uid: Conizi.Model.Shared.Entities.EdiContentFlag.DangerousGoods*
-  name: DangerousGoods
-  href: classes/Conizi.Model.Shared.Entities.EdiContentFlag.html#Conizi_Model_Shared_Entities_EdiContentFlag_DangerousGoods_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiContentFlag.DangerousGoods
-  isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiContentFlag.DangerousGoods
-  nameWithType: EdiContentFlag.DangerousGoods
 - uid: Conizi.Model.Shared.Entities.EdiCostsAndCharges
   name: EdiCostsAndCharges
   href: classes/Conizi.Model.Shared.Entities.EdiCostsAndCharges.html
@@ -11378,6 +11359,45 @@ references:
   commentId: T:Conizi.Model.Shared.Entities.EdiTransportServices
   fullName: Conizi.Model.Shared.Entities.EdiTransportServices
   nameWithType: EdiTransportServices
+- uid: Conizi.Model.Shared.Entities.EdiTransportServices.Anonymity
+  name: Anonymity
+  href: classes/Conizi.Model.Shared.Entities.EdiTransportServices.html#Conizi_Model_Shared_Entities_EdiTransportServices_Anonymity
+  commentId: P:Conizi.Model.Shared.Entities.EdiTransportServices.Anonymity
+  fullName: Conizi.Model.Shared.Entities.EdiTransportServices.Anonymity
+  nameWithType: EdiTransportServices.Anonymity
+- uid: Conizi.Model.Shared.Entities.EdiTransportServices.Anonymity*
+  name: Anonymity
+  href: classes/Conizi.Model.Shared.Entities.EdiTransportServices.html#Conizi_Model_Shared_Entities_EdiTransportServices_Anonymity_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiTransportServices.Anonymity
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiTransportServices.Anonymity
+  nameWithType: EdiTransportServices.Anonymity
+- uid: Conizi.Model.Shared.Entities.EdiTransportServices.Notification
+  name: Notification
+  href: classes/Conizi.Model.Shared.Entities.EdiTransportServices.html#Conizi_Model_Shared_Entities_EdiTransportServices_Notification
+  commentId: P:Conizi.Model.Shared.Entities.EdiTransportServices.Notification
+  fullName: Conizi.Model.Shared.Entities.EdiTransportServices.Notification
+  nameWithType: EdiTransportServices.Notification
+- uid: Conizi.Model.Shared.Entities.EdiTransportServices.Notification*
+  name: Notification
+  href: classes/Conizi.Model.Shared.Entities.EdiTransportServices.html#Conizi_Model_Shared_Entities_EdiTransportServices_Notification_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiTransportServices.Notification
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiTransportServices.Notification
+  nameWithType: EdiTransportServices.Notification
+- uid: Conizi.Model.Shared.Entities.EdiTransportServices.SpecialEquipment
+  name: SpecialEquipment
+  href: classes/Conizi.Model.Shared.Entities.EdiTransportServices.html#Conizi_Model_Shared_Entities_EdiTransportServices_SpecialEquipment
+  commentId: P:Conizi.Model.Shared.Entities.EdiTransportServices.SpecialEquipment
+  fullName: Conizi.Model.Shared.Entities.EdiTransportServices.SpecialEquipment
+  nameWithType: EdiTransportServices.SpecialEquipment
+- uid: Conizi.Model.Shared.Entities.EdiTransportServices.SpecialEquipment*
+  name: SpecialEquipment
+  href: classes/Conizi.Model.Shared.Entities.EdiTransportServices.html#Conizi_Model_Shared_Entities_EdiTransportServices_SpecialEquipment_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiTransportServices.SpecialEquipment
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiTransportServices.SpecialEquipment
+  nameWithType: EdiTransportServices.SpecialEquipment
 - uid: Conizi.Model.Shared.Entities.EdiTransportTimeSlot
   name: EdiTransportTimeSlot
   href: classes/Conizi.Model.Shared.Entities.EdiTransportTimeSlot.html
@@ -13116,19 +13136,6 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Telematics.Truck.TruckTour.Drivers
   nameWithType: TruckTour.Drivers
-- uid: Conizi.Model.Telematics.Truck.TruckTour.Flags
-  name: Flags
-  href: classes/Conizi.Model.Telematics.Truck.TruckTour.html#Conizi_Model_Telematics_Truck_TruckTour_Flags
-  commentId: P:Conizi.Model.Telematics.Truck.TruckTour.Flags
-  fullName: Conizi.Model.Telematics.Truck.TruckTour.Flags
-  nameWithType: TruckTour.Flags
-- uid: Conizi.Model.Telematics.Truck.TruckTour.Flags*
-  name: Flags
-  href: classes/Conizi.Model.Telematics.Truck.TruckTour.html#Conizi_Model_Telematics_Truck_TruckTour_Flags_
-  commentId: Overload:Conizi.Model.Telematics.Truck.TruckTour.Flags
-  isSpec: "True"
-  fullName: Conizi.Model.Telematics.Truck.TruckTour.Flags
-  nameWithType: TruckTour.Flags
 - uid: Conizi.Model.Telematics.Truck.TruckTour.LoadUnits
   name: LoadUnits
   href: classes/Conizi.Model.Telematics.Truck.TruckTour.html#Conizi_Model_Telematics_Truck_TruckTour_LoadUnits
@@ -13356,6 +13363,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Telematics.Truck.TruckTransportOrder.Information
   nameWithType: TruckTransportOrder.Information
+- uid: Conizi.Model.Telematics.Truck.TruckTransportOrder.MessageFunctionCode
+  name: MessageFunctionCode
+  href: classes/Conizi.Model.Telematics.Truck.TruckTransportOrder.html#Conizi_Model_Telematics_Truck_TruckTransportOrder_MessageFunctionCode
+  commentId: P:Conizi.Model.Telematics.Truck.TruckTransportOrder.MessageFunctionCode
+  fullName: Conizi.Model.Telematics.Truck.TruckTransportOrder.MessageFunctionCode
+  nameWithType: TruckTransportOrder.MessageFunctionCode
+- uid: Conizi.Model.Telematics.Truck.TruckTransportOrder.MessageFunctionCode*
+  name: MessageFunctionCode
+  href: classes/Conizi.Model.Telematics.Truck.TruckTransportOrder.html#Conizi_Model_Telematics_Truck_TruckTransportOrder_MessageFunctionCode_
+  commentId: Overload:Conizi.Model.Telematics.Truck.TruckTransportOrder.MessageFunctionCode
+  isSpec: "True"
+  fullName: Conizi.Model.Telematics.Truck.TruckTransportOrder.MessageFunctionCode
+  nameWithType: TruckTransportOrder.MessageFunctionCode
 - uid: Conizi.Model.Telematics.Truck.TruckTransportOrder.Orderer
   name: Orderer
   href: classes/Conizi.Model.Telematics.Truck.TruckTransportOrder.html#Conizi_Model_Telematics_Truck_TruckTransportOrder_Orderer
