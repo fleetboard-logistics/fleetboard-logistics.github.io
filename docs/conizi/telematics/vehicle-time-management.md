@@ -44,6 +44,7 @@ calculationType can be used as string or number (Optimistic/0)
 
 ## Prognosis Response
 
+   ```JSON
    {
     "CurrentDriverActivity": {
         "Duration": "00:43:52",
@@ -65,6 +66,6 @@ calculationType can be used as string or number (Optimistic/0)
     ],
     "ReceivedDateTime": "2020-03-12T09:13:03.385Z",
     "NextReceivingDateTime": "2020-03-12T09:27:43.469Z"
-
 }
+```
 
