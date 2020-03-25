@@ -161,11 +161,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Definitions.LoadType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Definitions.LoadType.html",
+          "hash": "L8AOi/D5xmBLx2hcvFZHFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.yml",
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html",
           "hash": "j/Y+y3FsJtkzcl0UMnm+2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Definitions.LoadingUnitType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Definitions.LoadingUnitType.html",
+          "hash": "UAdu8/86mxj1+4BySDWjIw=="
         }
       },
       "is_incremental": false,
@@ -201,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Definitions.html",
-          "hash": "SVuzEuqLs2yN3aji5182Rg=="
+          "hash": "KJd5yPP7YOI5W2lIMsyJlw=="
         }
       },
       "is_incremental": false,
@@ -1125,7 +1149,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiLoadUnit.html",
-          "hash": "zq+B5Rctd6FfYZbpjrb+aw=="
+          "hash": "dqPD3FOpDg+t4s+qx2hAmg=="
         }
       },
       "is_incremental": false,
@@ -2253,7 +2277,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTransportNotification.html",
-          "hash": "pB4XQL6c1bffCVh9s2Kg9A=="
+          "hash": "2PoNFMxgVpNotQ5YiDU4tQ=="
         }
       },
       "is_incremental": false,
@@ -2265,7 +2289,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTransportServices.html",
-          "hash": "0a14s4ctlFpY/DodhD7R+w=="
+          "hash": "v2b1vNLJC7KVGsuOXB1qeA=="
         }
       },
       "is_incremental": false,
@@ -3012,7 +3036,7 @@
       "output": {
         ".html": {
           "relative_path": "fusion/toc.html",
-          "hash": "EdR7XTKhaY7eQuZhPlJfrQ=="
+          "hash": "6sTbgcf4UHQ6rQw+yC42zA=="
         }
       },
       "is_incremental": false,
@@ -3081,7 +3105,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 242,
+          "total_file_count": 244,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
