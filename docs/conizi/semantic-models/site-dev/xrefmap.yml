@@ -9856,6 +9856,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Address
   nameWithType: EdiStopSpecificEvent.Address
+- uid: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Arrived
+  name: Arrived
+  href: classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html#Conizi_Model_Shared_Entities_EdiStopSpecificEvent_Arrived
+  commentId: P:Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Arrived
+  fullName: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Arrived
+  nameWithType: EdiStopSpecificEvent.Arrived
+- uid: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Arrived*
+  name: Arrived
+  href: classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html#Conizi_Model_Shared_Entities_EdiStopSpecificEvent_Arrived_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Arrived
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Arrived
+  nameWithType: EdiStopSpecificEvent.Arrived
 - uid: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.ArrivedAtLoadingPoint
   name: ArrivedAtLoadingPoint
   href: classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html#Conizi_Model_Shared_Entities_EdiStopSpecificEvent_ArrivedAtLoadingPoint
