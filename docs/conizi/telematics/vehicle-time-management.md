@@ -1,4 +1,4 @@
-# conizi Vehicle Time Management Endpoint (v1)
+# conizi Vehicle Time Management Endpoint
 The conizi Advanced ETA Prognosis-Timeline endpoint will listen to:
 
 * Production: https://conizi.io/api/telematics/v1/Prognosis
