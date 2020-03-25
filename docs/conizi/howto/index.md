@@ -44,7 +44,7 @@ The conizi HTTP Poll endpoint will listen to:
 
 ## GET /api/output/v1/{continuationToken}
 
-#### Attention: We recommend to only request data which are newer than a few days, otherwise it can come to longer waiting periods or timeouts. conizi is not to be used as an archive system, this endpoint is not designed for this!
+**Attention: We recommend to only request data which are newer than a few days, otherwise it can come to longer waiting periods or timeouts. conizi is not to be used as an archive system, this endpoint is not designed for this!**
 
 Gets a list of available items/files for the EDI Connection determined by the Api Key.
 The order of files can't be guaranteed but we try to maintain FIFO order.
