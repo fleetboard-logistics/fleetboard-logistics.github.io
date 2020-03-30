@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class TourStartOptions
+    <title>Enum LoadType
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class TourStartOptions
+    <meta name="title" content="Enum LoadType
    ">
     <meta name="generator" content="docfx 2.42.3.0">
     
@@ -68,105 +68,47 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.TourStartOptions">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Definitions.LoadType">
   
   
-  <h1 id="Conizi_Model_Shared_Entities_TourStartOptions" data-uid="Conizi.Model.Shared.Entities.TourStartOptions" class="text-break">Class TourStartOptions
+  <h1 id="Conizi_Model_Shared_Definitions_LoadType" data-uid="Conizi.Model.Shared.Definitions.LoadType" class="text-break">Enum LoadType
   </h1>
-  <div class="markdown level0 summary"><p>Tour start options. Activities the driver is supposed to do before starting driving the tour</p>
+  <div class="markdown level0 summary"><p>Types of the load (pickup, drop off)</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">TourStartOptions</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Definitions.html">Conizi.Model.Shared.Definitions</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
-  <h5 id="Conizi_Model_Shared_Entities_TourStartOptions_syntax">Syntax</h5>
+  <h5 id="Conizi_Model_Shared_Definitions_LoadType_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class TourStartOptions : object</code></pre>
+    <pre><code class="lang-csharp hljs">public enum LoadType : int</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
-  
-  
-  <a id="Conizi_Model_Shared_Entities_TourStartOptions_DepartureCheck_" data-uid="Conizi.Model.Shared.Entities.TourStartOptions.DepartureCheck*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_TourStartOptions_DepartureCheck" data-uid="Conizi.Model.Shared.Entities.TourStartOptions.DepartureCheck">DepartureCheck</h4>
-  <div class="markdown level1 summary"><p>Departure Check was made</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? DepartureCheck { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Conizi_Model_Shared_Entities_TourStartOptions_Remarks_" data-uid="Conizi.Model.Shared.Entities.TourStartOptions.Remarks*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_TourStartOptions_Remarks" data-uid="Conizi.Model.Shared.Entities.TourStartOptions.Remarks">Remarks</h4>
-  <div class="markdown level1 summary"><p>Additional remarks (free form)</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Remarks { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
     <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
+        <td id="Conizi_Model_Shared_Definitions_LoadType_Delivery">Delivery</td>
+        <td><p>A delivery</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Conizi_Model_Shared_Definitions_LoadType_Pickup">Pickup</td>
+        <td><p>A Pickup</p>
+</td>
+      </tr>
+      <tr>
+        <td id="Conizi_Model_Shared_Definitions_LoadType_Unknown">Unknown</td>
+        <td><p>Unknown load</p>
+</td>
       </tr>
     </tbody>
-  </table>
-  
-  
-  <a id="Conizi_Model_Shared_Entities_TourStartOptions_WriteDownMileage_" data-uid="Conizi.Model.Shared.Entities.TourStartOptions.WriteDownMileage*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_TourStartOptions_WriteDownMileage" data-uid="Conizi.Model.Shared.Entities.TourStartOptions.WriteDownMileage">WriteDownMileage</h4>
-  <div class="markdown level1 summary"><p>Write down the mileage</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool? WriteDownMileage { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  </thead></thead></table>
 </article>
           </div>
           

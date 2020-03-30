@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EdiLoadUnit
+    <title>Class TruckNotificationMessageResponseStates
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EdiLoadUnit
+    <meta name="title" content="Class TruckNotificationMessageResponseStates
    ">
     <meta name="generator" content="docfx 2.42.3.0">
     
@@ -68,38 +68,38 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiLoadUnit">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Telematics.Truck.TruckNotificationMessageResponseStates">
   
   
-  <h1 id="Conizi_Model_Shared_Entities_EdiLoadUnit" data-uid="Conizi.Model.Shared.Entities.EdiLoadUnit" class="text-break">Class EdiLoadUnit
+  <h1 id="Conizi_Model_Telematics_Truck_TruckNotificationMessageResponseStates" data-uid="Conizi.Model.Telematics.Truck.TruckNotificationMessageResponseStates" class="text-break">Class TruckNotificationMessageResponseStates
   </h1>
-  <div class="markdown level0 summary"><p>Load units (containers, swap bodies, ...) used to transport the goods</p>
+  <div class="markdown level0 summary"><p>Returns information about the state of the original message</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase</span></div>
-    <div class="level2"><span class="xref">EdiLoadUnit</span></div>
+    <div class="level2"><span class="xref">TruckNotificationMessageResponseStates</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Telematics.Truck.html">Conizi.Model.Telematics.Truck</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
-  <h5 id="Conizi_Model_Shared_Entities_EdiLoadUnit_syntax">Syntax</h5>
+  <h5 id="Conizi_Model_Telematics_Truck_TruckNotificationMessageResponseStates_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EdiLoadUnit : EdiPatternPropertiesBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class TruckNotificationMessageResponseStates : EdiPatternPropertiesBase</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiLoadUnit_CustomLoadingUnitTypeName_" data-uid="Conizi.Model.Shared.Entities.EdiLoadUnit.CustomLoadingUnitTypeName*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiLoadUnit_CustomLoadingUnitTypeName" data-uid="Conizi.Model.Shared.Entities.EdiLoadUnit.CustomLoadingUnitTypeName">CustomLoadingUnitTypeName</h4>
-  <div class="markdown level1 summary"><p>Custom Loading Unit Type Name, like specialContainers or trailer formats</p>
+  <a id="Conizi_Model_Telematics_Truck_TruckNotificationMessageResponseStates_Delivered_" data-uid="Conizi.Model.Telematics.Truck.TruckNotificationMessageResponseStates.Delivered*"></a>
+  <h4 id="Conizi_Model_Telematics_Truck_TruckNotificationMessageResponseStates_Delivered" data-uid="Conizi.Model.Telematics.Truck.TruckNotificationMessageResponseStates.Delivered">Delivered</h4>
+  <div class="markdown level1 summary"><p>Original message was delivered</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string CustomLoadingUnitTypeName { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool? Delivered { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -111,50 +111,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="Conizi_Model_Shared_Entities_EdiLoadUnit_CustomLoadingUnitTypeName_remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>Should only be used, if the UnitType is set to CustomLoadingUnit!</p>
-</div>
-  
-  
-  <a id="Conizi_Model_Shared_Entities_EdiLoadUnit_Identification_" data-uid="Conizi.Model.Shared.Entities.EdiLoadUnit.Identification*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiLoadUnit_Identification" data-uid="Conizi.Model.Shared.Entities.EdiLoadUnit.Identification">Identification</h4>
-  <div class="markdown level1 summary"><p>Identification (e.g. registration number) of the unit&quot;</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Identification { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiLoadUnit_Seals_" data-uid="Conizi.Model.Shared.Entities.EdiLoadUnit.Seals*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiLoadUnit_Seals" data-uid="Conizi.Model.Shared.Entities.EdiLoadUnit.Seals">Seals</h4>
-  <div class="markdown level1 summary"><p>List of seals used to prevent tampering with the goods in the load unit</p>
+  <a id="Conizi_Model_Telematics_Truck_TruckNotificationMessageResponseStates_DeliveryFailed_" data-uid="Conizi.Model.Telematics.Truck.TruckNotificationMessageResponseStates.DeliveryFailed*"></a>
+  <h4 id="Conizi_Model_Telematics_Truck_TruckNotificationMessageResponseStates_DeliveryFailed" data-uid="Conizi.Model.Telematics.Truck.TruckNotificationMessageResponseStates.DeliveryFailed">DeliveryFailed</h4>
+  <div class="markdown level1 summary"><p>Original message was not delivered!</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;EdiSeal&gt; Seals { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool? DeliveryFailed { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -166,21 +137,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiSeal.html">EdiSeal</a>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiLoadUnit_UnitType_" data-uid="Conizi.Model.Shared.Entities.EdiLoadUnit.UnitType*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiLoadUnit_UnitType" data-uid="Conizi.Model.Shared.Entities.EdiLoadUnit.UnitType">UnitType</h4>
-  <div class="markdown level1 summary"><p>Type of loading equipment like eur pallets, euro boxes...</p>
+  <a id="Conizi_Model_Telematics_Truck_TruckNotificationMessageResponseStates_MessageWasRead_" data-uid="Conizi.Model.Telematics.Truck.TruckNotificationMessageResponseStates.MessageWasRead*"></a>
+  <h4 id="Conizi_Model_Telematics_Truck_TruckNotificationMessageResponseStates_MessageWasRead" data-uid="Conizi.Model.Telematics.Truck.TruckNotificationMessageResponseStates.MessageWasRead">MessageWasRead</h4>
+  <div class="markdown level1 summary"><p>Original message was read</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LoadingUnitType UnitType { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool? MessageWasRead { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -192,7 +163,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Conizi.Model.Shared.Definitions.LoadingUnitType.html">LoadingUnitType</a></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
