@@ -456,15 +456,15 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Core.Tools.Converter.Serialize
   nameWithType: Converter.Serialize
-- uid: Conizi.Model.Core.Tools.Converter.Serialize``1(``0,System.Boolean,System.Boolean,System.Boolean)
-  name: Serialize<TModel>(TModel, Boolean, Boolean, Boolean)
-  href: core_lib/Conizi.Model.Core.Tools.Converter.html#Conizi_Model_Core_Tools_Converter_Serialize__1___0_System_Boolean_System_Boolean_System_Boolean_
-  commentId: M:Conizi.Model.Core.Tools.Converter.Serialize``1(``0,System.Boolean,System.Boolean,System.Boolean)
-  name.vb: Serialize(Of TModel)(TModel, Boolean, Boolean, Boolean)
-  fullName: Conizi.Model.Core.Tools.Converter.Serialize<TModel>(TModel, System.Boolean, System.Boolean, System.Boolean)
-  fullName.vb: Conizi.Model.Core.Tools.Converter.Serialize(Of TModel)(TModel, System.Boolean, System.Boolean, System.Boolean)
-  nameWithType: Converter.Serialize<TModel>(TModel, Boolean, Boolean, Boolean)
-  nameWithType.vb: Converter.Serialize(Of TModel)(TModel, Boolean, Boolean, Boolean)
+- uid: Conizi.Model.Core.Tools.Converter.Serialize``1(``0,System.Boolean,System.Boolean)
+  name: Serialize<TModel>(TModel, Boolean, Boolean)
+  href: core_lib/Conizi.Model.Core.Tools.Converter.html#Conizi_Model_Core_Tools_Converter_Serialize__1___0_System_Boolean_System_Boolean_
+  commentId: M:Conizi.Model.Core.Tools.Converter.Serialize``1(``0,System.Boolean,System.Boolean)
+  name.vb: Serialize(Of TModel)(TModel, Boolean, Boolean)
+  fullName: Conizi.Model.Core.Tools.Converter.Serialize<TModel>(TModel, System.Boolean, System.Boolean)
+  fullName.vb: Conizi.Model.Core.Tools.Converter.Serialize(Of TModel)(TModel, System.Boolean, System.Boolean)
+  nameWithType: Converter.Serialize<TModel>(TModel, Boolean, Boolean)
+  nameWithType.vb: Converter.Serialize(Of TModel)(TModel, Boolean, Boolean)
 - uid: Conizi.Model.Core.Tools.Generator
   name: Generator
   href: core_lib/Conizi.Model.Core.Tools.Generator.html
@@ -13053,6 +13053,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Telematics.Truck.TruckNotificationMessage.MessageType
   nameWithType: TruckNotificationMessage.MessageType
+- uid: Conizi.Model.Telematics.Truck.TruckNotificationMessage.References
+  name: References
+  href: classes/Conizi.Model.Telematics.Truck.TruckNotificationMessage.html#Conizi_Model_Telematics_Truck_TruckNotificationMessage_References
+  commentId: P:Conizi.Model.Telematics.Truck.TruckNotificationMessage.References
+  fullName: Conizi.Model.Telematics.Truck.TruckNotificationMessage.References
+  nameWithType: TruckNotificationMessage.References
+- uid: Conizi.Model.Telematics.Truck.TruckNotificationMessage.References*
+  name: References
+  href: classes/Conizi.Model.Telematics.Truck.TruckNotificationMessage.html#Conizi_Model_Telematics_Truck_TruckNotificationMessage_References_
+  commentId: Overload:Conizi.Model.Telematics.Truck.TruckNotificationMessage.References
+  isSpec: "True"
+  fullName: Conizi.Model.Telematics.Truck.TruckNotificationMessage.References
+  nameWithType: TruckNotificationMessage.References
 - uid: Conizi.Model.Telematics.Truck.TruckNotificationMessage.SendDateTime
   name: SendDateTime
   href: classes/Conizi.Model.Telematics.Truck.TruckNotificationMessage.html#Conizi_Model_Telematics_Truck_TruckNotificationMessage_SendDateTime
@@ -13707,6 +13720,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Telematics.Truck.TruckTransportOrder.Orderer
   nameWithType: TruckTransportOrder.Orderer
+- uid: Conizi.Model.Telematics.Truck.TruckTransportOrder.References
+  name: References
+  href: classes/Conizi.Model.Telematics.Truck.TruckTransportOrder.html#Conizi_Model_Telematics_Truck_TruckTransportOrder_References
+  commentId: P:Conizi.Model.Telematics.Truck.TruckTransportOrder.References
+  fullName: Conizi.Model.Telematics.Truck.TruckTransportOrder.References
+  nameWithType: TruckTransportOrder.References
+- uid: Conizi.Model.Telematics.Truck.TruckTransportOrder.References*
+  name: References
+  href: classes/Conizi.Model.Telematics.Truck.TruckTransportOrder.html#Conizi_Model_Telematics_Truck_TruckTransportOrder_References_
+  commentId: Overload:Conizi.Model.Telematics.Truck.TruckTransportOrder.References
+  isSpec: "True"
+  fullName: Conizi.Model.Telematics.Truck.TruckTransportOrder.References
+  nameWithType: TruckTransportOrder.References
 - uid: Conizi.Model.Telematics.Truck.TruckTransportOrder.Routing
   name: Routing
   href: classes/Conizi.Model.Telematics.Truck.TruckTransportOrder.html#Conizi_Model_Telematics_Truck_TruckTransportOrder_Routing
