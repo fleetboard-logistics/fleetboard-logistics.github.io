@@ -203,13 +203,13 @@
   
   
   <a id="Conizi_Model_Core_Tools_Converter_Serialize_" data-uid="Conizi.Model.Core.Tools.Converter.Serialize*"></a>
-  <h4 id="Conizi_Model_Core_Tools_Converter_Serialize__1___0_System_Boolean_System_Boolean_" data-uid="Conizi.Model.Core.Tools.Converter.Serialize``1(``0,System.Boolean,System.Boolean)">Serialize&lt;TModel&gt;(TModel, Boolean, Boolean)</h4>
+  <h4 id="Conizi_Model_Core_Tools_Converter_Serialize__1___0_System_Boolean_System_Boolean_System_Boolean_" data-uid="Conizi.Model.Core.Tools.Converter.Serialize``1(``0,System.Boolean,System.Boolean,System.Boolean)">Serialize&lt;TModel&gt;(TModel, Boolean, Boolean, Boolean)</h4>
   <div class="markdown level1 summary"><p>Serialize a C# model instance to JSON</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static SerializationResult Serialize&lt;TModel&gt;(TModel model, bool indented = false, bool ignoreValidation = false)
+    <pre><code class="lang-csharp hljs">public static SerializationResult Serialize&lt;TModel&gt;(TModel model, bool indented = false, bool ignoreValidation = false, bool writeMetadata = false)
     where TModel : EdiModel</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -239,6 +239,11 @@
         <td><span class="parametername">ignoreValidation</span></td>
         <td><p>Ignore the validation after serialization. May be helpful if no JSON Schema license is available</p>
 </td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">writeMetadata</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -274,7 +279,7 @@
       </tr>
     </tbody>
   </table>
-  <h5 id="Conizi_Model_Core_Tools_Converter_Serialize__1___0_System_Boolean_System_Boolean__examples">Examples</h5>
+  <h5 id="Conizi_Model_Core_Tools_Converter_Serialize__1___0_System_Boolean_System_Boolean_System_Boolean__examples">Examples</h5>
   <p>Serialize a model instance to JSON.</p>
 <pre><code>var result = Converter.Serialize(m);</code></pre>
 
