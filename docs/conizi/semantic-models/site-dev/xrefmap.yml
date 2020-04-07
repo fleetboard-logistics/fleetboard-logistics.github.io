@@ -9321,6 +9321,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiSelfDisposal.BarcodeOnly
   nameWithType: EdiSelfDisposal.BarcodeOnly
+- uid: Conizi.Model.Shared.Entities.EdiSelfDisposal.GroupName
+  name: GroupName
+  href: classes/Conizi.Model.Shared.Entities.EdiSelfDisposal.html#Conizi_Model_Shared_Entities_EdiSelfDisposal_GroupName
+  commentId: P:Conizi.Model.Shared.Entities.EdiSelfDisposal.GroupName
+  fullName: Conizi.Model.Shared.Entities.EdiSelfDisposal.GroupName
+  nameWithType: EdiSelfDisposal.GroupName
+- uid: Conizi.Model.Shared.Entities.EdiSelfDisposal.GroupName*
+  name: GroupName
+  href: classes/Conizi.Model.Shared.Entities.EdiSelfDisposal.html#Conizi_Model_Shared_Entities_EdiSelfDisposal_GroupName_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiSelfDisposal.GroupName
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiSelfDisposal.GroupName
+  nameWithType: EdiSelfDisposal.GroupName
 - uid: Conizi.Model.Shared.Entities.EdiServices
   name: EdiServices
   href: classes/Conizi.Model.Shared.Entities.EdiServices.html
@@ -15860,6 +15873,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Route
   nameWithType: Tour.Route
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.SelfDisposal
+  name: SelfDisposal
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_SelfDisposal
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.SelfDisposal
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.SelfDisposal
+  nameWithType: Tour.SelfDisposal
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.SelfDisposal*
+  name: SelfDisposal
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_SelfDisposal_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.SelfDisposal
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.SelfDisposal
+  nameWithType: Tour.SelfDisposal
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.ShippingDate
   name: ShippingDate
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_ShippingDate
