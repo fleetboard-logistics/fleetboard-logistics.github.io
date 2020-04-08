@@ -6195,6 +6195,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiMeasures.ChargeableWeightKilogram
   nameWithType: EdiMeasures.ChargeableWeightKilogram
+- uid: Conizi.Model.Shared.Entities.EdiMeasures.EmptyWeightKilogram
+  name: EmptyWeightKilogram
+  href: classes/Conizi.Model.Shared.Entities.EdiMeasures.html#Conizi_Model_Shared_Entities_EdiMeasures_EmptyWeightKilogram
+  commentId: P:Conizi.Model.Shared.Entities.EdiMeasures.EmptyWeightKilogram
+  fullName: Conizi.Model.Shared.Entities.EdiMeasures.EmptyWeightKilogram
+  nameWithType: EdiMeasures.EmptyWeightKilogram
+- uid: Conizi.Model.Shared.Entities.EdiMeasures.EmptyWeightKilogram*
+  name: EmptyWeightKilogram
+  href: classes/Conizi.Model.Shared.Entities.EdiMeasures.html#Conizi_Model_Shared_Entities_EdiMeasures_EmptyWeightKilogram_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMeasures.EmptyWeightKilogram
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMeasures.EmptyWeightKilogram
+  nameWithType: EdiMeasures.EmptyWeightKilogram
 - uid: Conizi.Model.Shared.Entities.EdiMeasures.GrossWeightKilogram
   name: GrossWeightKilogram
   href: classes/Conizi.Model.Shared.Entities.EdiMeasures.html#Conizi_Model_Shared_Entities_EdiMeasures_GrossWeightKilogram
@@ -6247,6 +6260,32 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiMeasures.LoadingMeter
   nameWithType: EdiMeasures.LoadingMeter
+- uid: Conizi.Model.Shared.Entities.EdiMeasures.LoadingWeightKilogram
+  name: LoadingWeightKilogram
+  href: classes/Conizi.Model.Shared.Entities.EdiMeasures.html#Conizi_Model_Shared_Entities_EdiMeasures_LoadingWeightKilogram
+  commentId: P:Conizi.Model.Shared.Entities.EdiMeasures.LoadingWeightKilogram
+  fullName: Conizi.Model.Shared.Entities.EdiMeasures.LoadingWeightKilogram
+  nameWithType: EdiMeasures.LoadingWeightKilogram
+- uid: Conizi.Model.Shared.Entities.EdiMeasures.LoadingWeightKilogram*
+  name: LoadingWeightKilogram
+  href: classes/Conizi.Model.Shared.Entities.EdiMeasures.html#Conizi_Model_Shared_Entities_EdiMeasures_LoadingWeightKilogram_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMeasures.LoadingWeightKilogram
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMeasures.LoadingWeightKilogram
+  nameWithType: EdiMeasures.LoadingWeightKilogram
+- uid: Conizi.Model.Shared.Entities.EdiMeasures.TotalWeightKilogram
+  name: TotalWeightKilogram
+  href: classes/Conizi.Model.Shared.Entities.EdiMeasures.html#Conizi_Model_Shared_Entities_EdiMeasures_TotalWeightKilogram
+  commentId: P:Conizi.Model.Shared.Entities.EdiMeasures.TotalWeightKilogram
+  fullName: Conizi.Model.Shared.Entities.EdiMeasures.TotalWeightKilogram
+  nameWithType: EdiMeasures.TotalWeightKilogram
+- uid: Conizi.Model.Shared.Entities.EdiMeasures.TotalWeightKilogram*
+  name: TotalWeightKilogram
+  href: classes/Conizi.Model.Shared.Entities.EdiMeasures.html#Conizi_Model_Shared_Entities_EdiMeasures_TotalWeightKilogram_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMeasures.TotalWeightKilogram
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMeasures.TotalWeightKilogram
+  nameWithType: EdiMeasures.TotalWeightKilogram
 - uid: Conizi.Model.Shared.Entities.EdiMeasures.VolumeCubicmeter
   name: VolumeCubicmeter
   href: classes/Conizi.Model.Shared.Entities.EdiMeasures.html#Conizi_Model_Shared_Entities_EdiMeasures_VolumeCubicmeter
@@ -6260,6 +6299,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiMeasures.VolumeCubicmeter
   nameWithType: EdiMeasures.VolumeCubicmeter
+- uid: Conizi.Model.Shared.Entities.EdiMeasures.VolumeLiter
+  name: VolumeLiter
+  href: classes/Conizi.Model.Shared.Entities.EdiMeasures.html#Conizi_Model_Shared_Entities_EdiMeasures_VolumeLiter
+  commentId: P:Conizi.Model.Shared.Entities.EdiMeasures.VolumeLiter
+  fullName: Conizi.Model.Shared.Entities.EdiMeasures.VolumeLiter
+  nameWithType: EdiMeasures.VolumeLiter
+- uid: Conizi.Model.Shared.Entities.EdiMeasures.VolumeLiter*
+  name: VolumeLiter
+  href: classes/Conizi.Model.Shared.Entities.EdiMeasures.html#Conizi_Model_Shared_Entities_EdiMeasures_VolumeLiter_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMeasures.VolumeLiter
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMeasures.VolumeLiter
+  nameWithType: EdiMeasures.VolumeLiter
 - uid: Conizi.Model.Shared.Entities.EdiMeasures.WidthMeter
   name: WidthMeter
   href: classes/Conizi.Model.Shared.Entities.EdiMeasures.html#Conizi_Model_Shared_Entities_EdiMeasures_WidthMeter
