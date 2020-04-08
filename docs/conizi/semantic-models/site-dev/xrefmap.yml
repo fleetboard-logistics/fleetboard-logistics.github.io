@@ -886,6 +886,48 @@ references:
   commentId: F:Conizi.Model.Shared.Definitions.MeasurementUnitCode.StatuteMile
   fullName: Conizi.Model.Shared.Definitions.MeasurementUnitCode.StatuteMile
   nameWithType: MeasurementUnitCode.StatuteMile
+- uid: Conizi.Model.Shared.Definitions.StopType
+  name: StopType
+  href: classes/Conizi.Model.Shared.Definitions.StopType.html
+  commentId: T:Conizi.Model.Shared.Definitions.StopType
+  fullName: Conizi.Model.Shared.Definitions.StopType
+  nameWithType: StopType
+- uid: Conizi.Model.Shared.Definitions.StopType.BorderCross
+  name: BorderCross
+  href: classes/Conizi.Model.Shared.Definitions.StopType.html#Conizi_Model_Shared_Definitions_StopType_BorderCross
+  commentId: F:Conizi.Model.Shared.Definitions.StopType.BorderCross
+  fullName: Conizi.Model.Shared.Definitions.StopType.BorderCross
+  nameWithType: StopType.BorderCross
+- uid: Conizi.Model.Shared.Definitions.StopType.FuelStop
+  name: FuelStop
+  href: classes/Conizi.Model.Shared.Definitions.StopType.html#Conizi_Model_Shared_Definitions_StopType_FuelStop
+  commentId: F:Conizi.Model.Shared.Definitions.StopType.FuelStop
+  fullName: Conizi.Model.Shared.Definitions.StopType.FuelStop
+  nameWithType: StopType.FuelStop
+- uid: Conizi.Model.Shared.Definitions.StopType.Loading
+  name: Loading
+  href: classes/Conizi.Model.Shared.Definitions.StopType.html#Conizi_Model_Shared_Definitions_StopType_Loading
+  commentId: F:Conizi.Model.Shared.Definitions.StopType.Loading
+  fullName: Conizi.Model.Shared.Definitions.StopType.Loading
+  nameWithType: StopType.Loading
+- uid: Conizi.Model.Shared.Definitions.StopType.Unloading
+  name: Unloading
+  href: classes/Conizi.Model.Shared.Definitions.StopType.html#Conizi_Model_Shared_Definitions_StopType_Unloading
+  commentId: F:Conizi.Model.Shared.Definitions.StopType.Unloading
+  fullName: Conizi.Model.Shared.Definitions.StopType.Unloading
+  nameWithType: StopType.Unloading
+- uid: Conizi.Model.Shared.Definitions.StopType.WayPoint
+  name: WayPoint
+  href: classes/Conizi.Model.Shared.Definitions.StopType.html#Conizi_Model_Shared_Definitions_StopType_WayPoint
+  commentId: F:Conizi.Model.Shared.Definitions.StopType.WayPoint
+  fullName: Conizi.Model.Shared.Definitions.StopType.WayPoint
+  nameWithType: StopType.WayPoint
+- uid: Conizi.Model.Shared.Definitions.StopType.YardNavigation
+  name: YardNavigation
+  href: classes/Conizi.Model.Shared.Definitions.StopType.html#Conizi_Model_Shared_Definitions_StopType_YardNavigation
+  commentId: F:Conizi.Model.Shared.Definitions.StopType.YardNavigation
+  fullName: Conizi.Model.Shared.Definitions.StopType.YardNavigation
+  nameWithType: StopType.YardNavigation
 - uid: Conizi.Model.Shared.Definitions.UrgencyCode
   name: UrgencyCode
   href: classes/Conizi.Model.Shared.Definitions.UrgencyCode.html
@@ -10038,6 +10080,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.StopId
   nameWithType: EdiStopSpecificEvent.StopId
+- uid: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.StopType
+  name: StopType
+  href: classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html#Conizi_Model_Shared_Entities_EdiStopSpecificEvent_StopType
+  commentId: P:Conizi.Model.Shared.Entities.EdiStopSpecificEvent.StopType
+  fullName: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.StopType
+  nameWithType: EdiStopSpecificEvent.StopType
+- uid: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.StopType*
+  name: StopType
+  href: classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html#Conizi_Model_Shared_Entities_EdiStopSpecificEvent_StopType_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiStopSpecificEvent.StopType
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.StopType
+  nameWithType: EdiStopSpecificEvent.StopType
 - uid: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.UnloadingCompleted
   name: UnloadingCompleted
   href: classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html#Conizi_Model_Shared_Entities_EdiStopSpecificEvent_UnloadingCompleted
@@ -11142,6 +11197,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiTourStop.StopNo
   nameWithType: EdiTourStop.StopNo
+- uid: Conizi.Model.Shared.Entities.EdiTourStop.StopType
+  name: StopType
+  href: classes/Conizi.Model.Shared.Entities.EdiTourStop.html#Conizi_Model_Shared_Entities_EdiTourStop_StopType
+  commentId: P:Conizi.Model.Shared.Entities.EdiTourStop.StopType
+  fullName: Conizi.Model.Shared.Entities.EdiTourStop.StopType
+  nameWithType: EdiTourStop.StopType
+- uid: Conizi.Model.Shared.Entities.EdiTourStop.StopType*
+  name: StopType
+  href: classes/Conizi.Model.Shared.Entities.EdiTourStop.html#Conizi_Model_Shared_Entities_EdiTourStop_StopType_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiTourStop.StopType
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiTourStop.StopType
+  nameWithType: EdiTourStop.StopType
 - uid: Conizi.Model.Shared.Entities.EdiTourStop.UnloadingInformation
   name: UnloadingInformation
   href: classes/Conizi.Model.Shared.Entities.EdiTourStop.html#Conizi_Model_Shared_Entities_EdiTourStop_UnloadingInformation
