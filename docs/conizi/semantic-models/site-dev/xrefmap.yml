@@ -5769,6 +5769,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiLine.AdditionalLoadingEquipment
   nameWithType: EdiLine.AdditionalLoadingEquipment
+- uid: Conizi.Model.Shared.Entities.EdiLine.Article
+  name: Article
+  href: classes/Conizi.Model.Shared.Entities.EdiLine.html#Conizi_Model_Shared_Entities_EdiLine_Article
+  commentId: P:Conizi.Model.Shared.Entities.EdiLine.Article
+  fullName: Conizi.Model.Shared.Entities.EdiLine.Article
+  nameWithType: EdiLine.Article
+- uid: Conizi.Model.Shared.Entities.EdiLine.Article*
+  name: Article
+  href: classes/Conizi.Model.Shared.Entities.EdiLine.html#Conizi_Model_Shared_Entities_EdiLine_Article_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiLine.Article
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiLine.Article
+  nameWithType: EdiLine.Article
 - uid: Conizi.Model.Shared.Entities.EdiLine.Barcodes
   name: Barcodes
   href: classes/Conizi.Model.Shared.Entities.EdiLine.html#Conizi_Model_Shared_Entities_EdiLine_Barcodes
