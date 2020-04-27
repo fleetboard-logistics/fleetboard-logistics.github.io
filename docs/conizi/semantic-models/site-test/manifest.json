@@ -669,7 +669,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html",
-          "hash": "2HZ7vnZMYYxlOVtt261ozA=="
+          "hash": "5bE3Rf/G5tw9mwvuyDL5QA=="
         }
       },
       "is_incremental": false,
@@ -681,7 +681,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiDocumentReferencesExtended.html",
-          "hash": "QnyXZD1/vPZFj2D6a6b9Rg=="
+          "hash": "RfKJwf8HfHFOHXtFrU/NGg=="
         }
       },
       "is_incremental": false,
@@ -1245,7 +1245,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiMetadata.html",
-          "hash": "eEb/4b1Z8nxbm8z8QZyKBA=="
+          "hash": "CtllWRSbB+//1jNTiOQJ4g=="
         }
       },
       "is_incremental": false,
@@ -3144,10 +3144,11 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
+        "ResourceDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 9,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
@@ -3156,11 +3157,10 @@
           "total_file_count": 248,
           "skipped_file_count": 0
         },
-        "ResourceDocumentProcessor": {
+        "ConceptualDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 9,
           "skipped_file_count": 0
         }
       }

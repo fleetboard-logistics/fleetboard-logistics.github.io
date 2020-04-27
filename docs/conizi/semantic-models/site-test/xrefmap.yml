@@ -3982,6 +3982,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences.ConsignmentObjectId
   nameWithType: EdiDocumentReferences.ConsignmentObjectId
+- uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.DeliveryNote
+  name: DeliveryNote
+  href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_DeliveryNote
+  commentId: P:Conizi.Model.Shared.Entities.EdiDocumentReferences.DeliveryNote
+  fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences.DeliveryNote
+  nameWithType: EdiDocumentReferences.DeliveryNote
+- uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.DeliveryNote*
+  name: DeliveryNote
+  href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_DeliveryNote_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiDocumentReferences.DeliveryNote
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences.DeliveryNote
+  nameWithType: EdiDocumentReferences.DeliveryNote
 - uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.DeviceId
   name: DeviceId
   href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_DeviceId
@@ -6415,6 +6428,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiMetadata.CreatedBy
   nameWithType: EdiMetadata.CreatedBy
+- uid: Conizi.Model.Shared.Entities.EdiMetadata.Intent
+  name: Intent
+  href: classes/Conizi.Model.Shared.Entities.EdiMetadata.html#Conizi_Model_Shared_Entities_EdiMetadata_Intent
+  commentId: P:Conizi.Model.Shared.Entities.EdiMetadata.Intent
+  fullName: Conizi.Model.Shared.Entities.EdiMetadata.Intent
+  nameWithType: EdiMetadata.Intent
+- uid: Conizi.Model.Shared.Entities.EdiMetadata.Intent*
+  name: Intent
+  href: classes/Conizi.Model.Shared.Entities.EdiMetadata.html#Conizi_Model_Shared_Entities_EdiMetadata_Intent_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMetadata.Intent
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMetadata.Intent
+  nameWithType: EdiMetadata.Intent
 - uid: Conizi.Model.Shared.Entities.EdiMetadata.Receiver
   name: Receiver
   href: classes/Conizi.Model.Shared.Entities.EdiMetadata.html#Conizi_Model_Shared_Entities_EdiMetadata_Receiver
