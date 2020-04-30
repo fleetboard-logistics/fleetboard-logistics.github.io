@@ -910,6 +910,12 @@ references:
   commentId: F:Conizi.Model.Shared.Definitions.StopType.Loading
   fullName: Conizi.Model.Shared.Definitions.StopType.Loading
   nameWithType: StopType.Loading
+- uid: Conizi.Model.Shared.Definitions.StopType.Unknown
+  name: Unknown
+  href: classes/Conizi.Model.Shared.Definitions.StopType.html#Conizi_Model_Shared_Definitions_StopType_Unknown
+  commentId: F:Conizi.Model.Shared.Definitions.StopType.Unknown
+  fullName: Conizi.Model.Shared.Definitions.StopType.Unknown
+  nameWithType: StopType.Unknown
 - uid: Conizi.Model.Shared.Definitions.StopType.Unloading
   name: Unloading
   href: classes/Conizi.Model.Shared.Definitions.StopType.html#Conizi_Model_Shared_Definitions_StopType_Unloading
@@ -10093,6 +10099,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.Eta
   nameWithType: EdiStopSpecificEvent.Eta
+- uid: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.GeoFenceTriggered
+  name: GeoFenceTriggered
+  href: classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html#Conizi_Model_Shared_Entities_EdiStopSpecificEvent_GeoFenceTriggered
+  commentId: P:Conizi.Model.Shared.Entities.EdiStopSpecificEvent.GeoFenceTriggered
+  fullName: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.GeoFenceTriggered
+  nameWithType: EdiStopSpecificEvent.GeoFenceTriggered
+- uid: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.GeoFenceTriggered*
+  name: GeoFenceTriggered
+  href: classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html#Conizi_Model_Shared_Entities_EdiStopSpecificEvent_GeoFenceTriggered_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiStopSpecificEvent.GeoFenceTriggered
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.GeoFenceTriggered
+  nameWithType: EdiStopSpecificEvent.GeoFenceTriggered
 - uid: Conizi.Model.Shared.Entities.EdiStopSpecificEvent.LoadingCompleted
   name: LoadingCompleted
   href: classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html#Conizi_Model_Shared_Entities_EdiStopSpecificEvent_LoadingCompleted
@@ -13652,19 +13671,6 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Telematics.Truck.TruckTour.MessageFunctionCode
   nameWithType: TruckTour.MessageFunctionCode
-- uid: Conizi.Model.Telematics.Truck.TruckTour.References
-  name: References
-  href: classes/Conizi.Model.Telematics.Truck.TruckTour.html#Conizi_Model_Telematics_Truck_TruckTour_References
-  commentId: P:Conizi.Model.Telematics.Truck.TruckTour.References
-  fullName: Conizi.Model.Telematics.Truck.TruckTour.References
-  nameWithType: TruckTour.References
-- uid: Conizi.Model.Telematics.Truck.TruckTour.References*
-  name: References
-  href: classes/Conizi.Model.Telematics.Truck.TruckTour.html#Conizi_Model_Telematics_Truck_TruckTour_References_
-  commentId: Overload:Conizi.Model.Telematics.Truck.TruckTour.References
-  isSpec: "True"
-  fullName: Conizi.Model.Telematics.Truck.TruckTour.References
-  nameWithType: TruckTour.References
 - uid: Conizi.Model.Telematics.Truck.TruckTour.Remarks
   name: Remarks
   href: classes/Conizi.Model.Telematics.Truck.TruckTour.html#Conizi_Model_Telematics_Truck_TruckTour_Remarks
@@ -13756,6 +13762,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Telematics.Truck.TruckTour.TourInformation
   nameWithType: TruckTour.TourInformation
+- uid: Conizi.Model.Telematics.Truck.TruckTour.TourName
+  name: TourName
+  href: classes/Conizi.Model.Telematics.Truck.TruckTour.html#Conizi_Model_Telematics_Truck_TruckTour_TourName
+  commentId: P:Conizi.Model.Telematics.Truck.TruckTour.TourName
+  fullName: Conizi.Model.Telematics.Truck.TruckTour.TourName
+  nameWithType: TruckTour.TourName
+- uid: Conizi.Model.Telematics.Truck.TruckTour.TourName*
+  name: TourName
+  href: classes/Conizi.Model.Telematics.Truck.TruckTour.html#Conizi_Model_Telematics_Truck_TruckTour_TourName_
+  commentId: Overload:Conizi.Model.Telematics.Truck.TruckTour.TourName
+  isSpec: "True"
+  fullName: Conizi.Model.Telematics.Truck.TruckTour.TourName
+  nameWithType: TruckTour.TourName
 - uid: Conizi.Model.Telematics.Truck.TruckTour.TourStartOptions
   name: TourStartOptions
   href: classes/Conizi.Model.Telematics.Truck.TruckTour.html#Conizi_Model_Telematics_Truck_TruckTour_TourStartOptions
@@ -13795,6 +13814,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Telematics.Truck.TruckTour.Vehicles
   nameWithType: TruckTour.Vehicles
+- uid: Conizi.Model.Telematics.Truck.TruckTour.WorfklowId
+  name: WorfklowId
+  href: classes/Conizi.Model.Telematics.Truck.TruckTour.html#Conizi_Model_Telematics_Truck_TruckTour_WorfklowId
+  commentId: P:Conizi.Model.Telematics.Truck.TruckTour.WorfklowId
+  fullName: Conizi.Model.Telematics.Truck.TruckTour.WorfklowId
+  nameWithType: TruckTour.WorfklowId
+- uid: Conizi.Model.Telematics.Truck.TruckTour.WorfklowId*
+  name: WorfklowId
+  href: classes/Conizi.Model.Telematics.Truck.TruckTour.html#Conizi_Model_Telematics_Truck_TruckTour_WorfklowId_
+  commentId: Overload:Conizi.Model.Telematics.Truck.TruckTour.WorfklowId
+  isSpec: "True"
+  fullName: Conizi.Model.Telematics.Truck.TruckTour.WorfklowId
+  nameWithType: TruckTour.WorfklowId
 - uid: Conizi.Model.Telematics.Truck.TruckTransportOrder
   name: TruckTransportOrder
   href: classes/Conizi.Model.Telematics.Truck.TruckTransportOrder.html
