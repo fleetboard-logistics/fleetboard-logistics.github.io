@@ -13032,6 +13032,19 @@ references:
   commentId: T:Conizi.Model.Shared.Entities.TourWayPointInformation
   fullName: Conizi.Model.Shared.Entities.TourWayPointInformation
   nameWithType: TourWayPointInformation
+- uid: Conizi.Model.Shared.Entities.TourWayPointInformation.BookedTimeSlots
+  name: BookedTimeSlots
+  href: classes/Conizi.Model.Shared.Entities.TourWayPointInformation.html#Conizi_Model_Shared_Entities_TourWayPointInformation_BookedTimeSlots
+  commentId: P:Conizi.Model.Shared.Entities.TourWayPointInformation.BookedTimeSlots
+  fullName: Conizi.Model.Shared.Entities.TourWayPointInformation.BookedTimeSlots
+  nameWithType: TourWayPointInformation.BookedTimeSlots
+- uid: Conizi.Model.Shared.Entities.TourWayPointInformation.BookedTimeSlots*
+  name: BookedTimeSlots
+  href: classes/Conizi.Model.Shared.Entities.TourWayPointInformation.html#Conizi_Model_Shared_Entities_TourWayPointInformation_BookedTimeSlots_
+  commentId: Overload:Conizi.Model.Shared.Entities.TourWayPointInformation.BookedTimeSlots
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.TourWayPointInformation.BookedTimeSlots
+  nameWithType: TourWayPointInformation.BookedTimeSlots
 - uid: Conizi.Model.Shared.Entities.TourWayPointInformation.CrossDocking
   name: CrossDocking
   href: classes/Conizi.Model.Shared.Entities.TourWayPointInformation.html#Conizi_Model_Shared_Entities_TourWayPointInformation_CrossDocking
