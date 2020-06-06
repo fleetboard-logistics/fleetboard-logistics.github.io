@@ -4027,6 +4027,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences.DriverId
   nameWithType: EdiDocumentReferences.DriverId
+- uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.GroupName
+  name: GroupName
+  href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_GroupName
+  commentId: P:Conizi.Model.Shared.Entities.EdiDocumentReferences.GroupName
+  fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences.GroupName
+  nameWithType: EdiDocumentReferences.GroupName
+- uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.GroupName*
+  name: GroupName
+  href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_GroupName_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiDocumentReferences.GroupName
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiDocumentReferences.GroupName
+  nameWithType: EdiDocumentReferences.GroupName
 - uid: Conizi.Model.Shared.Entities.EdiDocumentReferences.Id
   name: Id
   href: classes/Conizi.Model.Shared.Entities.EdiDocumentReferences.html#Conizi_Model_Shared_Entities_EdiDocumentReferences_Id
@@ -13244,6 +13257,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Telematics.Truck.TruckNotificationMessage.MessageId
   nameWithType: TruckNotificationMessage.MessageId
+- uid: Conizi.Model.Telematics.Truck.TruckNotificationMessage.MessageIdRef
+  name: MessageIdRef
+  href: classes/Conizi.Model.Telematics.Truck.TruckNotificationMessage.html#Conizi_Model_Telematics_Truck_TruckNotificationMessage_MessageIdRef
+  commentId: P:Conizi.Model.Telematics.Truck.TruckNotificationMessage.MessageIdRef
+  fullName: Conizi.Model.Telematics.Truck.TruckNotificationMessage.MessageIdRef
+  nameWithType: TruckNotificationMessage.MessageIdRef
+- uid: Conizi.Model.Telematics.Truck.TruckNotificationMessage.MessageIdRef*
+  name: MessageIdRef
+  href: classes/Conizi.Model.Telematics.Truck.TruckNotificationMessage.html#Conizi_Model_Telematics_Truck_TruckNotificationMessage_MessageIdRef_
+  commentId: Overload:Conizi.Model.Telematics.Truck.TruckNotificationMessage.MessageIdRef
+  isSpec: "True"
+  fullName: Conizi.Model.Telematics.Truck.TruckNotificationMessage.MessageIdRef
+  nameWithType: TruckNotificationMessage.MessageIdRef
 - uid: Conizi.Model.Telematics.Truck.TruckNotificationMessage.MessageType
   name: MessageType
   href: classes/Conizi.Model.Telematics.Truck.TruckNotificationMessage.html#Conizi_Model_Telematics_Truck_TruckNotificationMessage_MessageType
