@@ -748,6 +748,24 @@ references:
   commentId: T:Conizi.Model.Shared.Definitions.LoadingEquipmentType
   fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType
   nameWithType: LoadingEquipmentType
+- uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.Cc
+  name: Cc
+  href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_Cc
+  commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.Cc
+  fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.Cc
+  nameWithType: LoadingEquipmentType.Cc
+- uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.Chep
+  name: Chep
+  href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_Chep
+  commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.Chep
+  fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.Chep
+  nameWithType: LoadingEquipmentType.Chep
+- uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.Cp
+  name: Cp
+  href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_Cp
+  commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.Cp
+  fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.Cp
+  nameWithType: LoadingEquipmentType.Cp
 - uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.CustomLoadingEquipment
   name: CustomLoadingEquipment
   href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_CustomLoadingEquipment
@@ -766,6 +784,12 @@ references:
   commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.E2Pallets
   fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.E2Pallets
   nameWithType: LoadingEquipmentType.E2Pallets
+- uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.E3Pallets
+  name: E3Pallets
+  href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_E3Pallets
+  commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.E3Pallets
+  fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.E3Pallets
+  nameWithType: LoadingEquipmentType.E3Pallets
 - uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.EurBoxes
   name: EurBoxes
   href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_EurBoxes
@@ -778,12 +802,30 @@ references:
   commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.EurPallets
   fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.EurPallets
   nameWithType: LoadingEquipmentType.EurPallets
+- uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.Gp
+  name: Gp
+  href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_Gp
+  commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.Gp
+  fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.Gp
+  nameWithType: LoadingEquipmentType.Gp
 - uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.H1Pallets
   name: H1Pallets
   href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_H1Pallets
   commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.H1Pallets
   fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.H1Pallets
   nameWithType: LoadingEquipmentType.H1Pallets
+- uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.Ibc
+  name: Ibc
+  href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_Ibc
+  commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.Ibc
+  fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.Ibc
+  nameWithType: LoadingEquipmentType.Ibc
+- uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.Kdp
+  name: Kdp
+  href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_Kdp
+  commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.Kdp
+  fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.Kdp
+  nameWithType: LoadingEquipmentType.Kdp
 - uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.KnaufPallets
   name: KnaufPallets
   href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_KnaufPallets
@@ -796,6 +838,12 @@ references:
   commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.OneWayPallets
   fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.OneWayPallets
   nameWithType: LoadingEquipmentType.OneWayPallets
+- uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType.Unknown
+  name: Unknown
+  href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html#Conizi_Model_Shared_Definitions_LoadingEquipmentType_Unknown
+  commentId: F:Conizi.Model.Shared.Definitions.LoadingEquipmentType.Unknown
+  fullName: Conizi.Model.Shared.Definitions.LoadingEquipmentType.Unknown
+  nameWithType: LoadingEquipmentType.Unknown
 - uid: Conizi.Model.Shared.Definitions.LoadingUnitType
   name: LoadingUnitType
   href: classes/Conizi.Model.Shared.Definitions.LoadingUnitType.html
@@ -6447,19 +6495,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiMetadata.CreatedBy
   nameWithType: EdiMetadata.CreatedBy
-- uid: Conizi.Model.Shared.Entities.EdiMetadata.Intent
-  name: Intent
-  href: classes/Conizi.Model.Shared.Entities.EdiMetadata.html#Conizi_Model_Shared_Entities_EdiMetadata_Intent
-  commentId: P:Conizi.Model.Shared.Entities.EdiMetadata.Intent
-  fullName: Conizi.Model.Shared.Entities.EdiMetadata.Intent
-  nameWithType: EdiMetadata.Intent
-- uid: Conizi.Model.Shared.Entities.EdiMetadata.Intent*
-  name: Intent
-  href: classes/Conizi.Model.Shared.Entities.EdiMetadata.html#Conizi_Model_Shared_Entities_EdiMetadata_Intent_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiMetadata.Intent
+- uid: Conizi.Model.Shared.Entities.EdiMetadata.Environment
+  name: Environment
+  href: classes/Conizi.Model.Shared.Entities.EdiMetadata.html#Conizi_Model_Shared_Entities_EdiMetadata_Environment
+  commentId: P:Conizi.Model.Shared.Entities.EdiMetadata.Environment
+  fullName: Conizi.Model.Shared.Entities.EdiMetadata.Environment
+  nameWithType: EdiMetadata.Environment
+- uid: Conizi.Model.Shared.Entities.EdiMetadata.Environment*
+  name: Environment
+  href: classes/Conizi.Model.Shared.Entities.EdiMetadata.html#Conizi_Model_Shared_Entities_EdiMetadata_Environment_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMetadata.Environment
   isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiMetadata.Intent
-  nameWithType: EdiMetadata.Intent
+  fullName: Conizi.Model.Shared.Entities.EdiMetadata.Environment
+  nameWithType: EdiMetadata.Environment
 - uid: Conizi.Model.Shared.Entities.EdiMetadata.Receiver
   name: Receiver
   href: classes/Conizi.Model.Shared.Entities.EdiMetadata.html#Conizi_Model_Shared_Entities_EdiMetadata_Receiver
@@ -6582,6 +6630,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiModel.EdiModel
   nameWithType: EdiModel.EdiModel
+- uid: Conizi.Model.Shared.Entities.EdiModel.Intent
+  name: Intent
+  href: classes/Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Intent
+  commentId: P:Conizi.Model.Shared.Entities.EdiModel.Intent
+  fullName: Conizi.Model.Shared.Entities.EdiModel.Intent
+  nameWithType: EdiModel.Intent
+- uid: Conizi.Model.Shared.Entities.EdiModel.Intent*
+  name: Intent
+  href: classes/Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Intent_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiModel.Intent
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiModel.Intent
+  nameWithType: EdiModel.Intent
 - uid: Conizi.Model.Shared.Entities.EdiModel.Metadata
   name: Metadata
   href: classes/Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Metadata
