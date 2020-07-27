@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace Conizi.Model.Telematics
+    <title>Class EdiGpsTracking
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace Conizi.Model.Telematics
+    <meta name="title" content="Class EdiGpsTracking
    ">
     <meta name="generator" content="docfx 2.42.3.0">
     
@@ -68,24 +68,81 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Conizi.Model.Telematics">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Telematics.EdiGpsTracking">
   
-  <h1 id="Conizi_Model_Telematics" data-uid="Conizi.Model.Telematics" class="text-break">Namespace Conizi.Model.Telematics
+  
+  <h1 id="Conizi_Model_Telematics_EdiGpsTracking" data-uid="Conizi.Model.Telematics.EdiGpsTracking" class="text-break">Class EdiGpsTracking
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Geo position data and tour reference for gps tracking</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoPosition.html">EdiGeoPosition</a></div>
+    <div class="level2"><span class="xref">EdiGpsTracking</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoPosition.html#Conizi_Model_Shared_Entities_EdiGeoPosition_Latitude">EdiGeoPosition.Latitude</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoPosition.html#Conizi_Model_Shared_Entities_EdiGeoPosition_Longitude">EdiGeoPosition.Longitude</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoPosition.html#Conizi_Model_Shared_Entities_EdiGeoPosition_PlaceName">EdiGeoPosition.PlaceName</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoPosition.html#Conizi_Model_Shared_Entities_EdiGeoPosition_W3WCoordinate">EdiGeoPosition.W3WCoordinate</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoPosition.html#Conizi_Model_Shared_Entities_EdiGeoPosition_RecordTime">EdiGeoPosition.RecordTime</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoPosition.html#Conizi_Model_Shared_Entities_EdiGeoPosition_Angle">EdiGeoPosition.Angle</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoPosition.html#Conizi_Model_Shared_Entities_EdiGeoPosition_Speed">EdiGeoPosition.Speed</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiGeoPosition.html#Conizi_Model_Shared_Entities_EdiGeoPosition_GeoRadius">EdiGeoPosition.GeoRadius</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Telematics.html">Conizi.Model.Telematics</a></h6>
+  <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
+  <h5 id="Conizi_Model_Telematics_EdiGpsTracking_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class EdiGpsTracking : EdiGeoPosition</code></pre>
+  </div>
+  <h3 id="properties">Properties
   </h3>
-      <h4><a class="xref" href="Conizi.Model.Telematics.EdiGpsTracking.html">EdiGpsTracking</a></h4>
-      <section><p>Geo position data and tour reference for gps tracking</p>
-</section>
-      <h4><a class="xref" href="Conizi.Model.Telematics.GroundTelematicsEvent.html">GroundTelematicsEvent</a></h4>
-      <section><p>A single telematics event message for ground vehicles which is transferred between two partners.</p>
-</section>
-      <h4><a class="xref" href="Conizi.Model.Telematics.PositionEvent.html">PositionEvent</a></h4>
-      <section><p>A single telematics event message for position data which is transferred between two partners.</p>
-</section>
+  
+  
+  <a id="Conizi_Model_Telematics_EdiGpsTracking_TourIds_" data-uid="Conizi.Model.Telematics.EdiGpsTracking.TourIds*"></a>
+  <h4 id="Conizi_Model_Telematics_EdiGpsTracking_TourIds" data-uid="Conizi.Model.Telematics.EdiGpsTracking.TourIds">TourIds</h4>
+  <div class="markdown level1 summary"><p>List of conizi tour ids</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;string&gt; TourIds { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

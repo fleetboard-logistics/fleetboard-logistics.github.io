@@ -1077,7 +1077,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoPosition.html",
-          "hash": "ZzB5ggH4RE8yWWZjWuZlPg=="
+          "hash": "Nvb1TjejZDldoCuZC4ZkFw=="
         }
       },
       "is_incremental": false,
@@ -1281,7 +1281,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiModel.html",
-          "hash": "MvVRNm1E6g6pxnMheJ20cA=="
+          "hash": "IvytohgR/ffmFlcw/c1w9Q=="
         }
       },
       "is_incremental": false,
@@ -2241,7 +2241,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTrailerTelematics.html",
-          "hash": "5voHc90RfIDIqhO/b1x9TA=="
+          "hash": "5FCAde8djEjMaIh3dxTXiw=="
         }
       },
       "is_incremental": false,
@@ -2337,7 +2337,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html",
-          "hash": "syMGkzLkzLl5p/OV1IQYgg=="
+          "hash": "jxpyKe9tfiEKb+3gQWGIcw=="
         }
       },
       "is_incremental": false,
@@ -2669,11 +2669,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Telematics.EdiGpsTracking.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Telematics.EdiGpsTracking.html",
+          "hash": "89Mxk0+fErfbfCRdcuDqQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "classes/Conizi.Model.Telematics.GroundTelematicsEvent.yml",
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Telematics.GroundTelematicsEvent.html",
           "hash": "mnyq/57sUN/wj06goVqYog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Telematics.PositionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Telematics.PositionEvent.html",
+          "hash": "YcD21bNmyshq5IIMisubPw=="
         }
       },
       "is_incremental": false,
@@ -2769,7 +2793,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Telematics.html",
-          "hash": "9ocNlnuzIPlSEOGJ1NYkwQ=="
+          "hash": "qypZ+LD8DW8TuJ9roAZzDg=="
         }
       },
       "is_incremental": false,
@@ -3084,7 +3108,7 @@
       "output": {
         ".html": {
           "relative_path": "fusion/toc.html",
-          "hash": "3q/hXNw8p5eSwMAWcCL6zA=="
+          "hash": "fdx02kPPA/VVFotFxxHroA=="
         }
       },
       "is_incremental": false,
@@ -3144,23 +3168,23 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 9,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 248,
-          "skipped_file_count": 0
-        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 250,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
           "skipped_file_count": 0
         }
       }

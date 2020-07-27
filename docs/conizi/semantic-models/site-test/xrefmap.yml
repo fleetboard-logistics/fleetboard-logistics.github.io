@@ -11877,6 +11877,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.AdBlueLevel
   nameWithType: EdiTruckTelematics.AdBlueLevel
+- uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn
+  name: EngineOn
+  href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_EngineOn
+  commentId: P:Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn
+  fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn
+  nameWithType: EdiTruckTelematics.EngineOn
+- uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn*
+  name: EngineOn
+  href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_EngineOn_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn
+  nameWithType: EdiTruckTelematics.EngineOn
 - uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineSpeed
   name: EngineSpeed
   href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_EngineSpeed
@@ -11903,6 +11916,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.FuelLevel
   nameWithType: EdiTruckTelematics.FuelLevel
+- uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.IgnitionOn
+  name: IgnitionOn
+  href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_IgnitionOn
+  commentId: P:Conizi.Model.Shared.Entities.EdiTruckTelematics.IgnitionOn
+  fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.IgnitionOn
+  nameWithType: EdiTruckTelematics.IgnitionOn
+- uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.IgnitionOn*
+  name: IgnitionOn
+  href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_IgnitionOn_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiTruckTelematics.IgnitionOn
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.IgnitionOn
+  nameWithType: EdiTruckTelematics.IgnitionOn
 - uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.RecordTime
   name: RecordTime
   href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_RecordTime
@@ -13170,6 +13196,25 @@ references:
   commentId: N:Conizi.Model.Telematics
   fullName: Conizi.Model.Telematics
   nameWithType: Conizi.Model.Telematics
+- uid: Conizi.Model.Telematics.EdiGpsTracking
+  name: EdiGpsTracking
+  href: classes/Conizi.Model.Telematics.EdiGpsTracking.html
+  commentId: T:Conizi.Model.Telematics.EdiGpsTracking
+  fullName: Conizi.Model.Telematics.EdiGpsTracking
+  nameWithType: EdiGpsTracking
+- uid: Conizi.Model.Telematics.EdiGpsTracking.TourIds
+  name: TourIds
+  href: classes/Conizi.Model.Telematics.EdiGpsTracking.html#Conizi_Model_Telematics_EdiGpsTracking_TourIds
+  commentId: P:Conizi.Model.Telematics.EdiGpsTracking.TourIds
+  fullName: Conizi.Model.Telematics.EdiGpsTracking.TourIds
+  nameWithType: EdiGpsTracking.TourIds
+- uid: Conizi.Model.Telematics.EdiGpsTracking.TourIds*
+  name: TourIds
+  href: classes/Conizi.Model.Telematics.EdiGpsTracking.html#Conizi_Model_Telematics_EdiGpsTracking_TourIds_
+  commentId: Overload:Conizi.Model.Telematics.EdiGpsTracking.TourIds
+  isSpec: "True"
+  fullName: Conizi.Model.Telematics.EdiGpsTracking.TourIds
+  nameWithType: EdiGpsTracking.TourIds
 - uid: Conizi.Model.Telematics.GroundTelematicsEvent
   name: GroundTelematicsEvent
   href: classes/Conizi.Model.Telematics.GroundTelematicsEvent.html
@@ -13267,6 +13312,38 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Telematics.GroundTelematicsEvent.Vehicle
   nameWithType: GroundTelematicsEvent.Vehicle
+- uid: Conizi.Model.Telematics.PositionEvent
+  name: PositionEvent
+  href: classes/Conizi.Model.Telematics.PositionEvent.html
+  commentId: T:Conizi.Model.Telematics.PositionEvent
+  fullName: Conizi.Model.Telematics.PositionEvent
+  nameWithType: PositionEvent
+- uid: Conizi.Model.Telematics.PositionEvent.EventDateTime
+  name: EventDateTime
+  href: classes/Conizi.Model.Telematics.PositionEvent.html#Conizi_Model_Telematics_PositionEvent_EventDateTime
+  commentId: P:Conizi.Model.Telematics.PositionEvent.EventDateTime
+  fullName: Conizi.Model.Telematics.PositionEvent.EventDateTime
+  nameWithType: PositionEvent.EventDateTime
+- uid: Conizi.Model.Telematics.PositionEvent.EventDateTime*
+  name: EventDateTime
+  href: classes/Conizi.Model.Telematics.PositionEvent.html#Conizi_Model_Telematics_PositionEvent_EventDateTime_
+  commentId: Overload:Conizi.Model.Telematics.PositionEvent.EventDateTime
+  isSpec: "True"
+  fullName: Conizi.Model.Telematics.PositionEvent.EventDateTime
+  nameWithType: PositionEvent.EventDateTime
+- uid: Conizi.Model.Telematics.PositionEvent.GpsTracking
+  name: GpsTracking
+  href: classes/Conizi.Model.Telematics.PositionEvent.html#Conizi_Model_Telematics_PositionEvent_GpsTracking
+  commentId: P:Conizi.Model.Telematics.PositionEvent.GpsTracking
+  fullName: Conizi.Model.Telematics.PositionEvent.GpsTracking
+  nameWithType: PositionEvent.GpsTracking
+- uid: Conizi.Model.Telematics.PositionEvent.GpsTracking*
+  name: GpsTracking
+  href: classes/Conizi.Model.Telematics.PositionEvent.html#Conizi_Model_Telematics_PositionEvent_GpsTracking_
+  commentId: Overload:Conizi.Model.Telematics.PositionEvent.GpsTracking
+  isSpec: "True"
+  fullName: Conizi.Model.Telematics.PositionEvent.GpsTracking
+  nameWithType: PositionEvent.GpsTracking
 - uid: Conizi.Model.Telematics.Truck
   name: Conizi.Model.Telematics.Truck
   href: classes/Conizi.Model.Telematics.Truck.html
