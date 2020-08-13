@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EdiTrailerTelematics
+    <title>Class PositionEvent
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EdiTrailerTelematics
+    <meta name="title" content="Class PositionEvent
    ">
     <meta name="generator" content="docfx 2.42.3.0">
     
@@ -68,37 +68,66 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiTrailerTelematics">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Telematics.PositionEvent">
   
   
-  <h1 id="Conizi_Model_Shared_Entities_EdiTrailerTelematics" data-uid="Conizi.Model.Shared.Entities.EdiTrailerTelematics" class="text-break">Class EdiTrailerTelematics
+  <h1 id="Conizi_Model_Telematics_PositionEvent" data-uid="Conizi.Model.Telematics.PositionEvent" class="text-break">Class PositionEvent
   </h1>
-  <div class="markdown level0 summary"><p>Telematics data about the trailer</p>
+  <div class="markdown level0 summary"><p>A single telematics event message for position data which is transferred between two partners.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">EdiTrailerTelematics</span></div>
+    <div class="level1"><span class="xref">Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase</span></div>
+    <div class="level2"><a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html">EdiModel</a></div>
+    <div class="level3"><span class="xref">PositionEvent</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Schema">EdiModel.Schema</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Intent">EdiModel.Intent</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_ModelType">EdiModel.ModelType</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Receiver">EdiModel.Receiver</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Sender">EdiModel.Sender</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Network">EdiModel.Network</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_References">EdiModel.References</a>
+    </div>
+    <div>
+      <a class="xref" href="Conizi.Model.Shared.Entities.EdiModel.html#Conizi_Model_Shared_Entities_EdiModel_Metadata">EdiModel.Metadata</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Telematics.html">Conizi.Model.Telematics</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
-  <h5 id="Conizi_Model_Shared_Entities_EdiTrailerTelematics_syntax">Syntax</h5>
+  <h5 id="Conizi_Model_Telematics_PositionEvent_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EdiTrailerTelematics : object</code></pre>
+    <pre><code class="lang-csharp hljs">public class PositionEvent : EdiModel, IModel</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiTrailerTelematics_BrakeSystemStates_" data-uid="Conizi.Model.Shared.Entities.EdiTrailerTelematics.BrakeSystemStates*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiTrailerTelematics_BrakeSystemStates" data-uid="Conizi.Model.Shared.Entities.EdiTrailerTelematics.BrakeSystemStates">BrakeSystemStates</h4>
-  <div class="markdown level1 summary"><p>The state of the brake system</p>
+  <a id="Conizi_Model_Telematics_PositionEvent_EventDateTime_" data-uid="Conizi.Model.Telematics.PositionEvent.EventDateTime*"></a>
+  <h4 id="Conizi_Model_Telematics_PositionEvent_EventDateTime" data-uid="Conizi.Model.Telematics.PositionEvent.EventDateTime">EventDateTime</h4>
+  <div class="markdown level1 summary"><p>Date and time when the event occurred</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;EdiBrakeSystemState&gt; BrakeSystemStates { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DateTime EventDateTime { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -110,21 +139,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiBrakeSystemState.html">EdiBrakeSystemState</a>&gt;</td>
+        <td><span class="xref">DateTime</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiTrailerTelematics_DoorStates_" data-uid="Conizi.Model.Shared.Entities.EdiTrailerTelematics.DoorStates*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiTrailerTelematics_DoorStates" data-uid="Conizi.Model.Shared.Entities.EdiTrailerTelematics.DoorStates">DoorStates</h4>
-  <div class="markdown level1 summary"><p>The state of the doors</p>
+  <a id="Conizi_Model_Telematics_PositionEvent_GpsTracking_" data-uid="Conizi.Model.Telematics.PositionEvent.GpsTracking*"></a>
+  <h4 id="Conizi_Model_Telematics_PositionEvent_GpsTracking" data-uid="Conizi.Model.Telematics.PositionEvent.GpsTracking">GpsTracking</h4>
+  <div class="markdown level1 summary"><p>Geo position data and tour reference for gps tracking</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;EdiDoorState&gt; DoorStates { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;EdiGpsTracking&gt; GpsTracking { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -136,59 +165,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiDoorState.html">EdiDoorState</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Conizi_Model_Shared_Entities_EdiTrailerTelematics_RecordTime_" data-uid="Conizi.Model.Shared.Entities.EdiTrailerTelematics.RecordTime*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiTrailerTelematics_RecordTime" data-uid="Conizi.Model.Shared.Entities.EdiTrailerTelematics.RecordTime">RecordTime</h4>
-  <div class="markdown level1 summary"><p>Time the measurement was recorded (Unix UTC Timestamp in milliseconds)</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public long RecordTime { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Conizi_Model_Shared_Entities_EdiTrailerTelematics_Temperatures_" data-uid="Conizi.Model.Shared.Entities.EdiTrailerTelematics.Temperatures*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiTrailerTelematics_Temperatures" data-uid="Conizi.Model.Shared.Entities.EdiTrailerTelematics.Temperatures">Temperatures</h4>
-  <div class="markdown level1 summary"><p>The trailer temperature in degree Celsius</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;EdiTemperature&gt; Temperatures { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Shared.Entities.EdiTemperature.html">EdiTemperature</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Conizi.Model.Telematics.EdiGpsTracking.html">EdiGpsTracking</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

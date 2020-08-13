@@ -117,6 +117,32 @@
   </table>
   
   
+  <a id="Conizi_Model_Shared_Entities_EdiTruckTelematics_EngineOn_" data-uid="Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiTruckTelematics_EngineOn" data-uid="Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn">EngineOn</h4>
+  <div class="markdown level1 summary"><p>The engine is on</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? EngineOn { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Conizi_Model_Shared_Entities_EdiTruckTelematics_EngineSpeed_" data-uid="Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineSpeed*"></a>
   <h4 id="Conizi_Model_Shared_Entities_EdiTruckTelematics_EngineSpeed" data-uid="Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineSpeed">EngineSpeed</h4>
   <div class="markdown level1 summary"><p>The engine Speed (UpM/RpM)</p>
@@ -169,14 +195,14 @@
   </table>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiTruckTelematics_RecordTime_" data-uid="Conizi.Model.Shared.Entities.EdiTruckTelematics.RecordTime*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiTruckTelematics_RecordTime" data-uid="Conizi.Model.Shared.Entities.EdiTruckTelematics.RecordTime">RecordTime</h4>
-  <div class="markdown level1 summary"><p>Time the measurement was created</p>
+  <a id="Conizi_Model_Shared_Entities_EdiTruckTelematics_IgnitionOn_" data-uid="Conizi.Model.Shared.Entities.EdiTruckTelematics.IgnitionOn*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiTruckTelematics_IgnitionOn" data-uid="Conizi.Model.Shared.Entities.EdiTruckTelematics.IgnitionOn">IgnitionOn</h4>
+  <div class="markdown level1 summary"><p>The ignition is on</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DateTimeOffset RecordTime { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool? IgnitionOn { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -188,7 +214,33 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DateTimeOffset</span></td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiTruckTelematics_RecordTime_" data-uid="Conizi.Model.Shared.Entities.EdiTruckTelematics.RecordTime*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiTruckTelematics_RecordTime" data-uid="Conizi.Model.Shared.Entities.EdiTruckTelematics.RecordTime">RecordTime</h4>
+  <div class="markdown level1 summary"><p>Time the measurement was recorded (Unix UTC Timestamp in milliseconds)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long RecordTime { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
         <td></td>
       </tr>
     </tbody>
