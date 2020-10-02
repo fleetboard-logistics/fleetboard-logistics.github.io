@@ -5372,6 +5372,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateAbsolute
   nameWithType: EdiGeoEta.EtaDateAbsolute
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateTimeAbsolute
+  name: EtaDateTimeAbsolute
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_EtaDateTimeAbsolute
+  commentId: P:Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateTimeAbsolute
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateTimeAbsolute
+  nameWithType: EdiGeoEta.EtaDateTimeAbsolute
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateTimeAbsolute*
+  name: EtaDateTimeAbsolute
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_EtaDateTimeAbsolute_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateTimeAbsolute
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateTimeAbsolute
+  nameWithType: EdiGeoEta.EtaDateTimeAbsolute
 - uid: Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimeAbsolute
   name: EtaTimeAbsolute
   href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_EtaTimeAbsolute
