@@ -11914,19 +11914,6 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.AdBlueLevel
   nameWithType: EdiTruckTelematics.AdBlueLevel
-- uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn
-  name: EngineOn
-  href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_EngineOn
-  commentId: P:Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn
-  fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn
-  nameWithType: EdiTruckTelematics.EngineOn
-- uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn*
-  name: EngineOn
-  href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_EngineOn_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn
-  isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn
-  nameWithType: EdiTruckTelematics.EngineOn
 - uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineSpeed
   name: EngineSpeed
   href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_EngineSpeed
@@ -11940,6 +11927,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineSpeed
   nameWithType: EdiTruckTelematics.EngineSpeed
+- uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineState
+  name: EngineState
+  href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_EngineState
+  commentId: P:Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineState
+  fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineState
+  nameWithType: EdiTruckTelematics.EngineState
+- uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineState*
+  name: EngineState
+  href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_EngineState_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineState
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineState
+  nameWithType: EdiTruckTelematics.EngineState
 - uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.FuelLevel
   name: FuelLevel
   href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_FuelLevel
