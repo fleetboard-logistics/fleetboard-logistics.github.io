@@ -161,6 +161,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Definitions.EdiVehicleEngineState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Definitions.EdiVehicleEngineState.html",
+          "hash": "O6uBbiZzAvs0PRXiUBQQMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "classes/Conizi.Model.Shared.Definitions.LoadType.yml",
       "output": {
         ".html": {
@@ -237,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Definitions.html",
-          "hash": "qeh2otXakWnjCmkEnA5T5g=="
+          "hash": "N0jj7zwe8Don/pw7MHaA1g=="
         }
       },
       "is_incremental": false,
@@ -2337,7 +2349,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html",
-          "hash": "jxpyKe9tfiEKb+3gQWGIcw=="
+          "hash": "agH+T2VSL1oHCYEOEwqtZA=="
         }
       },
       "is_incremental": false,
@@ -3108,7 +3120,7 @@
       "output": {
         ".html": {
           "relative_path": "fusion/toc.html",
-          "hash": "fdx02kPPA/VVFotFxxHroA=="
+          "hash": "WRLj9QXHHc3sBLjfM3n6HQ=="
         }
       },
       "is_incremental": false,
@@ -3175,16 +3187,16 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 251,
+          "skipped_file_count": 0
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 9,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 250,
           "skipped_file_count": 0
         }
       }
