@@ -742,6 +742,30 @@ references:
   commentId: F:Conizi.Model.Shared.Definitions.EdiMessageFunctionCode.UpdatePartial
   fullName: Conizi.Model.Shared.Definitions.EdiMessageFunctionCode.UpdatePartial
   nameWithType: EdiMessageFunctionCode.UpdatePartial
+- uid: Conizi.Model.Shared.Definitions.EdiVehicleEngineState
+  name: EdiVehicleEngineState
+  href: classes/Conizi.Model.Shared.Definitions.EdiVehicleEngineState.html
+  commentId: T:Conizi.Model.Shared.Definitions.EdiVehicleEngineState
+  fullName: Conizi.Model.Shared.Definitions.EdiVehicleEngineState
+  nameWithType: EdiVehicleEngineState
+- uid: Conizi.Model.Shared.Definitions.EdiVehicleEngineState.Ignition
+  name: Ignition
+  href: classes/Conizi.Model.Shared.Definitions.EdiVehicleEngineState.html#Conizi_Model_Shared_Definitions_EdiVehicleEngineState_Ignition
+  commentId: F:Conizi.Model.Shared.Definitions.EdiVehicleEngineState.Ignition
+  fullName: Conizi.Model.Shared.Definitions.EdiVehicleEngineState.Ignition
+  nameWithType: EdiVehicleEngineState.Ignition
+- uid: Conizi.Model.Shared.Definitions.EdiVehicleEngineState.Off
+  name: Off
+  href: classes/Conizi.Model.Shared.Definitions.EdiVehicleEngineState.html#Conizi_Model_Shared_Definitions_EdiVehicleEngineState_Off
+  commentId: F:Conizi.Model.Shared.Definitions.EdiVehicleEngineState.Off
+  fullName: Conizi.Model.Shared.Definitions.EdiVehicleEngineState.Off
+  nameWithType: EdiVehicleEngineState.Off
+- uid: Conizi.Model.Shared.Definitions.EdiVehicleEngineState.On
+  name: On
+  href: classes/Conizi.Model.Shared.Definitions.EdiVehicleEngineState.html#Conizi_Model_Shared_Definitions_EdiVehicleEngineState_On
+  commentId: F:Conizi.Model.Shared.Definitions.EdiVehicleEngineState.On
+  fullName: Conizi.Model.Shared.Definitions.EdiVehicleEngineState.On
+  nameWithType: EdiVehicleEngineState.On
 - uid: Conizi.Model.Shared.Definitions.LoadingEquipmentType
   name: LoadingEquipmentType
   href: classes/Conizi.Model.Shared.Definitions.LoadingEquipmentType.html
@@ -5372,6 +5396,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateAbsolute
   nameWithType: EdiGeoEta.EtaDateAbsolute
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateTimeAbsolute
+  name: EtaDateTimeAbsolute
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_EtaDateTimeAbsolute
+  commentId: P:Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateTimeAbsolute
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateTimeAbsolute
+  nameWithType: EdiGeoEta.EtaDateTimeAbsolute
+- uid: Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateTimeAbsolute*
+  name: EtaDateTimeAbsolute
+  href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_EtaDateTimeAbsolute_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateTimeAbsolute
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiGeoEta.EtaDateTimeAbsolute
+  nameWithType: EdiGeoEta.EtaDateTimeAbsolute
 - uid: Conizi.Model.Shared.Entities.EdiGeoEta.EtaTimeAbsolute
   name: EtaTimeAbsolute
   href: classes/Conizi.Model.Shared.Entities.EdiGeoEta.html#Conizi_Model_Shared_Entities_EdiGeoEta_EtaTimeAbsolute
@@ -11877,19 +11914,6 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.AdBlueLevel
   nameWithType: EdiTruckTelematics.AdBlueLevel
-- uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn
-  name: EngineOn
-  href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_EngineOn
-  commentId: P:Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn
-  fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn
-  nameWithType: EdiTruckTelematics.EngineOn
-- uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn*
-  name: EngineOn
-  href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_EngineOn_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn
-  isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineOn
-  nameWithType: EdiTruckTelematics.EngineOn
 - uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineSpeed
   name: EngineSpeed
   href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_EngineSpeed
@@ -11903,6 +11927,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineSpeed
   nameWithType: EdiTruckTelematics.EngineSpeed
+- uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineState
+  name: EngineState
+  href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_EngineState
+  commentId: P:Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineState
+  fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineState
+  nameWithType: EdiTruckTelematics.EngineState
+- uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineState*
+  name: EngineState
+  href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_EngineState_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineState
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.EngineState
+  nameWithType: EdiTruckTelematics.EngineState
 - uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.FuelLevel
   name: FuelLevel
   href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_FuelLevel
@@ -11916,19 +11953,6 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.FuelLevel
   nameWithType: EdiTruckTelematics.FuelLevel
-- uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.IgnitionOn
-  name: IgnitionOn
-  href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_IgnitionOn
-  commentId: P:Conizi.Model.Shared.Entities.EdiTruckTelematics.IgnitionOn
-  fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.IgnitionOn
-  nameWithType: EdiTruckTelematics.IgnitionOn
-- uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.IgnitionOn*
-  name: IgnitionOn
-  href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_IgnitionOn_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiTruckTelematics.IgnitionOn
-  isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiTruckTelematics.IgnitionOn
-  nameWithType: EdiTruckTelematics.IgnitionOn
 - uid: Conizi.Model.Shared.Entities.EdiTruckTelematics.RecordTime
   name: RecordTime
   href: classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html#Conizi_Model_Shared_Entities_EdiTruckTelematics_RecordTime

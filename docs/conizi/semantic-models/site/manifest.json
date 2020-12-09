@@ -161,6 +161,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Definitions.EdiVehicleEngineState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Definitions.EdiVehicleEngineState.html",
+          "hash": "O6uBbiZzAvs0PRXiUBQQMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "classes/Conizi.Model.Shared.Definitions.LoadType.yml",
       "output": {
         ".html": {
@@ -237,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Definitions.html",
-          "hash": "qeh2otXakWnjCmkEnA5T5g=="
+          "hash": "N0jj7zwe8Don/pw7MHaA1g=="
         }
       },
       "is_incremental": false,
@@ -1053,7 +1065,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiGeoEta.html",
-          "hash": "kOsRtzLDuZLlHJ2iYKYD5g=="
+          "hash": "TMFeTCK1+/YBv4LJ4s6Tgw=="
         }
       },
       "is_incremental": false,
@@ -2337,7 +2349,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTruckTelematics.html",
-          "hash": "jxpyKe9tfiEKb+3gQWGIcw=="
+          "hash": "19DdEgFODzt41uQtoXzKYQ=="
         }
       },
       "is_incremental": false,
@@ -3108,7 +3120,7 @@
       "output": {
         ".html": {
           "relative_path": "fusion/toc.html",
-          "hash": "fdx02kPPA/VVFotFxxHroA=="
+          "hash": "WRLj9QXHHc3sBLjfM3n6HQ=="
         }
       },
       "is_incremental": false,
@@ -3161,6 +3173,18 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 9,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 251,
+          "skipped_file_count": 0
+        },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
@@ -3173,18 +3197,6 @@
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 250,
-          "skipped_file_count": 0
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 9,
           "skipped_file_count": 0
         }
       }
