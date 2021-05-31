@@ -6644,6 +6644,51 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.UnloadingShippingPartner
   nameWithType: EdiMasterBarcodeSingleScan.UnloadingShippingPartner
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem
+  name: EdiMasterBarcodeStackingItem
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem
+  nameWithType: EdiMasterBarcodeStackingItem
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.DateTime
+  name: DateTime
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeStackingItem_DateTime
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.DateTime
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.DateTime
+  nameWithType: EdiMasterBarcodeStackingItem.DateTime
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.DateTime*
+  name: DateTime
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeStackingItem_DateTime_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.DateTime
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.DateTime
+  nameWithType: EdiMasterBarcodeStackingItem.DateTime
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Source
+  name: Source
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeStackingItem_Source
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Source
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Source
+  nameWithType: EdiMasterBarcodeStackingItem.Source
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Source*
+  name: Source
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeStackingItem_Source_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Source
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Source
+  nameWithType: EdiMasterBarcodeStackingItem.Source
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Target
+  name: Target
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeStackingItem_Target
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Target
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Target
+  nameWithType: EdiMasterBarcodeStackingItem.Target
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Target*
+  name: Target
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeStackingItem_Target_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Target
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Target
+  nameWithType: EdiMasterBarcodeStackingItem.Target
 - uid: Conizi.Model.Shared.Entities.EdiMeasures
   name: EdiMeasures
   href: classes/Conizi.Model.Shared.Entities.EdiMeasures.html
