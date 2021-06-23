@@ -1293,7 +1293,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html",
-          "hash": "1KRKYmPwsoWS67FijA976w=="
+          "hash": "eiefPYq7gupIQQKkQRbOaA=="
         }
       },
       "is_incremental": false,
@@ -2141,6 +2141,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiStopOrderingEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiStopOrderingEvent.html",
+          "hash": "HPSHPGZqSAAJ5uZpZDQYOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "classes/Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.html",
+          "hash": "UNCGJbP7A3H5YZoSJ2G+GA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.yml",
       "output": {
         ".html": {
@@ -2313,7 +2337,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.EdiTourSpecificEvent.html",
-          "hash": "wBumNkXeEBfQkYfPZ2I3/w=="
+          "hash": "5LubCd2reyMctc2kSncTyg=="
         }
       },
       "is_incremental": false,
@@ -2757,7 +2781,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Shared.Entities.html",
-          "hash": "Key64i4mYqh3BlS5p8WkSw=="
+          "hash": "gugx4rWa+LK9VZK2qEBkYw=="
         }
       },
       "is_incremental": false,
@@ -3009,7 +3033,7 @@
       "output": {
         ".html": {
           "relative_path": "classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.html",
-          "hash": "lpSwomZyKbt4mi+3LZhCYQ=="
+          "hash": "/V+51aQyoWSWRXtbGsp6rg=="
         }
       },
       "is_incremental": false,
@@ -3204,7 +3228,7 @@
       "output": {
         ".html": {
           "relative_path": "fusion/toc.html",
-          "hash": "QeHIrS8dMfs93S1tInfdWw=="
+          "hash": "qFoHUdqglPiFdbVm6YsFGw=="
         }
       },
       "is_incremental": false,
@@ -3257,17 +3281,18 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 258,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -3276,11 +3301,10 @@
           "total_file_count": 9,
           "skipped_file_count": 0
         },
-        "ResourceDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 260,
           "skipped_file_count": 0
         }
       }
