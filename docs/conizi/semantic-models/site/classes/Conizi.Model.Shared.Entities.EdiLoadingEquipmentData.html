@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class EdiLoadingEquipment
+    <title>Class EdiLoadingEquipmentData
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class EdiLoadingEquipment
+    <meta name="title" content="Class EdiLoadingEquipmentData
    ">
     <meta name="generator" content="docfx 2.42.3.0">
     
@@ -68,10 +68,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiLoadingEquipment">
+            <article class="content wrap" id="_content" data-uid="Conizi.Model.Shared.Entities.EdiLoadingEquipmentData">
   
   
-  <h1 id="Conizi_Model_Shared_Entities_EdiLoadingEquipment" data-uid="Conizi.Model.Shared.Entities.EdiLoadingEquipment" class="text-break">Class EdiLoadingEquipment
+  <h1 id="Conizi_Model_Shared_Entities_EdiLoadingEquipmentData" data-uid="Conizi.Model.Shared.Entities.EdiLoadingEquipmentData" class="text-break">Class EdiLoadingEquipmentData
   </h1>
   <div class="markdown level0 summary"><p>Loading equipment</p>
 </div>
@@ -81,7 +81,7 @@
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">Conizi.Model.Shared.Interfaces.EdiPatternPropertiesBase</span></div>
     <div class="level2"><a class="xref" href="Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.html">EdiLoadingEquipmentBase</a></div>
-    <div class="level3"><span class="xref">EdiLoadingEquipment</span></div>
+    <div class="level3"><span class="xref">EdiLoadingEquipmentData</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -94,22 +94,74 @@
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Conizi.Model.Shared.Entities.html">Conizi.Model.Shared.Entities</a></h6>
   <h6><strong>Assembly</strong>: Conizi.Model.dll</h6>
-  <h5 id="Conizi_Model_Shared_Entities_EdiLoadingEquipment_syntax">Syntax</h5>
+  <h5 id="Conizi_Model_Shared_Entities_EdiLoadingEquipmentData_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class EdiLoadingEquipment : EdiLoadingEquipmentBase</code></pre>
+    <pre><code class="lang-csharp hljs">public class EdiLoadingEquipmentData : EdiLoadingEquipmentBase</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="Conizi_Model_Shared_Entities_EdiLoadingEquipment_AmountLoaded_" data-uid="Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountLoaded*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiLoadingEquipment_AmountLoaded" data-uid="Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountLoaded">AmountLoaded</h4>
-  <div class="markdown level1 summary"><p>Add/Load amount of loading equipment</p>
+  <a id="Conizi_Model_Shared_Entities_EdiLoadingEquipmentData_Amount_" data-uid="Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.Amount*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiLoadingEquipmentData_Amount" data-uid="Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.Amount">Amount</h4>
+  <div class="markdown level1 summary"><p>Amount of equipment</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? AmountLoaded { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int Amount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiLoadingEquipmentData_IsExchangeReasonRequired_" data-uid="Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.IsExchangeReasonRequired*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiLoadingEquipmentData_IsExchangeReasonRequired" data-uid="Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.IsExchangeReasonRequired">IsExchangeReasonRequired</h4>
+  <div class="markdown level1 summary"><p>Marks an equipment-exchange to require an exchange reason, if exchange is not complete</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? IsExchangeReasonRequired { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Conizi_Model_Shared_Entities_EdiLoadingEquipmentData_MaxExchangeAmount_" data-uid="Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.MaxExchangeAmount*"></a>
+  <h4 id="Conizi_Model_Shared_Entities_EdiLoadingEquipmentData_MaxExchangeAmount" data-uid="Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.MaxExchangeAmount">MaxExchangeAmount</h4>
+  <div class="markdown level1 summary"><p>Maximum exchange amount</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? MaxExchangeAmount { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -122,58 +174,6 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Conizi_Model_Shared_Entities_EdiLoadingEquipment_AmountUnloaded_" data-uid="Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountUnloaded*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiLoadingEquipment_AmountUnloaded" data-uid="Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountUnloaded">AmountUnloaded</h4>
-  <div class="markdown level1 summary"><p>Remove/Unload amount of loading equipment</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? AmountUnloaded { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Conizi_Model_Shared_Entities_EdiLoadingEquipment_Remarks_" data-uid="Conizi.Model.Shared.Entities.EdiLoadingEquipment.Remarks*"></a>
-  <h4 id="Conizi_Model_Shared_Entities_EdiLoadingEquipment_Remarks" data-uid="Conizi.Model.Shared.Entities.EdiLoadingEquipment.Remarks">Remarks</h4>
-  <div class="markdown level1 summary"><p>Additional remarks</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Remarks { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>

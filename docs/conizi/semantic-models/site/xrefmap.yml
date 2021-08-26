@@ -622,6 +622,54 @@ references:
   commentId: N:Conizi.Model.Shared.Definitions
   fullName: Conizi.Model.Shared.Definitions
   nameWithType: Conizi.Model.Shared.Definitions
+- uid: Conizi.Model.Shared.Definitions.BarcodeScanType
+  name: BarcodeScanType
+  href: classes/Conizi.Model.Shared.Definitions.BarcodeScanType.html
+  commentId: T:Conizi.Model.Shared.Definitions.BarcodeScanType
+  fullName: Conizi.Model.Shared.Definitions.BarcodeScanType
+  nameWithType: BarcodeScanType
+- uid: Conizi.Model.Shared.Definitions.BarcodeScanType.Additional
+  name: Additional
+  href: classes/Conizi.Model.Shared.Definitions.BarcodeScanType.html#Conizi_Model_Shared_Definitions_BarcodeScanType_Additional
+  commentId: F:Conizi.Model.Shared.Definitions.BarcodeScanType.Additional
+  fullName: Conizi.Model.Shared.Definitions.BarcodeScanType.Additional
+  nameWithType: BarcodeScanType.Additional
+- uid: Conizi.Model.Shared.Definitions.BarcodeScanType.Geofence
+  name: Geofence
+  href: classes/Conizi.Model.Shared.Definitions.BarcodeScanType.html#Conizi_Model_Shared_Definitions_BarcodeScanType_Geofence
+  commentId: F:Conizi.Model.Shared.Definitions.BarcodeScanType.Geofence
+  fullName: Conizi.Model.Shared.Definitions.BarcodeScanType.Geofence
+  nameWithType: BarcodeScanType.Geofence
+- uid: Conizi.Model.Shared.Definitions.BarcodeScanType.Manual
+  name: Manual
+  href: classes/Conizi.Model.Shared.Definitions.BarcodeScanType.html#Conizi_Model_Shared_Definitions_BarcodeScanType_Manual
+  commentId: F:Conizi.Model.Shared.Definitions.BarcodeScanType.Manual
+  fullName: Conizi.Model.Shared.Definitions.BarcodeScanType.Manual
+  nameWithType: BarcodeScanType.Manual
+- uid: Conizi.Model.Shared.Definitions.BarcodeScanType.Rule
+  name: Rule
+  href: classes/Conizi.Model.Shared.Definitions.BarcodeScanType.html#Conizi_Model_Shared_Definitions_BarcodeScanType_Rule
+  commentId: F:Conizi.Model.Shared.Definitions.BarcodeScanType.Rule
+  fullName: Conizi.Model.Shared.Definitions.BarcodeScanType.Rule
+  nameWithType: BarcodeScanType.Rule
+- uid: Conizi.Model.Shared.Definitions.BarcodeScanType.Scan
+  name: Scan
+  href: classes/Conizi.Model.Shared.Definitions.BarcodeScanType.html#Conizi_Model_Shared_Definitions_BarcodeScanType_Scan
+  commentId: F:Conizi.Model.Shared.Definitions.BarcodeScanType.Scan
+  fullName: Conizi.Model.Shared.Definitions.BarcodeScanType.Scan
+  nameWithType: BarcodeScanType.Scan
+- uid: Conizi.Model.Shared.Definitions.BarcodeScanType.Scan_Input
+  name: Scan_Input
+  href: classes/Conizi.Model.Shared.Definitions.BarcodeScanType.html#Conizi_Model_Shared_Definitions_BarcodeScanType_Scan_Input
+  commentId: F:Conizi.Model.Shared.Definitions.BarcodeScanType.Scan_Input
+  fullName: Conizi.Model.Shared.Definitions.BarcodeScanType.Scan_Input
+  nameWithType: BarcodeScanType.Scan_Input
+- uid: Conizi.Model.Shared.Definitions.BarcodeScanType.Unknown
+  name: Unknown
+  href: classes/Conizi.Model.Shared.Definitions.BarcodeScanType.html#Conizi_Model_Shared_Definitions_BarcodeScanType_Unknown
+  commentId: F:Conizi.Model.Shared.Definitions.BarcodeScanType.Unknown
+  fullName: Conizi.Model.Shared.Definitions.BarcodeScanType.Unknown
+  nameWithType: BarcodeScanType.Unknown
 - uid: Conizi.Model.Shared.Definitions.EdiDocumentType
   name: EdiDocumentType
   href: classes/Conizi.Model.Shared.Definitions.EdiDocumentType.html
@@ -1893,6 +1941,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiContent.LoadingAids
   nameWithType: EdiContent.LoadingAids
+- uid: Conizi.Model.Shared.Entities.EdiContent.LoadingEquipments
+  name: LoadingEquipments
+  href: classes/Conizi.Model.Shared.Entities.EdiContent.html#Conizi_Model_Shared_Entities_EdiContent_LoadingEquipments
+  commentId: P:Conizi.Model.Shared.Entities.EdiContent.LoadingEquipments
+  fullName: Conizi.Model.Shared.Entities.EdiContent.LoadingEquipments
+  nameWithType: EdiContent.LoadingEquipments
+- uid: Conizi.Model.Shared.Entities.EdiContent.LoadingEquipments*
+  name: LoadingEquipments
+  href: classes/Conizi.Model.Shared.Entities.EdiContent.html#Conizi_Model_Shared_Entities_EdiContent_LoadingEquipments_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiContent.LoadingEquipments
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiContent.LoadingEquipments
+  nameWithType: EdiContent.LoadingEquipments
 - uid: Conizi.Model.Shared.Entities.EdiContent.NonHazardousWaste
   name: NonHazardousWaste
   href: classes/Conizi.Model.Shared.Entities.EdiContent.html#Conizi_Model_Shared_Entities_EdiContent_NonHazardousWaste
@@ -6087,32 +6148,6 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment.AmountUnloaded
   nameWithType: EdiLoadingEquipment.AmountUnloaded
-- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipment.CustomLoadingEquipmentName
-  name: CustomLoadingEquipmentName
-  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipment.html#Conizi_Model_Shared_Entities_EdiLoadingEquipment_CustomLoadingEquipmentName
-  commentId: P:Conizi.Model.Shared.Entities.EdiLoadingEquipment.CustomLoadingEquipmentName
-  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment.CustomLoadingEquipmentName
-  nameWithType: EdiLoadingEquipment.CustomLoadingEquipmentName
-- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipment.CustomLoadingEquipmentName*
-  name: CustomLoadingEquipmentName
-  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipment.html#Conizi_Model_Shared_Entities_EdiLoadingEquipment_CustomLoadingEquipmentName_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiLoadingEquipment.CustomLoadingEquipmentName
-  isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment.CustomLoadingEquipmentName
-  nameWithType: EdiLoadingEquipment.CustomLoadingEquipmentName
-- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipment.EquipmentType
-  name: EquipmentType
-  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipment.html#Conizi_Model_Shared_Entities_EdiLoadingEquipment_EquipmentType
-  commentId: P:Conizi.Model.Shared.Entities.EdiLoadingEquipment.EquipmentType
-  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment.EquipmentType
-  nameWithType: EdiLoadingEquipment.EquipmentType
-- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipment.EquipmentType*
-  name: EquipmentType
-  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipment.html#Conizi_Model_Shared_Entities_EdiLoadingEquipment_EquipmentType_
-  commentId: Overload:Conizi.Model.Shared.Entities.EdiLoadingEquipment.EquipmentType
-  isSpec: "True"
-  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment.EquipmentType
-  nameWithType: EdiLoadingEquipment.EquipmentType
 - uid: Conizi.Model.Shared.Entities.EdiLoadingEquipment.Remarks
   name: Remarks
   href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipment.html#Conizi_Model_Shared_Entities_EdiLoadingEquipment_Remarks
@@ -6126,6 +6161,83 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipment.Remarks
   nameWithType: EdiLoadingEquipment.Remarks
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase
+  name: EdiLoadingEquipmentBase
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase
+  nameWithType: EdiLoadingEquipmentBase
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.CustomLoadingEquipmentName
+  name: CustomLoadingEquipmentName
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.html#Conizi_Model_Shared_Entities_EdiLoadingEquipmentBase_CustomLoadingEquipmentName
+  commentId: P:Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.CustomLoadingEquipmentName
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.CustomLoadingEquipmentName
+  nameWithType: EdiLoadingEquipmentBase.CustomLoadingEquipmentName
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.CustomLoadingEquipmentName*
+  name: CustomLoadingEquipmentName
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.html#Conizi_Model_Shared_Entities_EdiLoadingEquipmentBase_CustomLoadingEquipmentName_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.CustomLoadingEquipmentName
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.CustomLoadingEquipmentName
+  nameWithType: EdiLoadingEquipmentBase.CustomLoadingEquipmentName
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.EquipmentType
+  name: EquipmentType
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.html#Conizi_Model_Shared_Entities_EdiLoadingEquipmentBase_EquipmentType
+  commentId: P:Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.EquipmentType
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.EquipmentType
+  nameWithType: EdiLoadingEquipmentBase.EquipmentType
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.EquipmentType*
+  name: EquipmentType
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.html#Conizi_Model_Shared_Entities_EdiLoadingEquipmentBase_EquipmentType_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.EquipmentType
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentBase.EquipmentType
+  nameWithType: EdiLoadingEquipmentBase.EquipmentType
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentData
+  name: EdiLoadingEquipmentData
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiLoadingEquipmentData
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentData
+  nameWithType: EdiLoadingEquipmentData
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.Amount
+  name: Amount
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.html#Conizi_Model_Shared_Entities_EdiLoadingEquipmentData_Amount
+  commentId: P:Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.Amount
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.Amount
+  nameWithType: EdiLoadingEquipmentData.Amount
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.Amount*
+  name: Amount
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.html#Conizi_Model_Shared_Entities_EdiLoadingEquipmentData_Amount_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.Amount
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.Amount
+  nameWithType: EdiLoadingEquipmentData.Amount
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.IsExchangeReasonRequired
+  name: IsExchangeReasonRequired
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.html#Conizi_Model_Shared_Entities_EdiLoadingEquipmentData_IsExchangeReasonRequired
+  commentId: P:Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.IsExchangeReasonRequired
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.IsExchangeReasonRequired
+  nameWithType: EdiLoadingEquipmentData.IsExchangeReasonRequired
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.IsExchangeReasonRequired*
+  name: IsExchangeReasonRequired
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.html#Conizi_Model_Shared_Entities_EdiLoadingEquipmentData_IsExchangeReasonRequired_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.IsExchangeReasonRequired
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.IsExchangeReasonRequired
+  nameWithType: EdiLoadingEquipmentData.IsExchangeReasonRequired
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.MaxExchangeAmount
+  name: MaxExchangeAmount
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.html#Conizi_Model_Shared_Entities_EdiLoadingEquipmentData_MaxExchangeAmount
+  commentId: P:Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.MaxExchangeAmount
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.MaxExchangeAmount
+  nameWithType: EdiLoadingEquipmentData.MaxExchangeAmount
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.MaxExchangeAmount*
+  name: MaxExchangeAmount
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.html#Conizi_Model_Shared_Entities_EdiLoadingEquipmentData_MaxExchangeAmount_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.MaxExchangeAmount
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentData.MaxExchangeAmount
+  nameWithType: EdiLoadingEquipmentData.MaxExchangeAmount
 - uid: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange
   name: EdiLoadingEquipmentExchange
   href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.html
@@ -6158,6 +6270,38 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipmentExchange.LoadingEquipment
   nameWithType: EdiLoadingEquipmentExchange.LoadingEquipment
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipments
+  name: EdiLoadingEquipments
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipments.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiLoadingEquipments
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipments
+  nameWithType: EdiLoadingEquipments
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipments.AdditionalEquipment
+  name: AdditionalEquipment
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipments.html#Conizi_Model_Shared_Entities_EdiLoadingEquipments_AdditionalEquipment
+  commentId: P:Conizi.Model.Shared.Entities.EdiLoadingEquipments.AdditionalEquipment
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipments.AdditionalEquipment
+  nameWithType: EdiLoadingEquipments.AdditionalEquipment
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipments.AdditionalEquipment*
+  name: AdditionalEquipment
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipments.html#Conizi_Model_Shared_Entities_EdiLoadingEquipments_AdditionalEquipment_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiLoadingEquipments.AdditionalEquipment
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipments.AdditionalEquipment
+  nameWithType: EdiLoadingEquipments.AdditionalEquipment
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipments.EquipmentForExchange
+  name: EquipmentForExchange
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipments.html#Conizi_Model_Shared_Entities_EdiLoadingEquipments_EquipmentForExchange
+  commentId: P:Conizi.Model.Shared.Entities.EdiLoadingEquipments.EquipmentForExchange
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipments.EquipmentForExchange
+  nameWithType: EdiLoadingEquipments.EquipmentForExchange
+- uid: Conizi.Model.Shared.Entities.EdiLoadingEquipments.EquipmentForExchange*
+  name: EquipmentForExchange
+  href: classes/Conizi.Model.Shared.Entities.EdiLoadingEquipments.html#Conizi_Model_Shared_Entities_EdiLoadingEquipments_EquipmentForExchange_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiLoadingEquipments.EquipmentForExchange
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiLoadingEquipments.EquipmentForExchange
+  nameWithType: EdiLoadingEquipments.EquipmentForExchange
 - uid: Conizi.Model.Shared.Entities.EdiLoadingOptions
   name: EdiLoadingOptions
   href: classes/Conizi.Model.Shared.Entities.EdiLoadingOptions.html
@@ -6293,6 +6437,271 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiManifestLine.LineNo
   nameWithType: EdiManifestLine.LineNo
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeScan
+  name: EdiMasterBarcodeScan
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiMasterBarcodeScan
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeScan
+  nameWithType: EdiMasterBarcodeScan
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.MasterBarcodeStacking
+  name: MasterBarcodeStacking
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeScan_MasterBarcodeStacking
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.MasterBarcodeStacking
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.MasterBarcodeStacking
+  nameWithType: EdiMasterBarcodeScan.MasterBarcodeStacking
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.MasterBarcodeStacking*
+  name: MasterBarcodeStacking
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeScan_MasterBarcodeStacking_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.MasterBarcodeStacking
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.MasterBarcodeStacking
+  nameWithType: EdiMasterBarcodeScan.MasterBarcodeStacking
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.Scanned
+  name: Scanned
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeScan_Scanned
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.Scanned
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.Scanned
+  nameWithType: EdiMasterBarcodeScan.Scanned
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.Scanned*
+  name: Scanned
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeScan_Scanned_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.Scanned
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.Scanned
+  nameWithType: EdiMasterBarcodeScan.Scanned
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.SingleScans
+  name: SingleScans
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeScan_SingleScans
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.SingleScans
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.SingleScans
+  nameWithType: EdiMasterBarcodeScan.SingleScans
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.SingleScans*
+  name: SingleScans
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeScan_SingleScans_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.SingleScans
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeScan.SingleScans
+  nameWithType: EdiMasterBarcodeScan.SingleScans
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan
+  name: EdiMasterBarcodeSingleScan
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan
+  nameWithType: EdiMasterBarcodeSingleScan
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.DeliveryReceiver
+  name: DeliveryReceiver
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_DeliveryReceiver
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.DeliveryReceiver
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.DeliveryReceiver
+  nameWithType: EdiMasterBarcodeSingleScan.DeliveryReceiver
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.DeliveryReceiver*
+  name: DeliveryReceiver
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_DeliveryReceiver_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.DeliveryReceiver
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.DeliveryReceiver
+  nameWithType: EdiMasterBarcodeSingleScan.DeliveryReceiver
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Documents
+  name: Documents
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_Documents
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Documents
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Documents
+  nameWithType: EdiMasterBarcodeSingleScan.Documents
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Documents*
+  name: Documents
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_Documents_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Documents
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Documents
+  nameWithType: EdiMasterBarcodeSingleScan.Documents
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Images
+  name: Images
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_Images
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Images
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Images
+  nameWithType: EdiMasterBarcodeSingleScan.Images
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Images*
+  name: Images
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_Images_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Images
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Images
+  nameWithType: EdiMasterBarcodeSingleScan.Images
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.LoadingReceivingPartner
+  name: LoadingReceivingPartner
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_LoadingReceivingPartner
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.LoadingReceivingPartner
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.LoadingReceivingPartner
+  nameWithType: EdiMasterBarcodeSingleScan.LoadingReceivingPartner
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.LoadingReceivingPartner*
+  name: LoadingReceivingPartner
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_LoadingReceivingPartner_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.LoadingReceivingPartner
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.LoadingReceivingPartner
+  nameWithType: EdiMasterBarcodeSingleScan.LoadingReceivingPartner
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.LoadingShippingPartner
+  name: LoadingShippingPartner
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_LoadingShippingPartner
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.LoadingShippingPartner
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.LoadingShippingPartner
+  nameWithType: EdiMasterBarcodeSingleScan.LoadingShippingPartner
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.LoadingShippingPartner*
+  name: LoadingShippingPartner
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_LoadingShippingPartner_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.LoadingShippingPartner
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.LoadingShippingPartner
+  nameWithType: EdiMasterBarcodeSingleScan.LoadingShippingPartner
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.MasterBarcode
+  name: MasterBarcode
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_MasterBarcode
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.MasterBarcode
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.MasterBarcode
+  nameWithType: EdiMasterBarcodeSingleScan.MasterBarcode
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.MasterBarcode*
+  name: MasterBarcode
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_MasterBarcode_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.MasterBarcode
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.MasterBarcode
+  nameWithType: EdiMasterBarcodeSingleScan.MasterBarcode
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.PackageReferenceNumber
+  name: PackageReferenceNumber
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_PackageReferenceNumber
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.PackageReferenceNumber
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.PackageReferenceNumber
+  nameWithType: EdiMasterBarcodeSingleScan.PackageReferenceNumber
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.PackageReferenceNumber*
+  name: PackageReferenceNumber
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_PackageReferenceNumber_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.PackageReferenceNumber
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.PackageReferenceNumber
+  nameWithType: EdiMasterBarcodeSingleScan.PackageReferenceNumber
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.PickupSender
+  name: PickupSender
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_PickupSender
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.PickupSender
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.PickupSender
+  nameWithType: EdiMasterBarcodeSingleScan.PickupSender
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.PickupSender*
+  name: PickupSender
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_PickupSender_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.PickupSender
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.PickupSender
+  nameWithType: EdiMasterBarcodeSingleScan.PickupSender
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Scanned
+  name: Scanned
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_Scanned
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Scanned
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Scanned
+  nameWithType: EdiMasterBarcodeSingleScan.Scanned
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Scanned*
+  name: Scanned
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_Scanned_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Scanned
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.Scanned
+  nameWithType: EdiMasterBarcodeSingleScan.Scanned
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.ScanType
+  name: ScanType
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_ScanType
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.ScanType
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.ScanType
+  nameWithType: EdiMasterBarcodeSingleScan.ScanType
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.ScanType*
+  name: ScanType
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_ScanType_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.ScanType
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.ScanType
+  nameWithType: EdiMasterBarcodeSingleScan.ScanType
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.SingleBarcode
+  name: SingleBarcode
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_SingleBarcode
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.SingleBarcode
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.SingleBarcode
+  nameWithType: EdiMasterBarcodeSingleScan.SingleBarcode
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.SingleBarcode*
+  name: SingleBarcode
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_SingleBarcode_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.SingleBarcode
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.SingleBarcode
+  nameWithType: EdiMasterBarcodeSingleScan.SingleBarcode
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.UnloadingReceivingPartner
+  name: UnloadingReceivingPartner
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_UnloadingReceivingPartner
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.UnloadingReceivingPartner
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.UnloadingReceivingPartner
+  nameWithType: EdiMasterBarcodeSingleScan.UnloadingReceivingPartner
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.UnloadingReceivingPartner*
+  name: UnloadingReceivingPartner
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_UnloadingReceivingPartner_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.UnloadingReceivingPartner
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.UnloadingReceivingPartner
+  nameWithType: EdiMasterBarcodeSingleScan.UnloadingReceivingPartner
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.UnloadingShippingPartner
+  name: UnloadingShippingPartner
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_UnloadingShippingPartner
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.UnloadingShippingPartner
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.UnloadingShippingPartner
+  nameWithType: EdiMasterBarcodeSingleScan.UnloadingShippingPartner
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.UnloadingShippingPartner*
+  name: UnloadingShippingPartner
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeSingleScan_UnloadingShippingPartner_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.UnloadingShippingPartner
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeSingleScan.UnloadingShippingPartner
+  nameWithType: EdiMasterBarcodeSingleScan.UnloadingShippingPartner
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem
+  name: EdiMasterBarcodeStackingItem
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem
+  nameWithType: EdiMasterBarcodeStackingItem
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.DateTime
+  name: DateTime
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeStackingItem_DateTime
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.DateTime
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.DateTime
+  nameWithType: EdiMasterBarcodeStackingItem.DateTime
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.DateTime*
+  name: DateTime
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeStackingItem_DateTime_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.DateTime
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.DateTime
+  nameWithType: EdiMasterBarcodeStackingItem.DateTime
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Source
+  name: Source
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeStackingItem_Source
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Source
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Source
+  nameWithType: EdiMasterBarcodeStackingItem.Source
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Source*
+  name: Source
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeStackingItem_Source_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Source
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Source
+  nameWithType: EdiMasterBarcodeStackingItem.Source
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Target
+  name: Target
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeStackingItem_Target
+  commentId: P:Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Target
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Target
+  nameWithType: EdiMasterBarcodeStackingItem.Target
+- uid: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Target*
+  name: Target
+  href: classes/Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.html#Conizi_Model_Shared_Entities_EdiMasterBarcodeStackingItem_Target_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Target
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiMasterBarcodeStackingItem.Target
+  nameWithType: EdiMasterBarcodeStackingItem.Target
 - uid: Conizi.Model.Shared.Entities.EdiMeasures
   name: EdiMeasures
   href: classes/Conizi.Model.Shared.Entities.EdiMeasures.html
@@ -10113,6 +10522,83 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiStopInformation.RemarksHandlingInstruction
   nameWithType: EdiStopInformation.RemarksHandlingInstruction
+- uid: Conizi.Model.Shared.Entities.EdiStopOrderingEvent
+  name: EdiStopOrderingEvent
+  href: classes/Conizi.Model.Shared.Entities.EdiStopOrderingEvent.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiStopOrderingEvent
+  fullName: Conizi.Model.Shared.Entities.EdiStopOrderingEvent
+  nameWithType: EdiStopOrderingEvent
+- uid: Conizi.Model.Shared.Entities.EdiStopOrderingEvent.HandlingDone
+  name: HandlingDone
+  href: classes/Conizi.Model.Shared.Entities.EdiStopOrderingEvent.html#Conizi_Model_Shared_Entities_EdiStopOrderingEvent_HandlingDone
+  commentId: P:Conizi.Model.Shared.Entities.EdiStopOrderingEvent.HandlingDone
+  fullName: Conizi.Model.Shared.Entities.EdiStopOrderingEvent.HandlingDone
+  nameWithType: EdiStopOrderingEvent.HandlingDone
+- uid: Conizi.Model.Shared.Entities.EdiStopOrderingEvent.HandlingDone*
+  name: HandlingDone
+  href: classes/Conizi.Model.Shared.Entities.EdiStopOrderingEvent.html#Conizi_Model_Shared_Entities_EdiStopOrderingEvent_HandlingDone_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiStopOrderingEvent.HandlingDone
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiStopOrderingEvent.HandlingDone
+  nameWithType: EdiStopOrderingEvent.HandlingDone
+- uid: Conizi.Model.Shared.Entities.EdiStopOrderingEvent.Sorting
+  name: Sorting
+  href: classes/Conizi.Model.Shared.Entities.EdiStopOrderingEvent.html#Conizi_Model_Shared_Entities_EdiStopOrderingEvent_Sorting
+  commentId: P:Conizi.Model.Shared.Entities.EdiStopOrderingEvent.Sorting
+  fullName: Conizi.Model.Shared.Entities.EdiStopOrderingEvent.Sorting
+  nameWithType: EdiStopOrderingEvent.Sorting
+- uid: Conizi.Model.Shared.Entities.EdiStopOrderingEvent.Sorting*
+  name: Sorting
+  href: classes/Conizi.Model.Shared.Entities.EdiStopOrderingEvent.html#Conizi_Model_Shared_Entities_EdiStopOrderingEvent_Sorting_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiStopOrderingEvent.Sorting
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiStopOrderingEvent.Sorting
+  nameWithType: EdiStopOrderingEvent.Sorting
+- uid: Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem
+  name: EdiStopOrderingSortingItem
+  href: classes/Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.html
+  commentId: T:Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem
+  fullName: Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem
+  nameWithType: EdiStopOrderingSortingItem
+- uid: Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.SourceStopIds
+  name: SourceStopIds
+  href: classes/Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.html#Conizi_Model_Shared_Entities_EdiStopOrderingSortingItem_SourceStopIds
+  commentId: P:Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.SourceStopIds
+  fullName: Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.SourceStopIds
+  nameWithType: EdiStopOrderingSortingItem.SourceStopIds
+- uid: Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.SourceStopIds*
+  name: SourceStopIds
+  href: classes/Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.html#Conizi_Model_Shared_Entities_EdiStopOrderingSortingItem_SourceStopIds_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.SourceStopIds
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.SourceStopIds
+  nameWithType: EdiStopOrderingSortingItem.SourceStopIds
+- uid: Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.StopId
+  name: StopId
+  href: classes/Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.html#Conizi_Model_Shared_Entities_EdiStopOrderingSortingItem_StopId
+  commentId: P:Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.StopId
+  fullName: Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.StopId
+  nameWithType: EdiStopOrderingSortingItem.StopId
+- uid: Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.StopId*
+  name: StopId
+  href: classes/Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.html#Conizi_Model_Shared_Entities_EdiStopOrderingSortingItem_StopId_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.StopId
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.StopId
+  nameWithType: EdiStopOrderingSortingItem.StopId
+- uid: Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.StopNo
+  name: StopNo
+  href: classes/Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.html#Conizi_Model_Shared_Entities_EdiStopOrderingSortingItem_StopNo
+  commentId: P:Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.StopNo
+  fullName: Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.StopNo
+  nameWithType: EdiStopOrderingSortingItem.StopNo
+- uid: Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.StopNo*
+  name: StopNo
+  href: classes/Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.html#Conizi_Model_Shared_Entities_EdiStopOrderingSortingItem_StopNo_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.StopNo
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiStopOrderingSortingItem.StopNo
+  nameWithType: EdiStopOrderingSortingItem.StopNo
 - uid: Conizi.Model.Shared.Entities.EdiStopSpecificEvent
   name: EdiStopSpecificEvent
   href: classes/Conizi.Model.Shared.Entities.EdiStopSpecificEvent.html
@@ -11152,6 +11638,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Shared.Entities.EdiTourSpecificEvent.ReadyToUnload
   nameWithType: EdiTourSpecificEvent.ReadyToUnload
+- uid: Conizi.Model.Shared.Entities.EdiTourSpecificEvent.StopSorting
+  name: StopSorting
+  href: classes/Conizi.Model.Shared.Entities.EdiTourSpecificEvent.html#Conizi_Model_Shared_Entities_EdiTourSpecificEvent_StopSorting
+  commentId: P:Conizi.Model.Shared.Entities.EdiTourSpecificEvent.StopSorting
+  fullName: Conizi.Model.Shared.Entities.EdiTourSpecificEvent.StopSorting
+  nameWithType: EdiTourSpecificEvent.StopSorting
+- uid: Conizi.Model.Shared.Entities.EdiTourSpecificEvent.StopSorting*
+  name: StopSorting
+  href: classes/Conizi.Model.Shared.Entities.EdiTourSpecificEvent.html#Conizi_Model_Shared_Entities_EdiTourSpecificEvent_StopSorting_
+  commentId: Overload:Conizi.Model.Shared.Entities.EdiTourSpecificEvent.StopSorting
+  isSpec: "True"
+  fullName: Conizi.Model.Shared.Entities.EdiTourSpecificEvent.StopSorting
+  nameWithType: EdiTourSpecificEvent.StopSorting
 - uid: Conizi.Model.Shared.Entities.EdiTourSpecificEvent.TourAccepted
   name: TourAccepted
   href: classes/Conizi.Model.Shared.Entities.EdiTourSpecificEvent.html#Conizi_Model_Shared_Entities_EdiTourSpecificEvent_TourAccepted
@@ -15305,6 +15804,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.LoadingShippingPartner
   nameWithType: PackageEvent.LoadingShippingPartner
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.MasterBarcodeScan
+  name: MasterBarcodeScan
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_MasterBarcodeScan
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.MasterBarcodeScan
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.MasterBarcodeScan
+  nameWithType: PackageEvent.MasterBarcodeScan
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.MasterBarcodeScan*
+  name: MasterBarcodeScan
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_MasterBarcodeScan_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.MasterBarcodeScan
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.MasterBarcodeScan
+  nameWithType: PackageEvent.MasterBarcodeScan
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.PackageNo
   name: PackageNo
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_PackageNo
@@ -15357,6 +15869,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ReportingPartner
   nameWithType: PackageEvent.ReportingPartner
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ScanType
+  name: ScanType
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ScanType
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ScanType
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ScanType
+  nameWithType: PackageEvent.ScanType
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ScanType*
+  name: ScanType
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ScanType_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ScanType
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ScanType
+  nameWithType: PackageEvent.ScanType
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.ShippingPartner
   name: ShippingPartner
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.PackageEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_PackageEvent_ShippingPartner
@@ -16200,6 +16725,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.Drivers
   nameWithType: Tour.Drivers
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.LoadingEquipments
+  name: LoadingEquipments
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_LoadingEquipments
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.LoadingEquipments
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.LoadingEquipments
+  nameWithType: Tour.LoadingEquipments
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.LoadingEquipments*
+  name: LoadingEquipments
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_LoadingEquipments_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.LoadingEquipments
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.LoadingEquipments
+  nameWithType: Tour.LoadingEquipments
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.LoadUnits
   name: LoadUnits
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.Tour.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_Tour_LoadUnits
@@ -16414,6 +16952,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.Stop
   nameWithType: TourEvent.Stop
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.StopOrdering
+  name: StopOrdering
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_TourEvent_StopOrdering
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.StopOrdering
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.StopOrdering
+  nameWithType: TourEvent.StopOrdering
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.StopOrdering*
+  name: StopOrdering
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_TourEvent_StopOrdering_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.StopOrdering
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.StopOrdering
+  nameWithType: TourEvent.StopOrdering
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.Tour
   name: Tour
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.TourEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_TourEvent_Tour
