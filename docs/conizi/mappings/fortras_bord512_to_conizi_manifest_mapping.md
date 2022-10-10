@@ -678,7 +678,7 @@ Examples:
 |ggDatabaseId|3|69|
 |uniqueKey|10|72|
 |materialNameDangerousGoodsDesc|210|82|
-|additionalTextForNAG|7|292|
+|additionalTextForNAG|70|292|
 |dangerousGoodsSampleMajor|3|362|
 |dangerousGoodsSampleMinor1|3|365|
 |dangerousGoodsSampleMinor2|3|368|
