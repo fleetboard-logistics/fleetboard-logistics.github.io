@@ -13820,6 +13820,19 @@ references:
   commentId: T:Conizi.Model.Telematics.EdiGpsTracking
   fullName: Conizi.Model.Telematics.EdiGpsTracking
   nameWithType: EdiGpsTracking
+- uid: Conizi.Model.Telematics.EdiGpsTracking.ConsignmentIds
+  name: ConsignmentIds
+  href: classes/Conizi.Model.Telematics.EdiGpsTracking.html#Conizi_Model_Telematics_EdiGpsTracking_ConsignmentIds
+  commentId: P:Conizi.Model.Telematics.EdiGpsTracking.ConsignmentIds
+  fullName: Conizi.Model.Telematics.EdiGpsTracking.ConsignmentIds
+  nameWithType: EdiGpsTracking.ConsignmentIds
+- uid: Conizi.Model.Telematics.EdiGpsTracking.ConsignmentIds*
+  name: ConsignmentIds
+  href: classes/Conizi.Model.Telematics.EdiGpsTracking.html#Conizi_Model_Telematics_EdiGpsTracking_ConsignmentIds_
+  commentId: Overload:Conizi.Model.Telematics.EdiGpsTracking.ConsignmentIds
+  isSpec: "True"
+  fullName: Conizi.Model.Telematics.EdiGpsTracking.ConsignmentIds
+  nameWithType: EdiGpsTracking.ConsignmentIds
 - uid: Conizi.Model.Telematics.EdiGpsTracking.TourIds
   name: TourIds
   href: classes/Conizi.Model.Telematics.EdiGpsTracking.html#Conizi_Model_Telematics_EdiGpsTracking_TourIds
