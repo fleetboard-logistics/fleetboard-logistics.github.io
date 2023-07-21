@@ -15309,6 +15309,19 @@ references:
   isSpec: "True"
   fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Images
   nameWithType: ConsignmentEvent.Images
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.LoadingEquipmentExchange
+  name: LoadingEquipmentExchange
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_LoadingEquipmentExchange
+  commentId: P:Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.LoadingEquipmentExchange
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.LoadingEquipmentExchange
+  nameWithType: ConsignmentEvent.LoadingEquipmentExchange
+- uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.LoadingEquipmentExchange*
+  name: LoadingEquipmentExchange
+  href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_LoadingEquipmentExchange_
+  commentId: Overload:Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.LoadingEquipmentExchange
+  isSpec: "True"
+  fullName: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.LoadingEquipmentExchange
+  nameWithType: ConsignmentEvent.LoadingEquipmentExchange
 - uid: Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.Notification
   name: Notification
   href: classes/Conizi.Model.Transport.Truck.Groupage.Forwarding.ConsignmentEvent.html#Conizi_Model_Transport_Truck_Groupage_Forwarding_ConsignmentEvent_Notification
